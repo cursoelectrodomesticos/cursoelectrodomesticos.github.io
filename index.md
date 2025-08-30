@@ -11,39 +11,7 @@ Profesor: Marcelo Barrios.
 
 Subscribe to RSS: [/feed.xml](/feed.xml)
 
-[Clase Nº 1: Potencia. Voltios. Amper. Fuente. Corriente alterna (VAC) vs continua (VDC). Transformador. Amper. Fuera de ciclo. ](/01clase.md){.title}
-[16 Julio 2024]{.date}
-
-
-[Clase Nº 2: Ventiladores: líquido para hidráulico. Armado de una serie. Monofásica, Trifásica, Bobinado. Por regla general: no poner en marcha nada. Reparamos: Jarra electrica.](/02clase.md){.title}
-[16 Julio 2024]{.date}
-
-
-[Clase Nº 3: Ducha eléctrica.](/03clase.md){.title}
-[20 Agosto 2025]{.date}
-
-
-[Clase Nº 4: Capacitores, Transformadores - Fuente lineal, switching o conmutada, y capacitiva. Rectificador onda completa. Núcleo ferrita, núcleo hierro.](/04clase.md){.title}
-[16 Julio 2024]{.date}
-
-
-[Clase Nº 5: Lavarropas y Termotanque. Triac. Mosfet. Osciladores. Fabricar plástico para nivel el succionador (fallo común).](/05clase.md){.title}
-[16 Julio 2024]{.date}
-
-
-[Clase Nº 6: Relay. Triac: corriente alterna. Mosfet: continua y alterna?. Contactora. Varistor. Termistor. Fuentes. Puente Rectificador. Mosfet. Soldador no funcionó.](/06clase.md){.title}
-[16 Julio 2024]{.date}
-
-
-[Clase Nº 7: Diagrama horno eléctrico. Termostato. Selector de velas. Bobinas: arranque y trabajo.](/07clase.md){.title}
-[16 Julio 2024]{.date}
-
-
-[Clase Nº 8: Lavarropas. Relay. Triac. Presostato. Solenoide. Jaula ardilla. Motores universales. Hay que saber preguntar al cliente. 01:55:00 (no calienta la plancha XD, que pavote quiere probar con ella). Orrin. Entra agua bomba de agua. Cuando se usa RELAY y cuando TRIAC. Mosfet. En el final hay una complicada explicación. TRIAC cumple la misma función que un RELAY.](/08clase.md){.title}
-[16 Julio 2024]{.date}
-
-
-[Clase Nº 9: - Tipos de fuentes. Fuente standBy. Rectificador. Tipos de relay y como medirlos. Regulador de voltaje. Reparación ventilador. Cargador de celular con fuente lineal. Problema: Capacitor TRIAC. Como medir capacitor. Capacitor transforma la corriente de punzante a pura. Estator: parte fija del motor. Rotor: jaula de ardilla el que rota (el que gira). Hasta antes de los diodos es corriente alterna. Como medir relay. Bobinas en paralelo, capacitor para corregir factor de potencia. Ventilador tiene bobina de arranque y de trabajo. Hay que corregir factor de potencia con un capacitor. Split no tiene bobina de arranque, la heladera sí. Calcular impendancia entre cables para calcular arranque, trabajo. Como medir si funciona un ventilador paso por paso en hora 2:40. Hay que ir cambiando las velocidades al medir cables. El fusible del ventilador al parecer estaba bien, pero la bobina estaba cortada, pero no quemada. Como medir bobina](/09clase.md){.title}
+[Clase Nº 11: Microondas: como cocina. Tienen transformador lineal. Microondas tiene duplicador de voltaje. 2000 voltios de alta. Magnetrón tiene un filamento delicado. Medir transformador de forma peligrosa: agregarle un transformador pequeño a la salida del transformador del microondas si ponemos transformador de 5 nos da 10 veces más en la salida es decir: 50 voltios. Medición diodo: se mide en ambos lados. Diodo rectifica con caída de tensión: hace caer voltaje. Página web graficos. El microonda calienta por agua. Electricidad es energía electromagnética porque por cualquier conductor que pasa la electricidad genera campo magnético. campo magnético se puede usar para muchas cosas como venimos hablando: para arrancar un relay. Gracias al campo magnético variable yo puedo hacer la transformación de energía. En la corriente continua no puedo transformar porque no hay variaciones de polo tengo que crear algún tipo de circuito oscilante para que si pueda servir para poner un transformador es decir fuente switching. Para sacar 220 de una batería de un auto tenés que tener una fuente de pulsos y un transformador. No se debe colocar nunca ningún componente metálico del microonda porque el magnetismo y la electricidad están muy hermanados. Electricidad y magnetismo lo más importante. Quema de placas causas comunes: blocapuertas, termoactuador, 410 refrigerante. Dividir en etapa de potencia y control para identificar problemas. Plancha: mandamos corriente al termostato y luego a la resistencia. Anécdota: tipo que pensó que el transformador del microondas era switching y en realidad era lineal. Tranformador ferrita (switching). Transformador hierro al silicio (lineal). Transformador ferrita no se puede reemplazar por más que tenga mismo voltaje porque la frecuencia es distinta. Doblador de voltaje con diodo y capacitor de 4 voltios a 8 voltios pero necesito potencia. Potencia es tensión por intensidad. Voy a encontrar 3 cables: 2 con 3 voltios y 1 con 2000 voltios pero tengo que encontrar el 4to cable: 1 de estas conexiones del capacitor al diodo y el otro extremo del capacitor voy a tener puesto a tierra para que me pueda cerrar el circuito. Cortar la tierra de la ducha eléctrica, aires viejos para que no corte diyuntor. Diodo rectificador.Por qué no explota el filamento si a un foquito de 12 voltios le pongo 220 y explota: porque no está conectado a tierra. Tenemos que unir 2000 voltios con 3 voltios. ¿Por qué no explota el filamento del microondas, si a un foquito de 12 voltios le pongo 220 y explota?: porque no está conectado a tierra (no hay trabajo eléctrico pero sí hay tensión). Cuando un microondas funciona lo único que controla es el transformador. Si esto es fasto macho esto es fasto hembra, y para aislar parte potencia parte control tenés que desconectar, esta es la parte primaria del transformador. Entra por el primario luego viene un secundario de baja y otro de alta. Tenés que aislar el primario de 220. El cátodo del diodo está puesto a tierra. El diodo es robusto. Nunca toquen capacitor microondas (4000 v). Donde comprar lamparas incandecentes. En el magnetrón se puede medir 2 cosas: medir continuidad filamento y medí con el tester a ver si el colector que tengo acá NO está descargado en tierra, si da tierra no sirve más magnetrón. Imanes si están rotos no sirven. CUIDADO DE NO GOLPEAR EL MAGNETRON TIENE UN FILAMENTO Y SE ROMPE FÁCIL. Consejo al desarmar separar bien tornillos. Nunca use un microondas si no funciona el ventilador sin eso explota el imán. Siempre limpiar fan microondas. Al medir capacitor hay que esperar un tiempo no es como medir resistencia. Cagó capacitor no llega a 1 microfaradio y tiene que llegar a 1000. Diodos de umbral tiene 4 voltios y estos muchas veces no entregan 3 voltios. El voltaje positivo pasa del ánodo hacia el cátodo. El profesor cagó el que mide capacitor del tester. El diodo hace caer el voltaje con una batería de 9 te mide 5,7 si está bien, sino el diodo está en corto y no está trabajando. El diodo no rectifica sin caída de tensión. Al medir inversa no permite que pase el negativo (que no pase la corriente) por eso no es conveniente medir con corriente alterna. Al medir el diodo a la inversa debe dar abierto. Si el diodo está en corto midas donde midas dará el voltaje de la fuente. Medir transformador de forma peligrosa.](/11clase.md){.title}
 [16 Julio 2024]{.date}
 
 
@@ -51,7 +19,39 @@ Subscribe to RSS: [/feed.xml](/feed.xml)
 [16 Julio 2024]{.date}
 
 
-[Clase Nº 11: Microondas: como cocina. Tienen transformador lineal. Microondas tiene duplicador de voltaje. 2000 voltios de alta. Magnetrón tiene un filamento delicado. Medir transformador de forma peligrosa: agregarle un transformador pequeño a la salida del transformador del microondas si ponemos transformador de 5 nos da 10 veces más en la salida es decir: 50 voltios. Medición diodo: se mide en ambos lados. Diodo rectifica con caída de tensión: hace caer voltaje. Página web graficos. El microonda calienta por agua. Electricidad es energía electromagnética porque por cualquier conductor que pasa la electricidad genera campo magnético. campo magnético se puede usar para muchas cosas como venimos hablando: para arrancar un relay. Gracias al campo magnético variable yo puedo hacer la transformación de energía. En la corriente continua no puedo transformar porque no hay variaciones de polo tengo que crear algún tipo de circuito oscilante para que si pueda servir para poner un transformador es decir fuente switching. Para sacar 220 de una batería de un auto tenés que tener una fuente de pulsos y un transformador. No se debe colocar nunca ningún componente metálico del microonda porque el magnetismo y la electricidad están muy hermanados. Electricidad y magnetismo lo más importante. Quema de placas causas comunes: blocapuertas, termoactuador, 410 refrigerante. Dividir en etapa de potencia y control para identificar problemas. Plancha: mandamos corriente al termostato y luego a la resistencia. Anécdota: tipo que pensó que el transformador del microondas era switching y en realidad era lineal. Tranformador ferrita (switching). Transformador hierro al silicio (lineal). Transformador ferrita no se puede reemplazar por más que tenga mismo voltaje porque la frecuencia es distinta. Doblador de voltaje con diodo y capacitor de 4 voltios a 8 voltios pero necesito potencia. Potencia es tensión por intensidad. Voy a encontrar 3 cables: 2 con 3 voltios y 1 con 2000 voltios pero tengo que encontrar el 4to cable: 1 de estas conexiones del capacitor al diodo y el otro extremo del capacitor voy a tener puesto a tierra para que me pueda cerrar el circuito. Cortar la tierra de la ducha eléctrica, aires viejos para que no corte diyuntor. Diodo rectificador.Por qué no explota el filamento si a un foquito de 12 voltios le pongo 220 y explota: porque no está conectado a tierra. Tenemos que unir 2000 voltios con 3 voltios. ¿Por qué no explota el filamento del microondas, si a un foquito de 12 voltios le pongo 220 y explota?: porque no está conectado a tierra (no hay trabajo eléctrico pero sí hay tensión). Cuando un microondas funciona lo único que controla es el transformador. Si esto es fasto macho esto es fasto hembra, y para aislar parte potencia parte control tenés que desconectar, esta es la parte primaria del transformador. Entra por el primario luego viene un secundario de baja y otro de alta. Tenés que aislar el primario de 220. El cátodo del diodo está puesto a tierra. El diodo es robusto. Nunca toquen capacitor microondas (4000 v). Donde comprar lamparas incandecentes. En el magnetrón se puede medir 2 cosas: medir continuidad filamento y medí con el tester a ver si el colector que tengo acá NO está descargado en tierra, si da tierra no sirve más magnetrón. Imanes si están rotos no sirven. CUIDADO DE NO GOLPEAR EL MAGNETRON TIENE UN FILAMENTO Y SE ROMPE FÁCIL. Consejo al desarmar separar bien tornillos. Nunca use un microondas si no funciona el ventilador sin eso explota el imán. Siempre limpiar fan microondas. Al medir capacitor hay que esperar un tiempo no es como medir resistencia. Cagó capacitor no llega a 1 microfaradio y tiene que llegar a 1000. Diodos de umbral tiene 4 voltios y estos muchas veces no entregan 3 voltios. El voltaje positivo pasa del ánodo hacia el cátodo. El profesor cagó el que mide capacitor del tester. El diodo hace caer el voltaje con una batería de 9 te mide 5,7 si está bien, sino el diodo está en corto y no está trabajando. El diodo no rectifica sin caída de tensión. Al medir inversa no permite que pase el negativo (que no pase la corriente) por eso no es conveniente medir con corriente alterna. Al medir el diodo a la inversa debe dar abierto. Si el diodo está en corto midas donde midas dará el voltaje de la fuente. Medir transformador de forma peligrosa.](/11clase.md){.title}
+[Clase Nº 9: - Tipos de fuentes. Fuente standBy. Rectificador. Tipos de relay y como medirlos. Regulador de voltaje. Reparación ventilador. Cargador de celular con fuente lineal. Problema: Capacitor TRIAC. Como medir capacitor. Capacitor transforma la corriente de punzante a pura. Estator: parte fija del motor. Rotor: jaula de ardilla el que rota (el que gira). Hasta antes de los diodos es corriente alterna. Como medir relay. Bobinas en paralelo, capacitor para corregir factor de potencia. Ventilador tiene bobina de arranque y de trabajo. Hay que corregir factor de potencia con un capacitor. Split no tiene bobina de arranque, la heladera sí. Calcular impendancia entre cables para calcular arranque, trabajo. Como medir si funciona un ventilador paso por paso en hora 2:40. Hay que ir cambiando las velocidades al medir cables. El fusible del ventilador al parecer estaba bien, pero la bobina estaba cortada, pero no quemada. Como medir bobina](/09clase.md){.title}
+[16 Julio 2024]{.date}
+
+
+[Clase Nº 8: Lavarropas. Relay. Triac. Presostato. Solenoide. Jaula ardilla. Motores universales. Hay que saber preguntar al cliente. 01:55:00 (no calienta la plancha XD, que pavote quiere probar con ella). Orrin. Entra agua bomba de agua. Cuando se usa RELAY y cuando TRIAC. Mosfet. En el final hay una complicada explicación. TRIAC cumple la misma función que un RELAY.](/08clase.md){.title}
+[16 Julio 2024]{.date}
+
+
+[Clase Nº 7: Diagrama horno eléctrico. Termostato. Selector de velas. Bobinas: arranque y trabajo.](/07clase.md){.title}
+[16 Julio 2024]{.date}
+
+
+[Clase Nº 6: Relay. Triac: corriente alterna. Mosfet: continua y alterna?. Contactora. Varistor. Termistor. Fuentes. Puente Rectificador. Mosfet. Soldador no funcionó.](/06clase.md){.title}
+[16 Julio 2024]{.date}
+
+
+[Clase Nº 5: Lavarropas y Termotanque. Triac. Mosfet. Osciladores. Fabricar plástico para nivel el succionador (fallo común).](/05clase.md){.title}
+[16 Julio 2024]{.date}
+
+
+[Clase Nº 4: Capacitores, Transformadores - Fuente lineal, switching o conmutada, y capacitiva. Rectificador onda completa. Núcleo ferrita, núcleo hierro.](/04clase.md){.title}
+[16 Julio 2024]{.date}
+
+
+[Clase Nº 3: Ducha eléctrica.](/03clase.md){.title}
+[20 Agosto 2025]{.date}
+
+
+[Clase Nº 2: Ventiladores: líquido para hidráulico. Armado de una serie. Monofásica, Trifásica, Bobinado. Por regla general: no poner en marcha nada. Reparamos: Jarra electrica.](/02clase.md){.title}
+[16 Julio 2024]{.date}
+
+
+[Clase Nº 1: Potencia. Voltios. Amper. Fuente. Corriente alterna (VAC) vs continua (VDC). Transformador. Amper. Fuera de ciclo. ](/01clase.md){.title}
 [16 Julio 2024]{.date}
 
 
