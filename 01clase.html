@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Andrés Imlauer">
+  <title>Curso Electricidad – Clase Nº 1: Potencia. Voltios. Amper. Fuente. Corriente alterna (VAC) vs continua (VDC). Transformador. Amper. Fuera de ciclo.</title>
+  <link rel="stylesheet" href="/global.css">
+  <link rel="stylesheet" href="">
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
+</head>
+<body>
+<div class="page">
+<header>
+<div class="title">
+<h1 class="title">Clase Nº 1: Potencia. Voltios. Amper. Fuente.
+Corriente alterna (VAC) vs continua (VDC). Transformador. Amper. Fuera
+de ciclo.</h1>
+</div>
+<p class="author">Andrés Imlauer</p>
+<p class="date">16 Julio 2024</p>
+<ul>
+<li><a href="/">Inicio</a></li>
+<li><strong><a href="/contact.html">Contacto</a></strong></li>
+</ul>
+<hr/>
+</header>
+<nav id="TOC">
+<h1>Navigate this page:</h1>
+<ul>
+<li><a
+href="#resumen-extenso-de-fundamentos-de-electricidad-y-circuitos"
+id="toc-resumen-extenso-de-fundamentos-de-electricidad-y-circuitos">Resumen
+Extenso de Fundamentos de Electricidad y Circuitos</a>
+<ul>
+<li><a href="#conceptos-fundamentales-de-electricidad"
+id="toc-conceptos-fundamentales-de-electricidad">1. Conceptos
+Fundamentales de Electricidad</a></li>
+<li><a href="#corriente-alterna-ca-y-corriente-continua-cc"
+id="toc-corriente-alterna-ca-y-corriente-continua-cc">2. Corriente
+Alterna (CA) y Corriente Continua (CC)</a></li>
+<li><a href="#circuitos-y-conexiones" id="toc-circuitos-y-conexiones">3.
+Circuitos y Conexiones</a></li>
+<li><a href="#componentes-eléctricos-clave"
+id="toc-componentes-eléctricos-clave">4. Componentes Eléctricos
+Clave</a></li>
+<li><a href="#fenómenos-eléctricos" id="toc-fenómenos-eléctricos">5.
+Fenómenos Eléctricos</a></li>
+<li><a href="#herramientas-y-prácticas-de-taller"
+id="toc-herramientas-y-prácticas-de-taller">6. Herramientas y Prácticas
+de Taller</a></li>
+<li><a href="#consideraciones-de-diseño-y-compatibilidad"
+id="toc-consideraciones-de-diseño-y-compatibilidad">7. Consideraciones
+de Diseño y Compatibilidad</a></li>
+</ul></li>
+</ul>
+</nav>
+<div class="pagetext">
+<p><a href="./">Volver al índice</a></p>
+<p>Artículo publicado por: Andrés Imlauer</p>
+<p>Artículo publicado el: 16 Julio 2024</p>
+<p>Aquí te destaco los <strong>puntos más importantes</strong> de la
+clase del Profesor Marcelo Barrios, organizados y claros:</p>
+<hr />
+<p>⚡ <strong>Conceptos básicos</strong></p>
+<ul>
+<li><strong>Potencia (Watt o vatio) = Voltios × Amperios.</strong></li>
+<li><strong>Voltios = Tensión (energía).</strong></li>
+<li><strong>Amper = Intensidad de corriente (flujo de
+electrones).</strong></li>
+<li><strong>Fuente → Carga</strong> (principio básico de un
+circuito).</li>
+</ul>
+<p>🔌 <strong>Corriente alterna (VAC) vs continua (VDC)</strong></p>
+<ul>
+<li><strong>VDC:</strong> tiene polaridad fija (+ y -).</li>
+<li><strong>VAC:</strong> no hay positivo ni negativo; cambia de
+polaridad en cada ciclo (medio ciclo positivo y otro negativo).</li>
+<li>En VAC <strong>no se puede hablar de positivo y
+negativo</strong>.</li>
+<li><strong>Fase = línea o vivo</strong>, el <strong>neutro no da
+descarga</strong>, la fase sí.</li>
+</ul>
+<p>🔋 <strong>Transformador</strong></p>
+<ul>
+<li>Se representa con <strong>placas en forma de E e I</strong>, con una
+bobina en medio.</li>
+</ul>
+<p>🌌 <strong>Concepto físico</strong></p>
+<ul>
+<li>Amper: partículas (electrones).</li>
+<li>Voltaje: campo de energía.</li>
+<li>Mejor conductor = más electrones libres en sus átomos.</li>
+</ul>
+<p>📈 <strong>Valores de la tensión alterna</strong></p>
+<ul>
+<li><strong>Valor pico/cresta ≈ 311 V</strong> para una red de 220
+V.</li>
+<li><strong>Los cálculos se hacen con valor eficaz (RMS = 220 V), no con
+el pico.</strong></li>
+<li><strong>Los capacitores se cargan al valor pico.</strong></li>
+<li>Cuando sentimos una descarga, es porque nos afecta el valor de pico
+(~300 V).</li>
+</ul>
+<p>⚙️ <strong>Relación tensión–corriente–potencia</strong></p>
+<ul>
+<li>La <strong>tensión y la intensidad deben estar en fase</strong> para
+que haya potencia real.</li>
+<li>Mientras no haya trabajo, <strong>no circula
+intensidad</strong>.</li>
+<li>El amperaje es resultado de la potencia y el voltaje: I = W/V.
+Ejemplo: I = 2500/220 = 11,36 A</li>
+<li>El voltaje es constante, el amper depende de la potencia.</li>
+</ul>
+<hr />
+<p>⚡ <strong>Fuera de ciclo (desfasaje)</strong></p>
+<ul>
+<li><p>Estar <em>fuera de ciclo</em> = que la corriente y la tensión no
+están en fase (onda seno desfasada).</p></li>
+<li><p>Ocurre principalmente en <strong>motores eléctricos</strong>
+(bobinas de arranque y trabajo).</p></li>
+<li><p>Ejemplo: aire acondicionado → usa bobinas en paralelo → provoca
+desfasaje.</p></li>
+<li><p>El <strong>factor de potencia (cos φ)</strong> mide ese
+desfasaje:</p>
+<ul>
+<li>1 =1 (sin desfasaje, potencia activa = potencia consumida).</li>
+<li>1=0,65 (desfasaje, menor eficiencia).</li>
+</ul></li>
+<li><p><strong>El desfasaje se corrige con
+capacitores.</strong></p></li>
+</ul>
+<p>🔋 <strong>Baterías y pilas</strong></p>
+<ul>
+<li>Una batería de auto tiene <strong>6 vasos</strong> → cada uno genera
+su voltaje.</li>
+<li><strong>Bornes</strong> = polos (positivo y negativo).</li>
+<li><strong>Serie:</strong> se suman los voltajes (ej. 3 pilas de 1,5 V
+= 4,5 V).</li>
+<li><strong>Paralelo:</strong> se mantiene el voltaje, pero aumenta la
+capacidad de corriente.</li>
+<li>Al conectar/desconectar baterías, siempre primero el negativo
+(seguridad).</li>
+<li>Motores de corriente continua → al invertir polaridad, cambia el
+sentido de giro.</li>
+</ul>
+<p>💡 <strong>Circuito eléctrico básico</strong></p>
+<ul>
+<li>Voltaje = campo de fuerza que impulsa electrones.</li>
+<li>Intensidad = flujo de electrones (partículas).</li>
+<li>Circuito abierto → no hay corriente.</li>
+<li>Circuito cerrado → circula corriente, se produce <strong>trabajo
+eléctrico</strong>.</li>
+</ul>
+<p>📏 <strong>Medición con tester</strong></p>
+<ul>
+<li>Se selecciona la escala adecuada (ej: 20 V CC).</li>
+<li>Negro en común, rojo en voltaje/resistencia.</li>
+<li>Si se invierte polaridad, solo aparece el voltaje en negativo (ej:
+-12 V).</li>
+</ul>
+<p>🔢 <strong>Amperaje y electrones</strong></p>
+<ul>
+<li><p>1 A = paso de <strong>aprox. 4,73 × 10¹⁸ electrones por
+segundo</strong>.</p></li>
+<li><p>Cables deben dimensionarse según amperaje → si circula más
+corriente de la soportada, se calientan por fricción de
+electrones.</p></li>
+<li><p><strong>Ejemplo práctico:</strong></p>
+<ul>
+<li>Zapatilla → soporta 10 A por toma.</li>
+<li>Cable muy fino → mayor calentamiento.</li>
+<li>Cables gruesos → menor resistencia, menos calor.</li>
+</ul></li>
+</ul>
+<p>💡 <strong>Aplicaciones prácticas</strong></p>
+<ul>
+<li>Una lámpara de 45 W 220 V no funciona en un auto (12 V).</li>
+<li>Una lámpara de bajo voltaje conectada a 220 V
+<strong>explota</strong>.</li>
+<li>Voltaje “empuja” a los electrones → cuanto mayor el voltaje, mayor
+velocidad de movimiento.</li>
+</ul>
+<hr />
+<p>📌 <strong>Resumen clave en una frase:</strong> La eficiencia
+eléctrica depende de mantener tensión e intensidad en fase, usar
+capacitores para corregir desfasajes, dimensionar bien cables según
+amperaje, y entender la diferencia entre conexiones en serie/paralelo en
+baterías y cargas.</p>
+<hr />
+<p>¿Querés que te arme esto en un <strong>esquema visual tipo mapa
+conceptual</strong> para que te sea más fácil repasarlo antes del
+examen?</p>
+<p>Buenísimo, te armo un <strong>resumen con los puntos más importantes
+de la clase sobre cómo se carga la batería de un auto</strong>:</p>
+<hr />
+<p>⚡ <strong>Carga de la batería del auto</strong></p>
+<ul>
+<li><p>Se carga a través de un <strong>alternador (generador de
+corriente alterna)</strong>.</p></li>
+<li><p>En algunas motos todavía se usa <strong>dínamo</strong>.</p></li>
+<li><p>La <strong>batería es corriente continua (CC)</strong>, por
+eso:</p>
+<ul>
+<li>La corriente alterna debe convertirse a continua mediante
+<strong>rectificación</strong> (diodos).</li>
+</ul></li>
+</ul>
+<p>🔄 <strong>Transformador y rectificación</strong></p>
+<ul>
+<li><p><strong>Transformador</strong>: cambia el
+<strong>voltaje</strong> (220 V → 16 V, etc.) pero siempre dentro de
+corriente alterna.</p></li>
+<li><p>No funciona con corriente continua.</p></li>
+<li><p>Está compuesto por:</p>
+<ul>
+<li><strong>Bobinado primario y secundario</strong> (relación de vueltas
+define el voltaje).</li>
+<li><strong>Núcleo (hierro al silicio, no cromo)</strong> → se magnetiza
+y desmagnetiza en cada ciclo (50 Hz).</li>
+</ul></li>
+<li><p><strong>Rectificador</strong>: convierte la alterna en continua,
+mediante diodos + filtros + controladores.</p></li>
+</ul>
+<p>🧲 <strong>Magnetismo en el transformador</strong></p>
+<ul>
+<li>La energía eléctrica aplicada genera un <strong>campo
+magnético</strong> en el núcleo.</li>
+<li>Ese campo varía con los ciclos de la CA (medio ciclo positivo, medio
+negativo).</li>
+<li>El secundario recibe el campo magnético y lo convierte de nuevo en
+electricidad.</li>
+<li><strong>Más vueltas → más voltaje</strong>; <strong>menos vueltas →
+menos voltaje</strong>.</li>
+</ul>
+<p>🔌 <strong>Ejemplo de carga</strong></p>
+<ul>
+<li>Alternador entrega <strong>CA</strong> → transformador baja voltaje
+→ rectificador convierte en <strong>CC</strong> → batería se carga.</li>
+</ul>
+<p>📐 <strong>Medición y herramientas</strong></p>
+<ul>
+<li><p><strong>Multímetro (tester)</strong> debe medir:</p>
+<ul>
+<li>Voltaje (CA y CC).</li>
+<li>Amperaje.</li>
+<li>Resistencia (Ω).</li>
+<li>Capacitancia (µF).</li>
+</ul></li>
+<li><p>Escoger escala adecuada (ej: 20 V CC).</p></li>
+<li><p>Negro en común, rojo en voltaje/resistencia.</p></li>
+<li><p>Si se invierte polaridad → solo muestra voltaje en negativo (ej:
+-12 V).</p></li>
+<li><p><strong>Pinza amperométrica</strong> mide corriente a través del
+campo magnético.</p></li>
+</ul>
+<p>⚙️ <strong>Aplicaciones y precauciones</strong></p>
+<ul>
+<li><p>Chips y controladores de electrodomésticos (ej: aire
+acondicionado, lavarropas) usan <strong>transformador + diodos +
+capacitores</strong> para obtener CC.</p></li>
+<li><p>Motores pueden trabajar con pulsos de CA y CC.</p></li>
+<li><p>Uso de <strong>serie con lámparas</strong> para proteger al
+probar placas:</p>
+<ul>
+<li>Si hay corto, la lámpara prende fuerte.</li>
+<li>Si no hay corto, prende débil.</li>
+</ul></li>
+<li><p>Herramientas básicas: tester, pinzas, soldador de estaño, cinta
+aislante, termocontraíble.</p></li>
+</ul>
+<p>💡 <strong>Ejemplos prácticos</strong></p>
+<ul>
+<li>Una lámpara de <strong>220 V / 45 W no funciona en 12 V</strong>
+(auto).</li>
+<li>Una lámpara de <strong>12 V conectada a 220 V explota</strong>.</li>
+<li>Alternador trabaja a <strong>50 Hz</strong>.</li>
+</ul>
+<hr />
+<p>📌 <strong>Idea clave:</strong> La batería del auto (corriente
+continua) se carga con energía del alternador (corriente alterna) que
+pasa por un transformador y un rectificador para convertirse en
+corriente continua regulada.</p>
+<hr />
+<p>¿Querés que te lo pase en un <strong>esquema tipo diagrama de
+flujo</strong> (Alternador → Transformador → Rectificador → Batería)
+para visualizarlo rápido?</p>
+<p>Aquí tienes un resumen extenso y detallado de los puntos más
+importantes de los materiales proporcionados:</p>
+<hr />
+<h3
+id="resumen-extenso-de-fundamentos-de-electricidad-y-circuitos">Resumen
+Extenso de Fundamentos de Electricidad y Circuitos</h3>
+<p>Este material aborda conceptos fundamentales de la electricidad,
+tipos de corriente, componentes clave, funcionamiento de circuitos, y
+prácticas de seguridad y medición, destacando la interacción entre la
+teoría y la aplicación práctica.</p>
+<h4 id="conceptos-fundamentales-de-electricidad">1. Conceptos
+Fundamentales de Electricidad</h4>
+<ul>
+<li><strong>Potencia (Watts)</strong>: Se define como “Watts” o “vatio”
+y representa la potencia eléctrica. La potencia se relaciona con la
+intensidad (amperaje) y la tensión (voltaje); de hecho, la electricidad
+es la <strong>tensión por intensidad</strong>.</li>
+<li><strong>Tensión o Voltaje (Voltios)</strong>: Se refiere a la
+“energía” y al “campo de energía”. Es una <strong>fuerza</strong> que
+mueve los electrones. Los voltios se consideran una constante en ciertos
+cálculos. Cuando nos “patea”, lo hace con <strong>300 Voltios en el
+valor cresta</strong>, aunque los cálculos se realizan con el
+<strong>valor eficaz</strong>, no el valor pico. Sin embargo, los
+capacitores se cargan al valor pico. El valor pico también se menciona
+como 311 voltios.</li>
+<li><strong>Intensidad o Amperaje (Amper)</strong>: Se refiere a la
+“intensidad” y son <strong>partículas: electrones</strong>. La
+intensidad es un resultado de la potencia. Para que se forme 1 amper, se
+necesitan electrones. <strong>Un amper equivale a 4.73 trillones de
+electrones en 1 segundo</strong>.</li>
+<li><strong>Ecuaciones Fundamentales</strong>: Se presenta el triángulo
+W (Potencia), E (Tensión), I (Intensidad). La fórmula derivada es
+<strong>I = W/V</strong> (Intensidad = Potencia / Voltaje). Por ejemplo,
+para 2500 Watts y 220 Voltios, la intensidad es 11.36 amperes.</li>
+<li><strong>Naturaleza de la Electricidad</strong>: Toda la materia
+tiene átomos; cuantos más electrones libres, mejor conductor. El voltaje
+se describe como un <strong>campo de fuerza</strong> con expansión. La
+intensidad son partículas de electrones.</li>
+</ul>
+<h4 id="corriente-alterna-ca-y-corriente-continua-cc">2. Corriente
+Alterna (CA) y Corriente Continua (CC)</h4>
+<ul>
+<li><strong>Corriente Alterna (VAC)</strong>:
+<ul>
+<li>Está constantemente en <strong>alternancia</strong>.</li>
+<li><strong>No hay un positivo fijo</strong>; en un medio ciclo es
+positivo y en otro negativo.</li>
+<li>Tiene <strong>ciclos</strong>, por ejemplo, 50 ciclos por segundo,
+donde un medio ciclo positivo y uno negativo forman un ciclo.</li>
+<li>No se puede saber el positivo y el negativo en VAC.</li>
+<li>La <strong>fase</strong> (también conocida como línea o “vivo”) es
+la que “patea”, mientras que el <strong>neutro no patea</strong>. Se
+aclara que “el vivo” no tiene nada que ver con la fase, lo cual puede
+ser confuso.</li>
+<li>La corriente eficaz es de 220 voltios.</li>
+</ul></li>
+<li><strong>Corriente Continua (VDC)</strong>:
+<ul>
+<li>Tiene un polo positivo (+) y un polo negativo (-) definidos.</li>
+<li>Los motores de corriente continua pueden girar en el sentido
+contrario si se invierten sus conexiones.</li>
+<li>Las baterías operan con corriente directa.</li>
+<li>Los chips de las placas electrónicas suelen trabajar con energía
+continua.</li>
+</ul></li>
+<li><strong>Valor Pico y Valor Eficaz</strong>:
+<ul>
+<li>El <strong>valor pico</strong> o <strong>valor cresta</strong> es la
+tensión máxima que alcanza la corriente alterna en un ciclo. Se menciona
+un valor de 300V o 311V para el pico.</li>
+<li>Todos los cálculos eléctricos se realizan con el <strong>valor
+eficaz</strong>, no el valor pico. Los capacitores, sin embargo, se
+cargan al valor pico.</li>
+</ul></li>
+<li><strong>Fase y Desfasaje</strong>:
+<ul>
+<li>La <strong>tensión y la intensidad deben trabajar “en
+fase”</strong>. Esto significa que no deben “salir de fase” o que la
+onda del seno esté mal.</li>
+<li>El único componente que puede generar un <strong>desfasaje</strong>
+son los <strong>motores</strong>, especialmente aquellos con bobinas
+trabajando en paralelo (como los aires acondicionados).</li>
+<li>Un desfasaje implica que la potencia nominal no es igual a la
+potencia consumida (ejemplo: 1=0.65).</li>
+<li>Los <strong>capacitores pueden mejorar el desfasaje</strong> (factor
+de potencia).</li>
+<li>Las cargas resistivas y “disruptivas” (posiblemente capacitivas o
+inductivas) pueden tener un factor de potencia 1=1 si tienen bobina para
+corregirlo.</li>
+</ul></li>
+<li><strong>Seguridad con CA</strong>: Cerrar un circuito con un
+conductor, como conectar un cable en un enchufe, provoca un
+<strong>cortocircuito</strong>. La fase “patea”.</li>
+</ul>
+<h4 id="circuitos-y-conexiones">3. Circuitos y Conexiones</h4>
+<ul>
+<li><strong>Flujo de Corriente y Trabajo Eléctrico</strong>:
+<ul>
+<li>La fuerza (voltaje) sale del <strong>polo positivo al
+negativo</strong>, describiendo un ciclo. Esta es la <strong>fuerza
+voltaica</strong>.</li>
+<li>Los <strong>electrones, en cambio, salen del polo negativo</strong>
+y viajan hasta dentro de la batería, moviéndose por segundo para formar
+el amper.</li>
+<li>Cuando se cierra un circuito (por ejemplo, encendiendo una llave o
+switch), se produce un <strong>trabajo eléctrico</strong>. Si el
+circuito está abierto, no hay trabajo.</li>
+<li>Mientras no haya trabajo (una carga consumiendo), no habrá
+intensidad (amperaje).</li>
+</ul></li>
+<li><strong>Conexiones en Serie</strong>:
+<ul>
+<li>Una conexión en serie se produce al “hacer un puente”.</li>
+<li>Cuando se conectan pilas o baterías en serie, <strong>se suma el
+voltaje</strong>, pero <strong>no sube el amperaje</strong>.</li>
+<li>Conectar algo en “serie en paralelo” (una combinación o malentendido
+de conexión) podría causar una explosión.</li>
+</ul></li>
+<li><strong>Conexiones en Paralelo</strong>:
+<ul>
+<li>Es posible conectar dos baterías en paralelo.</li>
+<li>Los motores de aire acondicionado trabajan con bobinas en
+paralelo.</li>
+</ul></li>
+</ul>
+<h4 id="componentes-eléctricos-clave">4. Componentes Eléctricos
+Clave</h4>
+<ul>
+<li><strong>Transformadores</strong>:
+<ul>
+<li>Son aparatos que <strong>transforman el voltaje</strong>.</li>
+<li>Se componen de placas con forma de “E” y una recta, con una
+<strong>bobina</strong> entre ellas.</li>
+<li>Tienen un <strong>bobinado primario y uno secundario</strong>. La
+<strong>cantidad de vueltas del bobinado</strong> determina la relación
+de voltaje. Más espiras resultan en más voltaje.</li>
+<li>Requieren un <strong>núcleo</strong> (tradicionalmente de hierro al
+silicio, no cromo) para generar y disipar campos magnéticos en cada
+ciclo de la corriente alterna.</li>
+<li>La finalidad de la energía en un transformador es generar un
+<strong>campo magnético</strong> que magnetiza el núcleo.</li>
+<li><strong>No pueden trabajar con corriente continua</strong>.</li>
+<li>Ofrecen <strong>aislación galvánica</strong> entre el primario y el
+secundario. Si se pone resistencia, no hay aislación galvánica.</li>
+</ul></li>
+<li><strong>Capacitores</strong>: Se usan para <strong>mejorar el factor
+de potencia</strong> y corregir el desfasaje en motores. Se cargan a
+valor pico.</li>
+<li><strong>Baterías</strong>:
+<ul>
+<li>Un conjunto de pilas se denomina batería.</li>
+<li>Las baterías de coche suelen tener 6 “vasos” independientes, cada
+uno generando su propio voltaje.</li>
+<li>Los bornes son los extremos de la batería donde se conecta.</li>
+<li>Se cargan a través de un <strong>alternador</strong> o un
+<strong>dinamo</strong>.</li>
+</ul></li>
+<li><strong>Alternadores y Dínamo</strong>: Son
+<strong>generadores</strong> que cargan las baterías de vehículos. Las
+motos pueden tener ambos. Los reguladores de voltaje varían entre
+ellos.</li>
+<li><strong>Rectificación</strong>: Es el proceso para <strong>convertir
+la corriente alterna a corriente continua</strong>. Sin rectificación,
+la CA y CC “explotan” al conectarse.</li>
+<li><strong>Componentes Electrónicos (Chips, Transistores, Relays,
+Triac)</strong>:
+<ul>
+<li>Las placas de aire acondicionado, por ejemplo, contienen un “chip
+madre jungla” que, junto con transformadores, diodos, filtros y
+controladores de voltaje, forma una fuente de alimentación
+continua.</li>
+<li>El chip da órdenes, como encender un motor, cargar agua en un
+lavarropas, o controlar el giro del motor.</li>
+<li>Estos sistemas requieren de otros componentes como transistores,
+triac (trey) y relays.</li>
+<li>Los motores modernos trabajan por pulso y necesitan tanto corriente
+continua como alterna.</li>
+</ul></li>
+</ul>
+<h4 id="fenómenos-eléctricos">5. Fenómenos Eléctricos</h4>
+<ul>
+<li><strong>Fricción de Electrones y Temperatura</strong>:
+<ul>
+<li>El movimiento y el roce de los electrones generan <strong>fricción y
+temperatura</strong>.</li>
+<li>Un consumo elevado de amperaje en un conductor inadecuado (de menor
+amperaje) causa un aumento de temperatura significativo.</li>
+<li>En un conductor adecuado, la fricción es mínima.</li>
+<li>El <strong>amperaje puede derretir los cables</strong> si excede su
+capacidad.</li>
+<li>La fricción de los electrones es lo que hace que una lámpara
+encienda.</li>
+</ul></li>
+<li><strong>Campo Magnético</strong>:
+<ul>
+<li>Se genera cuando se aplica energía eléctrica a un
+transformador.</li>
+<li>Tiene polos norte y sur.</li>
+<li>La variación del semiciclo de la CA genera una variación de polos
+magnéticos.</li>
+<li>Las leyes del magnetismo indican que <strong>polos iguales se
+rechazan</strong> y <strong>polos distintos se atraen</strong> (aunque
+el texto menciona “se rechazan” para ambos en una parte, lo cual es una
+aparente contradicción, se entiende el principio general).</li>
+<li>La pinza amperimétrica detecta el campo magnético para medir el
+amperaje.</li>
+</ul></li>
+<li><strong>Aislación Galvánica</strong>: Es una separación eléctrica,
+como la que existe en el medio de los bobinados de un transformador. Si
+se coloca una resistencia, esta aislación no existe.</li>
+</ul>
+<h4 id="herramientas-y-prácticas-de-taller">6. Herramientas y Prácticas
+de Taller</h4>
+<ul>
+<li><strong>Multímetro/Tester</strong>:
+<ul>
+<li>Se utiliza para medir voltaje (CC y CA), resistencia (óhmios),
+amperaje (CC y CA) y capacitancia (faradios). Algunos modelos miden
+también frecuencia y temperatura.</li>
+<li>Al medir voltaje, se debe elegir la escala superior más cercana al
+valor esperado para evitar dañar el tester.</li>
+<li>Las puntas de prueba se conectan: la negra en “común” y la roja para
+voltios y resistencia. Invertir las puntas solo mostrará un voltaje
+negativo (-12V).</li>
+<li>Es importante que tenga un rango para medir capacitores, al menos
+hasta 200 microfaradios (µF).</li>
+</ul></li>
+<li><strong>Pinza Amperimétrica</strong>: Permite medir el amperaje
+detectando el campo magnético alrededor del cable.</li>
+<li><strong>Otras Herramientas Esenciales</strong>: Destornillador
+Philips, pinzas (de fuerza, de punta), lápiz soldador (de 30-40 watts),
+estaño, cinta aislante, buscapolo y termocontraíble.</li>
+<li><strong>Reglas de Taller</strong>: <strong>Nunca dejar herramientas
+en el piso</strong> y <strong>no prestarlas</strong>.</li>
+<li><strong>Circuito en Serie para Pruebas (Limitador de
+Amperaje)</strong>:
+<ul>
+<li>Se construye con un enchufe, dos portalámparas de 10W conectados en
+serie, y tomas.</li>
+<li>Su propósito es <strong>limitar el amperaje</strong> en caso de
+cortocircuito al reparar placas o motores.</li>
+<li>Si la carga tiene un cortocircuito, la lámpara se encenderá con
+fuerza; si no, encenderá levemente.</li>
+</ul></li>
+</ul>
+<h4 id="consideraciones-de-diseño-y-compatibilidad">7. Consideraciones
+de Diseño y Compatibilidad</h4>
+<ul>
+<li><strong>Selección de Cables</strong>: Es crucial elegir el cable
+adecuado para la carga debido a la <strong>bajada de tensión</strong> y
+para evitar el sobrecalentamiento por el amperaje (ej., para una ducha,
+un cable inadecuado está “mal”). La zapatilla soporta 10 amper, pero se
+debe verificar la capacidad del cable.</li>
+<li><strong>Compatibilidad de Voltaje</strong>:
+<ul>
+<li>Una lámpara de 45W a 220V no funcionará en un auto (12V).</li>
+<li>Conectar una lámpara de voltaje incorrecto a 220V puede hacer que
+<strong>explote</strong>.</li>
+<li>La conexión directa de corriente alterna con continua puede ser
+peligrosa y causar explosiones.</li>
+</ul></li>
+</ul>
+<p>Este compendio subraya la importancia de comprender la interacción
+entre los diferentes fenómenos eléctricos para un manejo seguro y
+eficiente de la electricidad y los circuitos.</p>
+<div id="footer">
+<hr />
+</div>
+<p>Fichero Markdown para esta página: <a
+href="https://cursoelectricidad.github.io/01clase.md"
+class="uri">https://cursoelectricidad.github.io/01clase.md</a></p>
+<p><a href="/feed.xml">Suscriba al RSS del sitio</a></p>
+<p><a href="/sitemap.html">Mapa del sitio</a></p>
+<p>Esta página HTML fue generada por el <a
+href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
+Generator</a>.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,11 +1,10 @@
 ---
-title: Curso Electricidad - CFP Nº 17
+title: Curso Reparación Electrodomésticos - Fundación Alfa.
 x-toc-enable: true
 ...
 
-Comenzó el 10 de Marzo del año 2025 (mi primera clase fue el 12 de marzo)    
-Profesor: Francisco Salvador Espeche. Ingeniero Electromecánico, inspector de obra.   
-El curso de auxiliar electricista finaliza en la clase número 47, y el curso de montador electricista comienza en la clase número 48.
+Dictado en el año 2024.
+Profesor: Marcelo Barrios. 
 
 -------------------------------------------------------------------------------
 
