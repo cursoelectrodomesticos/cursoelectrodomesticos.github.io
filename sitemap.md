@@ -16,6 +16,6 @@ List of pages:
 * /10clase.md: [Clase Nº 1:](/10clase.md)
 * /11clase.md: [Clase Nº 1:](/11clase.md)
 * /12clase.md: [Clase Nº 1:](/12clase.md)
-* /: [Curso Electricidad - CFP Nº 17](/)
+* /: [Curso Reparación Electrodomésticos - Fundación Alfa.](/)
 </div>
 
