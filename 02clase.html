@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 1:</title>
+  <title>Curso Electricidad – Clase Nº 2: Ventiladores: líquido para hidráulico. Armado de una serie. Monofásica, Trifásica, Bobinado. Por regla general: no poner en marcha nada. Reparamos: Jarra electrica.</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -14,7 +14,9 @@
 <div class="page">
 <header>
 <div class="title">
-<h1 class="title">Clase Nº 1:</h1>
+<h1 class="title">Clase Nº 2: Ventiladores: líquido para hidráulico.
+Armado de una serie. Monofásica, Trifásica, Bobinado. Por regla general:
+no poner en marcha nada. Reparamos: Jarra electrica.</h1>
 </div>
 <p class="author">Andrés Imlauer</p>
 <p class="date">16 Julio 2024</p>
@@ -24,9 +26,537 @@
 </ul>
 <hr/>
 </header>
+<nav id="TOC">
+<h1>Navigate this page:</h1>
+<ul>
+<li><a href="#motor-y-ventilador" id="toc-motor-y-ventilador">🔧 Motor y
+ventilador</a></li>
+<li><a href="#monofásico-y-trifásico" id="toc-monofásico-y-trifásico">⚡
+Monofásico y trifásico</a></li>
+<li><a href="#identificación-de-conductores"
+id="toc-identificación-de-conductores">🔌 Identificación de
+conductores</a></li>
+<li><a href="#cargas-eléctricas" id="toc-cargas-eléctricas">🔋 Cargas
+eléctricas</a></li>
+<li><a href="#medición-de-consumo-pinza-amperométrica"
+id="toc-medición-de-consumo-pinza-amperométrica">📏 Medición de consumo
+(Pinza amperométrica)</a></li>
+<li><a href="#relación-tensión-corriente-potencia"
+id="toc-relación-tensión-corriente-potencia">⚡ Relación Tensión –
+Corriente – Potencia</a></li>
+<li><a href="#motores-y-ventiladores" id="toc-motores-y-ventiladores">🔧
+Motores y ventiladores</a></li>
+<li><a href="#caso-heladera-motor-de-compresor"
+id="toc-caso-heladera-motor-de-compresor">❄️ Caso heladera (motor de
+compresor)</a></li>
+<li><a href="#corriente-y-campo-magnético"
+id="toc-corriente-y-campo-magnético">🧲 Corriente y campo
+magnético</a></li>
+<li><a href="#conceptos-clave" id="toc-conceptos-clave">🔍 Conceptos
+clave</a></li>
+<li><a href="#bobina-y-campo-magnético"
+id="toc-bobina-y-campo-magnético">🧲 Bobina y campo magnético</a></li>
+<li><a href="#conductores-y-alambres" id="toc-conductores-y-alambres">🔌
+Conductores y alambres</a></li>
+<li><a href="#fallas-y-sobrecalentamiento"
+id="toc-fallas-y-sobrecalentamiento">🔥 Fallas y
+sobrecalentamiento</a></li>
+<li><a href="#rebobinado-de-motores" id="toc-rebobinado-de-motores">🔧
+Rebobinado de motores</a></li>
+<li><a href="#calibre-del-alambre" id="toc-calibre-del-alambre">⚖️
+Calibre del alambre</a></li>
+<li><a href="#conceptos-adicionales" id="toc-conceptos-adicionales">⚡
+Conceptos adicionales</a></li>
+<li><a href="#resistencias-en-electrodomésticos"
+id="toc-resistencias-en-electrodomésticos">🔥 Resistencias en
+electrodomésticos</a></li>
+<li><a href="#focos" id="toc-focos">💡 Focos</a></li>
+<li><a href="#transformador" id="toc-transformador">🔌
+Transformador</a></li>
+<li><a href="#diodo-y-rectificación" id="toc-diodo-y-rectificación">⚡
+Diodo y rectificación</a></li>
+</ul>
+</nav>
+<div class="pagetext">
 <p><a href="./">Volver al índice</a></p>
 <p>Artículo publicado por: Andrés Imlauer</p>
 <p>Artículo publicado el: 16 Julio 2024</p>
+<p>Aquí te destaco los puntos más importantes de todo lo que
+compartiste, en forma clara y resumida:</p>
+<hr />
+<div class="h"><h3 id="motor-y-ventilador">🔧 Motor y ventilador</h3><a aria-hidden="true" href="#motor-y-ventilador">[link]</a></div>
+<ul>
+<li>El <strong>ventilador se calienta</strong> porque el motor está
+frenado y trabaja exigido → mayor consumo de potencia → aumenta el
+amperaje.</li>
+<li>Puede deberse a que el <strong>rotor no está centrado en el
+estator</strong>, lo que genera rozamiento y mal funcionamiento.</li>
+<li>El <strong>estator debe tener una película de luz</strong> (pequeño
+espacio de aire) para que el campo magnético actúe correctamente.</li>
+<li>Revisar que los <strong>esparragos (tornillos de fijación)</strong>
+estén bien ajustados; algunos motores permiten centrar el rotor con
+sondas.</li>
+<li><strong>Regla general:</strong> no poner en marcha nada hasta
+controlar el centrado del sistema.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="monofásico-y-trifásico">⚡ Monofásico y trifásico</h3><a aria-hidden="true" href="#monofásico-y-trifásico">[link]</a></div>
+<ul>
+<li>En <strong>viviendas → monofásico</strong> (1 fase + neutro).</li>
+<li>En <strong>locales e industrias → trifásico</strong> (3 fases +
+neutro).</li>
+<li>En instalaciones trifásicas hay que <strong>medir cada fase</strong>
+y equilibrar cargas.</li>
+<li>El <strong>neutro es indispensable</strong> para cerrar el ciclo de
+trabajo; sin él los electrones no completan el circuito.</li>
+</ul>
+<hr />
+<h3 id="identificación-de-conductores">🔌 Identificación de
+conductores</h3>
+<ul>
+<li>En <strong>corriente alterna</strong> los cables se identifican como
+<strong>fase y neutro</strong>, no positivo y negativo.</li>
+<li>La fase alterna entre positivo y negativo en cada ciclo (50
+Hz).</li>
+<li>Con un <strong>buscapolo</strong>: si enciende → es la fase; si no
+enciende → neutro.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="cargas-eléctricas">🔋 Cargas eléctricas</h3><a aria-hidden="true" href="#cargas-eléctricas">[link]</a></div>
+<ul>
+<li><p>Una <strong>carga resistiva</strong> puede ser: bobina de motor,
+estufa, ducha, ventilador, etc.</p></li>
+<li><p>Diferencia:</p>
+<ul>
+<li>Estufa → carga resistiva pura.</li>
+<li>Ventilador → motor (comportamiento distinto, no es lineal).</li>
+</ul></li>
+<li><p>La corriente entra por la fase y retorna por el neutro, pero el
+ciclo que regresa está invertido.</p></li>
+</ul>
+<hr />
+<h3 id="medición-de-consumo-pinza-amperométrica">📏 Medición de consumo
+(Pinza amperométrica)</h3>
+<ul>
+<li><p>Instrumento clave para verificar el <strong>consumo real de
+amperaje</strong> de una carga.</p></li>
+<li><p>Ejemplo: si un motor debe consumir <strong>5 A</strong>, pero
+mide <strong>7 A → está mal</strong> (exceso de consumo).</p></li>
+<li><p>Valores cercanos (ej. 5,2 A) son aceptables.</p></li>
+<li><p>Considerar el <strong>régimen de trabajo</strong>:</p>
+<ul>
+<li>Motor en vacío consumirá menos.</li>
+<li>Una heladera antes de cargar gas puede medir 4,2 A; al trabajar con
+gas subirá a 5 A.</li>
+</ul></li>
+<li><p>Cada aparato tiene su consumo esperado: <strong>un ventilador no
+consume 5 A</strong>, su consumo es menor.</p></li>
+</ul>
+<hr />
+<p>¿Querés que te lo arme en <strong>formato de apuntes esquemáticos
+tipo examen</strong> (con viñetas más cortas y conceptos clave) para que
+lo uses como repaso rápido?</p>
+<p>Perfecto 👌 Te hago un <strong>resumen con los puntos más importantes
+y claros</strong>, así lo podés usar como guía de repaso:</p>
+<hr />
+<h3 id="relación-tensión-corriente-potencia">⚡ Relación Tensión –
+Corriente – Potencia</h3>
+<ul>
+<li><p>La <strong>tensión siempre es 220 V</strong> (en instalaciones
+domiciliarias).</p></li>
+<li><p>Lo que varía es el <strong>amperaje</strong> según la
+carga.</p></li>
+<li><p>La <strong>potencia (W)</strong> depende de la tensión ×
+corriente:</p>
+<ul>
+<li>Ejemplo: <strong>1 A ≈ 220 W</strong>.</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="motores-y-ventiladores">🔧 Motores y ventiladores</h3><a aria-hidden="true" href="#motores-y-ventiladores">[link]</a></div>
+<ul>
+<li><p>El motor del ventilador se calienta si:</p>
+<ul>
+<li>Está <strong>exigido</strong> (ej: bujes gastados).</li>
+<li>El <strong>rotor no está bien centrado en el estator</strong> (debe
+existir una “película de luz” para que el campo magnético actúe
+bien).</li>
+</ul></li>
+<li><p>Si consume <strong>más amper de lo normal</strong> (ej: 6 A en
+lugar de 4 A) → está forzado.</p></li>
+<li><p>Si consume <strong>menos amper de lo esperado</strong> → puede
+que el motor no esté trabajando como debe.</p></li>
+<li><p>Lubricante recomendado: <strong>líquido hidráulico de
+freno</strong> (mejor resultado que otros aceites).</p></li>
+</ul>
+<hr />
+<h3 id="caso-heladera-motor-de-compresor">❄️ Caso heladera (motor de
+compresor)</h3>
+<ul>
+<li><p>Si al cargar gas sigue consumiendo <strong>4 A en lugar de 5
+A</strong> → está mal porque el motor no está comprimiendo.</p></li>
+<li><p>Causas posibles:</p>
+<ol type="1">
+<li><strong>Pistón con fuga</strong> dentro del cilindro (no llega a
+presión).</li>
+<li><strong>Flapper de alta con hollín/aceite</strong> → no cierra bien
+y hay pérdida de presión.</li>
+</ol></li>
+</ul>
+<hr />
+<div class="h"><h3 id="corriente-y-campo-magnético">🧲 Corriente y campo magnético</h3><a aria-hidden="true" href="#corriente-y-campo-magnético">[link]</a></div>
+<ul>
+<li><strong>Corriente alterna (CA):</strong> genera campo magnético
+constante (50 Hz).</li>
+<li><strong>Corriente continua (CC):</strong> no genera campo magnético
+estable; solo un “mini campo” al conectar/desconectar.</li>
+<li>La electricidad en generadores se produce por <strong>campos
+magnéticos</strong>.</li>
+<li>La batería produce electricidad por <strong>reacción
+química</strong> (acumulador ≠ generador).</li>
+<li>Los electrodomésticos funcionan gracias al <strong>campo magnético
+generado por la corriente alterna en bobinas</strong>.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="conceptos-clave">🔍 Conceptos clave</h3><a aria-hidden="true" href="#conceptos-clave">[link]</a></div>
+<ul>
+<li><p><strong>Buscapolo</strong>: debería llamarse <em>busca fase</em>,
+porque detecta fase, no polo.</p></li>
+<li><p><strong>Amperímetro</strong>: para medir corriente directa se
+coloca <strong>en serie</strong> con la carga.</p></li>
+<li><p><strong>Cortocircuito</strong>: ocurre cuando no hay resistencia
+→ el voltaje no cae → salta fusible o disyuntor.</p></li>
+<li><p><strong>Trabajo eléctrico</strong>: existe cuando la corriente
+pasa por una carga resistiva (ej: estufa, motor, lámpara).</p></li>
+<li><p><strong>Diferencia</strong>:</p>
+<ul>
+<li>Circuito normal → hay resistencia → hay trabajo.</li>
+<li>Cortocircuito → no hay resistencia → protección actúa.</li>
+</ul></li>
+</ul>
+<hr />
+<p>👉 Si en un tester medís <strong>continuidad en la bobina</strong> →
+significa que la bobina no está cortada y puede repararse.</p>
+<hr />
+<p>¿Querés que te arme un <strong>esquema tipo mapa conceptual</strong>
+(con flechas y relaciones entre tensión, corriente, potencia, campo
+magnético, cargas, etc.) para que lo tengas más gráfico?</p>
+<p>Excelente material 👌 Te lo resumo en <strong>puntos clave bien
+organizados</strong> para que tengas un apunte claro sobre
+<strong>bobinados, alambre esmaltado y funcionamiento del
+motor</strong>:</p>
+<hr />
+<div class="h"><h2 id="bobina-y-campo-magnético">🧲 Bobina y campo magnético</h2><a aria-hidden="true" href="#bobina-y-campo-magnético">[link]</a></div>
+<ul>
+<li><p>La <strong>bobina</strong> se hace con <strong>alambre esmaltado
+(alambre magneto)</strong>.</p></li>
+<li><p>El esmalte sirve como <strong>aislante térmico y
+eléctrico</strong>, evitando que los hilos hagan masa entre sí.</p></li>
+<li><p>La función de la bobina:</p>
+<ul>
+<li><strong>Generar campo magnético</strong> en el estator.</li>
+<li>Este campo induce otro en el rotor → ambos se repelen (como imanes)
+y producen el giro.</li>
+</ul></li>
+<li><p>Sin bobina no hay fuerza → no se mueve nada.</p></li>
+</ul>
+<hr />
+<div class="h"><h2 id="conductores-y-alambres">🔌 Conductores y alambres</h2><a aria-hidden="true" href="#conductores-y-alambres">[link]</a></div>
+<ul>
+<li><p>Los <strong>primeros conductores eran monofilamento</strong> (un
+solo hilo).</p></li>
+<li><p>Hoy se usan <strong>multifilamento</strong> (más maniobrables y
+flexibles).</p></li>
+<li><p>El alambre para bobinar: <strong>finito, esmaltado, resistente al
+calor</strong>.</p></li>
+<li><p>No se puede usar un cable común porque:</p>
+<ul>
+<li>Es muy grueso y no entran las vueltas necesarias en la ranura (≈ 10
+mm).</li>
+<li>No soporta las temperaturas del bobinado.</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h2 id="fallas-y-sobrecalentamiento">🔥 Fallas y sobrecalentamiento</h2><a aria-hidden="true" href="#fallas-y-sobrecalentamiento">[link]</a></div>
+<ul>
+<li><p>Cuando se recalienta el bobinado:</p>
+<ul>
+<li>El <strong>esmalte se quema</strong> → los hilos se unen → baja la
+resistencia → aumenta la corriente → efecto de cortocircuito
+parcial.</li>
+</ul></li>
+<li><p>Resultado: más consumo de amperes, pérdida de campo magnético y
+finalmente motor quemado.</p></li>
+</ul>
+<hr />
+<div class="h"><h2 id="rebobinado-de-motores">🔧 Rebobinado de motores</h2><a aria-hidden="true" href="#rebobinado-de-motores">[link]</a></div>
+<ul>
+<li><p>Pasos:</p>
+<ol type="1">
+<li><strong>Cortar el bobinado viejo</strong>.</li>
+<li><strong>Contar las puntas</strong> que se cortan.</li>
+<li><strong>Anotar cantidad de vueltas</strong>.</li>
+<li><strong>Medir el calibre del alambre</strong> (con micrómetro).</li>
+<li><strong>Pesar una muestra</strong> (ej: 100 g) y comprar más (ej:
+120 g).</li>
+<li>Bobinar con la <strong>misma cantidad de vueltas</strong> y
+<strong>mismo calibre</strong>.</li>
+</ol></li>
+</ul>
+<hr />
+<div class="h"><h2 id="calibre-del-alambre">⚖️ Calibre del alambre</h2><a aria-hidden="true" href="#calibre-del-alambre">[link]</a></div>
+<ul>
+<li><p><strong>No debe cambiarse nunca</strong>.</p></li>
+<li><p>Si se usa <strong>más grueso</strong>:</p>
+<ul>
+<li>Menor resistencia → más velocidad → pero calienta más → riesgo de
+quemarse.</li>
+</ul></li>
+<li><p>Si se usa <strong>más fino</strong>:</p>
+<ul>
+<li>Mayor resistencia → menor voltaje efectivo → menos velocidad.</li>
+<li>Se calienta menos, pero el motor pierde rendimiento.</li>
+</ul></li>
+<li><p>El <strong>núcleo del motor determina la potencia</strong> y, a
+partir de ahí, el calibre adecuado del alambre.</p></li>
+</ul>
+<hr />
+<div class="h"><h2 id="conceptos-adicionales">⚡ Conceptos adicionales</h2><a aria-hidden="true" href="#conceptos-adicionales">[link]</a></div>
+<ul>
+<li><strong>Serie</strong>: cuando la corriente pasa por un componente y
+después por otro en una misma línea (ej: lámpara en serie).</li>
+<li><strong>Buscapolo</strong>: permite identificar la <strong>fase
+(vivo)</strong> porque enciende; en el neutro no.</li>
+<li>Ejemplo: para identificar en una zapatilla hay que abrirla y seguir
+la conexión en serie.</li>
+</ul>
+<hr />
+<p>👉 En resumen: <strong>el corazón del motor es el bobinado y el
+núcleo</strong>. El esmalte del alambre mantiene aisladas las espiras;
+si se quema, se pierde resistencia, sube la corriente y se destruye el
+motor.</p>
+<hr />
+<p>¿Querés que te lo arme en un <strong>diagrama tipo mapa
+mental</strong> (con ramas: bobina → campo magnético → núcleo → calibre
+→ fallas) para visualizarlo mejor?</p>
+<p>Perfecto 👍 Te armo un <strong>resumen claro y directo</strong> de
+los puntos que mencionaste, con foco en resistencias, diodos y
+transformadores:</p>
+<hr />
+<h2 id="resistencias-en-electrodomésticos">🔥 Resistencias en
+electrodomésticos</h2>
+<ul>
+<li>En <strong>plancha o jarra eléctrica</strong>, si no funciona la
+resistencia → <strong>no conviene repararla</strong>.</li>
+<li>Cuando dicen <em>“no calienta nada”</em>, lo primero a revisar es la
+<strong>resistencia</strong>.</li>
+<li>En una jarra, la <strong>resistencia obedece al termostato</strong>
+(pasa corriente cuando el termostato cierra).</li>
+<li>En la <strong>base de la jarra eléctrica</strong> hay dos
+<strong>láminas de bronce</strong> que hacen contacto para alimentar la
+resistencia.</li>
+</ul>
+<hr />
+<div class="h"><h2 id="focos">💡 Focos</h2><a aria-hidden="true" href="#focos">[link]</a></div>
+<ul>
+<li>Los focos antiguos eran de <strong>filamento incandescente</strong>
+(ya casi no existen).</li>
+</ul>
+<hr />
+<div class="h"><h2 id="transformador">🔌 Transformador</h2><a aria-hidden="true" href="#transformador">[link]</a></div>
+<ul>
+<li>Su función es <strong>transformar el voltaje</strong> (elevar o
+reducir tensión según sea necesario).</li>
+</ul>
+<hr />
+<div class="h"><h2 id="diodo-y-rectificación">⚡ Diodo y rectificación</h2><a aria-hidden="true" href="#diodo-y-rectificación">[link]</a></div>
+<ul>
+<li>El <strong>diodo</strong> convierte <strong>corriente alterna
+(CA)</strong> en <strong>corriente continua pulsante (CC)</strong> →
+proceso de <strong>rectificación</strong>.</li>
+<li>La CC pulsante se <strong>suaviza con un capacitor</strong>
+(filtrado).</li>
+<li>Para probar diodos se usa el tester en <strong>escala de
+diodos</strong>, no solo continuidad.</li>
+</ul>
+<hr />
+<p>👉 En resumen:</p>
+<ul>
+<li><strong>Resistencias</strong> = parte clave en electrodomésticos de
+calor.</li>
+<li><strong>Transformador</strong> = cambia voltaje.</li>
+<li><strong>Diodo + capacitor</strong> = rectificación (CA → CC más
+estable).</li>
+<li><strong>Focos de filamento</strong> = reemplazados por tecnologías
+modernas (LED, bajo consumo).</li>
+</ul>
+<hr />
+<p>¿Querés que te prepare una <strong>tabla comparativa</strong>
+(Resistencia – Transformador – Diodo – Capacitor) con <strong>función,
+prueba y falla típica</strong> para tenerlo como apunte rápido?</p>
+<p>NotebookLM</p>
+<p>Aquí tiene un resumen extenso del documento proporcionado, centrado
+en los principios de reparación y funcionamiento de motores eléctricos y
+electrodomésticos:</p>
+<p>El documento aborda diversos aspectos del funcionamiento, diagnóstico
+y reparación de motores eléctricos y otros electrodomésticos, destacando
+la importancia de la precisión y el conocimiento en el trabajo
+eléctrico.</p>
+<p><strong>1. Funcionamiento y Problemas Comunes en Motores
+Eléctricos:</strong></p>
+<ul>
+<li><strong>Calentamiento del motor:</strong> Un motor puede calentarse
+si está “frenado” o trabajando exigido, lo que requiere más potencia y,
+consecuentemente, un mayor amperaje. Una causa común de esto es que
+<strong>el rotor no esté perfectamente centrado en el estator</strong>.
+Debe existir una “película de luz” entre el rotor y el estator para que
+el campo magnético de la bobina influya adecuadamente en el hierro del
+rotor, permitiendo un giro conveniente. Si los espárragos (tornillos)
+que sujetan el motor se aflojan o no calzan bien, el centrado se ve
+comprometido. Algunos motores permiten un centrado preciso del rotor en
+el estator mediante sondas antes de apretar los espárragos. En
+ventiladores, el centrado puede ser más difícil debido a la falta de
+espacio, aunque suelen venir con una “cuna” que ayuda a que las tapas
+asienten bien.</li>
+<li><strong>Sistema de Centrado:</strong> Es crucial controlar el
+sistema de centrado y, por regla general, no poner en marcha ningún
+aparato sin antes verificarlo.</li>
+<li><strong>Tipos de Corriente y Cargas:</strong>
+<ul>
+<li>La corriente puede ser continua (pura o pulsante, con positivo y
+negativo) o alterna. En corriente alterna, los cables se identifican
+como <strong>fase y neutro</strong>. La fase es donde se encuentra la
+alternancia de energía y es el cable que enciende un buscapolo, mientras
+que el neutro no.</li>
+<li>Una carga resistiva (como la bobina de un motor, una ducha, estufa o
+ventilador) permite el paso de electrones desde la fase a través de la
+carga y hacia el neutro, con un movimiento inverso.</li>
+<li>La tensión suele ser de 220 voltios, mientras que el amperaje es lo
+que varía, y los vatios dependen del amperaje.</li>
+</ul></li>
+<li><strong>Problemas específicos de electrodomésticos:</strong>
+<ul>
+<li><strong>Heladeras (refrigeradores):</strong> Si el motor de una
+heladera consume 4 amperios en lugar de 5 después de cargar el gas
+refrigerante, indica un problema de compresión. Esto puede deberse a que
+el pistón ya no comprime (fuga interna) o a que el “flapper de alta” se
+calienta y se ensucia con hollín de aceite de mala calidad, impidiendo
+un cierre adecuado y causando fuga de presión. Un motor que no comprime
+trabaja “liviano”.</li>
+<li><strong>Ventiladores:</strong> Un ventilador que consume 4 amperios
+en lugar de 5 es visto como algo positivo, ya que solo necesita girar
+para generar viento. Si un ventilador marca 6 amperios después de un
+cambio de bujes, está mal, ya que indica una mayor fuerza (y consumo)
+del motor. El líquido hidráulico es considerado el mejor lubricante para
+ventiladores.</li>
+</ul></li>
+</ul>
+<p><strong>2. Conceptos Eléctricos Fundamentales:</strong></p>
+<ul>
+<li><strong>Campo Magnético:</strong> Es generado por una bobina. La
+electricidad nace gracias al campo magnético de la bobina. La corriente
+alterna tiene un campo magnético de 50 ciclos (norte y sur), mientras
+que la corriente continua solo crea un “minicampo magnético” al encender
+o apagar. Un campo magnético genera electricidad, y la corriente alterna
+genera el campo magnético que se utiliza en los electrodomésticos.</li>
+<li><strong>Polaridad:</strong> La presencia de un campo magnético
+implica polaridad. El “buscapolo” debería llamarse “buscafase” porque
+busca electricidad, y la brújula debería llamarse “buscapolo”.</li>
+<li><strong>Neutro:</strong> Es esencial para crear un ciclo de trabajo
+en un circuito eléctrico. Sin el neutro, los electrones llegarían a un
+punto y se detendrían. El neutro lleva el mismo ciclo de 50 Hz que la
+fase, pero invertido.</li>
+<li><strong>Cortocircuito vs. Trabajo Eléctrico:</strong> La diferencia
+principal es la presencia de “trabajo”. Hay trabajo cuando existe una
+carga con resistencia que hace caer el voltaje. En un cortocircuito, no
+hay resistencia significativa, el voltaje no cae, y esto provoca que
+salte el fusible o el disyuntor.</li>
+</ul>
+<p><strong>3. Componentes y Reparación de Bobinados:</strong></p>
+<ul>
+<li><strong>La Bobina:</strong>
+<ul>
+<li>Las bobinas se crean para generar fuerza magnética. Captan y
+“duplican” la fuerza magnética.</li>
+<li>El campo magnético generado en el estator induce un campo magnético
+similar en el rotor, lo que causa repulsión y hace girar el rotor.</li>
+<li>El <strong>núcleo</strong> de la bobina es crucial, ya que determina
+la potencia del motor, y a partir de él se saca la medida del calibre
+del alambre.</li>
+</ul></li>
+<li><strong>Alambre de Bobinado:</strong>
+<ul>
+<li>El alambre de bobinado es un conductor aislado con un esmalte
+especial. Los cables actuales son multifilamento, lo que los hace más
+maniobrables.</li>
+<li>No se utilizan cables pre-aislados comunes para bobinas porque son
+demasiado gruesos, ocupan mucho espacio en las ranuras y no soportarían
+las altas temperaturas.</li>
+<li>El alambre utilizado, llamado “alambre magneto”, está diseñado para
+soportar temperaturas específicas.</li>
+<li><strong>Quema del Bobinado:</strong> Se produce cuando el bobinado
+se recalienta excesivamente, quemando el esmalte aislante del alambre.
+Esto provoca la pérdida del campo magnético, un aumento del consumo de
+corriente (para compensar la falta de campo) y, finalmente, un
+cortocircuito debido a la reducción de la resistencia.</li>
+</ul></li>
+<li><strong>Variación del Calibre del Alambre y Cantidad de
+Vueltas:</strong>
+<ul>
+<li><strong>Nunca se debe cambiar el calibre del alambre
+original</strong>.</li>
+<li>Si se usa un alambre más grueso, la resistencia disminuye, lo que
+aumenta la velocidad (menos caída de tensión) y la cantidad de
+electrones, pero causa <strong>mayor calentamiento</strong>.</li>
+<li>Si se usa un alambre más fino, la resistencia aumenta, lo que reduce
+la velocidad (mayor caída de tensión) y <strong>calienta mucho menos (no
+se quema)</strong>.</li>
+<li>Aumentar la cantidad de vueltas del conductor aumenta la resistencia
+y disminuye el voltaje. Reducir las vueltas disminuye la resistencia,
+aumenta el voltaje y la velocidad, pero el alambre podría no soportar
+ese voltaje.</li>
+</ul></li>
+<li><strong>Proceso de Rebovinado:</strong> Para reparar un bobinado
+quemado, hay que cortar el bobinado, contar las puntas, anotar, medir el
+calibre del alambre, pesar la cantidad de alambre necesaria y comprar un
+poco más (ej. 100g -&gt; comprar 120g). Se debe mantener la misma
+cantidad de vueltas y el mismo calibre de alambre.</li>
+</ul>
+<p><strong>4. Herramientas y Mediciones:</strong></p>
+<ul>
+<li><strong>Pinza Amperométrica:</strong> Un instrumento esencial que
+mide directamente el amperaje que está consumiendo una carga eléctrica
+en funcionamiento. Permite verificar si el consumo es el adecuado para
+el aparato. Es importante considerar el régimen de trabajo de la carga
+(ej. motor con gas vs. en vacío en una heladera).</li>
+<li><strong>Tester (Multímetro):</strong> Se usa para medir continuidad
+de la bobina y la resistencia. También se usa para medir diodos en su
+escala específica.</li>
+<li><strong>Buscapolo (Test Light):</strong> Permite identificar la fase
+(“vivo”) que enciende el buscapolo, y el neutro que no.</li>
+<li><strong>Micrómetro:</strong> Una herramienta para medir el calibre
+del alambre.</li>
+<li><strong>Serie Eléctrica:</strong> Se puede armar una serie para
+pruebas, usando una lámpara o un reflector con ampolla.</li>
+</ul>
+<p><strong>5. Otros Componentes y Consejos de Reparación:</strong></p>
+<ul>
+<li><strong>Resistencia:</strong> Cuando un aparato no calienta, lo
+primero que se debe revisar es la resistencia. Si la resistencia de una
+plancha o jarra eléctrica no funciona, generalmente no conviene
+arreglarlo.</li>
+<li><strong>Transformador:</strong> Transforma el voltaje.</li>
+<li><strong>Diodos:</strong> Rectifican la corriente alterna,
+convirtiéndola en corriente continua pulsante.</li>
+<li><strong>Capacitor (Condensador):</strong> Se usa después de los
+diodos para hacer la corriente continua menos “tildante” o más
+suave.</li>
+<li><strong>Recomendación General:</strong> No es conveniente poner en
+marcha un electrodoméstico tal como llega, ya que algún componente
+podría haberse soltado o cambiado de lugar durante el movimiento. Es
+fundamental obtener la máxima cantidad de información posible antes de
+proceder con el diagnóstico o la reparación.</li>
+</ul>
 <div id="footer">
 <hr />
 </div>
@@ -38,6 +568,7 @@ class="uri">https://cursoelectricidad.github.io/02clase.md</a></p>
 <p>Esta página HTML fue generada por el <a
 href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
 Generator</a>.</p>
+</div>
 </div>
 </body>
 </html>

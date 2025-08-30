@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 1:</title>
+  <title>Curso Electricidad – Clase Nº 10: La Trampa de Aceite no le convence al profesor porque la falta de aceite quema el motor y es peor que exceso de aceite. Como desoldar: agregarle buen estaño para quitar plomo. Motor Universal: continua y alterna (no usarlo en corriente trifásica). Motor lavarropa timer mecánico: solo corriente alterna (220v). Estator: fijo, rotor: el que rota/gira. Jaula de Ardilla. Como girar motores para ambos lados. Teoría del bobinado: posición de las espiras para invertir motor, en las bobinas hay un principio y un final. Como comprar buje: llevar rotor y buje. Delgas. Cómo conectar un motor para probarlo: conectarlo en serie. Tacómetro. Motor universal: tiene bobinado en el rotor y carbones y se puede controlar digitalmente la velocidad a través de pulsos, no trae capacitor necesito 4 conexiones para probarlo. Motor timer mecánico de lavarropas (el ventilador usa el mismo motor): tiene jaula de ardilla y no tiene bobinado. Los lavarropas con placa tienen motores universales. Según el profesor en la jaula de ardilla no hay bobina, pero escuché que es una bobina en corto. Los motores universales se pueden probar con una batería de un auto con 12 voltios no lavará la ropa pero sirve para probar su funcionamiento. Motor universal se puede controlar por control por ancho de pulsos. 220 * 1.41 te da la corriente pico (con ese voltaje te patea). Los motores que trabajan con dos bobinas permanemente en paralelo llevan capacitor. Capacitor: soluciona problema del factor de potencia por el desfasado a 90 grados. Bobina de arranque está dentro. Bobina trabajo está fuera. Bobina secundaria es mal llamada bobina de arranque. Si tiene relay tenés que poner un capacitor de arranque. Heladeras tienen relay, si no arranca ponele capacitor de arranque. Lavarropas de timer mecánico tiene 2 bobinados de trabajo porque no tiene relay, lleva un capacitor de trabajo. No tiene bobina de arranque porque las dos trabajan juntas en paralelo. Cambiar el capacitor corrige la bobina secundaria. En el primario nunca va capacitor. El platino está dentro del timer.</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -14,7 +14,36 @@
 <div class="page">
 <header>
 <div class="title">
-<h1 class="title">Clase Nº 1:</h1>
+<h1 class="title">Clase Nº 10: La Trampa de Aceite no le convence al
+profesor porque la falta de aceite quema el motor y es peor que exceso
+de aceite. Como desoldar: agregarle buen estaño para quitar plomo. Motor
+Universal: continua y alterna (no usarlo en corriente trifásica). Motor
+lavarropa timer mecánico: solo corriente alterna (220v). Estator: fijo,
+rotor: el que rota/gira. Jaula de Ardilla. Como girar motores para ambos
+lados. Teoría del bobinado: posición de las espiras para invertir motor,
+en las bobinas hay un principio y un final. Como comprar buje: llevar
+rotor y buje. Delgas. Cómo conectar un motor para probarlo: conectarlo
+en serie. Tacómetro. Motor universal: tiene bobinado en el rotor y
+carbones y se puede controlar digitalmente la velocidad a través de
+pulsos, no trae capacitor necesito 4 conexiones para probarlo. Motor
+timer mecánico de lavarropas (el ventilador usa el mismo motor): tiene
+jaula de ardilla y no tiene bobinado. Los lavarropas con placa tienen
+motores universales. Según el profesor en la jaula de ardilla no hay
+bobina, pero escuché que es una bobina en corto. Los motores universales
+se pueden probar con una batería de un auto con 12 voltios no lavará la
+ropa pero sirve para probar su funcionamiento. Motor universal se puede
+controlar por control por ancho de pulsos. 220 * 1.41 te da la corriente
+pico (con ese voltaje te patea). Los motores que trabajan con dos
+bobinas permanemente en paralelo llevan capacitor. Capacitor: soluciona
+problema del factor de potencia por el desfasado a 90 grados. Bobina de
+arranque está dentro. Bobina trabajo está fuera. Bobina secundaria es
+mal llamada bobina de arranque. Si tiene relay tenés que poner un
+capacitor de arranque. Heladeras tienen relay, si no arranca ponele
+capacitor de arranque. Lavarropas de timer mecánico tiene 2 bobinados de
+trabajo porque no tiene relay, lleva un capacitor de trabajo. No tiene
+bobina de arranque porque las dos trabajan juntas en paralelo. Cambiar
+el capacitor corrige la bobina secundaria. En el primario nunca va
+capacitor. El platino está dentro del timer.</h1>
 </div>
 <p class="author">Andrés Imlauer</p>
 <p class="date">16 Julio 2024</p>
@@ -24,9 +53,956 @@
 </ul>
 <hr/>
 </header>
+<nav id="TOC">
+<h1>Navigate this page:</h1>
+<ul>
+<li><a href="#motores" id="toc-motores">⚡ Motores</a></li>
+<li><a href="#bobinas-y-capacitores" id="toc-bobinas-y-capacitores">🌀
+Bobinas y capacitores</a></li>
+<li><a href="#otros-puntos-prácticos" id="toc-otros-puntos-prácticos">🔧
+Otros puntos prácticos</a></li>
+<li><a href="#separador-de-partículas-trampa-de-aceite"
+id="toc-separador-de-partículas-trampa-de-aceite">🧊 Separador de
+partículas / “trampa de aceite”</a></li>
+<li><a href="#ciclo-de-refrigeración-en-heladeras"
+id="toc-ciclo-de-refrigeración-en-heladeras">❄️ Ciclo de refrigeración
+en heladeras</a></li>
+<li><a href="#comportamiento-del-aceite"
+id="toc-comportamiento-del-aceite">⚠️ Comportamiento del aceite</a></li>
+<li><a href="#observaciones-del-profesor"
+id="toc-observaciones-del-profesor">🔧 Observaciones del
+profesor</a></li>
+<li><a href="#motores-de-lavarropas-y-ventiladores"
+id="toc-motores-de-lavarropas-y-ventiladores">⚡ Motores de lavarropas y
+ventiladores</a></li>
+<li><a href="#soldadura-y-desoldado" id="toc-soldadura-y-desoldado">🔧
+Soldadura y desoldado</a></li>
+<li><a href="#detalles-mecánicos-y-de-montaje"
+id="toc-detalles-mecánicos-y-de-montaje">🧮 Detalles mecánicos y de
+montaje</a></li>
+<li><a href="#cómo-funciona-un-motor" id="toc-cómo-funciona-un-motor">🌀
+Cómo funciona un motor</a></li>
+<li><a href="#giro-en-ambos-sentidos" id="toc-giro-en-ambos-sentidos">🔄
+Giro en ambos sentidos</a></li>
+<li><a href="#conceptos-de-campo-magnético"
+id="toc-conceptos-de-campo-magnético">🧲 Conceptos de campo
+magnético</a></li>
+<li><a href="#bobinado-y-principiofinal"
+id="toc-bobinado-y-principiofinal">🧵 Bobinado y
+principio/final</a></li>
+<li><a href="#conceptos-clave-resumidos"
+id="toc-conceptos-clave-resumidos">🔑 Conceptos clave resumidos</a></li>
+<li><a href="#conceptos-generales" id="toc-conceptos-generales">🌀
+Conceptos generales</a></li>
+<li><a href="#rotor-bujes-y-rulemanes"
+id="toc-rotor-bujes-y-rulemanes">⚙️ Rotor, bujes y rulemanes</a></li>
+<li><a href="#capacitor-y-bobinas" id="toc-capacitor-y-bobinas">💡
+Capacitor y bobinas</a></li>
+<li><a href="#tipos-de-motores-en-lavarropas"
+id="toc-tipos-de-motores-en-lavarropas">🔌 Tipos de motores en
+lavarropas</a></li>
+<li><a href="#campo-magnético-y-rotación"
+id="toc-campo-magnético-y-rotación">🧲 Campo magnético y
+rotación</a></li>
+<li><a href="#resumen-comparativo-de-motores"
+id="toc-resumen-comparativo-de-motores">🔑 Resumen comparativo de
+motores</a></li>
+<li><a href="#motor-universal-vs-motor-de-timer-mecánico"
+id="toc-motor-universal-vs-motor-de-timer-mecánico">⚡ Motor universal
+vs motor de timer mecánico</a></li>
+<li><a href="#control-por-pulsos-pwm" id="toc-control-por-pulsos-pwm">🌀
+Control por pulsos (PWM)</a></li>
+<li><a href="#función-del-bobinado-y-delgas"
+id="toc-función-del-bobinado-y-delgas">🧲 Función del bobinado y
+delgas</a></li>
+<li><a href="#impedancia-y-prueba-de-motores"
+id="toc-impedancia-y-prueba-de-motores">🔧 Impedancia y prueba de
+motores</a></li>
+<li><a href="#beneficios-del-motor-universal-con-placa"
+id="toc-beneficios-del-motor-universal-con-placa">✅ Beneficios del
+motor universal con placa</a></li>
+<li><a href="#problema-principal" id="toc-problema-principal">🔹
+Problema principal</a></li>
+<li><a href="#impedancia" id="toc-impedancia">🔹 Impedancia</a></li>
+<li><a href="#conexiones-necesarias-para-probar-motor"
+id="toc-conexiones-necesarias-para-probar-motor">🔹 Conexiones
+necesarias para probar motor</a></li>
+<li><a href="#cómo-hacer-puente-para-probar"
+id="toc-cómo-hacer-puente-para-probar">🔹 Cómo hacer puente para
+probar</a></li>
+<li><a href="#inversión-de-giro" id="toc-inversión-de-giro">🔹 Inversión
+de giro</a></li>
+<li><a href="#motor-universal-vs-motor-timer-mecánico"
+id="toc-motor-universal-vs-motor-timer-mecánico">🔹 Motor universal vs
+motor timer mecánico</a></li>
+<li><a href="#motor-universal-vs-motor-con-bobinas-de-trabajo-dobles"
+id="toc-motor-universal-vs-motor-con-bobinas-de-trabajo-dobles">🔹 Motor
+universal vs motor con bobinas de trabajo dobles</a></li>
+<li><a href="#para-qué-sirve-el-capacitor"
+id="toc-para-qué-sirve-el-capacitor">🔹 Para qué sirve el
+capacitor</a></li>
+<li><a href="#cómo-están-conectadas-las-bobinas"
+id="toc-cómo-están-conectadas-las-bobinas">🔹 Cómo están conectadas las
+bobinas</a></li>
+<li><a href="#conexiones-prácticas" id="toc-conexiones-prácticas">🔹
+Conexiones prácticas</a></li>
+<li><a href="#conceptos-clave" id="toc-conceptos-clave">🔹 Conceptos
+clave</a></li>
+<li><a href="#resumen-de-flujo-de-corriente"
+id="toc-resumen-de-flujo-de-corriente">🔹 Resumen de flujo de
+corriente</a></li>
+</ul>
+</nav>
+<div class="pagetext">
 <p><a href="./">Volver al índice</a></p>
 <p>Artículo publicado por: Andrés Imlauer</p>
 <p>Artículo publicado el: 16 Julio 2024</p>
+<div class="h"><h3 id="motores">⚡ Motores</h3><a aria-hidden="true" href="#motores">[link]</a></div>
+<ul>
+<li><p><strong>Motor Universal</strong></p>
+<ul>
+<li>Funciona con <strong>corriente continua y alterna</strong>,
+<strong>no usar en trifásica</strong>.</li>
+<li>Tiene <strong>bobinado en el rotor y carbones</strong>, se puede
+controlar digitalmente con <strong>ancho de pulsos (PWM)</strong>.</li>
+<li><strong>Prueba</strong>: se puede alimentar con una <strong>batería
+de 12V</strong> para comprobar funcionamiento.</li>
+<li>Necesita <strong>4 conexiones</strong> para pruebas.</li>
+</ul></li>
+<li><p><strong>Motor de lavarropa con timer mecánico</strong></p>
+<ul>
+<li>Solo <strong>corriente alterna (220V)</strong>.</li>
+<li>Usa <strong>jaula de ardilla</strong>: rotor gira, estator
+fijo.</li>
+<li>No tiene bobinado adicional, pero algunas referencias dicen que es
+un <strong>corto bobinado</strong>.</li>
+<li>Lavarropas con <strong>placa electrónica</strong> tienen motores
+universales.</li>
+</ul></li>
+<li><p><strong>Dirección de giro de motores</strong></p>
+<ul>
+<li>Se puede invertir según la <strong>posición de las
+espiras</strong>.</li>
+<li>En bobinas hay un <strong>principio y un final</strong>.</li>
+</ul></li>
+<li><p><strong>Conexión para pruebas</strong></p>
+<ul>
+<li>Conectar motor <strong>en serie</strong> para probarlo.</li>
+<li><strong>Tacómetro</strong> se puede usar para medir velocidad.</li>
+</ul></li>
+<li><p><strong>Compra de bujes</strong></p>
+<ul>
+<li>Llevar <strong>rotor y buje</strong> para asegurarse del ajuste
+correcto.</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="bobinas-y-capacitores">🌀 Bobinas y capacitores</h3><a aria-hidden="true" href="#bobinas-y-capacitores">[link]</a></div>
+<ul>
+<li><p><strong>Motores con dos bobinas en paralelo</strong> llevan
+<strong>capacitor</strong> para:</p>
+<ul>
+<li>Resolver <strong>factor de potencia</strong>.</li>
+<li>Arranque y trabajo de bobinas.</li>
+</ul></li>
+<li><p><strong>Bobinas</strong></p>
+<ul>
+<li><strong>Arranque</strong>: dentro del motor, puede necesitar
+<strong>relay + capacitor de arranque</strong>.</li>
+<li><strong>Trabajo</strong>: fuera del motor.</li>
+<li>La <strong>bobina secundaria</strong> (mal llamada “de arranque”) se
+corrige cambiando el capacitor.</li>
+<li>En el <strong>primario nunca va capacitor</strong>.</li>
+</ul></li>
+<li><p><strong>Lavarropas timer mecánico</strong></p>
+<ul>
+<li>Tiene <strong>2 bobinas de trabajo en paralelo</strong>, no necesita
+bobina de arranque.</li>
+</ul></li>
+<li><p><strong>Heladeras</strong></p>
+<ul>
+<li>Tienen <strong>relay</strong>, si no arranca → agregar
+<strong>capacitor de arranque</strong>.</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="otros-puntos-prácticos">🔧 Otros puntos prácticos</h3><a aria-hidden="true" href="#otros-puntos-prácticos">[link]</a></div>
+<ul>
+<li><p><strong>Trampa de aceite</strong>:</p>
+<ul>
+<li>El profesor prefiere <strong>exceso de aceite</strong> a la falta,
+ya que la <strong>falta quema el motor</strong>.</li>
+</ul></li>
+<li><p><strong>Desoldar</strong>:</p>
+<ul>
+<li>Agregar <strong>buen estaño</strong> para quitar plomo.</li>
+</ul></li>
+<li><p><strong>Cálculo de corriente pico</strong>:</p>
+<ul>
+<li>220 × 1.41 ≈ <strong>corriente pico</strong>.</li>
+</ul></li>
+<li><p><strong>Platino</strong></p>
+<ul>
+<li>Está dentro del <strong>timer mecánico</strong> del lavarropa.</li>
+</ul></li>
+</ul>
+<hr />
+<p>Si quieres, puedo hacer una <strong>versión súper visual con emojis y
+colores</strong> que te sirva <strong>para estudiar rápido antes del
+examen</strong>. Esto dejaría todo mucho más claro en un vistazo.</p>
+<p>¿Quieres que haga eso? Aquí tienes los <strong>puntos más
+importantes</strong> de tu transcripción sobre <strong>motocompresores y
+separadores de partículas en heladeras</strong>, organizados y
+resumidos:</p>
+<hr />
+<h3 id="separador-de-partículas-trampa-de-aceite">🧊 Separador de
+partículas / “trampa de aceite”</h3>
+<ul>
+<li>No es para <strong>guardar aceite</strong>, sino para <strong>dar
+tiempo al líquido refrigerante a convertirse en gas</strong> antes de
+llegar al compresor.</li>
+<li>Funciona evitando que <strong>líquido refrigerante llegue al
+motor</strong>, ya que al motor solo debe entrar
+<strong>gas</strong>.</li>
+<li>Medidas típicas: entre <strong>15 y 20 cm</strong>, ancho un poco
+menor.</li>
+<li>Riesgo: si la trampa es muy grande → puede <strong>faltar aceite en
+el motor</strong>.</li>
+<li>El profesor cuestiona su necesidad excesiva: <strong>más peligroso
+que falte aceite a que se acumule</strong>.</li>
+</ul>
+<hr />
+<h3 id="ciclo-de-refrigeración-en-heladeras">❄️ Ciclo de refrigeración
+en heladeras</h3>
+<ul>
+<li><strong>Alta</strong>: refrigerante comprimido sale del
+pistón/cilindro.</li>
+<li><strong>Baja</strong>: refrigerante frío regresa al compresor
+después del evaporador.</li>
+<li><strong>Condensador → filtro molecular → capilar →
+evaporador</strong>: tubería de ~6 mm.</li>
+<li>El <strong>capilar</strong> puede ir dentro del tubo de baja para
+enfriarse y mejorar la transición de líquido a gas.</li>
+<li>La correcta conversión de líquido a gas asegura que <strong>el motor
+solo reciba gas</strong>.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="comportamiento-del-aceite">⚠️ Comportamiento del aceite</h3><a aria-hidden="true" href="#comportamiento-del-aceite">[link]</a></div>
+<ul>
+<li>El aceite <strong>no cambia de estado</strong>: ni se vuelve gas ni
+se congela a temperaturas normales del ciclo.</li>
+<li>Los aceites de motocompresor mantienen consistencia con variaciones
+de temperatura.</li>
+<li>Diferente del refrigerante, que sí cambia de <strong>líquido a
+gas</strong> en el ciclo.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="observaciones-del-profesor">🔧 Observaciones del profesor</h3><a aria-hidden="true" href="#observaciones-del-profesor">[link]</a></div>
+<ul>
+<li><p>Trampas de aceite y separadores son <strong>ingeniería
+calculada</strong>, pero:</p>
+<ul>
+<li>Si se hace demasiado grande → riesgo de <strong>falta de
+aceite</strong>.</li>
+<li>Si se hace demasiado pequeña → el aceite puede <strong>volver y
+acumularse</strong>.</li>
+</ul></li>
+<li><p>Ejemplo práctico: en <strong>aires acondicionados split</strong>
+con varios metros de distancia entre compresor y evaporador, la trampa
+es más relevante que en aires de ventana.</p></li>
+<li><p>Conclusión: <strong>es más peligroso que falte aceite al motor
+que que haya exceso de aceite acumulado</strong>.</p></li>
+</ul>
+<hr />
+<p>Si quieres, puedo hacer un <strong>diagrama rápido del ciclo con
+separador de partículas y flujo de gas/líquido</strong>, para que se vea
+visualmente cómo funciona y por qué es crítico el aceite. Esto lo hace
+mucho más fácil de estudiar y recordar.</p>
+<p>¿Quieres que haga eso? Aquí tienes los <strong>puntos clave de la
+clase sobre motores y soldadura</strong>, resumidos y organizados:</p>
+<hr />
+<h3 id="motores-de-lavarropas-y-ventiladores">⚡ Motores de lavarropas y
+ventiladores</h3>
+<ul>
+<li><p><strong>Tipos de motores según el control</strong>:</p>
+<ul>
+<li><strong>Timer mecánico</strong>: motor pequeño de 220V conectado a
+pines; hace “tic-tac” como reloj; muchas posiciones; difícil de reparar
+hoy en día.</li>
+<li><strong>Control por placa</strong>: motor único para lavarropas
+moderno; el selector no se mueve mientras la memoria está activa;
+requiere apagar para cambiar programa.</li>
+</ul></li>
+<li><p><strong>Estructura de cualquier motor</strong>:</p>
+<ul>
+<li><strong>Estator</strong>: parte fija.</li>
+<li><strong>Rotor</strong>: parte giratoria, eje donde se coloca lo que
+queremos mover (aspa, bomba, cuchilla, etc.).</li>
+<li>Rotor apoyado en <strong>rodamientos (rulemanes) o bujes</strong>;
+bujes de bronce en el centro.</li>
+<li>Debe mantener <strong>luz uniforme entre rotor y estator</strong>;
+desgaste provoca ruido o mal centrado.</li>
+</ul></li>
+<li><p><strong>Importancia del conocimiento del motor</strong>:</p>
+<ul>
+<li>Saber <strong>desarmar, medir y probar</strong> asegura que no se
+queme un motor al reemplazarlo.</li>
+<li>Energía eléctrica → campo magnético → trabajo mecánico.</li>
+<li>No todos los motores son intercambiables entre timer mecánico y
+placa.</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="soldadura-y-desoldado">🔧 Soldadura y desoldado</h3><a aria-hidden="true" href="#soldadura-y-desoldado">[link]</a></div>
+<ul>
+<li><p>Para <strong>desoldar placas o componentes</strong>:</p>
+<ul>
+<li>Agregar <strong>buen estaño</strong> (de calidad) sobre la soldadura
+vieja para que se licúe correctamente.</li>
+<li>Uso de <strong>flux o pasta para desoldar</strong> mejora la
+extracción de estaño.</li>
+<li><strong>Técnica</strong>: aplicar calor, no mantener soldador
+constante, mover y extraer.</li>
+<li>Soldador recomendado: <strong>60W o más</strong>.</li>
+<li>Evitar dañar pistas; requiere práctica, similar a escribir en
+máquina de escribir.</li>
+</ul></li>
+<li><p>Problemas con estaño de mala calidad:</p>
+<ul>
+<li>Se enfría rápido, no se licua bien.</li>
+<li>Estaño importado de baja calidad puede ser inútil.</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="detalles-mecánicos-y-de-montaje">🧮 Detalles mecánicos y de
+montaje</h3>
+<ul>
+<li><p><strong>Rotor y bujes</strong>:</p>
+<ul>
+<li>Rotor apoyado en extremos; centro con buje de bronce.</li>
+<li>Luz entre rotor y estator crítica; si se desgasta → rotor se
+descentrará, ruido y mal funcionamiento.</li>
+</ul></li>
+<li><p><strong>Control de calidad</strong>:</p>
+<ul>
+<li>Se usaban sondas (láminas radiográficas) para medir luz y ajustar
+rotor en círculo perfecto.</li>
+</ul></li>
+</ul>
+<hr />
+<p>Si quieres, puedo hacer un <strong>diagrama resumido del motor de
+lavarropas y cómo se apoya el rotor en bujes y rulemanes</strong>, con
+colores y etiquetas, para memorizarlo mucho más rápido.</p>
+<p>¿Quieres que haga eso? Aquí tienes un <strong>resumen estructurado y
+claro</strong> de la clase sobre <strong>motores, campos magnéticos y
+bobinados</strong>:</p>
+<hr />
+<div class="h"><h3 id="cómo-funciona-un-motor">🌀 Cómo funciona un motor</h3><a aria-hidden="true" href="#cómo-funciona-un-motor">[link]</a></div>
+<ul>
+<li>El motor <strong>convierte energía eléctrica en trabajo
+mecánico</strong> mediante un <strong>campo magnético</strong>.</li>
+<li><strong>Estator</strong>: parte fija que recibe energía y genera un
+campo magnético.</li>
+<li><strong>Rotor</strong>: parte giratoria (ej.: jaula de ardilla en
+motores AC).</li>
+<li>La <strong>jaula de ardilla</strong> está formada por barras de
+aluminio intercaladas con hierro al silicio, que se magnetizan.</li>
+<li>El rotor <strong>gira porque polos iguales se repelen y polos
+distintos se atraen</strong>.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="giro-en-ambos-sentidos">🔄 Giro en ambos sentidos</h3><a aria-hidden="true" href="#giro-en-ambos-sentidos">[link]</a></div>
+<ul>
+<li><p>Los motores de lavarropas pueden girar hacia ambos
+lados.</p></li>
+<li><p>Se logra <strong>invirtiendo las conexiones del
+bobinado</strong>.</p></li>
+<li><p>La posición de las espiras y el <strong>principio y final de la
+bobina</strong> determina la dirección de giro.</p></li>
+<li><p>Ejemplo práctico:</p>
+<ul>
+<li>Una bomba de agua que funciona pero no levanta agua → probablemente
+gira al revés.</li>
+<li>Los ventiladores de techo giran en un sentido u otro según la
+inversión de la fase.</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="conceptos-de-campo-magnético">🧲 Conceptos de campo
+magnético</h3>
+<ul>
+<li>Cada bobina tiene <strong>polo norte y polo sur</strong>.</li>
+<li>Las láminas del estator son <strong>aisladas
+magnéticamente</strong>, no eléctricamente.</li>
+<li>Esto permite que el rotor gire: la fuerza del campo magnético se
+aplica sobre la jaula de ardilla y genera movimiento.</li>
+<li>La corriente alterna <strong>cicla positiva y negativa</strong>, y
+el rotor aprovecha este ciclo para girar.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="bobinado-y-principiofinal">🧵 Bobinado y principio/final</h3><a aria-hidden="true" href="#bobinado-y-principiofinal">[link]</a></div>
+<ul>
+<li>Cada bobina tiene un <strong>principio y un final</strong>.</li>
+<li>La <strong>bobina primaria</strong> queda abajo; la bobina final se
+coloca encima.</li>
+<li>La forma de enrollar (espiras) define la dirección del rotor.</li>
+<li>La teoría eléctrica clásica (flujo de electrones de + a -) se
+complementa con la <strong>impedancia del conductor</strong>, que genera
+cierta “dirección” del movimiento de electrones.</li>
+<li>Con este conocimiento se diseñan motores para distintos propósitos,
+incluyendo motores <strong>inverter</strong>.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="conceptos-clave-resumidos">🔑 Conceptos clave resumidos</h3><a aria-hidden="true" href="#conceptos-clave-resumidos">[link]</a></div>
+<ol type="1">
+<li>Rotor + estator → campo magnético → trabajo mecánico.</li>
+<li>Jaula de ardilla: aluminio + hierro al silicio, magnetización
+independiente.</li>
+<li>Giro reversible: <strong>espiras y conexiones
+correctas</strong>.</li>
+<li>Cada conductor enrollado tiene <strong>inicio y final</strong>.</li>
+<li>Corriente alterna + impedancia del conductor → dirección de
+movimiento de electrones.</li>
+<li>Aplicación práctica: ventiladores, lavarropas, bombas de agua.</li>
+</ol>
+<hr />
+<p>Si quieres, puedo hacer un <strong>diagrama visual con rotor,
+estator, jaula de ardilla y flujo de campo magnético</strong>, mostrando
+cómo se logra el giro y la inversión de sentido. Esto hace que todo el
+concepto sea mucho más fácil de entender y memorizar.</p>
+<p>¿Quieres que haga eso? Aquí tienes un <strong>resumen estructurado y
+simplificado</strong> de la clase sobre <strong>motores de ventiladores
+y lavarropas</strong>, centrado en bujes, rotor, bobinas y tipos de
+motores:</p>
+<hr />
+<div class="h"><h3 id="conceptos-generales">🌀 Conceptos generales</h3><a aria-hidden="true" href="#conceptos-generales">[link]</a></div>
+<ul>
+<li>Los motores <strong>transforman energía eléctrica en trabajo
+mecánico</strong> mediante campos magnéticos.</li>
+<li>Ejemplos de aplicación: <strong>lavarropas, ventiladores,
+cortacésped</strong>.</li>
+<li>Motores como los de microondas <strong>no tienen rotor</strong>, por
+eso el peso viene del <strong>transformador</strong>.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="rotor-bujes-y-rulemanes">⚙️ Rotor, bujes y rulemanes</h3><a aria-hidden="true" href="#rotor-bujes-y-rulemanes">[link]</a></div>
+<ul>
+<li><p>El <strong>rotor debe estar perfectamente centrado</strong> para
+que el campo magnético genere rotación.</p></li>
+<li><p><strong>Ventiladores</strong>: usan <strong>bujes</strong>, si se
+desgastan → rotor se “clava” al enchufar.</p></li>
+<li><p><strong>Lavadoras</strong>: usan <strong>rulemanes</strong>, más
+robustos, no se nota tanto el desgaste inmediato.</p></li>
+<li><p><strong>Síntomas de buje gastado</strong>:</p>
+<ul>
+<li>Gira libremente desenchufado, pero al enchufar se frena.</li>
+<li>Si no gira ni enchufado ni desenchufado → suciedad o eje
+dañado.</li>
+</ul></li>
+<li><p><strong>Soluciones</strong>: cambiar bujes, limpiar asientos,
+verificar eje.</p></li>
+<li><p>Siempre llevar <strong>rotor + buje</strong> para reemplazo; no
+sirve llevar solo uno.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="capacitor-y-bobinas">💡 Capacitor y bobinas</h3><a aria-hidden="true" href="#capacitor-y-bobinas">[link]</a></div>
+<ul>
+<li>Problemas de arranque o baja fuerza → revisar
+<strong>capacitor</strong> y continuidad del bobinado.</li>
+<li>Cortocircuitos en bobinas → fusibles quemados.</li>
+<li>La <strong>impedancia de la bobina</strong> evita que la corriente
+sobrepase el límite; baja impedancia → fusibles quemados.</li>
+</ul>
+<hr />
+<h3 id="tipos-de-motores-en-lavarropas">🔌 Tipos de motores en
+lavarropas</h3>
+<ol type="1">
+<li><p><strong>Timer mecánico</strong></p>
+<ul>
+<li>Motor pequeño 220V, controla temporizador.</li>
+<li>Gira en un sentido según engranajes; pocas reparaciones
+actuales.</li>
+</ul></li>
+<li><p><strong>Placa electrónica</strong></p>
+<ul>
+<li>Motor controlado por la placa: velocidad y dirección.</li>
+<li>El <strong>rotor tiene bobina</strong>; el estator es pasivo (contra
+peso).</li>
+<li>Bobinas enfrentadas con polos opuestos para generar el campo
+magnético.</li>
+<li>Preciso excitarlas con corriente; cuidado con baja impedancia.</li>
+</ul></li>
+<li><p><strong>Motor universal</strong></p>
+<ul>
+<li>Rotor bobinado + carbones; no jaula de ardilla.</li>
+<li>Control digital por pulsos (PWM).</li>
+</ul></li>
+<li><p><strong>Motores jaula de ardilla</strong></p>
+<ul>
+<li>Rotor “sin bobina”, el aluminio forma una bobina en
+cortocircuito.</li>
+<li>Genera campo magnético desde <strong>estator al rotor</strong>.</li>
+</ul></li>
+</ol>
+<hr />
+<div class="h"><h3 id="campo-magnético-y-rotación">🧲 Campo magnético y rotación</h3><a aria-hidden="true" href="#campo-magnético-y-rotación">[link]</a></div>
+<ul>
+<li><p>La rotación ocurre por <strong>atracción y repulsión de
+polos</strong>:</p>
+<ul>
+<li>Norte ↔︎ Sur → se atraen</li>
+<li>Norte ↔︎ Norte → se repelen</li>
+</ul></li>
+<li><p>La posición de espiras y principio/final de cada bobina
+<strong>determina la dirección de giro</strong>.</p></li>
+<li><p>Ventiladores o lavadoras pueden invertir giro <strong>modificando
+conexiones del bobinado</strong>.</p></li>
+</ul>
+<hr />
+<h3 id="resumen-comparativo-de-motores">🔑 Resumen comparativo de
+motores</h3>
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 16%" />
+<col style="width: 9%" />
+<col style="width: 26%" />
+<col style="width: 32%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Motor</th>
+<th>Rotor</th>
+<th>Estator</th>
+<th>Campo magnético</th>
+<th>Característica clave</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Universal</td>
+<td>Bobinado + carbones</td>
+<td>Fijo</td>
+<td>Del estator al rotor</td>
+<td>Control por PWM</td>
+</tr>
+<tr class="even">
+<td>Jaula de ardilla</td>
+<td>Aluminio + hierro</td>
+<td>Fijo</td>
+<td>Desde estator al rotor</td>
+<td>Rotor “cortocircuito”</td>
+</tr>
+<tr class="odd">
+<td>Placa electrónica</td>
+<td>Bobina</td>
+<td>Contra peso</td>
+<td>Bidireccional (estator + rotor)</td>
+<td>Excitación precisa; polos enfrentados</td>
+</tr>
+<tr class="even">
+<td>Timer mecánico</td>
+<td>Motor 220V</td>
+<td>Fijo</td>
+<td>Genera temporizador</td>
+<td>Gira según engranajes</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Si quieres, puedo hacer un <strong>diagrama comparativo de los cuatro
+tipos de motores</strong>, mostrando rotor, estator, bujes/reglas de
+campo magnético y cómo giran, que dejaría todo mucho más claro
+visualmente.</p>
+<p>¿Quieres que haga ese diagrama? Aquí tienes un <strong>resumen claro
+y estructurado</strong> de la clase sobre <strong>motores universales y
+control por pulsos en lavarropas con placa electrónica</strong>:</p>
+<hr />
+<h3 id="motor-universal-vs-motor-de-timer-mecánico">⚡ Motor universal
+vs motor de timer mecánico</h3>
+<ul>
+<li><p><strong>Motor universal:</strong></p>
+<ul>
+<li>Puede funcionar con <strong>corriente alterna (AC) y continua
+(DC)</strong>.</li>
+<li>Tiene <strong>bobinado en el rotor y carbones</strong> (delgas para
+conducción de corriente).</li>
+<li>Permite <strong>control digital de la velocidad</strong> mediante
+pulsos (PWM).</li>
+<li>Con 12–16V se puede probar si funciona (no lava ropa, pero sirve
+para test).</li>
+<li><strong>No usar en trifásica</strong>: voltaje demasiado alto.</li>
+</ul></li>
+<li><p><strong>Motor timer mecánico / ventilador:</strong></p>
+<ul>
+<li>Solo AC.</li>
+<li>Velocidad fija, dirección depende de la bobina.</li>
+<li>No permite control digital ni variación de velocidad.</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="control-por-pulsos-pwm">🌀 Control por pulsos (PWM)</h3><a aria-hidden="true" href="#control-por-pulsos-pwm">[link]</a></div>
+<ul>
+<li><p>La <strong>placa electrónica</strong> genera pulsos eléctricos
+para controlar:</p>
+<ul>
+<li><strong>Velocidad del motor</strong>: ancho de pulso determina
+intensidad y tiempo de corriente.</li>
+<li><strong>Dirección de giro</strong>: los pulsos secuenciales permiten
+invertir el sentido.</li>
+</ul></li>
+<li><p>Tipos de ondas:</p>
+<ul>
+<li><strong>Senoidal:</strong> varía suavemente entre valores pico.</li>
+<li><strong>Cuadrada:</strong> solo 0 o 1; útil para PWM.</li>
+<li><strong>Triangular:</strong> crece y decrece linealmente; menos
+usada en este contexto.</li>
+</ul></li>
+<li><p>Ejemplo:</p>
+<ul>
+<li>Durante centrifugado → pulsos largos y frecuentes → alta
+velocidad.</li>
+<li>Durante lavado → pulsos cortos → velocidad baja.</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="función-del-bobinado-y-delgas">🧲 Función del bobinado y
+delgas</h3>
+<ul>
+<li>Cada <strong>bobina del rotor</strong> tiene principio y final;
+necesitan <strong>delgas</strong> para conducir corriente a todas las
+espiras.</li>
+<li>Delgas: <strong>pequeños contactos de cobre</strong>, aislados,
+conectan el rotor a los carbones.</li>
+<li>Importante <strong>respetar el orden</strong>: colocar fase y neutro
+directamente sin considerar la impedancia puede <strong>quemar el
+motor</strong>.</li>
+</ul>
+<hr />
+<h3 id="impedancia-y-prueba-de-motores">🔧 Impedancia y prueba de
+motores</h3>
+<ul>
+<li><p>La <strong>impedancia</strong> protege al motor:</p>
+<ul>
+<li>Conductores más largos → mayor impedancia → menor caída de tensión →
+menos corriente.</li>
+<li>Baja impedancia → exceso de corriente → riesgo de quemar
+bobinas.</li>
+</ul></li>
+<li><p>Al probar motores:</p>
+<ul>
+<li>Se puede usar <strong>batería de auto</strong> para motores
+universales.</li>
+<li>Medir continuidad y respetar polaridad y impedancia.</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="beneficios-del-motor-universal-con-placa">✅ Beneficios del
+motor universal con placa</h3>
+<ol type="1">
+<li>Control preciso de <strong>velocidad</strong>.</li>
+<li>Giro <strong>horario y antihorario</strong> sin cambiar
+bobinado.</li>
+<li>Se puede probar con <strong>baja tensión</strong> antes de
+conectarlo a 220V.</li>
+<li>Adaptable tanto a AC como DC (excepto trifásica).</li>
+</ol>
+<hr />
+<p>Si quieres, puedo hacer un <strong>diagrama que explique cómo la
+placa controla la velocidad y dirección mediante pulsos</strong>,
+mostrando rotor, bobina, delgas y carbones. Esto haría todo mucho más
+visual y fácil de memorizar.</p>
+<p>¿Quieres que haga ese diagrama? Perfecto, esto es bastante técnico,
+así que voy a resumir <strong>cómo hacer funcionar un motor universal de
+lavarropas correctamente</strong> y los puntos clave de precaución:</p>
+<hr />
+<div class="h"><h3 id="problema-principal">🔹 Problema principal</h3><a aria-hidden="true" href="#problema-principal">[link]</a></div>
+<ul>
+<li>Conectar <strong>fase y neutro directamente</strong> al motor
+universal <strong>provoca que explote</strong>, porque las bobinas
+tienen <strong>muy baja impedancia</strong> y la corriente sería
+demasiado alta.</li>
+<li>Para que funcione, necesitamos <strong>crear impedancia</strong>:
+normalmente usando <strong>bobinas en serie</strong> o conductores
+largos que aumenten la resistencia.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="impedancia">🔹 Impedancia</h3><a aria-hidden="true" href="#impedancia">[link]</a></div>
+<ul>
+<li><p>Ejemplo:</p>
+<ul>
+<li>Bobina verde: 100 Ω</li>
+<li>Bobina marrón: 60 Ω</li>
+</ul></li>
+<li><p><strong>Paralelo:</strong> la impedancia total baja → no sirve,
+explota.</p></li>
+<li><p><strong>Serie:</strong> la impedancia aumenta → seguro para
+conectar.</p>
+<ul>
+<li>100 + 60 = 160 Ω (aprox.)</li>
+<li>Podemos agregar más conductor en serie si hace falta.</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="conexiones-necesarias-para-probar-motor">🔹 Conexiones
+necesarias para probar motor</h3>
+<ul>
+<li><p>Los motores traen <strong>borneras de 4 a 10 pines</strong>:</p>
+<ul>
+<li><p><strong>4 pines necesarios para prueba:</strong></p>
+<ol type="1">
+<li>Bobina 1</li>
+<li>Carbón 1</li>
+<li>Bobina 2</li>
+<li>Carbón 2</li>
+</ol></li>
+</ul></li>
+<li><p>Otros pines → tacómetro (información de velocidad para la placa).
+No los usamos para prueba manual.</p></li>
+</ul>
+<hr />
+<h3 id="cómo-hacer-puente-para-probar">🔹 Cómo hacer puente para
+probar</h3>
+<ol type="1">
+<li><strong>Siempre puente bobina → carbón</strong>, nunca bobina →
+bobina ni carbón → carbón.</li>
+<li>Conectar <strong>fase y neutro a bobina y carbón</strong> a través
+del puente.</li>
+<li>Esto asegura que la corriente pase correctamente y el motor funcione
+a <strong>velocidad máxima</strong>.</li>
+</ol>
+<blockquote>
+<p>⚠️ Importante: si conectas mal los puentes, explota. ⚠️ No usar
+tacómetro en prueba manual; la placa lo haría automáticamente.</p>
+</blockquote>
+<hr />
+<div class="h"><h3 id="inversión-de-giro">🔹 Inversión de giro</h3><a aria-hidden="true" href="#inversión-de-giro">[link]</a></div>
+<ul>
+<li>Para invertir el sentido del motor, <strong>modificas solo un
+puente</strong> (bobina → carbón) de un lado.</li>
+<li>Nunca tocar ambos puentes a la vez.</li>
+</ul>
+<hr />
+<h3 id="motor-universal-vs-motor-timer-mecánico">🔹 Motor universal vs
+motor timer mecánico</h3>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 26%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Característica</th>
+<th>Motor universal</th>
+<th>Motor timer mecánico / ventilador</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Corriente</td>
+<td>AC / DC</td>
+<td>Solo AC</td>
+</tr>
+<tr class="even">
+<td>Capacitor</td>
+<td>No</td>
+<td>Sí</td>
+</tr>
+<tr class="odd">
+<td>Velocidad controlable</td>
+<td>Sí, por pulsos (PWM)</td>
+<td>No, fija</td>
+</tr>
+<tr class="even">
+<td>Prueba con baja tensión</td>
+<td>Sí, con batería</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama paso a paso de cómo
+conectar los 4 pines de bobinas y carbones</strong> para probar el motor
+universal <strong>sin que explote</strong>, incluyendo puente y serie de
+impedancia. Esto hace todo mucho más visual y seguro.</p>
+<p>¿Quieres que haga ese diagrama? Perfecto, vamos a organizar todo esto
+de manera clara sobre <strong>capacitores en motores de
+lavarropas</strong> y cuándo se usan:</p>
+<hr />
+<h3 id="motor-universal-vs-motor-con-bobinas-de-trabajo-dobles">🔹 Motor
+universal vs motor con bobinas de trabajo dobles</h3>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 24%" />
+<col style="width: 51%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Característica</th>
+<th>Motor universal</th>
+<th>Motor timer mecánico / bobinas paralelas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Capacitor</td>
+<td>Nunca lleva</td>
+<td>Sí, de trabajo (a veces arranque)</td>
+</tr>
+<tr class="even">
+<td>Número de bobinas</td>
+<td>1 o varias en serie</td>
+<td>2 bobinas en paralelo trabajando juntas</td>
+</tr>
+<tr class="odd">
+<td>Relay de arranque</td>
+<td>No requiere</td>
+<td>Solo si es capacitor de arranque</td>
+</tr>
+<tr class="even">
+<td>Factor de potencia</td>
+<td>No crítico</td>
+<td>Necesita corrección con capacitor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="h"><h3 id="para-qué-sirve-el-capacitor">🔹 Para qué sirve el capacitor</h3><a aria-hidden="true" href="#para-qué-sirve-el-capacitor">[link]</a></div>
+<ol type="1">
+<li><p><strong>Corrige el factor de potencia</strong>:</p>
+<ul>
+<li>Cuando hay dos bobinas trabajando en paralelo, la corriente y la
+tensión pueden <strong>desfasarse</strong>, generando un consumo extra y
+sobrecalentamiento.</li>
+<li>El capacitor genera un <strong>desplazamiento de fase
+controlado</strong>, ayudando a que <strong>tensión y corriente queden
+más en fase</strong>, reduciendo pérdidas.</li>
+</ul></li>
+<li><p><strong>Capacitor de arranque vs de marcha
+(trabajo)</strong>:</p>
+<ul>
+<li><strong>De arranque:</strong> solo activa la bobina secundaria al
+inicio, requiere <strong>relay de arranque</strong>.</li>
+<li><strong>De trabajo/marcha:</strong> permanece conectado durante toda
+la operación, corrige el factor de potencia y mantiene eficiencia.</li>
+</ul></li>
+<li><p><strong>Microfaradios típicos:</strong></p>
+<ul>
+<li>Motores de lavado: ~14–16 µF a 250–450 V (según modelo).</li>
+</ul></li>
+</ol>
+<hr />
+<h3 id="cómo-están-conectadas-las-bobinas">🔹 Cómo están conectadas las
+bobinas</h3>
+<ul>
+<li><strong>Motor universal:</strong> bobinas en serie → baja inducción
+contraelectromotriz → no necesita capacitor.</li>
+<li><strong>Motor con timer mecánico:</strong> bobinas en paralelo →
+genera inducción mutua → requiere capacitor de trabajo.</li>
+</ul>
+<blockquote>
+<p>⚠️ Nunca reemplazar un capacitor de trabajo por uno de arranque sin
+relay. ⚠️ Si no se corrige el factor de potencia, el motor
+<strong>calienta y consume más</strong>.</p>
+</blockquote>
+<hr />
+<div class="h"><h3 id="conexiones-prácticas">🔹 Conexiones prácticas</h3><a aria-hidden="true" href="#conexiones-prácticas">[link]</a></div>
+<ul>
+<li>Muchas veces todas las bobinas tienen un <strong>punto en
+común</strong>: se llama <strong>común</strong> en la bornera.</li>
+<li>Cuando conectamos fase → va a todas las bobinas a través del punto
+común.</li>
+<li>Para probar, la fase con el neutro se conecta correctamente; fase
+con fase <strong>no funciona</strong> y no prende la lámpara de
+prueba.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>esquema visual de motor con dos
+bobinas en paralelo y capacitor</strong>, mostrando <strong>cómo se
+conecta fase, neutro y capacitor</strong> para que quede clarísimo qué
+hace cada bobina y por qué el capacitor corrige el factor de potencia.
+Esto facilita mucho entenderlo para reparación o prueba.</p>
+<p>¿Querés que haga ese esquema? Perfecto, vamos a organizar toda esta
+explicación para que quede clara cómo funciona la <strong>conexión de
+bobinas y capacitor en un motor de lavarropas con timer
+mecánico</strong>:</p>
+<hr />
+<div class="h"><h2 id="conceptos-clave">🔹 Conceptos clave</h2><a aria-hidden="true" href="#conceptos-clave">[link]</a></div>
+<ol type="1">
+<li><p><strong>Bornera / borners</strong>:</p>
+<ul>
+<li>Son los extremos de conexión de los cables de las bobinas.</li>
+<li>Mientras haya conductor, la corriente llegará hasta el extremo.</li>
+<li>La tensión es la diferencia de potencial entre borners.</li>
+<li><em>Fase con fase</em> → “pan con pan” → no pasa nada, no
+funciona.</li>
+<li><em>Fase con neutro</em> → hace funcionar la bobina.</li>
+</ul></li>
+<li><p><strong>Bobinas en paralelo</strong>:</p>
+<ul>
+<li>Una bobina primaria y una bobina secundaria trabajan juntas.</li>
+<li>En lavado y centrifugado las bobinas funcionan en paralelo.</li>
+<li>Esto genera <strong>fuerza contraelectromotriz</strong> entre ellas,
+por eso <strong>necesitamos un capacitor</strong>.</li>
+</ul></li>
+<li><p><strong>Capacitor</strong>:</p>
+<ul>
+<li>Corrige el factor de potencia entre bobina primaria y
+secundaria.</li>
+<li>Es <strong>no polarizado</strong>, para corriente alterna.</li>
+<li>Almacena energía y la devuelve a la bobina secundaria, evitando que
+se recaliente el motor.</li>
+<li>Solo <strong>1 capacitor</strong> por motor, conectado a la bobina
+secundaria.</li>
+</ul></li>
+<li><p><strong>Conexión práctica</strong>:</p>
+<ul>
+<li>Punto común → recibe la fase.</li>
+<li>Bobina primaria → corriente directa (220 V).</li>
+<li>Bobina secundaria → corriente pasa primero por el capacitor y luego
+a la bobina secundaria.</li>
+<li>Neutro → conectado tanto al punto común como al capacitor.</li>
+</ul></li>
+<li><p><strong>Timer mecánico</strong>:</p>
+<ul>
+<li>Cambia la polaridad de la corriente entre bobina A y B para invertir
+el sentido de giro.</li>
+<li>Cuando un platino del timer se abre y el otro se cierra, el motor
+cambia de sentido.</li>
+<li>No requiere relay para invertir sentido, la placa/timer controla
+directamente qué bobina recibe corriente directa.</li>
+</ul></li>
+</ol>
+<hr />
+<h2 id="resumen-de-flujo-de-corriente">🔹 Resumen de flujo de
+corriente</h2>
+<ol type="1">
+<li>Fase → punto común.</li>
+<li>Primaria → corriente directa.</li>
+<li>Secundaria → pasa por capacitor → bobina secundaria → retorna a
+neutro.</li>
+<li>Timer mecánico → controla cuál bobina recibe corriente directa →
+controla sentido de giro.</li>
+</ol>
+<blockquote>
+<p>⚠️ Nunca conectar capacitor al primario. ⚠️ Solo un capacitor por
+motor. ⚠️ La conexión siempre es: <strong>bobina + capacitor +
+neutro</strong> para la bobina secundaria.</p>
+</blockquote>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama visual paso a
+paso</strong> mostrando:</p>
+<ul>
+<li>Punto común</li>
+<li>Bobina primaria</li>
+<li>Bobina secundaria con capacitor</li>
+<li>Conexión del timer para invertir giro</li>
+</ul>
+<p>Así verás exactamente cómo fluye la corriente y cómo funciona el
+motor en lavado y centrifugado.</p>
+<p>¿Querés que haga ese diagrama?</p>
 <div id="footer">
 <hr />
 </div>
@@ -38,6 +1014,7 @@ class="uri">https://cursoelectricidad.github.io/10clase.md</a></p>
 <p>Esta página HTML fue generada por el <a
 href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
 Generator</a>.</p>
+</div>
 </div>
 </body>
 </html>

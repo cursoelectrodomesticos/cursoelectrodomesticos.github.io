@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 1:</title>
+  <title>Curso Electricidad – Clase Nº 5: Lavarropas y Termotanque. Triac. Mosfet. Osciladores. Fabricar plástico para nivel el succionador (fallo común).</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -14,7 +14,9 @@
 <div class="page">
 <header>
 <div class="title">
-<h1 class="title">Clase Nº 1:</h1>
+<h1 class="title">Clase Nº 5: Lavarropas y Termotanque. Triac. Mosfet.
+Osciladores. Fabricar plástico para nivel el succionador (fallo
+común).</h1>
 </div>
 <p class="author">Andrés Imlauer</p>
 <p class="date">16 Julio 2024</p>
@@ -24,9 +26,730 @@
 </ul>
 <hr/>
 </header>
+<nav id="TOC">
+<h1>Navigate this page:</h1>
+<ul>
+<li><a href="#lavarropas" id="toc-lavarropas">🧺 Lavarropas</a></li>
+<li><a href="#triac" id="toc-triac">⚡ TRIAC</a></li>
+<li><a href="#mosfet" id="toc-mosfet">🔹 MOSFET</a></li>
+<li><a href="#lavarropas-procedimiento-de-inspección-y-desarme"
+id="toc-lavarropas-procedimiento-de-inspección-y-desarme">🧺 Lavarropas
+– Procedimiento de inspección y desarme</a></li>
+<li><a href="#blocapuertas" id="toc-blocapuertas">🔒
+Blocapuertas</a></li>
+<li><a href="#termostato-y-blocapuertas"
+id="toc-termostato-y-blocapuertas">🔥 Termostato y Blocapuertas</a></li>
+<li><a href="#solenoide-de-carga-electroválvula"
+id="toc-solenoide-de-carga-electroválvula">💧 Solenoide de carga /
+Electroválvula</a></li>
+<li><a href="#dispenser-jabón-y-suavizante"
+id="toc-dispenser-jabón-y-suavizante">🧴 Dispenser – Jabón y
+suavizante</a></li>
+<li><a href="#flujo-resumido" id="toc-flujo-resumido">🔄 Flujo
+resumido</a></li>
+<li><a href="#funcionamiento-del-jabón-y-agua"
+id="toc-funcionamiento-del-jabón-y-agua">💧 Funcionamiento del jabón y
+agua</a></li>
+<li><a href="#ciclo-de-entrada-de-agua"
+id="toc-ciclo-de-entrada-de-agua">🌊 Ciclo de entrada de agua</a></li>
+<li><a href="#tipos-de-limpieza" id="toc-tipos-de-limpieza">🧼 Tipos de
+limpieza</a></li>
+<li><a href="#dispensador-y-electroválvulas"
+id="toc-dispensador-y-electroválvulas">⚙️ Dispensador y
+electroválvulas</a></li>
+<li><a href="#electroválvulas-y-flujo-de-agua"
+id="toc-electroválvulas-y-flujo-de-agua">💧 Electroválvulas y flujo de
+agua</a></li>
+<li><a href="#presostato" id="toc-presostato">⚙️ Presostato</a></li>
+<li><a href="#instalación-y-medición" id="toc-instalación-y-medición">🛠️
+Instalación y medición</a></li>
+<li><a href="#ciclo-de-lavado" id="toc-ciclo-de-lavado">🚿 Ciclo de
+lavado</a></li>
+<li><a href="#bomba-de-agua" id="toc-bomba-de-agua">🏗️ Bomba de
+agua</a></li>
+<li><a href="#amortiguadores" id="toc-amortiguadores">⚙️
+Amortiguadores</a></li>
+<li><a href="#amortiguadores-y-rulemanes"
+id="toc-amortiguadores-y-rulemanes">🛠️ Amortiguadores y
+rulemanes</a></li>
+<li><a href="#tornillería-y-dispenser"
+id="toc-tornillería-y-dispenser">🔩 Tornillería y dispenser</a></li>
+<li><a href="#blocapuertas-solenoide-y-bomba"
+id="toc-blocapuertas-solenoide-y-bomba">🔒 Blocapuertas, solenoide y
+bomba</a></li>
+<li><a href="#triac-y-diac" id="toc-triac-y-diac">⚡ TRIAC y
+DIAC</a></li>
+<li><a href="#mosfet-y-fuentes" id="toc-mosfet-y-fuentes">🧪 MOSFET y
+fuentes</a></li>
+<li><a href="#flujo-resumido-en-la-fuente-switching"
+id="toc-flujo-resumido-en-la-fuente-switching">🌐 Flujo resumido en la
+fuente switching</a></li>
+<li><a href="#oscilador-y-mosfet" id="toc-oscilador-y-mosfet">🌀
+Oscilador y MOSFET</a></li>
+<li><a href="#blocapuertas-1" id="toc-blocapuertas-1">🔒
+Blocapuertas</a></li>
+<li><a href="#amortiguadores-1" id="toc-amortiguadores-1">🛠️
+Amortiguadores</a></li>
+<li><a href="#lavado-y-controles" id="toc-lavado-y-controles">🧴 Lavado
+y controles</a></li>
+<li><a href="#tips-prácticos" id="toc-tips-prácticos">🔧 Tips
+prácticos</a></li>
+<li><a href="#orden-de-operación-inicial"
+id="toc-orden-de-operación-inicial">🔹 Orden de operación
+inicial</a></li>
+<li><a href="#medición-eléctrica" id="toc-medición-eléctrica">🔹
+Medición eléctrica</a></li>
+<li><a href="#componentes-mecánicos" id="toc-componentes-mecánicos">🔹
+Componentes mecánicos</a></li>
+<li><a href="#ciclo-de-lavado-1" id="toc-ciclo-de-lavado-1">🔹 Ciclo de
+lavado</a></li>
+<li><a href="#notas-de-diagnóstico" id="toc-notas-de-diagnóstico">🔹
+Notas de diagnóstico</a></li>
+<li><a href="#experiencia-del-profesor"
+id="toc-experiencia-del-profesor">🔹 Experiencia del profesor</a></li>
+<li><a href="#protección-y-mantenimiento-del-termotanque"
+id="toc-protección-y-mantenimiento-del-termotanque">🔹 Protección y
+mantenimiento del termotanque</a></li>
+<li><a href="#termostato" id="toc-termostato">🔹 Termostato</a></li>
+<li><a href="#medición-y-diagnóstico" id="toc-medición-y-diagnóstico">🔹
+Medición y diagnóstico</a></li>
+<li><a href="#semiautomático" id="toc-semiautomático">🔹
+Semiautomático</a></li>
+<li><a
+href="#trifásico-aplicable-a-lavadoras-industriales-o-cámaras-frigoríficas"
+id="toc-trifásico-aplicable-a-lavadoras-industriales-o-cámaras-frigoríficas">🔹
+Trifásico (aplicable a lavadoras industriales o cámaras
+frigoríficas)</a></li>
+</ul>
+</nav>
+<div class="pagetext">
 <p><a href="./">Volver al índice</a></p>
 <p>Artículo publicado por: Andrés Imlauer</p>
 <p>Artículo publicado el: 16 Julio 2024</p>
+<div class="h"><h3 id="lavarropas">🧺 Lavarropas</h3><a aria-hidden="true" href="#lavarropas">[link]</a></div>
+<ul>
+<li>⚖️ Auto-balance: por eso <strong>no conviene lavar
+zapatillas</strong> en la lavadora.</li>
+<li>🔧 Se hizo cambio de <strong>amortiguadores</strong>.</li>
+<li>🖥️ Placa vs periféricos: los periféricos son todos los otros
+componentes.</li>
+<li>⚡ Componentes en la placa (menos sensores) trabajan con
+<strong>220V</strong>.</li>
+<li>🔒 Blocapuertas: comunica a la placa que está bloqueada → permite
+<strong>cargar agua</strong>.</li>
+<li>💧 Electroválvula / solenoide de carga: controla entrada de
+agua.</li>
+<li>🧪 Presostato: importante para control de nivel de agua.</li>
+<li>⚠️ Revisar: solenoide, bomba de agua, presostato, porque
+<strong>pueden quemar la placa</strong>.</li>
+<li>🔀 Triac = transistor de <strong>corriente alterna</strong>,
+reemplaza al diac.</li>
+<li>🔋 Mosfet: semiconductor de óxido metálico, usado en <strong>fuentes
+switching</strong>.</li>
+<li>🌀 Fuente switching: tiene <strong>oscilador + mosfet</strong>,
+rectifica y nivela ondas con capacitor.</li>
+<li>🌐 Aislación galvánica: tierra del primario ≠ tierra del
+secundario.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="triac">⚡ TRIAC</h3><a aria-hidden="true" href="#triac">[link]</a></div>
+<ul>
+<li>🔌 Interruptor electrónico para <strong>corriente
+alterna</strong>.</li>
+<li>📛 TRIAC = TRIode for Alternating Current.</li>
+<li>🔄 Funciona como un transistor en CC pero para
+<strong>CA</strong>.</li>
+<li>🤏 Corriente de activación se aplica en la <strong>puerta
+(Gate)</strong>.</li>
+<li>⏹ Corriente fluye hasta que caiga por debajo de un
+<strong>umbral</strong>.</li>
+<li>🔁 Se usa como <strong>alternativa a relé</strong>.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer <strong>un diagrama visual con emojis</strong>
+que conecte lavarropas, bloque puertas, electroválvula, presostato y
+triac para que se entienda el flujo de señal y corriente. Esto ayuda
+mucho para estudiar.</p>
+<p>¿Querés que haga eso?</p>
+<p>Aquí va un resumen visual y con emojis de los puntos más importantes
+que mencionaste, incluyendo el MOSFET y el procedimiento de reparación
+de lavarropas:</p>
+<hr />
+<div class="h"><h3 id="mosfet">🔹 MOSFET</h3><a aria-hidden="true" href="#mosfet">[link]</a></div>
+<ul>
+<li>🧪 <strong>Transistor de efecto de campo
+metal-óxido-semiconductor</strong>.</li>
+<li>⚡ Se usa para <strong>amplificar o conmutar señales</strong>.</li>
+<li>🏭 Muy utilizado en <strong>circuitos analógicos y
+digitales</strong>.</li>
+<li>⚡🔄 Ventajas: <strong>conmutación rápida, baja resistencia, bajo
+costo, alta durabilidad térmica</strong>.</li>
+</ul>
+<hr />
+<h3 id="lavarropas-procedimiento-de-inspección-y-desarme">🧺 Lavarropas
+– Procedimiento de inspección y desarme</h3>
+<ul>
+<li>👀 <strong>Primero</strong>: inspección visual para detectar algo
+suelto o roto antes de conectar.</li>
+<li>⚠️ <strong>No testear con tester al azar</strong>, puede empeorar el
+problema.</li>
+<li>🔧 Problemas frecuentes: <strong>amortiguadores</strong> si se
+sacude mucho.</li>
+<li>🚪 La <strong>puerta</strong> conviene mantener cerrada para no
+romperla.</li>
+<li>🏗️ <strong>Desarme</strong>: sacar la <strong>mesa de arriba y tapa
+trasera</strong> con cuidado.</li>
+<li>🛠️ Tornillería: generalmente <strong>tuercas 1/4” (6.5 mm)
+hexagonal</strong>, cómoda de manipular.</li>
+<li>⚠️ Partes delicadas: algunas tapas o piezas cristalizadas se rompen
+con calor/frío.</li>
+<li>🔄 Sistemas de enganche: algunas tapas se corren hacia adelante,
+otras hacia atrás, hay que hacer movimientos suaves para no romper.</li>
+<li>🔌 <strong>Periféricos</strong>: todos los componentes aparte de la
+placa principal, <strong>son los que se reparan</strong>.</li>
+<li>⚡ La mayoría trabajan con <strong>220V</strong>, excepto
+sensores.</li>
+<li>🔧 Prueba de componentes: <strong>desenganchar y probar con pinzas
+de 220V</strong> si se sabe qué hacer.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="blocapuertas">🔒 Blocapuertas</h3><a aria-hidden="true" href="#blocapuertas">[link]</a></div>
+<ul>
+<li>🚪 Función principal: <strong>controlar la puerta</strong>.</li>
+<li>🔄 No tiene otra función eléctrica.</li>
+<li>🔧 Se puede <strong>puentear para engañar a la placa</strong> y
+probar funcionamiento del lavarropas.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama de flujo del lavarropas
+con blocapuertas, MOSFET y periféricos</strong>, mostrando cómo fluye la
+señal y la corriente. Esto hace que todo quede clarísimo para
+estudiar.</p>
+<p>¿Querés que haga ese diagrama?</p>
+<p>Perfecto, vamos a resumir todo esto en los <strong>puntos más
+importantes con emojis</strong> para que quede claro y fácil de
+estudiar:</p>
+<hr />
+<div class="h"><h3 id="termostato-y-blocapuertas">🔥 Termostato y Blocapuertas</h3><a aria-hidden="true" href="#termostato-y-blocapuertas">[link]</a></div>
+<ul>
+<li><p>🌡️ <strong>Termostato</strong>:</p>
+<ul>
+<li>Común (1) → entrada de fase (220V).</li>
+<li>Contiene un <strong>PTC</strong> que al calentar bloquea el
+switch.</li>
+<li>Una vez que se bloquea, cierra el <strong>switch</strong> y el
+circuito queda en serie.</li>
+</ul></li>
+<li><p>⚠️ <strong>Precaución</strong>: al puentear, respetar
+<strong>fase y neutro</strong>, sino puede haber explosión.</p></li>
+<li><p>🔒 <strong>Blocapuertas</strong>: comunica a la placa que la
+puerta está cerrada y activa:</p>
+<ul>
+<li><strong>Presostato</strong></li>
+<li><strong>Solenoide de carga</strong></li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="solenoide-de-carga-electroválvula">💧 Solenoide de carga /
+Electroválvula</h3>
+<ul>
+<li>1 solenoide por lo general.</li>
+<li>Función: <strong>recibir señal de la placa y permitir ingreso de
+agua</strong>.</li>
+<li>Orden de carga: se activa primero la <strong>válvula azul</strong>,
+luego el resto en diagonal.</li>
+</ul>
+<hr />
+<h3 id="dispenser-jabón-y-suavizante">🧴 Dispenser – Jabón y
+suavizante</h3>
+<ul>
+<li><p>💧 Bandejita ajustable: para <strong>jabón líquido o en
+polvo</strong>.</p></li>
+<li><p>🔧 Trabita de plástico: controla <strong>caída por
+gravedad</strong> para que el agua mezcle correctamente el
+detergente.</p></li>
+<li><p>⚖️ Dosificación:</p>
+<ul>
+<li>Jabón líquido → máximo hasta la bandeja indicada, no
+sobrecargar.</li>
+<li>Agua y detergente → mezcla más soluble y homogénea.</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="flujo-resumido">🔄 Flujo resumido</h3><a aria-hidden="true" href="#flujo-resumido">[link]</a></div>
+<ol type="1">
+<li>🚪 Puerta cerrada → blocapuertas activa switch térmico.</li>
+<li>⚡ Se confirma circuito → placa permite carga de agua.</li>
+<li>💧 Solenoide de carga abre → agua ingresa al dispenser.</li>
+<li>🧴 Dispenser distribuye jabón líquido o en polvo según
+bandejita.</li>
+<li>🔄 Agua mezcla detergente correctamente para iniciar lavado.</li>
+</ol>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama visual tipo flujo de agua
+y señales eléctricas con emojis</strong>, mostrando <strong>puerta →
+blocapuertas → presostato → solenoide → dispenser</strong>, que queda
+clarísimo para estudiar.</p>
+<p>¿Querés que haga ese diagrama?</p>
+<p>Perfecto, vamos a resumir toda esta explicación del
+<strong>funcionamiento del lavado y del dispensador</strong> con emojis
+para que quede muy claro:</p>
+<hr />
+<h3 id="funcionamiento-del-jabón-y-agua">💧 Funcionamiento del jabón y
+agua</h3>
+<ul>
+<li>↔︎️ <strong>Carga cruzada</strong>: el agua entra de forma diagonal
+para mezclar correctamente con detergente.</li>
+<li>⏸️ <strong>Pausa y recarga</strong>: si la ropa necesita más jabón
+líquido, poner pausa y recargar <strong>máximo 2 veces</strong>.</li>
+<li>⚠️ No sobrecargar: exceso de jabón líquido <strong>decanta
+mal</strong> y dificulta la succión.</li>
+<li>🌬️ Aire y decantación: el agua necesita <strong>filtración de
+aire</strong> para caer correctamente, como un valde que chupa aire al
+vaciarse.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="ciclo-de-entrada-de-agua">🌊 Ciclo de entrada de agua</h3><a aria-hidden="true" href="#ciclo-de-entrada-de-agua">[link]</a></div>
+<ul>
+<li>1️⃣ Primera manguera → carga inicial de agua y detergente.</li>
+<li>2️⃣ Segunda manguera → carga final, hasta que el <strong>presostato
+indique nivel correcto</strong>.</li>
+<li>⏱️ Agua cae un minuto aproximadamente al inicio para
+<strong>alivianar el líquido</strong> antes de lavar.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="tipos-de-limpieza">🧼 Tipos de limpieza</h3><a aria-hidden="true" href="#tipos-de-limpieza">[link]</a></div>
+<ul>
+<li>🍋 <strong>Vinagre blanco</strong> → limpia y deja aroma
+especial.</li>
+<li>🧴 <strong>Jabón líquido</strong> → más rápido, pero
+<strong>destruye la estrella del agitador</strong>.</li>
+<li>🧹 <strong>Jabón en polvo</strong> → más lento, también desgasta la
+estrella con el tiempo.</li>
+<li>⭐ <strong>Estrella</strong> = sistema dentro de la tina que hace
+girar la ropa.</li>
+</ul>
+<hr />
+<h3 id="dispensador-y-electroválvulas">⚙️ Dispensador y
+electroválvulas</h3>
+<ul>
+<li>3 compartimientos, pero <strong>solo 2
+electroválvulas</strong>.</li>
+<li>💻 Sistemas electrónicos fijan la secuencia según el
+<strong>programa de la placa</strong>.</li>
+<li>🔀 Lavadoras mecánicas antiguas tenían 1 válvula y un sistema de
+redirección manual.</li>
+<li>⚡ Problema frecuente: lavarropas funciona bien, pero <strong>no
+dispensa suavizante</strong>.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama visual tipo flujo con
+emojis</strong> mostrando <strong>agua → mangueras → presostato →
+dispensador → estrella → ropa</strong>, con el jabón líquido/polvo y el
+suavizante incluido. Esto ayuda muchísimo para memorizar cómo funciona
+todo el sistema.</p>
+<p>¿Querés que haga ese diagrama?</p>
+<p>Perfecto, aquí va un <strong>resumen con emojis</strong> de todo lo
+que mencionaste sobre <strong>electroválvulas, presostato, bomba y
+amortiguadores</strong>, para que quede claro y fácil de estudiar:</p>
+<hr />
+<h3 id="electroválvulas-y-flujo-de-agua">💧 Electroválvulas y flujo de
+agua</h3>
+<ul>
+<li>⚠️ Problema frecuente: una electroválvula no funciona → agua va solo
+a un lado.</li>
+<li>🔌 Verificación: medir con <strong>220V</strong> usando
+<strong>chicote de prueba</strong> (interruptor y pinzas).</li>
+<li>🧲 Solenoide: trabaja por <strong>campo magnético</strong> → émbolo
+abre/cierra paso del agua.</li>
+<li>⏹ La placa corta corriente cuando el <strong>presostato indica nivel
+correcto</strong>.</li>
+<li>💡 Tip extra: bajo consumo → se puede probar con timer para riego de
+jardín.</li>
+<li>💦 Prueba práctica: manguera abierta → activar 220V → agua sale si
+funciona.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="presostato">⚙️ Presostato</h3><a aria-hidden="true" href="#presostato">[link]</a></div>
+<ul>
+<li>🌊 Controla <strong>nivel de agua</strong>: detecta cuando falta o
+sobra.</li>
+<li>🔁 Hay muchos tipos, pero todos funcionan similar.</li>
+<li>🔄 Compatible con varias electroválvulas, aunque algunas sean
+distintas para compra.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="instalación-y-medición">🛠️ Instalación y medición</h3><a aria-hidden="true" href="#instalación-y-medición">[link]</a></div>
+<ul>
+<li>🔧 Primer enganche: <strong>aletas y pines afuera</strong>, luego
+girar para fijar.</li>
+<li>⚠️ Verificar que no esté incómodo o forzado, ajustar antes de medir
+o colocar.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="ciclo-de-lavado">🚿 Ciclo de lavado</h3><a aria-hidden="true" href="#ciclo-de-lavado">[link]</a></div>
+<ol type="1">
+<li>💧 Carga de agua con jabón (primer y segundo ciclo).</li>
+<li>🌀 Lavado normal.</li>
+<li>⏹ Pre-centrifugado para descartar agua con jabón y suciedad.</li>
+<li>💦 Enjuague 1 y 2.</li>
+<li>🧴 Suavizante → final de ciclo.</li>
+</ol>
+<ul>
+<li>⚠️ Peligro: lavarropas puede <strong>deslizarse</strong>, usar
+<strong>cajón de apoyo</strong> para seguridad.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="bomba-de-agua">🏗️ Bomba de agua</h3><a aria-hidden="true" href="#bomba-de-agua">[link]</a></div>
+<ul>
+<li>⬇️ Ubicada en la parte inferior → saca el agua.</li>
+<li>🛠️ Eje de acero inoxidable soldado al imán → difícil de reparar sin
+romper.</li>
+<li>💡 Experimentos frecuentes de reparación: eje desgastado, rotor
+dañado.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="amortiguadores">⚙️ Amortiguadores</h3><a aria-hidden="true" href="#amortiguadores">[link]</a></div>
+<ul>
+<li>⚙️ No tienen resorte ni líquido → solo cilindro que debe estar
+duro.</li>
+<li>🔧 Se puede “engrasar” ligeramente, pero no demasiado.</li>
+<li>⚠️ Problema frecuente: sacudida de lavarropas → generalmente
+<strong>amortiguadores</strong>.</li>
+<li>🔄 Compatibles entre la mayoría de los modelos, tienen
+<strong>pequeño freno interno</strong>.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama visual completo del flujo
+de agua y ciclo del lavado</strong>, integrando: <strong>electroválvulas
+→ presostato → dispensador → bomba → centrifugado → suavizante →
+amortiguadores</strong>, con emojis para que se vea todo el proceso de
+forma didáctica.</p>
+<p>¿Querés que haga ese diagrama?</p>
+<p>Perfecto, Magomed. Vamos a resumir <strong>todo este bloque</strong>
+en los puntos clave con emojis y resaltar la relación entre
+<strong>lavarropas, electrónica y fuente switching</strong>, porque es
+mucha información técnica:</p>
+<hr />
+<div class="h"><h3 id="amortiguadores-y-rulemanes">🛠️ Amortiguadores y rulemanes</h3><a aria-hidden="true" href="#amortiguadores-y-rulemanes">[link]</a></div>
+<ul>
+<li><p>🔧 Amortiguadores: solo un <strong>cilindro con retén de
+silicona</strong>, sin tecnología, sirven para <strong>controlar
+sacudidas</strong>.</p></li>
+<li><p>🪛 Resortes de arriba: se cambian solo si están rotos; medidas
+casi siempre estándar.</p></li>
+<li><p>⚙️ Rulemanes:</p>
+<ul>
+<li>Lado interno → retén.</li>
+<li>Se cambian cuando el <strong>retén pierde precisión y filtra
+agua</strong>, daña el rulemán.</li>
+<li>Se accede quitando el <strong>puente</strong> y resorte del
+tambor.</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="tornillería-y-dispenser">🔩 Tornillería y dispenser</h3><a aria-hidden="true" href="#tornillería-y-dispenser">[link]</a></div>
+<ul>
+<li>Tornillos especiales: cubrir con <strong>trapito</strong> para que
+no caigan dentro de la caja.</li>
+<li>⚠️ No reemplazar con tornillos más grandes → puede romper el
+plástico.</li>
+<li>Guardar tornillos pequeños en <strong>cajita tipo
+Tiktak</strong>.</li>
+</ul>
+<hr />
+<h3 id="blocapuertas-solenoide-y-bomba">🔒 Blocapuertas, solenoide y
+bomba</h3>
+<ul>
+<li><p>🔌 Estos tres son críticos → <strong>pueden quemar
+placa</strong>.</p></li>
+<li><p>Verificar antes de cambiar la placa:</p>
+<ul>
+<li>Blocapuertas</li>
+<li>Solenoide</li>
+<li>Bomba de agua</li>
+<li>Presostato</li>
+</ul></li>
+<li><p>Blocapuertas funciona con 220V → necesita TRIAC para ser activado
+por la placa.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="triac-y-diac">⚡ TRIAC y DIAC</h3><a aria-hidden="true" href="#triac-y-diac">[link]</a></div>
+<ul>
+<li>TRIAC = <strong>transistor para corriente alterna</strong> →
+controla 220V de carga.</li>
+<li>DIAC → solo para corriente continua, reemplazado por TRIAC.</li>
+<li>Dos diodos opuestos permiten pasar ambos ciclos de corriente
+alterna.</li>
+<li>⚠️ Importante: el chip debe entregar suficiente voltaje para
+disparar el TRIAC.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="mosfet-y-fuentes">🧪 MOSFET y fuentes</h3><a aria-hidden="true" href="#mosfet-y-fuentes">[link]</a></div>
+<ul>
+<li>MOSFET = transistor de óxido metálico → trabaja <strong>en fuentes
+switching</strong>.</li>
+<li>Fuente lineal → rectifica y luego transforma voltaje.</li>
+<li>Fuente switching → rectifica y luego oscila de <strong>10.000 a
+100.000 Hz</strong>.</li>
+<li>Oscilador de 8 patitas + MOSFET → controla voltaje bajo y alta
+frecuencia.</li>
+<li>⚠️ Diferencias de tierra: <strong>aislación galvánica</strong> entre
+primario y secundario.</li>
+<li>Salida de transformador → positivo al devanado y negativo al chasis
+para oscilar correctamente.</li>
+</ul>
+<hr />
+<h3 id="flujo-resumido-en-la-fuente-switching">🌐 Flujo resumido en la
+fuente switching</h3>
+<ol type="1">
+<li>⚡ Rectificación → corriente continua.</li>
+<li>🌀 Oscilador + MOSFET → alta frecuencia.</li>
+<li>🔋 Capacitor → nivela ondas.</li>
+<li>🔄 Transformador → lleva corriente a secundario manteniendo
+aislación galvánica.</li>
+<li>📡 Conexión al integrado que oscila → alimenta secundario
+correctamente.</li>
+</ol>
+<hr />
+<p>Si querés, puedo armar <strong>un diagrama completo con
+emojis</strong> que combine: <strong>lavarropas →
+blocapuertas/solenoide/bomba → TRIAC → MOSFET → fuente switching →
+transformador → circuito de alta frecuencia</strong>, para que se vea
+<strong>el flujo eléctrico y mecánico</strong> de principio a fin.</p>
+<p>¿Querés que haga ese diagrama?</p>
+<p>Perfecto, Magomed. Vamos a resumir este bloque con <strong>puntos
+clave y emojis</strong>, destacando <strong>oscilador, MOSFET,
+blocapuertas y amortiguadores</strong>, y la relación
+mecánico-eléctrica:</p>
+<hr />
+<div class="h"><h3 id="oscilador-y-mosfet">🌀 Oscilador y MOSFET</h3><a aria-hidden="true" href="#oscilador-y-mosfet">[link]</a></div>
+<ul>
+<li><p>🎛️ Oscilador integrado de 8 patitas → genera frecuencia de
+trabajo (~15.000 Hz).</p></li>
+<li><p>🔋 Componentes alrededor (resistencias y capacitores) →
+determinan frecuencia final.</p></li>
+<li><p>⚡ MOSFET → actúa de <strong>intermediario</strong> porque el
+chip no soporta 311V.</p>
+<ul>
+<li>Puerta del MOSFET recibe señal del oscilador.</li>
+<li>Conecta una pata a tierra y la otra al transformador.</li>
+</ul></li>
+<li><p>🔍 Dentro de fuentes switching modernas → MOSFET puede estar
+<strong>dentro del integrado</strong>.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="blocapuertas-1">🔒 Blocapuertas</h3><a aria-hidden="true" href="#blocapuertas-1">[link]</a></div>
+<ul>
+<li>✅ Función: asegurar la puerta, prevenir accidentes (niños), aunque
+casi imposible que entre alguien.</li>
+<li>⚠️ Problema: quema placa si falla.</li>
+<li>🔧 Solución temporal (puentear): unir los dos cables marrones → el
+lavarropas “cree” que la puerta está cerrada.</li>
+<li>🔌 No se puede hacer lo mismo con <strong>bomba o solenoide</strong>
+→ necesitan corriente real para funcionar.</li>
+<li>🔄 Blocapuertas nuevo → viene <strong>sin cable</strong>, hay que
+conectar correctamente.</li>
+<li>🔢 Correcta conexión: números 1, 2, 3 → 1 es común, 2 calienta
+pastilla, 3 va a la placa.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="amortiguadores-1">🛠️ Amortiguadores</h3><a aria-hidden="true" href="#amortiguadores-1">[link]</a></div>
+<ul>
+<li>📍 Ubicar agujerito → contar orificios para compatibilidad (3
+orificios recomendados).</li>
+<li>🔩 Colocar perno + tuerca + arandela → apriete normal, sin fuerza
+excesiva.</li>
+<li>👌 Lengueta → empujar con cuidado para que el amortiguador quede
+firme.</li>
+<li>🛒 Dónde comprar: varias tiendas en Uruguay, San Lorenzo, Santa Fe,
+San Martín, etc.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="lavado-y-controles">🧴 Lavado y controles</h3><a aria-hidden="true" href="#lavado-y-controles">[link]</a></div>
+<ul>
+<li>⏱️ Programas → elegir tiempo y tipo de ropa.</li>
+<li>👖 Delicados (ropa fina) → usar opción “lavado a mano”.</li>
+<li>🔄 Lavado con ropa mezclada (jean + delicada) → no recomendado.</li>
+<li>⚙️ Control de centrifugado y temperatura ajustable → depende del
+programa elegido.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="tips-prácticos">🔧 Tips prácticos</h3><a aria-hidden="true" href="#tips-prácticos">[link]</a></div>
+<ul>
+<li>🚫 No sacar tapa mientras está en funcionamiento → peligro.</li>
+<li>⚠️ Revisar conexiones x1, x2, … x10 antes de desmontar o
+puentear.</li>
+<li>🟢 Primero verificar mecánica y amperajes antes de enchufar para no
+dañar placa o componentes.</li>
+</ul>
+<hr />
+<p>Si querés, puedo armar <strong>un mega-diagrama resumido con
+emojis</strong> de todo el ciclo del <strong>lavarropas desde la puerta,
+agua, solenoide, bomba, TRIAC, MOSFET y fuente switching</strong>,
+combinando la parte mecánica y eléctrica de todo lo que me enviaste
+hasta ahora. Esto te serviría como guía visual completa.</p>
+<p>¿Querés que haga ese diagrama?</p>
+<p>Perfecto, Magomed. Vamos a organizar todo este bloque en
+<strong>resumen técnico y puntos clave</strong> para que quede más
+claro, integrando la parte mecánica, eléctrica y de diagnóstico de
+lavarropas:</p>
+<hr />
+<div class="h"><h3 id="orden-de-operación-inicial">🔹 Orden de operación inicial</h3><a aria-hidden="true" href="#orden-de-operación-inicial">[link]</a></div>
+<ol type="1">
+<li><p><strong>Blocapuertas</strong> se bloquea primero ✅ → asegura que
+la puerta esté cerrada.</p></li>
+<li><p><strong>Carga de agua</strong> mediante los dos solenoides de
+carga 💧.</p>
+<ul>
+<li>Se prueba cada solenoide y la bomba antes de continuar.</li>
+<li>Agua de los solenoides choca en el centro → correcta
+distribución.</li>
+</ul></li>
+<li><p><strong>Testeo de bomba y solenoides</strong>: si falla, se marca
+error.</p></li>
+<li><p>Dependiendo de la ubicación de tornillos, se <strong>saca el
+tambor por arriba o por abajo</strong>.</p></li>
+</ol>
+<hr />
+<div class="h"><h3 id="medición-eléctrica">🔹 Medición eléctrica</h3><a aria-hidden="true" href="#medición-eléctrica">[link]</a></div>
+<ul>
+<li><p>Tester común vs tester avanzado ⚡:</p>
+<ul>
+<li>Tester avanzado detecta <strong>campo magnético en corriente
+alterna</strong>.</li>
+<li>Corriente continua → tester común no tiene problema.</li>
+</ul></li>
+<li><p>Fuente resistiva: tiene <strong>resistencia + capacitor</strong>
+→ sirve para bajar de 220V al voltaje del chip.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="componentes-mecánicos">🔹 Componentes mecánicos</h3><a aria-hidden="true" href="#componentes-mecánicos">[link]</a></div>
+<ul>
+<li><p><strong>Estrella del tambor</strong>: puede romperse con jabón
+líquido.</p></li>
+<li><p><strong>Rulemanes</strong>:</p>
+<ul>
+<li>Ruido fuerte → rulemán roto.</li>
+<li>Sin ruido → posible estrella rota.</li>
+<li>Comprobación: mover el tambor o la tina para detectar el origen del
+ruido.</li>
+</ul></li>
+<li><p><strong>Chasis y chapa</strong>: si se rompe, reparar con
+remaches, no soldadura.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="ciclo-de-lavado-1">🔹 Ciclo de lavado</h3><a aria-hidden="true" href="#ciclo-de-lavado-1">[link]</a></div>
+<ol type="1">
+<li>Lavar → carga de agua y detergente.</li>
+<li>Centrifugado previo → balance automático (AB) para evitar
+sacudones.</li>
+<li>Enjuague y suavizante → se activa según la placa y
+electroválvulas.</li>
+<li>Centrifugado final → cuidado con zapatillas y ropa delicada para
+evitar desbalance.</li>
+</ol>
+<hr />
+<div class="h"><h3 id="notas-de-diagnóstico">🔹 Notas de diagnóstico</h3><a aria-hidden="true" href="#notas-de-diagnóstico">[link]</a></div>
+<ul>
+<li>Blocapuertas quemado → se puede puentear temporalmente (marrones
+unidos).</li>
+<li>Bomba o solenoide defectuoso → <strong>no se pueden
+puentear</strong>; necesitan corriente real.</li>
+<li>Revisión antes de enchufar → evita quemar placa.</li>
+<li>Si falla la estrella o los rulemanes → revisar visualmente y
+manualmente.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="experiencia-del-profesor">🔹 Experiencia del profesor</h3><a aria-hidden="true" href="#experiencia-del-profesor">[link]</a></div>
+<ul>
+<li>Aprender cable por cable y entender la función de cada
+componente.</li>
+<li>Los manuales no enseñan la experiencia real de reparación.</li>
+<li>Decisión de precios según dificultad o cliente “complicado”.</li>
+<li>Método práctico: prueba, observación y medición antes de
+reemplazo.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer ahora un <strong>diagrama paso a paso del
+ciclo del lavarropas</strong>, desde <strong>blocapuertas → solenoides →
+bomba → centrifugado</strong>, incluyendo <strong>cómo interactúan TRIAC
+y MOSFET en la placa</strong>. Esto te daría una visión <strong>global
+mecánico-eléctrica</strong> del equipo.</p>
+<p>¿Querés que haga ese diagrama?</p>
+<p>Perfecto, Magomed. Vamos a organizar este bloque sobre
+<strong>termotanques y lavadoras semiautomáticas</strong> de forma
+técnica y clara:</p>
+<hr />
+<h3 id="protección-y-mantenimiento-del-termotanque">🔹 Protección y
+mantenimiento del termotanque</h3>
+<ul>
+<li><p>Se puede aplicar <strong>brea</strong> en el interior del
+tanque:</p>
+<ul>
+<li>Objetivo: que las sales y minerales del agua se adhieran a la brea
+en vez de corroer el tanque.</li>
+<li>Actúa como una <strong>protección contra la oxidación</strong>.</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="termostato">🔹 Termostato</h3><a aria-hidden="true" href="#termostato">[link]</a></div>
+<ul>
+<li><p>Funciona como un <strong>switch térmico</strong>:</p>
+<ul>
+<li><strong>Normalmente cerrado (NC)</strong> → deja pasar corriente
+mientras no alcanza la temperatura deseada.</li>
+<li>Se abre cuando se alcanza la temperatura → corta el paso de
+corriente.</li>
+</ul></li>
+<li><p>Se debe medir con <strong>tester</strong> o continuidad:</p>
+<ul>
+<li>Si está pegado y no corta → el agua puede hervir → <strong>hay que
+cambiarlo</strong>.</li>
+</ul></li>
+<li><p>Se controla con <strong>pinza amperométrica</strong>:</p>
+<ul>
+<li>Corriente típica: 9–10 A.</li>
+<li>Debe caer a 0 A cuando el termostato abre.</li>
+</ul></li>
+<li><p>No hay <strong>campo magnético</strong>, funciona solo por
+temperatura.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="medición-y-diagnóstico">🔹 Medición y diagnóstico</h3><a aria-hidden="true" href="#medición-y-diagnóstico">[link]</a></div>
+<ul>
+<li>Medir resistencia de la <strong>resistencia calefactora</strong>:
+verificar continuidad.</li>
+<li>Medir termostato: continuidad en frío, apertura al alcanzar
+temperatura.</li>
+<li>Si falla el termostato → riesgo de sobrecalentamiento o hervido del
+agua.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="semiautomático">🔹 Semiautomático</h3><a aria-hidden="true" href="#semiautomático">[link]</a></div>
+<ul>
+<li>Función: <strong>enguaja y desagota</strong>, no centrifuga.</li>
+<li>Resultado: ropa húmeda → normal en este tipo de lavarropas.</li>
+<li>Centrifugado más rápido → ropa más seca pero más arrugada.</li>
+</ul>
+<hr />
+<h3
+id="trifásico-aplicable-a-lavadoras-industriales-o-cámaras-frigoríficas">🔹
+Trifásico (aplicable a lavadoras industriales o cámaras
+frigoríficas)</h3>
+<ul>
+<li>Fases: R, S, T (o U, V, W).</li>
+<li>Problema: si el motor gira en dirección incorrecta → cambiar dos
+fases.</li>
+<li>Si no se tiene detector de fase → probar intercambio de polos.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama comparativo entre
+termotanque, semiautomático y trifásico</strong>, mostrando
+<strong>circuito de corriente, termostato y resistencia</strong>, para
+que quede todo visual y fácil de recordar. Esto integraría la parte
+eléctrica con la mecánica y el mantenimiento.</p>
+<p>¿Querés que haga ese diagrama?</p>
 <div id="footer">
 <hr />
 </div>
@@ -38,6 +761,7 @@ class="uri">https://cursoelectricidad.github.io/05clase.md</a></p>
 <p>Esta página HTML fue generada por el <a
 href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
 Generator</a>.</p>
+</div>
 </div>
 </body>
 </html>

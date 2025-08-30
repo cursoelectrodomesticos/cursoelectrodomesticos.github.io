@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 1:</title>
+  <title>Curso Electricidad – Clase Nº 6: Relay. Triac: corriente alterna. Mosfet: continua y alterna?. Contactora. Varistor. Termistor. Fuentes. Puente Rectificador. Mosfet. Soldador no funcionó.</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -14,7 +14,9 @@
 <div class="page">
 <header>
 <div class="title">
-<h1 class="title">Clase Nº 1:</h1>
+<h1 class="title">Clase Nº 6: Relay. Triac: corriente alterna. Mosfet:
+continua y alterna?. Contactora. Varistor. Termistor. Fuentes. Puente
+Rectificador. Mosfet. Soldador no funcionó.</h1>
 </div>
 <p class="author">Andrés Imlauer</p>
 <p class="date">16 Julio 2024</p>
@@ -24,9 +26,623 @@
 </ul>
 <hr/>
 </header>
+<nav id="TOC">
+<h1>Navigate this page:</h1>
+<ul>
+<li><a href="#problemas-comunes-en-placas-electrónicas-y-fuentes"
+id="toc-problemas-comunes-en-placas-electrónicas-y-fuentes"><strong>Problemas
+comunes en placas electrónicas y fuentes</strong></a></li>
+<li><a href="#diagnóstico-inicial"
+id="toc-diagnóstico-inicial"><strong>Diagnóstico
+inicial</strong></a></li>
+<li><a href="#componentes-y-su-función"
+id="toc-componentes-y-su-función"><strong>Componentes y su
+función</strong></a></li>
+<li><a href="#partes-de-la-placa-y-alimentación"
+id="toc-partes-de-la-placa-y-alimentación"><strong>Partes de la placa y
+alimentación</strong></a></li>
+<li><a href="#relés-y-triacs" id="toc-relés-y-triacs"><strong>Relés y
+Triacs</strong></a></li>
+<li><a href="#notas-de-placas-switching"
+id="toc-notas-de-placas-switching"><strong>Notas de placas
+switching</strong></a></li>
+<li><a href="#relés-y-contactoras"
+id="toc-relés-y-contactoras"><strong>1. Relés y
+contactoras</strong></a></li>
+<li><a href="#protecciones-y-varistores"
+id="toc-protecciones-y-varistores"><strong>Protecciones y
+varistores</strong></a></li>
+<li><a href="#osciladores-y-fuentes-con-mosfet"
+id="toc-osciladores-y-fuentes-con-mosfet"><strong>Osciladores y fuentes
+con MOSFET</strong></a></li>
+<li><a href="#diagnóstico-de-aparatos-eléctricos"
+id="toc-diagnóstico-de-aparatos-eléctricos"><strong>Diagnóstico de
+aparatos eléctricos</strong></a></li>
+<li><a href="#principios-eléctricos-básicos"
+id="toc-principios-eléctricos-básicos"><strong>Principios eléctricos
+básicos</strong></a></li>
+<li><a href="#comprobación-de-continuidad"
+id="toc-comprobación-de-continuidad"><strong>1. Comprobación de
+continuidad</strong></a></li>
+<li><a href="#diagnóstico-de-resistencias-y-bobinas"
+id="toc-diagnóstico-de-resistencias-y-bobinas"><strong>2. Diagnóstico de
+resistencias y bobinas</strong></a></li>
+<li><a href="#medición-directa" id="toc-medición-directa"><strong>3.
+Medición directa</strong></a></li>
+<li><a href="#fallas-en-fuentes-de-equipos-electrónicos"
+id="toc-fallas-en-fuentes-de-equipos-electrónicos"><strong>4. Fallas en
+fuentes de equipos electrónicos</strong></a></li>
+<li><a href="#fusibles" id="toc-fusibles"><strong>5.
+Fusibles</strong></a></li>
+<li><a href="#principios-eléctricos-básicos-1"
+id="toc-principios-eléctricos-básicos-1"><strong>6. Principios
+eléctricos básicos</strong></a></li>
+<li><a href="#fuentes-de-alimentación"
+id="toc-fuentes-de-alimentación"><strong>1. Fuentes de
+alimentación</strong></a></li>
+<li><a href="#relés-y-triac" id="toc-relés-y-triac"><strong>2. Relés y
+TRIAC</strong></a></li>
+<li><a href="#bobinas-y-funcionamiento-magnético"
+id="toc-bobinas-y-funcionamiento-magnético"><strong>3. Bobinas y
+funcionamiento magnético</strong></a></li>
+<li><a href="#adaptación-de-voltajes"
+id="toc-adaptación-de-voltajes"><strong>4. Adaptación de
+voltajes</strong></a></li>
+<li><a href="#motores-universales-en-lavadoras"
+id="toc-motores-universales-en-lavadoras"><strong>1. Motores universales
+en lavadoras</strong></a></li>
+<li><a href="#relés-y-bobinas" id="toc-relés-y-bobinas"><strong>2. Relés
+y bobinas</strong></a></li>
+<li><a href="#triac" id="toc-triac"><strong>3. TRIAC</strong></a></li>
+<li><a href="#contactores" id="toc-contactores"><strong>4.
+Contactores</strong></a></li>
+<li><a href="#funcionamiento-eléctrico"
+id="toc-funcionamiento-eléctrico"><strong>5. Funcionamiento
+eléctrico</strong></a></li>
+<li><a href="#calidad-de-motores-y-ventiladores"
+id="toc-calidad-de-motores-y-ventiladores"><strong>6. Calidad de motores
+y ventiladores</strong></a></li>
+<li><a href="#condiciones-para-el-relay"
+id="toc-condiciones-para-el-relay"><strong>1. Condiciones para el
+relay</strong></a></li>
+<li><a href="#medición-inicial" id="toc-medición-inicial"><strong>2.
+Medición inicial</strong></a></li>
+<li><a href="#fuente-de-prueba" id="toc-fuente-de-prueba"><strong>3.
+Fuente de prueba</strong></a></li>
+<li><a href="#procedimiento-de-prueba"
+id="toc-procedimiento-de-prueba"><strong>4. Procedimiento de
+prueba</strong></a></li>
+<li><a href="#notas-importantes" id="toc-notas-importantes"><strong>5.
+Notas importantes</strong></a></li>
+</ul>
+</nav>
+<div class="pagetext">
 <p><a href="./">Volver al índice</a></p>
 <p>Artículo publicado por: Andrés Imlauer</p>
 <p>Artículo publicado el: 16 Julio 2024</p>
+<h3
+id="problemas-comunes-en-placas-electrónicas-y-fuentes"><strong>Problemas
+comunes en placas electrónicas y fuentes</strong></h3>
+<ul>
+<li>En televisores, ciertos <strong>circuitos integrados fallan por
+temperatura</strong>, generando problemas recurrentes.</li>
+<li><strong>Consumo eléctrico = potencia</strong>; siempre hay que
+tenerlo en cuenta al medir o dimensionar.</li>
+<li>La <strong>fuente siempre necesita dos conductores</strong>: fase y
+neutro.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="diagnóstico-inicial"><strong>Diagnóstico inicial</strong></h3><a aria-hidden="true" href="#diagnóstico-inicial">[link]</a></div>
+<ul>
+<li>Lo primero que hay que medir es <strong>continuidad</strong>.</li>
+<li>Los elementos en <strong>paralelo</strong> (switch, pulsador) no
+cortan la continuidad a menos que haya un corto.</li>
+<li>La <strong>continuidad se rompe en serie</strong>: si un componente
+falla, todo el circuito se interrumpe.</li>
+<li>Todas las partes que controlan el trabajo suelen estar en
+<strong>serie</strong>, por eso la continuidad es clave.</li>
+<li><strong>Conexión directa</strong>: si algo funciona conectado
+directo, el problema está en la placa o control.</li>
+</ul>
+<hr />
+<h3 id="componentes-y-su-función"><strong>Componentes y su
+función</strong></h3>
+<ul>
+<li><strong>Resistencia → carga</strong></li>
+<li><strong>Capacitores → potencia</strong></li>
+<li>Muchos problemas en <strong>plancha, microondas, secador,
+licuadora</strong> están en la <strong>fuente o la parte de
+potencia</strong>.</li>
+</ul>
+<hr />
+<h3 id="partes-de-la-placa-y-alimentación"><strong>Partes de la placa y
+alimentación</strong></h3>
+<ul>
+<li><p>La placa tiene dos secciones:</p>
+<ol type="1">
+<li><strong>Control</strong>: trabaja con bajos voltajes (~3-9 V).</li>
+<li><strong>Potencia</strong>: trabaja con 220 V para alimentar la
+carga.</li>
+</ol></li>
+<li><p>El paso de los <strong>220 V a la carga</strong> puede ser
+mediante:</p>
+<ul>
+<li><strong>Relé / relevadores</strong></li>
+<li><strong>Triac</strong> si no hay relé</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="relés-y-triacs"><strong>Relés y Triacs</strong></h3><a aria-hidden="true" href="#relés-y-triacs">[link]</a></div>
+<ul>
+<li><strong>Relé:</strong> funciona por <strong>magnetismo</strong>,
+activado por bajo voltaje de la placa.</li>
+<li><strong>Triac:</strong> transistor para corriente alterna.</li>
+<li><strong>Diac:</strong> rectificador controlado, usado antes para
+corriente continua.</li>
+<li>Nota: Si la placa da 9 V y el relé es de 30 V, no se dispara.</li>
+<li>En potencia se encuentra principalmente <strong>relé y
+triac</strong>.</li>
+</ul>
+<hr />
+<h3 id="notas-de-placas-switching"><strong>Notas de placas
+switching</strong></h3>
+<ul>
+<li>Placas <strong>switching</strong> no manejan voltaje alto; trabajan
+con <strong>corriente continua hasta 30 V</strong> (como placas de
+PC).</li>
+<li>La diferencia entre placas <strong>lineales y switching</strong>
+afecta cómo se entrega la potencia y el control.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama visual simple</strong> que
+conecte <strong>control → relé/triac → potencia → carga</strong>, para
+que quede todo clarísimo de un vistazo. Esto suele ayudar mucho para
+memorizar diagnóstico y fallas. ¿Querés que lo haga?</p>
+<p>Aquí tienes un <strong>resumen organizado y destacado</strong> de los
+puntos más importantes de tu texto:</p>
+<hr />
+<h3 id="relés-y-contactoras"><strong>1. Relés y
+contactoras</strong></h3>
+<ul>
+<li><p><strong>Relay:</strong> elemento de control en la parte de
+potencia.</p>
+<ul>
+<li>Se chequea midiendo la <strong>continuidad de la
+bobina</strong>.</li>
+<li>Tiene pines <strong>normalmente abierto (NA)</strong> y
+<strong>normalmente cerrado (NC)</strong>.</li>
+<li>Funciona por <strong>magnetismo</strong>.</li>
+<li>Ejemplo de conexión: 220 V entre pines 1, 4 y 5.</li>
+</ul></li>
+<li><p><strong>Contactora:</strong> relay para <strong>múltiples
+funciones</strong>, usada especialmente en <strong>trabajos
+trifásicos</strong> para proteger motores y evitar zumbidos o
+sobrecargas.</p></li>
+<li><p><strong>Triac:</strong> transistor para <strong>corriente
+alterna</strong>, sin magnetismo.</p></li>
+</ul>
+<hr />
+<h3 id="protecciones-y-varistores"><strong>Protecciones y
+varistores</strong></h3>
+<ul>
+<li><p><strong>Varistor:</strong> protege de
+<strong>sobretensiones</strong>.</p>
+<ul>
+<li><p>Colocado en <strong>paralelo</strong> al circuito.</p></li>
+<li><p>Funciona como <strong>PTC o NTC</strong> según coeficiente
+térmico:</p>
+<ul>
+<li>PTC: si sube tensión → aumenta la resistencia.</li>
+<li>NTC: si sube tensión → disminuye la resistencia.</li>
+</ul></li>
+<li><p>Su resistencia es muy alta normalmente (~1.180.000 Ω), por lo que
+<strong>la electricidad “no lo siente” hasta una
+sobretensión</strong>.</p></li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="osciladores-y-fuentes-con-mosfet"><strong>Osciladores y fuentes
+con MOSFET</strong></h3>
+<ul>
+<li><p>En fuentes de computadora:</p>
+<ul>
+<li>La <strong>CC de 311 V</strong> del capacitor va a la bobina del
+primario.</li>
+<li>Para proteger la placa, pasa por un <strong>MOSFET</strong> que
+controla la entrada al oscilador.</li>
+<li>Componentes clave en la fuente: <strong>puente rectificador,
+capacitor, chopper, oscilador, MOSFET</strong>.</li>
+<li>Si el MOSFET está dentro del chip integrado, <strong>hay que cambiar
+todo el integrado</strong>; si está afuera, solo se cambia el
+MOSFET.</li>
+</ul></li>
+<li><p>Nota: un <strong>capacitor en corriente continua no puede
+trabajar en serie</strong>, equivaldría a un circuito abierto.</p></li>
+</ul>
+<hr />
+<h3 id="diagnóstico-de-aparatos-eléctricos"><strong>Diagnóstico de
+aparatos eléctricos</strong></h3>
+<ul>
+<li><p><strong>Problemas comunes dependen de la marca</strong> y
+condiciones ambientales.</p>
+<ul>
+<li>Ej.: ciertos televisores o lavarropas tienen fallas repetitivas
+conocidas.</li>
+</ul></li>
+<li><p>Para motores y aparatos con partes mecánicas:</p>
+<ul>
+<li>Revisar <strong>rulemanes, bujes, ejes</strong> según el ruido o
+fallo.</li>
+<li>Ej.: lavarropas de carga superior que hace ruido → desarmar
+transmisión, aflojar tornillo, revisar.</li>
+</ul></li>
+<li><p>Siempre medir <strong>consumo (potencia)</strong> antes de
+cualquier diagnóstico.</p></li>
+</ul>
+<hr />
+<h3 id="principios-eléctricos-básicos"><strong>Principios eléctricos
+básicos</strong></h3>
+<ul>
+<li><p>Una <strong>carga necesita fase y neutro</strong> para funcionar
+con corriente alterna.</p></li>
+<li><p><strong>Continuidad:</strong></p>
+<ul>
+<li>Se verifica primero para detectar fallas.</li>
+<li>Se rompe en <strong>serie</strong> si un componente falla.</li>
+<li>No se afecta por elementos en <strong>paralelo</strong>, salvo que
+haya corto.</li>
+</ul></li>
+<li><p><strong>Elementos en serie:</strong> si uno falla, todo deja de
+funcionar.</p></li>
+<li><p><strong>Elementos en paralelo:</strong> fallos individuales no
+afectan al resto, excepto cortocircuitos.</p></li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama tipo “mapa de control y
+potencia”</strong> que conecte: <strong>placa → relay/triac →
+motor/carga → protecciones → continuidad</strong>, para que se vea todo
+de un vistazo y ayude a memorizar cómo diagnosticar problemas en
+aparatos eléctricos.</p>
+<p>¿Querés que lo haga?</p>
+<p>Aquí tienes un <strong>resumen de examen</strong> con los puntos
+clave de tu texto, organizado de forma clara y directa:</p>
+<hr />
+<h3 id="comprobación-de-continuidad"><strong>1. Comprobación de
+continuidad</strong></h3>
+<ul>
+<li><p>Primero verificar: <strong>switch, pulsador, térmico,
+fusible</strong>.</p></li>
+<li><p>Herramienta: <strong>tester en escala de
+continuidad</strong>.</p></li>
+<li><p>Procedimiento:</p>
+<ol type="1">
+<li>Cerrar la llave del switch, dejar pulsador conectado.</li>
+<li>Desenchufar y hacer puente si es necesario (ej.: termostato).</li>
+<li>Colocar tester en ambas puntas para medir continuidad.</li>
+</ol></li>
+</ul>
+<hr />
+<h3 id="diagnóstico-de-resistencias-y-bobinas"><strong>2. Diagnóstico de
+resistencias y bobinas</strong></h3>
+<ul>
+<li><p><strong>Resistencias de elementos de trabajo</strong> (plancha,
+jarra eléctrica):</p>
+<ul>
+<li>No pueden quedar en corto.</li>
+<li>Impedancia nueva y usada debe ser casi igual.</li>
+<li>Valores muy bajos pueden indicar fallo de tester.</li>
+</ul></li>
+<li><p><strong>Bobinas de motores o ventiladores:</strong></p>
+<ul>
+<li>Cada bobina es <strong>individual</strong> gracias al esmalte del
+alambre.</li>
+<li>Si el esmalte se quema, bobinas se unen → <strong>resistencia
+baja</strong>, cortocircuito interno.</li>
+<li>Ej.: ventilador nuevo 18 Ω, quemado 3-5 Ω.</li>
+<li>Nunca usar cable demasiado grueso que reduzca vueltas
+disponibles.</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="medición-directa"><strong>3. Medición directa</strong></h3><a aria-hidden="true" href="#medición-directa">[link]</a></div>
+<ul>
+<li><p>Si resistencia funciona, se puede <strong>conectar carga en
+directo</strong>, control manual:</p>
+<ul>
+<li>Funciona pero <strong>sin control</strong> (ventilador,
+compresor).</li>
+<li>No aplicar directo a componentes electrónicos que trabajan a menor
+tensión que 220 V → explota.</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="fallas-en-fuentes-de-equipos-electrónicos"><strong>4. Fallas en
+fuentes de equipos electrónicos</strong></h3>
+<ul>
+<li><p><strong>70% de los problemas</strong> provienen de la
+<strong>fuente</strong>, porque soporta toda la carga del
+circuito.</p></li>
+<li><p>Transformadores:</p>
+<ul>
+<li>Se quema casi siempre el <strong>bobinado primario</strong>, nunca
+el secundario (salvo humedad, cortocircuito o golpes).</li>
+</ul></li>
+<li><p>Función de la fuente: <strong>adaptar la fuente a la
+carga</strong>.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="fusibles"><strong>5. Fusibles</strong></h3><a aria-hidden="true" href="#fusibles">[link]</a></div>
+<ul>
+<li><p>Siempre se colocan siguiendo la <strong>capacidad del
+conductor</strong>, no solo la carga:</p>
+<ul>
+<li>Ej.: circuito consume 5 A, conductor soporta 2 A → fusible debe ser
+2 A, no 5 A.</li>
+<li>Si el fusible es mayor que el conductor → conductor se quema antes
+que el fusible.</li>
+<li>Si fusible es adecuado → protege conductor y evita incendio.</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="principios-eléctricos-básicos-1"><strong>6. Principios
+eléctricos básicos</strong></h3>
+<ul>
+<li>Medición de <strong>continuidad</strong> primero para
+diagnosticar.</li>
+<li><strong>Conectar directamente</strong> solo si se sabe que la carga
+soporta 220 V y no hay control electrónico de tensión.</li>
+<li><strong>Cargas en serie</strong>: falla de un componente → circuito
+interrumpido.</li>
+<li><strong>Cargas en paralelo</strong>: falla de un componente →
+circuito sigue funcionando, salvo cortocircuitos.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>esquema paso a paso de diagnóstico
+de continuidad y pruebas directas</strong> que sirva para <strong>examen
+práctico</strong>, donde quede claro qué medir primero, cómo medir y
+cuándo poner directo. Esto suele ayudar mucho para memorizar.</p>
+<p>¿Querés que haga ese esquema?</p>
+<p>Aquí tienes un <strong>resumen organizado de los puntos clave sobre
+fuentes, relés, TRIAC y bobinas</strong> que mencionaste:</p>
+<hr />
+<h3 id="fuentes-de-alimentación"><strong>1. Fuentes de
+alimentación</strong></h3>
+<ul>
+<li><p><strong>Fuente lineal:</strong></p>
+<ul>
+<li>Trabaja con la <strong>frecuencia de la línea</strong> (50 Hz).</li>
+<li>Utiliza <strong>transformador de hierro al silicio</strong>, que se
+<strong>magnetiza y desmagnetiza rápido</strong> según los ciclos de la
+red.</li>
+<li>Adaptación: convierte 220 V AC a voltajes bajos (ej.: 3 V DC para
+chips).</li>
+<li>Problemas comunes: casi siempre están en la <strong>fuente</strong>
+o en la <strong>parte de potencia</strong>.</li>
+</ul></li>
+<li><p><strong>Fuente switching (conmutativa):</strong></p>
+<ul>
+<li>Trabaja a <strong>frecuencias muy altas</strong> (10.000–100.000
+Hz).</li>
+<li>No se puede usar hierro al silicio, se usan <strong>núcleos de
+ferrita</strong>.</li>
+<li>Permite reducción de tamaño y potencia más alta que lineal para
+voltajes &gt;90 V.</li>
+</ul></li>
+<li><p>Otros tipos: <strong>capacitiva, resistiva</strong>.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="relés-y-triac"><strong>2. Relés y TRIAC</strong></h3><a aria-hidden="true" href="#relés-y-triac">[link]</a></div>
+<ul>
+<li><p><strong>Relay:</strong></p>
+<ul>
+<li>Dispara carga mediante bajo voltaje de control (ej.: 9 V).</li>
+<li>Peligro: si se usa un relay de 30 V con control de 9 V → no
+funciona; si es de trabajo continuo, <strong>se quema la
+bobina</strong>.</li>
+<li>Tiene 5 pines (entrada de energía, control y salida de carga).</li>
+<li>Genera un <strong>campo magnético</strong> al energizar la bobina,
+moviendo el émbolo hacia arriba o abajo.</li>
+</ul></li>
+<li><p><strong>TRIAC:</strong> transistor para <strong>corriente
+alterna</strong>, reemplaza al relay donde no hay relevadores.</p></li>
+<li><p><strong>DIAC:</strong> rectificador controlado de silicio, usado
+inicialmente para corriente continua, funciona como conmutador.</p></li>
+</ul>
+<hr />
+<h3 id="bobinas-y-funcionamiento-magnético"><strong>3. Bobinas y
+funcionamiento magnético</strong></h3>
+<ul>
+<li><p><strong>Función de la bobina:</strong> generar <strong>campo
+magnético</strong>.</p></li>
+<li><p>Con émbolo ferroso dentro del campo:</p>
+<ul>
+<li>El émbolo se mueve según la <strong>polaridad y orientación del
+bobinado</strong>.</li>
+<li>Invertir polaridad → el émbolo se mueve en dirección contraria.</li>
+</ul></li>
+<li><p>Aplicación:</p>
+<ul>
+<li>Relés, motores, solenoides.</li>
+<li>Fuerza generada depende de número de vueltas del alambre y del
+material del núcleo.</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="adaptación-de-voltajes"><strong>4. Adaptación de
+voltajes</strong></h3>
+<ul>
+<li><p>La <strong>fuente lineal</strong> adapta la tensión de línea (220
+V AC) a la requerida por la <strong>placa o chip</strong>.</p></li>
+<li><p>Debe respetarse el voltaje nominal de relés y cargas:</p>
+<ul>
+<li>Ej.: relay de 9 V no puede recibir 30 V de placa switching.</li>
+</ul></li>
+<li><p>La parte de potencia siempre se encuentra <strong>desacoplada de
+la parte de control</strong>.</p></li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama visual tipo “fuente →
+relé/TRIAC → carga”</strong>, mostrando cómo actúa la bobina y el campo
+magnético, para entender mejor los relés y motores. Esto suele ayudar
+mucho para examen.</p>
+<p>¿Querés que haga ese diagrama?</p>
+<p>Aquí tienes un <strong>resumen organizado y destacado</strong> de los
+puntos clave sobre motores universales, relés, triac y bobinas que
+mencionaste:</p>
+<hr />
+<h3 id="motores-universales-en-lavadoras"><strong>1. Motores universales
+en lavadoras</strong></h3>
+<ul>
+<li>Los motores de lavadoras son <strong>universales</strong>, funcionan
+tanto con <strong>corriente continua como alterna</strong>.</li>
+<li>La <strong>rotación se cambia invirtiendo la polaridad</strong> de
+la corriente que llega al motor.</li>
+<li>En lavadoras antiguas no se podía invertir la rotación porque no
+tenían <strong>placa electrónica</strong> que controle la
+polaridad.</li>
+<li>La placa genera <strong>pulsos con dirección</strong>, controlando
+la rotación del motor.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="relés-y-bobinas"><strong>2. Relés y bobinas</strong></h3><a aria-hidden="true" href="#relés-y-bobinas">[link]</a></div>
+<ul>
+<li><p>La <strong>bobina del relay</strong> contiene un <strong>émbolo
+ferroso</strong> que se magnetiza al recibir corriente.</p></li>
+<li><p>Materiales ferrosos (hierro, acero) generan el campo magnético;
+cobre o bronce no.</p></li>
+<li><p>El <strong>campo magnético mueve el émbolo</strong>, venciendo la
+fuerza de un resorte que mantiene los platinos abiertos.</p></li>
+<li><p><strong>Platinos:</strong> contacto que cierra y abre el circuito
+cuando se magnetiza el émbolo.</p></li>
+<li><p>Aplicaciones: motor reversible, solenoides, bombas.</p></li>
+<li><p><strong>Protección del triac:</strong></p>
+<ul>
+<li>Un relay soporta alto voltaje y protege el triac.</li>
+<li>Un fusible no protege eficazmente un semiconductor porque es
+demasiado lento.</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="triac"><strong>3. TRIAC</strong></h3><a aria-hidden="true" href="#triac">[link]</a></div>
+<ul>
+<li>Semiconductor de <strong>corriente alterna</strong>, usado en lugar
+de relé donde no se requiere fuerza mecánica.</li>
+<li>No puede ser protegido eficientemente con fusible; mejor usar
+<strong>relay como protección adicional</strong>.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="contactores"><strong>4. Contactores</strong></h3><a aria-hidden="true" href="#contactores">[link]</a></div>
+<ul>
+<li>Similar al relay, pero <strong>para múltiples aperturas y
+cierres</strong>, usado especialmente en <strong>trabajo
+trifásico</strong>.</li>
+<li>También se puede usar en monofásica para controlar varias cargas
+simultáneamente.</li>
+<li>Funciona con <strong>bobina y fuerza magnética</strong>, cerrando y
+abriendo las cuchillas de contacto.</li>
+</ul>
+<hr />
+<h3 id="funcionamiento-eléctrico"><strong>5. Funcionamiento
+eléctrico</strong></h3>
+<ul>
+<li><p>Para que un relay cierre correctamente:</p>
+<ul>
+<li>La <strong>bobina debe recibir el voltaje nominal</strong> (ej.: 12
+V DC).</li>
+<li><strong>Corriente continua</strong>, no alterna.</li>
+<li>Al quitar alimentación, el resorte abre los platinos.</li>
+</ul></li>
+<li><p>Los <strong>extremos de la bobina</strong> se etiquetan A y
+B.</p></li>
+</ul>
+<hr />
+<h3 id="calidad-de-motores-y-ventiladores"><strong>6. Calidad de motores
+y ventiladores</strong></h3>
+<ul>
+<li>La velocidad depende de la <strong>cantidad de polos y espiras de la
+bobina</strong>.</li>
+<li>Más bobinas, menos espiras → <strong>motor de mala
+calidad</strong>.</li>
+<li>Menos bobinas, más espiras → <strong>motor de mejor
+calidad</strong>.</li>
+<li>Ventiladores de techo tienen <strong>reactor con bobina</strong>,
+ventiladores de piso no.</li>
+<li>Bajando la velocidad de un ventilador, el motor calienta el
+plástico; térmico abre al calentarse.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama que conecte la placa,
+relay, triac y motor universal</strong>, mostrando <strong>cómo cambia
+la rotación del motor</strong> y cómo actúan los platinos y bobina. Esto
+sirve mucho para memorizar para examen práctico.</p>
+<p>¿Querés que lo haga?</p>
+<p>Aquí tienes un <strong>resumen organizado y paso a paso</strong> de
+cómo probar un <strong>relay de 12 V DC</strong> según tu texto:</p>
+<hr />
+<h3 id="condiciones-para-el-relay"><strong>1. Condiciones para el
+relay</strong></h3>
+<ul>
+<li>La <strong>bobina del relay</strong> necesita <strong>12 V de
+corriente continua</strong> para cerrar.</li>
+<li>Cuando se quita alimentación, el <strong>resorte abre los
+platinos</strong>.</li>
+<li>Al aplicar los 12 V DC, el <strong>campo magnético vence la fuerza
+del resorte</strong> y los platinos se cierran.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="medición-inicial"><strong>2. Medición inicial</strong></h3><a aria-hidden="true" href="#medición-inicial">[link]</a></div>
+<ul>
+<li>Primero se mide <strong>continuidad</strong> con tester para
+verificar que la bobina no esté abierta o en corto.</li>
+<li>Se escucha el típico <strong>“clic”</strong> al energizar la
+bobina.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="fuente-de-prueba"><strong>3. Fuente de prueba</strong></h3><a aria-hidden="true" href="#fuente-de-prueba">[link]</a></div>
+<ul>
+<li><p>Para probar el relay se puede usar:</p>
+<ul>
+<li><strong>Transformador de 220 V → 12 V AC</strong>, luego un
+<strong>puente rectificador de 4 diodos</strong> → capacitor para
+suavizar tensión → DC estable.</li>
+<li><strong>Cargadores de herramientas eléctricas</strong> (12 V, 19 V,
+5 V, 9 V) porque el relay <strong>consume muy poco</strong>.</li>
+<li>Una <strong>fuente casera de 12 V DC</strong>.</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="procedimiento-de-prueba"><strong>4. Procedimiento de
+prueba</strong></h3>
+<ol type="1">
+<li><p>Conectar la bobina a la fuente de 12 V DC.</p></li>
+<li><p>Observar que <strong>el platino normalmente abierto (NA) se
+cierre</strong> y el <strong>normalmente cerrado (NC) se
+abra</strong>.</p></li>
+<li><p>Comprobar que el <strong>campo magnético vence la fuerza del
+resorte</strong>.</p></li>
+<li><p>Verificar la salida:</p>
+<ul>
+<li>Si se aplican 220 V a la entrada de fase → debe <strong>pasar la
+corriente a la salida</strong> cuando el relay está cerrado.</li>
+</ul></li>
+</ol>
+<hr />
+<div class="h"><h3 id="notas-importantes"><strong>5. Notas importantes</strong></h3><a aria-hidden="true" href="#notas-importantes">[link]</a></div>
+<ul>
+<li>Guardar <strong>cargadores fundidos</strong>: sirven como fuentes de
+bajo consumo para probar relays.</li>
+<li>Los relays no consumen prácticamente corriente, por lo que cualquier
+cargador con voltaje adecuado funciona.</li>
+<li>La prueba completa consiste en: <strong>alimentar la bobina,
+observar cierre de platinos y confirmar paso de corriente de entrada a
+salida</strong>.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>esquema visual del circuito de
+prueba de un relay de 12 V</strong>, mostrando <strong>transformador →
+puente rectificador → capacitor → bobina del relay → platinos NA/NC →
+carga</strong>, para que quede todo clarísimo para examen.</p>
+<p>¿Querés que haga ese esquema?</p>
 <div id="footer">
 <hr />
 </div>
@@ -38,6 +654,7 @@ class="uri">https://cursoelectricidad.github.io/06clase.md</a></p>
 <p>Esta página HTML fue generada por el <a
 href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
 Generator</a>.</p>
+</div>
 </div>
 </body>
 </html>

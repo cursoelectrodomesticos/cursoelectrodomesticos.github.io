@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 1:</title>
+  <title>Curso Electricidad – Clase Nº 9: - Tipos de fuentes. Fuente standBy. Rectificador. Tipos de relay y como medirlos. Regulador de voltaje. Reparación ventilador. Cargador de celular con fuente lineal. Problema: Capacitor TRIAC. Como medir capacitor. Capacitor transforma la corriente de punzante a pura. Estator: parte fija del motor. Rotor: jaula de ardilla el que rota (el que gira). Hasta antes de los diodos es corriente alterna. Como medir relay. Bobinas en paralelo, capacitor para corregir factor de potencia. Ventilador tiene bobina de arranque y de trabajo. Hay que corregir factor de potencia con un capacitor. Split no tiene bobina de arranque, la heladera sí. Calcular impendancia entre cables para calcular arranque, trabajo. Como medir si funciona un ventilador paso por paso en hora 2:40. Hay que ir cambiando las velocidades al medir cables. El fusible del ventilador al parecer estaba bien, pero la bobina estaba cortada, pero no quemada. Como medir bobina</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -14,7 +14,21 @@
 <div class="page">
 <header>
 <div class="title">
-<h1 class="title">Clase Nº 1:</h1>
+<h1 class="title">Clase Nº 9: - Tipos de fuentes. Fuente standBy.
+Rectificador. Tipos de relay y como medirlos. Regulador de voltaje.
+Reparación ventilador. Cargador de celular con fuente lineal. Problema:
+Capacitor TRIAC. Como medir capacitor. Capacitor transforma la corriente
+de punzante a pura. Estator: parte fija del motor. Rotor: jaula de
+ardilla el que rota (el que gira). Hasta antes de los diodos es
+corriente alterna. Como medir relay. Bobinas en paralelo, capacitor para
+corregir factor de potencia. Ventilador tiene bobina de arranque y de
+trabajo. Hay que corregir factor de potencia con un capacitor. Split no
+tiene bobina de arranque, la heladera sí. Calcular impendancia entre
+cables para calcular arranque, trabajo. Como medir si funciona un
+ventilador paso por paso en hora 2:40. Hay que ir cambiando las
+velocidades al medir cables. El fusible del ventilador al parecer estaba
+bien, pero la bobina estaba cortada, pero no quemada. Como medir
+bobina</h1>
 </div>
 <p class="author">Andrés Imlauer</p>
 <p class="date">16 Julio 2024</p>
@@ -24,9 +38,867 @@
 </ul>
 <hr/>
 </header>
+<nav id="TOC">
+<h1>Navigate this page:</h1>
+<ul>
+<li><a href="#identificación-y-medición"
+id="toc-identificación-y-medición">🔹 Identificación y medición</a></li>
+<li><a href="#corriente-y-fuentes" id="toc-corriente-y-fuentes">🔹
+Corriente y fuentes</a></li>
+<li><a href="#transformadores-y-microprocesadores"
+id="toc-transformadores-y-microprocesadores">🔹 Transformadores y
+microprocesadores</a></li>
+<li><a href="#reparación-y-práctica" id="toc-reparación-y-práctica">🔹
+Reparación y práctica</a></li>
+<li><a href="#fuente-y-microprocesador"
+id="toc-fuente-y-microprocesador">🔹 Fuente y microprocesador</a></li>
+<li><a href="#tipos-de-fuentes" id="toc-tipos-de-fuentes">🔹 Tipos de
+fuentes</a></li>
+<li><a href="#transformadores" id="toc-transformadores">🔹
+Transformadores</a></li>
+<li><a href="#capacitores" id="toc-capacitores">🔹 Capacitores</a></li>
+<li><a href="#placas-electrónicas" id="toc-placas-electrónicas">🔹
+Placas electrónicas</a></li>
+<li><a href="#detección-de-falla" id="toc-detección-de-falla">🔹
+Detección de falla</a></li>
+<li><a href="#tipos-de-fuentes-1" id="toc-tipos-de-fuentes-1">🔹 Tipos
+de fuentes</a></li>
+<li><a href="#transformador-y-reducción-de-tensión"
+id="toc-transformador-y-reducción-de-tensión">🔹 Transformador y
+reducción de tensión</a></li>
+<li><a href="#rectificación" id="toc-rectificación">🔹
+Rectificación</a></li>
+<li><a href="#filtrado-con-capacitor" id="toc-filtrado-con-capacitor">🔹
+Filtrado con capacitor</a></li>
+<li><a href="#consideraciones-prácticas"
+id="toc-consideraciones-prácticas">🔹 Consideraciones prácticas</a></li>
+<li><a href="#medición-de-componentes-en-la-placa"
+id="toc-medición-de-componentes-en-la-placa">🔹 Medición de componentes
+en la placa</a></li>
+<li><a href="#regulación-de-voltaje" id="toc-regulación-de-voltaje">🔹
+Regulación de voltaje</a></li>
+<li><a href="#componentes-lógicos-y-reguladores"
+id="toc-componentes-lógicos-y-reguladores">🔹 Componentes lógicos y
+reguladores</a></li>
+<li><a href="#adaptación-de-transformadores-y-filtrado"
+id="toc-adaptación-de-transformadores-y-filtrado">🔹 Adaptación de
+transformadores y filtrado</a></li>
+<li><a href="#cargador-de-celular-ejemplo"
+id="toc-cargador-de-celular-ejemplo">🔹 Cargador de celular
+ejemplo</a></li>
+<li><a href="#corriente-continua-y-tierra"
+id="toc-corriente-continua-y-tierra">🔹 Corriente continua y
+tierra</a></li>
+<li><a href="#relays-y-conexiones" id="toc-relays-y-conexiones">🔹
+Relays y conexiones</a></li>
+<li><a href="#conceptos-finales" id="toc-conceptos-finales">🔹 Conceptos
+finales</a></li>
+<li><a href="#principio-de-funcionamiento-del-relay"
+id="toc-principio-de-funcionamiento-del-relay">🔹 Principio de
+funcionamiento del relay</a></li>
+<li><a href="#tipos-de-relays" id="toc-tipos-de-relays">🔹 Tipos de
+relays</a></li>
+<li><a href="#aplicación-práctica" id="toc-aplicación-práctica">🔹
+Aplicación práctica</a></li>
+<li><a href="#configuraciones-especiales"
+id="toc-configuraciones-especiales">🔹 Configuraciones
+especiales</a></li>
+<li><a href="#medición-de-relays-y-bobinas"
+id="toc-medición-de-relays-y-bobinas">🔹 Medición de relays y
+bobinas</a></li>
+<li><a href="#reguladores-de-voltaje" id="toc-reguladores-de-voltaje">🔹
+Reguladores de voltaje</a></li>
+<li><a href="#relays-en-sistemas-de-alarmas"
+id="toc-relays-en-sistemas-de-alarmas">🔹 Relays en sistemas de
+alarmas</a></li>
+<li><a href="#principio-de-motores" id="toc-principio-de-motores">🔹
+Principio de motores</a></li>
+<li><a href="#bobinas-de-trabajo-y-arranque"
+id="toc-bobinas-de-trabajo-y-arranque">🔹 Bobinas de trabajo y
+arranque</a></li>
+<li><a href="#tipos-de-relays-1" id="toc-tipos-de-relays-1">🔹 Tipos de
+relays</a></li>
+<li><a href="#motores-con-bobinas" id="toc-motores-con-bobinas">🔹
+Motores con bobinas</a></li>
+<li><a href="#problemas-si-conectamos-mal-las-bobinas"
+id="toc-problemas-si-conectamos-mal-las-bobinas">🔹 Problemas si
+conectamos mal las bobinas</a></li>
+<li><a href="#corrección-de-factor-de-potencia"
+id="toc-corrección-de-factor-de-potencia">🔹 Corrección de factor de
+potencia ⚙️</a></li>
+<li><a href="#medición-y-prueba-de-motor"
+id="toc-medición-y-prueba-de-motor">🔹 Medición y prueba de
+motor</a></li>
+<li><a href="#conexión-del-capacitor-en-motor-de-ventilador"
+id="toc-conexión-del-capacitor-en-motor-de-ventilador">🔹 Conexión del
+capacitor en motor de ventilador</a></li>
+<li><a href="#fase-y-neutro" id="toc-fase-y-neutro">🔹 Fase y
+neutro</a></li>
+<li><a href="#cambio-de-velocidad-en-ventiladores"
+id="toc-cambio-de-velocidad-en-ventiladores">🔹 Cambio de velocidad en
+ventiladores</a></li>
+<li><a href="#identificación-de-cables-y-bobinas"
+id="toc-identificación-de-cables-y-bobinas">🔹 Identificación de cables
+y bobinas</a></li>
+<li><a href="#conexión-de-capacitor" id="toc-conexión-de-capacitor">🔹
+Conexión de capacitor</a></li>
+<li><a href="#fusible-interno" id="toc-fusible-interno">🔹 Fusible
+interno</a></li>
+<li><a href="#identificación-y-etiquetado"
+id="toc-identificación-y-etiquetado">🔹 Identificación y
+etiquetado</a></li>
+<li><a href="#velocidades-del-selector"
+id="toc-velocidades-del-selector">🔹 Velocidades del selector</a></li>
+<li><a href="#fusibles-internos" id="toc-fusibles-internos">🔹 Fusibles
+internos</a></li>
+<li><a href="#comprobación-de-fase-y-neutro"
+id="toc-comprobación-de-fase-y-neutro">🔹 Comprobación de fase y
+neutro</a></li>
+<li><a href="#medición-de-la-bobina-y-circuito"
+id="toc-medición-de-la-bobina-y-circuito">🔹 Medición de la bobina y
+circuito</a></li>
+<li><a href="#detectar-bobina-cortada"
+id="toc-detectar-bobina-cortada">🔹 Detectar bobina cortada</a></li>
+<li><a href="#procedimiento-para-localizar-fusible-o-cable-suelto"
+id="toc-procedimiento-para-localizar-fusible-o-cable-suelto">🔹
+Procedimiento para localizar fusible o cable suelto</a></li>
+</ul>
+</nav>
+<div class="pagetext">
 <p><a href="./">Volver al índice</a></p>
 <p>Artículo publicado por: Andrés Imlauer</p>
 <p>Artículo publicado el: 16 Julio 2024</p>
+<p>Aquí tienes un resumen de los puntos más importantes de la clase, con
+emojis incluidos:</p>
+<ul>
+<li>🔌 <strong>Tipos de fuentes</strong>: Conocer las distintas fuentes
+de alimentación y sus aplicaciones.</li>
+<li>🔄 <strong>Transformadores</strong>: Su función principal es
+<strong>bajar la tensión</strong>.</li>
+<li>⚡ <strong>Procesadores</strong>: Se mencionaron como parte de la
+electrónica de control.</li>
+<li>❄️ <strong>Fuente standby en aires acondicionados</strong>: Permite
+mantener funciones mínimas sin activar toda la unidad.</li>
+<li>🖥️ <strong>Placas con más de 1 fuente</strong>: Placas que requieren
+varias fuentes para diferentes circuitos.</li>
+<li>🔧 <strong>Transformador de microondas</strong>: El bobinado
+secundario tiene <strong>más vueltas</strong> que el primario.</li>
+<li>🛠️ <strong>Impedancia de conductores</strong>: Todo conductor tiene
+<strong>impedancia</strong>, que aumenta con la longitud.</li>
+<li>📏 <strong>Cable más largo</strong>: Mayor impedancia → puede
+afectar el rendimiento del circuito.</li>
+</ul>
+<p>Si quieres, puedo hacer una <strong>versión aún más resumida tipo
+“chuleta rápida”</strong> con emojis y palabras clave para estudiar.
+¿Quieres que lo haga? Aquí tienes un <strong>resumen destacado y con
+emojis</strong> de los puntos clave de tu transcripción, organizado para
+estudio:</p>
+<hr />
+<div class="h"><h3 id="identificación-y-medición">🔹 Identificación y medición</h3><a aria-hidden="true" href="#identificación-y-medición">[link]</a></div>
+<ul>
+<li><p>🔍 <strong>Primario vs secundario de transformador</strong>: El
+<strong>primario tiene menos resistencia</strong>.</p></li>
+<li><p>🔋 <strong>Capacitores</strong>:</p>
+<ul>
+<li>Polarizado → para <strong>corriente continua</strong>.</li>
+<li>No polarizado → puede usarse en corriente continua y alterna.</li>
+</ul></li>
+<li><p>🧪 <strong>Capacitor en paralelo</strong>: sirve para
+<strong>prueba rápida</strong>; se puede medir <strong>sin
+sacar</strong>.</p></li>
+<li><p>🌡️ Medir <strong>en frío o caliente</strong> puede dar resultados
+diferentes.</p></li>
+<li><p>⚙️ <strong>Relay</strong>: medir pines 2 y 3 de los 3 pines
+superiores.</p></li>
+<li><p>⚡ <strong>Tipos de relay</strong>: amperimétrico y
+voltáico.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="corriente-y-fuentes">🔹 Corriente y fuentes</h3><a aria-hidden="true" href="#corriente-y-fuentes">[link]</a></div>
+<ul>
+<li>🔄 <strong>Corriente en placas</strong>: alterna y continua.</li>
+<li>🔌 <strong>Fuentes</strong>: lineal, switching/conmutada,
+resistiva/capacitativa.</li>
+<li>🔧 Hasta antes del rectificador → corriente alterna.</li>
+<li>🔋 Capacitor → transforma corriente <strong>pulsante</strong> en
+corriente <strong>continua pura</strong>.</li>
+<li>🔄 Rectificador de onda completa → importante <strong>hacer pares de
+salida</strong>, no solo el símbolo en el circuito.</li>
+</ul>
+<hr />
+<h3 id="transformadores-y-microprocesadores">🔹 Transformadores y
+microprocesadores</h3>
+<ul>
+<li>🔧 Transformador → <strong>reduce el voltaje</strong> para trabajar
+con el microprocesador.</li>
+<li>💻 Microprocesador → recibe órdenes y controla los tiempos de
+operación.</li>
+<li>⚡ Ejemplo split: toma temperatura y enciende según la orden del
+usuario.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="reparación-y-práctica">🔹 Reparación y práctica</h3><a aria-hidden="true" href="#reparación-y-práctica">[link]</a></div>
+<ul>
+<li><p>🛠️ <strong>Placas electrónicas</strong> → mismos componentes:
+resistencias, capacitores, bobinas, mosfets, triacs, relays.</p></li>
+<li><p>⚠️ <strong>Precaución</strong>: alto voltaje vs bajo voltaje;
+cuidado con el espacio reducido entre secciones.</p></li>
+<li><p>🧩 <strong>Desarmado de equipos</strong> (split, tostadora,
+plancha):</p>
+<ul>
+<li>Tornillos separados por tipo (philips, torx).</li>
+<li>Orden de desarmado puede variar (adelante-atrás o
+atrás-adelante).</li>
+<li>Evitar forzar plásticos o piezas.</li>
+</ul></li>
+<li><p>🔌 Se puede crear un <strong>cargador de celular con fuente
+lineal</strong>.</p></li>
+</ul>
+<hr />
+<p>Si quieres, puedo hacer una <strong>versión ultra resumida tipo
+“chuleta visual”</strong> con solo palabras clave + emojis para estudiar
+rápido antes del examen. Esto queda muy práctico para repasar placas y
+transformadores.</p>
+<p>¿Querés que haga esa versión? Aquí tienes un <strong>resumen
+organizado y con emojis</strong> de los puntos más importantes de tu
+última transcripción:</p>
+<hr />
+<div class="h"><h3 id="fuente-y-microprocesador">🔹 Fuente y microprocesador</h3><a aria-hidden="true" href="#fuente-y-microprocesador">[link]</a></div>
+<ul>
+<li>🟢 <strong>Recepción de la orden</strong>: el microprocesador recibe
+la orden del control porque la <strong>fuente standby</strong> siempre
+está encendida.</li>
+<li>🔋 <strong>Fuente standby</strong>: mantiene activo solo el
+microprocesador; forma parte de la fuente principal.</li>
+<li>🖥️ <strong>Placas</strong>: algunas tienen 2 fuentes, otras 3, pero
+el funcionamiento es similar.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="tipos-de-fuentes">🔹 Tipos de fuentes</h3><a aria-hidden="true" href="#tipos-de-fuentes">[link]</a></div>
+<ul>
+<li>⚡ <strong>Lineal</strong>: se alimenta de la misma frecuencia que
+la tensión (220 V x 50 Hz).</li>
+<li>🟡 <strong>Resistiva/capacitativa</strong>: no usan transformador;
+usan <strong>resistencia y/o capacitor en serie</strong> para reducir
+tensión.</li>
+<li>🔄 <strong>Switching/conmutada</strong>: no se detalla, pero es otra
+de las tres principales.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="transformadores">🔹 Transformadores</h3><a aria-hidden="true" href="#transformadores">[link]</a></div>
+<ul>
+<li><p>🔧 Función: <strong>bajar la tensión</strong>.</p></li>
+<li><p>🔁 Estructura: espira primaria → núcleo de hierro → espira
+secundaria.</p></li>
+<li><p>🔹 Primario vs secundario:</p>
+<ul>
+<li>Primario → más vueltas → mayor impedancia.</li>
+<li>Secundario → menos vueltas → menor voltaje de salida.</li>
+</ul></li>
+<li><p>📏 <strong>Impedancia</strong>: todo conductor tiene impedancia;
+mayor longitud → mayor caída de tensión.</p></li>
+<li><p>⚡ Identificación: el <strong>primario tiene mayor
+impedancia</strong>.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="capacitores">🔹 Capacitores</h3><a aria-hidden="true" href="#capacitores">[link]</a></div>
+<ul>
+<li>🔵 <strong>Polarizado</strong>: para corriente continua (positivo y
+negativo).</li>
+<li>⚪ <strong>No polarizado</strong>: para corriente alterna; puede
+usarse en continua.</li>
+<li>🔧 Función: <strong>reducir tensión</strong> y <strong>causar
+impedancia</strong> al circuito.</li>
+<li>❌ Conectarlo al revés en CC → puede explotar.</li>
+<li>🌀 En AC → capacitor cambia de polaridad constantemente; no necesita
+polaridad marcada.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="placas-electrónicas">🔹 Placas electrónicas</h3><a aria-hidden="true" href="#placas-electrónicas">[link]</a></div>
+<ul>
+<li>🔌 Entrada de <strong>220 V</strong> y salida de <strong>12
+V</strong>, dependiendo de la placa.</li>
+<li>🖥️ Microprocesador → alimentado con 3-5 V.</li>
+<li>⚙️ Uso de <strong>relevadores/relays</strong> requiere un voltaje
+mayor que el necesario para el chip.</li>
+<li>🔧 Reguladores de voltaje: algunos componentes de 3 patas son
+reguladores, no transistores.</li>
+<li>🟡 Capacitiva/resistiva → reemplaza transformador en algunas placas
+(como lavadoras).</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>resumen completo de todas tus
+clases de fuentes, transformadores y placas electrónicas</strong> en
+<strong>una sola “chuleta visual” con emojis</strong>, lista para
+estudiar rápido. Esto incluiría standby, tipos de fuentes,
+transformadores, capacitores y microprocesadores.</p>
+<p>¿Querés que haga eso? Aquí tienes un <strong>resumen con
+emojis</strong> de los puntos clave sobre fuentes y rectificación de tu
+clase:</p>
+<hr />
+<div class="h"><h3 id="detección-de-falla">🔹 Detección de falla</h3><a aria-hidden="true" href="#detección-de-falla">[link]</a></div>
+<ul>
+<li>⚠️ <strong>No enciende nada</strong> → revisar
+<strong>fuente</strong> o <strong>chicote de power</strong>.</li>
+<li>🔌 Placas de aire acondicionado siempre necesitan <strong>corriente
+continua de bajo voltaje</strong> (30, 12, 9 V según placa).</li>
+</ul>
+<hr />
+<div class="h"><h3 id="tipos-de-fuentes-1">🔹 Tipos de fuentes</h3><a aria-hidden="true" href="#tipos-de-fuentes-1">[link]</a></div>
+<ul>
+<li>🔹 <strong>Lineal</strong>: usa transformador lineal, trabaja a
+<strong>50 Hz</strong>, salida 12 V, fácil reemplazo si amperaje es
+mayor o igual.</li>
+<li>⚡ <strong>Switching/conmutada</strong>: transformador pequeño,
+trabaja de <strong>10.000 a 100.000 Hz</strong>, requiere filtrado para
+el microprocesador.</li>
+<li>🟡 <strong>Capacitiva/resistiva</strong>: sin transformador,
+capacitor en serie con entrada de 220 V, cae la tensión.</li>
+<li>🛠️ Calidad: <strong>switching &gt; capacitativa/resistiva</strong>
+(menos fallas).</li>
+</ul>
+<hr />
+<h3 id="transformador-y-reducción-de-tensión">🔹 Transformador y
+reducción de tensión</h3>
+<ul>
+<li>🔧 Función: <strong>bajar tensión</strong> de 220 V a valores bajos
+para el chip o relays.</li>
+<li>⚡ Diferencia con capacitor en serie: el transformador trabaja con
+<strong>frecuencia de línea</strong>, el capacitor con
+<strong>impedancia</strong>.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="rectificación">🔹 Rectificación</h3><a aria-hidden="true" href="#rectificación">[link]</a></div>
+<ul>
+<li><p>🔄 Rectificador → convierte <strong>corriente alterna
+pulsante</strong> en <strong>corriente continua</strong>.</p></li>
+<li><p>🟢 <strong>Puente de diodos (ciclo completo)</strong>:</p>
+<ul>
+<li>Entrada: fase y neutro.</li>
+<li>Salida: positiva y negativa.</li>
+<li>Importante: <strong>armar pares de diodos correctamente</strong>;
+ubicación física no importa.</li>
+</ul></li>
+<li><p>⚡ Antes del rectificador → AC, después → CC punzante.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="filtrado-con-capacitor">🔹 Filtrado con capacitor</h3><a aria-hidden="true" href="#filtrado-con-capacitor">[link]</a></div>
+<ul>
+<li>🔵 Después del rectificador → capacitor <strong>filtra la
+corriente</strong>, pasando de <strong>CC punzante</strong> a <strong>CC
+pura</strong>.</li>
+<li>❌ Si la fuente falla → capacitor defectuoso es la causa más
+común.</li>
+<li>🔧 Práctica del profesor: <strong>medir primero</strong>, cambiar si
+no filtra bien; evita conectar polarizado al revés.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="consideraciones-prácticas">🔹 Consideraciones prácticas</h3><a aria-hidden="true" href="#consideraciones-prácticas">[link]</a></div>
+<ul>
+<li>🧰 <strong>Transformadores lineales</strong>: el amperaje debe ser
+<strong>igual o superior</strong> al requerido por la placa.</li>
+<li>💰 Fabricante usa amperaje mínimo para <strong>reducir
+costos</strong>.</li>
+<li>🔌 Capacitiva/resistiva → carece de transformador, más económica,
+pero falla más.</li>
+<li>🟢 Switching → requiere filtrado y rectificación antes de alimentar
+microprocesador.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>resumen completo de todas tus
+clases de fuentes, transformadores, rectificación y capacitores</strong>
+en <strong>una sola “chuleta visual con emojis”</strong> lista para
+repasar todo de golpe. Esto quedaría muy práctico para estudiar antes de
+un examen.</p>
+<p>¿Querés que haga eso? Aquí tienes un <strong>resumen destacado con
+emojis</strong> de los puntos clave sobre medición y regulación de
+voltaje en placas electrónicas:</p>
+<hr />
+<h3 id="medición-de-componentes-en-la-placa">🔹 Medición de componentes
+en la placa</h3>
+<ul>
+<li>🟢 <strong>En serie</strong>: componentes se pueden medir
+directamente en la placa.</li>
+<li>⚠️ <strong>En paralelo</strong>: pueden dar valores engañosos → es
+mejor <strong>sacar uno de los pines o el componente
+completo</strong>.</li>
+<li>🌡️ <strong>Medición en frío vs en funcionamiento</strong>: en frío
+puede dar <strong>bien</strong>, pero al trabajar el componente
+falla.</li>
+<li>🔧 Ejemplo: <strong>capacitor en corto sobre un TRIAC</strong> →
+hacía que TRIAC pareciera recibir señal, pero en realidad el capacitor
+era el problema.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="regulación-de-voltaje">🔹 Regulación de voltaje</h3><a aria-hidden="true" href="#regulación-de-voltaje">[link]</a></div>
+<ul>
+<li><p>🔌 Transformador → puede dar <strong>30 V AC</strong>, pero la
+placa necesita <strong>12 V DC</strong>.</p></li>
+<li><p>🛠️ Solución: usar un <strong>regulador de voltaje de 12
+V</strong> (componentes de 3 patas: entrada, tierra, salida).</p></li>
+<li><p>⚡ Funcionamiento:</p>
+<ul>
+<li>Entrada → 30 V AC filtrada</li>
+<li>Salida → 12 V DC hacia la placa</li>
+</ul></li>
+<li><p>🔵 Donde conectar: <strong>después del capacitor que filtra la
+salida del transformador</strong>.</p></li>
+</ul>
+<hr />
+<h3 id="componentes-lógicos-y-reguladores">🔹 Componentes lógicos y
+reguladores</h3>
+<ul>
+<li>78xx → reguladores de voltaje estándar.</li>
+<li>Circuitos lógicos → XOR, AND; requieren combinaciones de 0 y 1 para
+funcionar.</li>
+<li>🔧 Aplicación práctica: siempre verificar <strong>entrada, tierra y
+salida</strong> antes de soldar en la placa.</li>
+</ul>
+<hr />
+<p>Si querés, puedo armar <strong>una guía completa tipo “chuleta de
+laboratorio”</strong> que incluya:</p>
+<ul>
+<li>Identificación de fuentes y transformadores</li>
+<li>Rectificación y filtrado con capacitores</li>
+<li>Reguladores de voltaje</li>
+<li>Medición de componentes en serie/paralelo</li>
+</ul>
+<p>Esto quedaría listo para usar en tus prácticas de laboratorio o
+reparaciones de placas.</p>
+<p>¿Querés que haga esa guía completa? Aquí tienes un <strong>resumen
+con emojis</strong> de los puntos clave de esta clase sobre
+transformadores, filtrado, tierra y relays:</p>
+<hr />
+<h3 id="adaptación-de-transformadores-y-filtrado">🔹 Adaptación de
+transformadores y filtrado</h3>
+<ul>
+<li><p>🔧 Transformador de <strong>15 V para usar en 12 V</strong>:</p>
+<ul>
+<li>Rectificamos → pusimos <strong>filtro (capacitor)</strong>.</li>
+<li>Cortamos la pista del transformador original para
+<strong>reemplazarlo</strong> sin dañar otros sectores.</li>
+</ul></li>
+<li><p>⚠️ No se puede bajar tensión de AC directamente (como de 30 V a
+15 V) salvo con <strong>capacitiva resistiva</strong>, pero es
+insegura.</p></li>
+<li><p>🟢 Punto clave: <strong>llegar al primer filtro después del
+puente rectificador</strong> para alimentar reguladores de 9 V, 5 V, 3
+V.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="cargador-de-celular-ejemplo">🔹 Cargador de celular ejemplo</h3><a aria-hidden="true" href="#cargador-de-celular-ejemplo">[link]</a></div>
+<ul>
+<li>🔌 Se puede usar un <strong>transformador lineal</strong> y un cable
+del celular.</li>
+<li>Requiere <strong>5 V DC</strong> para cargar.</li>
+<li>Batería solo sirve para alimentar → no se “carga” directamente en la
+placa.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="corriente-continua-y-tierra">🔹 Corriente continua y tierra</h3><a aria-hidden="true" href="#corriente-continua-y-tierra">[link]</a></div>
+<ul>
+<li>🟡 Corriente continua punzante → <strong>negativo siempre a tierra
+(chasis)</strong>.</li>
+<li>Todos los <strong>capacitores polarizados</strong> conectan su
+negativo al chasis → punto común de la placa.</li>
+<li>✅ No hay múltiples negativos en un sector.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="relays-y-conexiones">🔹 Relays y conexiones</h3><a aria-hidden="true" href="#relays-y-conexiones">[link]</a></div>
+<ul>
+<li><p>🔗 Relay de 5 pines:</p>
+<ul>
+<li>Entrada/salida de 220 V puede variar → importante <strong>observar
+la función real en la placa</strong>.</li>
+<li>La bobina genera <strong>campo magnético</strong>, que mueve el
+émbolo.</li>
+</ul></li>
+<li><p>⚡ Fase y neutro: siempre verificar por dónde entra la fase para
+alimentar correctamente.</p></li>
+<li><p>🔄 Teoría vs práctica: la entrada puede estar en un lado o en
+otro según la placa, pero la función siempre es la misma.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="conceptos-finales">🔹 Conceptos finales</h3><a aria-hidden="true" href="#conceptos-finales">[link]</a></div>
+<ul>
+<li>🔋 Campo magnético en relays → movimiento mecánico (énfasis en
+<strong>electromagnetismo aplicado</strong>).</li>
+<li>🧩 Adaptación de fuentes y transformadores → clave para alimentar
+correctamente microprocesadores y otros circuitos.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>resumen unificado de todas tus
+clases de fuentes, transformadores, capacitores, rectificación y
+relays</strong> en <strong>una sola “chuleta visual con emojis” lista
+para estudiar rápido</strong>. Esto incluiría todo: standby, lineal,
+switching, resistiva/capacitiva, filtrado, tierra y reguladores.</p>
+<p>¿Querés que haga esa guía final? Aquí tienes un <strong>resumen con
+emojis</strong> de los conceptos sobre <strong>relays y control de
+electrobombas</strong>:</p>
+<hr />
+<h3 id="principio-de-funcionamiento-del-relay">🔹 Principio de
+funcionamiento del relay</h3>
+<ul>
+<li><p>🧲 <strong>Bobina</strong>: crea un <strong>campo
+magnético</strong> que mueve un émbolo.</p></li>
+<li><p>⚡ <strong>Corriente aplicada</strong>:</p>
+<ul>
+<li>Estado de reposo → normalmente abierto (NO) y normalmente cerrado
+(NC).</li>
+<li>Al excitar la bobina → NO se cierra, NC se abre.</li>
+</ul></li>
+<li><p>🔄 <strong>Inversión</strong>: de ahí el nombre “inversora” →
+invierte el estado de los contactos.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="tipos-de-relays">🔹 Tipos de relays</h3><a aria-hidden="true" href="#tipos-de-relays">[link]</a></div>
+<ul>
+<li>5 pines → bobina + NO + NC.</li>
+<li>4 pines → normalmente cerrado cortado, solo NO.</li>
+<li>8 pines → doble inversora (2 NO + 2 NC + 2 bobina).</li>
+<li>⚙️ Incluso hay <strong>triple inversora</strong> en aplicaciones más
+complejas.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="aplicación-práctica">🔹 Aplicación práctica</h3><a aria-hidden="true" href="#aplicación-práctica">[link]</a></div>
+<ul>
+<li><p>🔌 <strong>Electrobomba</strong>:</p>
+<ul>
+<li>Señal de control → 12 V DC desde el procesador.</li>
+<li>Relay → conecta la electrobomba a <strong>220 V AC</strong>.</li>
+</ul></li>
+<li><p>🟢 Tensión de bobina → 12 V DC</p></li>
+<li><p>⚡ Tensión de carga → 220 V AC</p></li>
+<li><p>🌐 Tierra: hay <strong>CC y AC</strong> en la misma placa;
+símbolos gráficos son solo referenciales.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="configuraciones-especiales">🔹 Configuraciones especiales</h3><a aria-hidden="true" href="#configuraciones-especiales">[link]</a></div>
+<ul>
+<li>🔄 Combinación de relays → permite cambiar dirección de motor o
+controlar distintos circuitos.</li>
+<li>💡 Entrada y salida → pueden intercambiarse según diseño; lo
+importante es <strong>la función de apertura/cierre</strong>.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>resumen final unificado de todas
+tus clases sobre placas, fuentes, transformadores, capacitores,
+reguladores y relays</strong> en <strong>una sola “chuleta visual con
+emojis” lista para repasar todo de golpe</strong>. Esto quedaría
+perfecto para estudiar antes de laboratorio o examen.</p>
+<p>¿Querés que haga esa guía final? Aquí tienes un <strong>resumen con
+emojis y los puntos clave</strong> sobre <strong>medición de relays,
+reguladores, y motores</strong> según tu clase:</p>
+<hr />
+<h3 id="medición-de-relays-y-bobinas">🔹 Medición de relays y
+bobinas</h3>
+<ul>
+<li>🔎 <strong>Medición de bobina</strong>: entre pines 2 y 3 → debe dar
+resistencia (ej. 15–16 Ω).</li>
+<li>⚠️ Componentes similares pueden engañar → siempre verificar a simple
+vista y medir con cuidado.</li>
+<li>🔋 Capacitores que trabajan a <strong>311 V</strong> →
+<strong>descargar antes de medir</strong>.</li>
+<li>🔌 Relay de potencia → común en 220 V AC, bobina excitada con 12 V
+DC.</li>
+<li>🔄 Entrada/salida de relay: fase y neutro pueden variar según
+diseño, la función es <strong>conmutar corriente</strong>.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="reguladores-de-voltaje">🔹 Reguladores de voltaje</h3><a aria-hidden="true" href="#reguladores-de-voltaje">[link]</a></div>
+<ul>
+<li><p>🔧 Reguladores 78xx → reducen tensión:</p>
+<ul>
+<li>7812 → 12 V DC</li>
+<li>7805 → 5 V DC (ej. para cargar celular)</li>
+</ul></li>
+<li><p>⚡ Entrada siempre &gt; salida, sobrante → disipado a
+tierra.</p></li>
+<li><p>📱 Cargador de celular: requiere <strong>5 V DC</strong>, el chip
+interno regula corriente según carga.</p></li>
+</ul>
+<hr />
+<h3 id="relays-en-sistemas-de-alarmas">🔹 Relays en sistemas de
+alarmas</h3>
+<ul>
+<li>🌐 Señales de falla → tierra activa el relay → manda información a
+equipo central (ej. Buenos Aires).</li>
+<li>🔋 Bobina sensible → maneja poca corriente.</li>
+<li>⚡ Diferentes relays → manejan distintas tensiones (220 V AC, 48 V
+DC).</li>
+<li>🔄 Relays con varios inversores → para controlar múltiples acciones
+independientes (lámparas, alarmas, señales).</li>
+</ul>
+<hr />
+<div class="h"><h3 id="principio-de-motores">🔹 Principio de motores</h3><a aria-hidden="true" href="#principio-de-motores">[link]</a></div>
+<ul>
+<li>🧲 <strong>Campo magnético</strong> generado por bobina → interactúa
+con <strong>núcleo magnetizado (estator)</strong> → mueve rotor.</li>
+<li>🔄 Corriente alterna → cambia polaridad 50 veces por segundo → crea
+polos norte/sur variables.</li>
+<li>🏗️ Motores tipo <strong>jaula de ardilla</strong>: chapas de acero +
+aluminio → polos se atraen y repelen → rotación continua.</li>
+<li>⚡ Motores ventiladores CC → imán permanente + bobina → bobina varía
+el campo magnético, imán permanece constante.</li>
+</ul>
+<hr />
+<h3 id="bobinas-de-trabajo-y-arranque">🔹 Bobinas de trabajo y
+arranque</h3>
+<ul>
+<li><p>🔵 Motor necesita:</p>
+<ul>
+<li>Bobina de <strong>arranque</strong></li>
+<li>Bobina de <strong>trabajo</strong></li>
+</ul></li>
+<li><p>🔧 Componente de corte (relay o capacitor) → desconecta bobina de
+arranque al arrancar el motor.</p></li>
+<li><p>⚡ Diferentes velocidades → por eso se separan arranque y
+trabajo.</p></li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>resumen final completo de todas tus
+clases de placas, fuentes, relays, motores y reguladores</strong> en
+<strong>una guía visual con emojis</strong> lista para repasar todo de
+golpe antes de laboratorio o examen. Esto uniría todos los conceptos que
+vimos hasta ahora en un solo documento muy práctico.</p>
+<p>¿Querés que haga esa guía final? Perfecto, vamos a resumir todo lo
+que explicaste sobre <strong>tipos de relays, motores y corrección de
+factor de potencia</strong> en puntos claros con ejemplos y emojis para
+que quede fácil de estudiar:</p>
+<hr />
+<div class="h"><h3 id="tipos-de-relays-1">🔹 Tipos de relays</h3><a aria-hidden="true" href="#tipos-de-relays-1">[link]</a></div>
+<ol type="1">
+<li><p><strong>Amperométricos</strong> ⚡</p>
+<ul>
+<li>Se activan según <strong>consumo de corriente</strong>.</li>
+<li>Ej.: Relay que deja pasar electricidad al arranque y se desconecta
+al caer el consumo.</li>
+</ul></li>
+<li><p><strong>Volumétricos</strong> 💨</p>
+<ul>
+<li>Trabajan según <strong>flujo de aire o líquido</strong> (similar a
+amperométricos pero basado en otro principio).</li>
+</ul></li>
+<li><p><strong>Por fuerza centrífuga</strong> 🌀</p>
+<ul>
+<li>Mecanismo mecánico → placas y resortes.</li>
+<li>Estado quieto → cierra; al girar muy rápido → abre.</li>
+<li>Ej.: Cortadoras de césped.</li>
+</ul></li>
+</ol>
+<hr />
+<div class="h"><h3 id="motores-con-bobinas">🔹 Motores con bobinas</h3><a aria-hidden="true" href="#motores-con-bobinas">[link]</a></div>
+<ul>
+<li><strong>Motor de heladera/freezer:</strong> bobina de arranque +
+bobina de trabajo.</li>
+<li><strong>Motor de ventilador/split:</strong> no tiene bobina de
+arranque → ambas bobinas trabajan <strong>en paralelo</strong>.</li>
+<li>Punto común → si pongo fase o neutro, llega a ambas bobinas.</li>
+</ul>
+<hr />
+<h3 id="problemas-si-conectamos-mal-las-bobinas">🔹 Problemas si
+conectamos mal las bobinas</h3>
+<ul>
+<li><p>Dos bobinas en paralelo sin corrección →
+<strong>desfase</strong>.</p></li>
+<li><p>Consecuencias:</p>
+<ul>
+<li>🔥 Exceso de consumo</li>
+<li>🌀 Sobrecalentamiento</li>
+<li>💥 Desprendimiento del esmalte → cortocircuito</li>
+</ul></li>
+<li><p>Solución: <strong>corrección del factor de potencia</strong> con
+un capacitor.</p></li>
+</ul>
+<hr />
+<h3 id="corrección-de-factor-de-potencia">🔹 Corrección de factor de
+potencia ⚙️</h3>
+<ul>
+<li><p>Corrige desfasajes entre <strong>inductancia</strong> y
+<strong>capacitancia</strong>:</p>
+<ul>
+<li>Error de inductancia → se corrige con capacitancia</li>
+<li>Error de capacitancia → se corrige con inductancia</li>
+</ul></li>
+<li><p>Objetivo → consumo más cercano al real.</p></li>
+<li><p>Precaución: no modificar microfaradios sin medir → riesgo de
+sobrecarga.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="medición-y-prueba-de-motor">🔹 Medición y prueba de motor</h3><a aria-hidden="true" href="#medición-y-prueba-de-motor">[link]</a></div>
+<ul>
+<li>Medir amperaje → con <strong>pinza amperométrica</strong>.</li>
+<li>Probar bobina con <strong>foco en serie</strong>.</li>
+<li>Ajustar <strong>capacitor</strong> → menor consumo posible sin
+exceder amperaje nominal.</li>
+</ul>
+<hr />
+<h3 id="conexión-del-capacitor-en-motor-de-ventilador">🔹 Conexión del
+capacitor en motor de ventilador</h3>
+<ol type="1">
+<li><p>Bobina de trabajo → fase directa</p></li>
+<li><p>Bobina de arranque → alimentada a través de capacitor</p></li>
+<li><p>Neutro:</p>
+<ul>
+<li>Trabajo → directo</li>
+<li>Arranque → mismo polaridad que trabajo</li>
+</ul></li>
+<li><p>Resultado: las bobinas trabajan en paralelo <strong>corrigiendo
+factor de potencia</strong> y evitando sobreconsumo.</p></li>
+</ol>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama visual de motor de
+ventilador con capacitor y bobinas</strong> mostrando cómo se conectan
+fase, neutro y punto común para que se vea clarísimo.</p>
+<p>¿Querés que haga ese diagrama? Perfecto, todo lo que contaste es
+clave para <strong>probar y conectar ventiladores de CA con selector de
+velocidad</strong>. Te hago un resumen organizado y claro con puntos
+clave:</p>
+<hr />
+<div class="h"><h3 id="fase-y-neutro">🔹 Fase y neutro</h3><a aria-hidden="true" href="#fase-y-neutro">[link]</a></div>
+<ul>
+<li>Siempre es preferible <strong>cortar la fase</strong>, no el
+neutro.</li>
+<li>Problemas comunes si se invierte: chasis puede quedar vivo → ciclos
+de magnetismo y riesgos eléctricos.</li>
+<li>Neutro nunca va a tierra; fase sí pasa por switch o relay.</li>
+</ul>
+<hr />
+<h3 id="cambio-de-velocidad-en-ventiladores">🔹 Cambio de velocidad en
+ventiladores</h3>
+<ul>
+<li>Se hace <strong>eléctricamente mediante bobinados y
+capacitores</strong>.</li>
+<li>Ventiladores de pie: tienen bobinas para inducción/impedancia.</li>
+<li>Ventiladores de techo: la bobina no tiene impedancia, usan selector
+externo.</li>
+</ul>
+<hr />
+<h3 id="identificación-de-cables-y-bobinas">🔹 Identificación de cables
+y bobinas</h3>
+<ol type="1">
+<li><p>Quitar tapas y exponer los cables.</p></li>
+<li><p>Colores no confiables → medir <strong>impedancia entre
+pares</strong>.</p></li>
+<li><p>Medición:</p>
+<ul>
+<li>Todos los pares posibles → se repiten valores similares.</li>
+<li>Valor más alto → bobina de arranque.</li>
+<li>Valor siguiente → bobina de trabajo.</li>
+<li>Valores intermedios → bobinas de impedancia.</li>
+</ul></li>
+</ol>
+<hr />
+<div class="h"><h3 id="conexión-de-capacitor">🔹 Conexión de capacitor</h3><a aria-hidden="true" href="#conexión-de-capacitor">[link]</a></div>
+<ul>
+<li><p>Los capacitores <strong>para ventiladores de CA no son
+polarizados</strong>.</p></li>
+<li><p>Se conecta:</p>
+<ul>
+<li>Neutro → bobina de arranque <strong>a través del
+capacitor</strong></li>
+<li>Fase → bobina de trabajo directa</li>
+</ul></li>
+<li><p>Resultado: ambas bobinas trabajan en paralelo <strong>corrigiendo
+el factor de potencia</strong>.</p></li>
+</ul>
+<hr />
+<div class="h"><h3 id="fusible-interno">🔹 Fusible interno</h3><a aria-hidden="true" href="#fusible-interno">[link]</a></div>
+<ul>
+<li>Protege por <strong>cortocircuito o temperatura</strong>.</li>
+<li>Puede estar dentro del bobinado o en serie con el capacitor.</li>
+<li>Si se reemplaza o puentea, tener cuidado → cables finos y
+delicados.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="identificación-y-etiquetado">🔹 Identificación y etiquetado</h3><a aria-hidden="true" href="#identificación-y-etiquetado">[link]</a></div>
+<ul>
+<li>Usar <strong>cinta de papel o enmascarar</strong> para marcar cada
+cable.</li>
+<li>Mantener la correspondencia entre entradas y salidas → A con A, B
+con B, etc.</li>
+<li>Esto evita confusión al desarmar/rearmar ventiladores.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="velocidades-del-selector">🔹 Velocidades del selector</h3><a aria-hidden="true" href="#velocidades-del-selector">[link]</a></div>
+<ul>
+<li><p>Selector tipo <strong>impedancia</strong>:</p>
+<ul>
+<li>Velocidad 1 → más baja (mayor impedancia)</li>
+<li>Velocidad 2 → intermedia</li>
+<li>Velocidad 3 → más alta (mínima impedancia, casi directo)</li>
+</ul></li>
+<li><p>No conectar en medio de bobinado → puede dañarlo.</p></li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama completo de ventilador con
+bobina de arranque, bobina de trabajo, capacitor y fusible</strong>,
+mostrando cómo medir e identificar cada cable para diferentes
+velocidades. Esto hace que sea mucho más fácil de entender
+visualmente.</p>
+<p>¿Querés que haga ese diagrama? Perfecto, todo lo que contaste
+corresponde a <strong>diagnóstico de un ventilador con bobinas y fusible
+interno</strong>. Te hago un resumen organizado y práctico con los
+puntos clave:</p>
+<hr />
+<div class="h"><h3 id="fusibles-internos">🔹 Fusibles internos</h3><a aria-hidden="true" href="#fusibles-internos">[link]</a></div>
+<ul>
+<li><strong>Aluminio:</strong> no tocar, irreparable.</li>
+<li><strong>Térmico:</strong> protege por sobretemperatura → ubicado
+dentro del bobinado, no al lado.</li>
+<li>Puede haber fusibles “destornillables” en otros equipos, pero aquí
+es térmico.</li>
+<li>Si se rompe, hay que localizar ambos extremos dentro del bobinado y
+reconectarlos con cuidado.</li>
+</ul>
+<hr />
+<h3 id="comprobación-de-fase-y-neutro">🔹 Comprobación de fase y
+neutro</h3>
+<ul>
+<li>Fase → preferentemente lado derecho del enchufe.</li>
+<li>Neutro → lado izquierdo.</li>
+<li>Algunos ventiladores nuevos pueden venir invertidos → hay que
+corregir.</li>
+<li>Continuidad: medir neutro con selector de velocidad para asegurarse
+que no hay cortes.</li>
+</ul>
+<hr />
+<h3 id="medición-de-la-bobina-y-circuito">🔹 Medición de la bobina y
+circuito</h3>
+<ul>
+<li>Usar <strong>pinza amperométrica</strong> en el neutro (fase muy
+corta no sirve).</li>
+<li>Si el multímetro da menos voltaje de 220V: caída de tensión por
+<strong>impedancia de la bobina</strong> → normal si está
+funcionando.</li>
+<li>Si no hay corriente: posible fusible abierto o cable cortado.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="detectar-bobina-cortada">🔹 Detectar bobina cortada</h3><a aria-hidden="true" href="#detectar-bobina-cortada">[link]</a></div>
+<ul>
+<li>Si el fusible está bien pero hay un <strong>cable suelto dentro del
+bobinado</strong>, la bobina parece cortada.</li>
+<li>No necesariamente está quemada, pero el flujo de corriente se
+interrumpe.</li>
+<li>Para medir continuidad en serie con foco → seguro: si hay corto, la
+lámpara se enciende pero no vuela la instalación.</li>
+</ul>
+<hr />
+<h3 id="procedimiento-para-localizar-fusible-o-cable-suelto">🔹
+Procedimiento para localizar fusible o cable suelto</h3>
+<ol type="1">
+<li>Romper precinto o barniz con paciencia.</li>
+<li>Localizar ambas patitas del fusible dentro del bobinado.</li>
+<li>Reconectar con soldadura o puente si es posible.</li>
+<li>Verificar continuidad antes de energizar.</li>
+</ol>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama paso a paso de cómo medir
+la continuidad de cada bobina, ubicar el fusible y verificar la
+fase/neutro</strong> para un ventilador con bobina de arranque y
+trabajo, incluyendo la posición correcta del capacitor. Esto hace mucho
+más fácil seguirlo visualmente.</p>
+<p>¿Querés que haga ese diagrama?</p>
 <div id="footer">
 <hr />
 </div>
@@ -38,6 +910,7 @@ class="uri">https://cursoelectricidad.github.io/09clase.md</a></p>
 <p>Esta página HTML fue generada por el <a
 href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
 Generator</a>.</p>
+</div>
 </div>
 </body>
 </html>

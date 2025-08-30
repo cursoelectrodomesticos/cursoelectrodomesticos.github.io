@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 1:</title>
+  <title>Curso Electricidad – Clase Nº 4: Capacitores, Transformadores - Fuente lineal, switching o conmutada, y capacitiva. Rectificador onda completa. Núcleo ferrita, núcleo hierro.</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -14,7 +14,9 @@
 <div class="page">
 <header>
 <div class="title">
-<h1 class="title">Clase Nº 1:</h1>
+<h1 class="title">Clase Nº 4: Capacitores, Transformadores - Fuente
+lineal, switching o conmutada, y capacitiva. Rectificador onda completa.
+Núcleo ferrita, núcleo hierro.</h1>
 </div>
 <p class="author">Andrés Imlauer</p>
 <p class="date">16 Julio 2024</p>
@@ -24,9 +26,626 @@
 </ul>
 <hr/>
 </header>
+<nav id="TOC">
+<h1>Navigate this page:</h1>
+<ul>
+<li><a href="#medición-y-prueba-de-fuentes-switching"
+id="toc-medición-y-prueba-de-fuentes-switching"><strong>Medición y
+prueba de fuentes switching</strong></a></li>
+<li><a href="#capacitores"
+id="toc-capacitores"><strong>Capacitores</strong></a></li>
+<li><a href="#electricidad-y-transformadores"
+id="toc-electricidad-y-transformadores"><strong>Electricidad y
+transformadores</strong></a></li>
+<li><a href="#otros-consejos-y-buenas-prácticas"
+id="toc-otros-consejos-y-buenas-prácticas"><strong>Otros consejos y
+buenas prácticas</strong></a></li>
+<li><a href="#magnetismo-y-transformadores"
+id="toc-magnetismo-y-transformadores"><strong>Magnetismo y
+transformadores</strong> 🧲⚡</a></li>
+<li><a href="#uso-seguro-de-tierra"
+id="toc-uso-seguro-de-tierra"><strong>Uso seguro de tierra</strong>
+🌍⚠️</a></li>
+<li><a href="#potencia-y-capacitores"
+id="toc-potencia-y-capacitores"><strong>Potencia y capacitores</strong>
+⚡🔋</a></li>
+<li><a href="#baterías-y-carga"
+id="toc-baterías-y-carga"><strong>Baterías y carga</strong>
+🔋💡</a></li>
+<li><a href="#electrónica-y-chips"
+id="toc-electrónica-y-chips"><strong>Electrónica y chips</strong>
+💻🔋</a></li>
+<li><a href="#por-qué-el-chip-necesita-3-v"
+id="toc-por-qué-el-chip-necesita-3-v"><strong>Por qué el chip necesita 3
+V</strong> 💻⚡</a></li>
+<li><a href="#lavadoras-y-selectores"
+id="toc-lavadoras-y-selectores"><strong>Lavadoras y selectores</strong>
+🧺⚙️</a></li>
+<li><a href="#corriente-para-chips"
+id="toc-corriente-para-chips"><strong>Corriente para chips</strong>
+⚡💻</a></li>
+<li><a href="#conversión-de-corriente"
+id="toc-conversión-de-corriente"><strong>Conversión de
+corriente</strong> 🔄⚡</a></li>
+<li><a href="#componentes-electrónicos-básicos"
+id="toc-componentes-electrónicos-básicos"><strong>Componentes
+electrónicos básicos</strong> 🛠️</a></li>
+<li><a href="#diodos-y-rectificación"
+id="toc-diodos-y-rectificación"><strong>Diodos y rectificación</strong>
+➡️🔋</a></li>
+<li><a href="#transformadores-lineales-vs-switching"
+id="toc-transformadores-lineales-vs-switching"><strong>Transformadores
+lineales vs switching</strong> 🌀⚡</a></li>
+<li><a href="#rectificación-y-regulación-de-voltaje"
+id="toc-rectificación-y-regulación-de-voltaje"><strong>Rectificación y
+regulación de voltaje</strong> 🔧</a></li>
+<li><a href="#proceso-de-generación-de-corriente-en-transformadores"
+id="toc-proceso-de-generación-de-corriente-en-transformadores"><strong>Proceso
+de generación de corriente en transformadores</strong> ⚡🧲</a></li>
+<li><a href="#tipo-de-corriente-en-tu-circuito"
+id="toc-tipo-de-corriente-en-tu-circuito"><strong>Tipo de corriente en
+tu circuito</strong> ⚡</a></li>
+<li><a href="#proceso-de-rectificación-con-diodos"
+id="toc-proceso-de-rectificación-con-diodos"><strong>Proceso de
+rectificación con diodos</strong> ➡️🔧</a></li>
+<li><a href="#medición-de-voltaje"
+id="toc-medición-de-voltaje"><strong>Medición de voltaje</strong>
+🧰</a></li>
+<li><a href="#protecciones-y-filtros"
+id="toc-protecciones-y-filtros"><strong>Protecciones y filtros</strong>
+🛡️</a></li>
+<li><a href="#transformador-reductor"
+id="toc-transformador-reductor"><strong>Transformador reductor</strong>
+🔻</a></li>
+<li><a href="#seguridad-eléctrica"
+id="toc-seguridad-eléctrica"><strong>Seguridad eléctrica</strong>
+⚠️</a></li>
+<li><a href="#flujo-de-corriente-en-fuentes"
+id="toc-flujo-de-corriente-en-fuentes"><strong>Flujo de corriente en
+fuentes</strong> ⚡🔄</a></li>
+<li><a href="#fuentes-lineales-vs-switching"
+id="toc-fuentes-lineales-vs-switching"><strong>Fuentes lineales vs
+switching</strong> 🔧</a></li>
+<li><a href="#relays-y-control" id="toc-relays-y-control"><strong>Relays
+y control</strong> ⚙️</a></li>
+<li><a href="#transformadores-especiales"
+id="toc-transformadores-especiales"><strong>Transformadores
+especiales</strong> 🧲</a></li>
+<li><a href="#resumen-técnico-práctico"
+id="toc-resumen-técnico-práctico"><strong>Resumen técnico
+práctico</strong> 📝</a></li>
+<li><a href="#generar-frecuencia-en-corriente-continua-dc"
+id="toc-generar-frecuencia-en-corriente-continua-dc"><strong>Generar
+frecuencia en corriente continua (DC)</strong> ⚡🔄</a></li>
+<li><a href="#circuitos-integrados-y-pines"
+id="toc-circuitos-integrados-y-pines"><strong>Circuitos integrados y
+pines</strong> 🧠📌</a></li>
+<li><a href="#corriente-y-voltajes-en-bobinado"
+id="toc-corriente-y-voltajes-en-bobinado"><strong>Corriente y voltajes
+en bobinado</strong> ⚡🌀</a></li>
+<li><a href="#oscilaciones-y-conmutación"
+id="toc-oscilaciones-y-conmutación"><strong>Oscilaciones y
+conmutación</strong> 🔄</a></li>
+<li><a href="#concepto-clave" id="toc-concepto-clave"><strong>Concepto
+clave</strong> 📝</a></li>
+</ul>
+</nav>
+<div class="pagetext">
 <p><a href="./">Volver al índice</a></p>
 <p>Artículo publicado por: Andrés Imlauer</p>
 <p>Artículo publicado el: 16 Julio 2024</p>
+<p>Aquí tienes un resumen con los <strong>puntos más
+importantes</strong> de tu texto, organizado y destacando lo
+esencial:</p>
+<hr />
+<h3 id="medición-y-prueba-de-fuentes-switching"><strong>Medición y
+prueba de fuentes switching</strong></h3>
+<ul>
+<li>Sin osciloscopio, medir los pulsos de una fuente switching es
+difícil por la <strong>alta frecuencia</strong>.</li>
+<li>El tester convencional se puede <strong>quemar</strong>, no sirve
+para alta frecuencia.</li>
+<li>Uso de un <strong>foco de neón</strong> como indicador: titila si la
+fuente funciona hasta antes del transformador.</li>
+<li>Si el foco titila, se puede deducir que el problema está en el
+<strong>transformador</strong>, no en la fuente.</li>
+<li><strong>Buscapolo digital</strong> recomendado: distingue
+<strong>descarga directa</strong> de <strong>corriente de
+inducción</strong>.</li>
+<li>Los buscapolos analógicos pueden no verse bajo luz solar
+intensa.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="capacitores"><strong>Capacitores</strong></h3><a aria-hidden="true" href="#capacitores">[link]</a></div>
+<ul>
+<li><p>Existen <strong>capacitores simples y dobles</strong>; todos son
+genéricos salvo uno distinto.</p></li>
+<li><p>Se usan en las <strong>bobinas de trabajo de aires
+acondicionados</strong> (ej.: 35 μF, 45 μF, 50 μF).</p></li>
+<li><p><strong>No confiarse del tamaño</strong>: el valor real puede
+diferir del aparente.</p></li>
+<li><p>Medir un capacitor no garantiza que funcione correctamente;
+ejemplo: medir 65 μF en uno de 90 μF es
+<strong>incorrecto</strong>.</p></li>
+<li><p>Tipos: <strong>polarizados</strong> y <strong>no
+polarizados</strong>.</p>
+<ul>
+<li>Polarizados: cuidado con la <strong>polaridad</strong>, invertir
+puede causar <strong>explosión</strong>.</li>
+<li>No polarizados: para corriente alterna (AC).</li>
+</ul></li>
+<li><p>Capacitores tienen dos medidas: <strong>microfaradios
+(μF)</strong> y <strong>voltaje (V)</strong>.</p></li>
+<li><p>Se cargan al <strong>valor pico</strong> de la
+corriente.</p></li>
+</ul>
+<hr />
+<h3 id="electricidad-y-transformadores"><strong>Electricidad y
+transformadores</strong></h3>
+<ul>
+<li>Con <strong>corriente continua (CC)</strong> no funciona un
+transformador; requiere <strong>variación de campo magnético</strong>
+(corriente alterna).</li>
+<li>Cada ciclo de corriente alterna genera <strong>cambio de polos
+magnéticos</strong>: norte ↔︎ sur constantemente.</li>
+<li>Corriente directa crea solo un <strong>electroimán</strong>, no
+induce voltaje en el secundario.</li>
+<li>Para aumentar voltaje de CC directamente (ej. de 9 V a 12 V)
+<strong>no se puede</strong> sin un método especial (inversor o
+convertidor).</li>
+</ul>
+<hr />
+<h3 id="otros-consejos-y-buenas-prácticas"><strong>Otros consejos y
+buenas prácticas</strong></h3>
+<ul>
+<li>Ahora <strong>no se puede falsificar el consumo eléctrico</strong>
+debido a medidores digitales.</li>
+<li>Antiguamente se falsificaba desconectando un puente, pero se
+detectaba fácilmente.</li>
+<li><strong>Respeto al cliente</strong> y cuidado de la <strong>imagen
+profesional</strong> son fundamentales.</li>
+<li>Lo más difícil en electricidad es <strong>manejar
+electromagnetismo</strong> (transformadores, bobinas, núcleos de
+hierro).</li>
+</ul>
+<hr />
+<p>Si quieres, puedo hacer <strong>un diagrama visual resumido</strong>
+que conecte <strong>fuente switching → transformador → capacitores →
+mediciones</strong>, para que se entienda más rápido cómo todo se
+relaciona. Esto te sirve mucho para estudio práctico.</p>
+<p>¿Quieres que haga ese diagrama?</p>
+<p>Aquí tienes un resumen con los <strong>puntos más
+importantes</strong> usando <strong>emojis</strong> para destacar
+conceptos clave:</p>
+<hr />
+<h3 id="magnetismo-y-transformadores"><strong>Magnetismo y
+transformadores</strong> 🧲⚡</h3>
+<ul>
+<li>Un <strong>imán roto</strong> no se puede unir para generar un campo
+magnético 🔧❌.</li>
+<li>La corriente que inicia de 0 crea un <strong>campo magnético en el
+hierro</strong> 🔄.</li>
+<li>El <strong>campo magnético</strong> se propaga en todas direcciones,
+pero se orienta según el estudio 📐.</li>
+<li>Cada <strong>medio ciclo</strong> genera un campo magnético; el
+hierro puede quedar imantado 🌀.</li>
+<li>En <strong>corriente alterna</strong>, el secundario también tendrá
+AC; la diferencia es el voltaje ⚡↔︎⚡.</li>
+<li><strong>Neutro AC = tierra</strong>, mientras que en CC el negativo
+≠ tierra 🔋❌🌍.</li>
+</ul>
+<hr />
+<h3 id="uso-seguro-de-tierra"><strong>Uso seguro de tierra</strong>
+🌍⚠️</h3>
+<ul>
+<li>Si conectamos la tierra mal (ej.: como neutro), la <strong>tensión
+baja</strong> y los motores “pistonean” 🏎️💥.</li>
+<li>La electricidad <strong>siempre sigue el camino de menor
+resistencia</strong> ⚡↘️.</li>
+<li>Instalación de jabalina a tierra: protege al usuario y dirige la
+corriente correctamente 🪛✅.</li>
+<li>No usar la tierra como neutro para <strong>reducir consumo
+eléctrico</strong> ❌💡.</li>
+<li>Concepto de <strong>aislación galvánica</strong>: primaria y
+secundaria de un transformador están aisladas 🔌🛡️.</li>
+</ul>
+<hr />
+<h3 id="potencia-y-capacitores"><strong>Potencia y capacitores</strong>
+⚡🔋</h3>
+<ul>
+<li><strong>Potencia = tensión × intensidad</strong> ⚡✖️🔋.</li>
+<li>Capacitores negros: usados para <strong>arranque de motores</strong>
+⚫🔄.</li>
+<li>Relé elimina la bobina de arranque 🔧.</li>
+<li>Valor de 220 V = valor eficaz, mientras que el <strong>pico
+real</strong> en capacitor es 320 V 🔺⚡.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="baterías-y-carga"><strong>Baterías y carga</strong> 🔋💡</h3><a aria-hidden="true" href="#baterías-y-carga">[link]</a></div>
+<ul>
+<li>Incorrecto decir “cargar la batería”; se <strong>equilibran
+potenciales</strong> ⚖️.</li>
+<li>Los electrones van de la <strong>placa positiva a la
+negativa</strong>, restableciendo la diferencia de potencial 🔁.</li>
+<li>La batería pierde voltaje cuando <strong>placas positivas y
+negativas se igualan</strong> 0️⃣.</li>
+<li>Al “cargar”, movemos electrones a la placa negativa y liberamos
+agujeros en la positiva 🔄⚡.</li>
+</ul>
+<hr />
+<h3 id="electrónica-y-chips"><strong>Electrónica y chips</strong>
+💻🔋</h3>
+<ul>
+<li>Debemos <strong>procesar la electricidad</strong> para que al chip
+le lleguen 3 V, aunque pueda recibir hasta 9 V ⚡➡️💻.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer <strong>una versión más visual</strong> usando
+<strong>dibujos de imanes, transformadores y flujo de corriente</strong>
+para que se entienda todo de un vistazo.</p>
+<p>¿Querés que haga eso?</p>
+<p>Aquí tienes un resumen con los <strong>puntos más
+importantes</strong> de tu texto, usando emojis para mayor claridad:</p>
+<hr />
+<h3 id="por-qué-el-chip-necesita-3-v"><strong>Por qué el chip necesita 3
+V</strong> 💻⚡</h3>
+<ul>
+<li><p>Los chips necesitan <strong>activación de energía</strong> para
+funcionar 🔋.</p></li>
+<li><p>También se llaman <strong>procesador o junta</strong>; su función
+es <strong>recibir órdenes</strong> 🧠📡.</p></li>
+<li><p>Para funcionar, <strong>requiere diferencia de
+potencial</strong>: positivo y tierra/negativo ⚡↔︎🌍.</p></li>
+<li><p>Si no llega el voltaje correcto, puede haber fallas por:</p>
+<ul>
+<li>Bobina quemada 🔥</li>
+<li>Transistor dañado ⚡❌</li>
+<li>Resistencias o diodos quemados ♻️🔥</li>
+<li>Pista rota en la placa 🛠️ (se usa microescopio para inspección
+🔬)</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="lavadoras-y-selectores"><strong>Lavadoras y selectores</strong>
+🧺⚙️</h3>
+<ul>
+<li>Selectores antiguos: <strong>mecánico-voltaico</strong>, regresan al
+estado inicial 🔄.</li>
+<li>Lavadoras modernas: <strong>electrónicas</strong>, no vuelven
+automáticamente; usan <strong>placa con memoria y programador</strong>
+💾.</li>
+<li>La placa <strong>lee la acción</strong> solo cuando se activa el
+programa 📝.</li>
+</ul>
+<hr />
+<h3 id="corriente-para-chips"><strong>Corriente para chips</strong>
+⚡💻</h3>
+<ul>
+<li>Necesita <strong>3 V de corriente directa (DC)</strong> para
+funcionar 🟢.</li>
+<li>Chips sensibles: incluso <strong>frecuencias parásitas en el
+aire</strong> pueden afectar su funcionamiento 🌫️⚠️.</li>
+<li>Para medir capacitores: deben estar <strong>totalmente
+descargados</strong> primero 🟢⚡.</li>
+</ul>
+<hr />
+<h3 id="conversión-de-corriente"><strong>Conversión de
+corriente</strong> 🔄⚡</h3>
+<ul>
+<li>La corriente alterna (AC) de 220 V <strong>no sirve directamente
+para chips</strong> ❌⚡.</li>
+<li>Se debe convertir AC a <strong>corriente continua lineal
+(DC)</strong> 🔌➡️💻.</li>
+</ul>
+<hr />
+<h3 id="componentes-electrónicos-básicos"><strong>Componentes
+electrónicos básicos</strong> 🛠️</h3>
+<ol type="1">
+<li><p><strong>Resistencias</strong> 🔹</p>
+<ul>
+<li>Símbolo Ω</li>
+<li>Ej: 2k = 2000 Ω</li>
+</ul></li>
+<li><p><strong>Capacitores</strong> ⚫</p>
+<ul>
+<li>Polarizados → CC, cuidado con invertirlos ❌🔋</li>
+<li>No polarizados → AC</li>
+</ul></li>
+<li><p><strong>Bobinas / Inductores</strong> 🌀</p>
+<ul>
+<li>Símbolo: L</li>
+<li>Pueden parecer resistencias, se distingue por el símbolo de faradios
+(F) o inductancia (L)</li>
+</ul></li>
+<li><p><strong>Diodos</strong> ➡️</p>
+<ul>
+<li>Permiten paso de corriente en un solo sentido</li>
+<li>Terminales: <strong>ánodo (+)</strong> y <strong>cátodo
+(-)</strong></li>
+<li>Usos: rectificar AC a DC 🔄➡️💡</li>
+</ul></li>
+</ol>
+<hr />
+<p>Si querés, puedo hacer una <strong>versión súper resumida y visual
+con emojis + flechas</strong>, para que tengas todo el flujo de energía
+en chips y placas de manera rápida y fácil de estudiar.</p>
+<p>¿Querés que haga eso?</p>
+<p>Aquí tienes un <strong>resumen con los puntos más
+importantes</strong> de tu texto, usando <strong>emojis y
+flechas</strong> para mayor claridad:</p>
+<hr />
+<h3 id="diodos-y-rectificación"><strong>Diodos y rectificación</strong>
+➡️🔋</h3>
+<ul>
+<li><p>La <strong>corriente pasa según la orientación del
+diodo</strong>:</p>
+<ul>
+<li>Ciclo positivo → pasa ✅</li>
+<li>Ciclo negativo → bloquea ❌</li>
+</ul></li>
+<li><p>Corriente desde <strong>ánodo → cátodo</strong> pasa; inversa
+también puede pasar según polaridad de CC ⚡.</p></li>
+<li><p>Usamos diodos para <strong>convertir AC en DC</strong>
+(rectificación) 🔄➡️💡.</p></li>
+<li><p>El diodo debe estar <strong>en serie con la corriente</strong>
+que ingresa 🔗.</p></li>
+</ul>
+<hr />
+<h3 id="transformadores-lineales-vs-switching"><strong>Transformadores
+lineales vs switching</strong> 🌀⚡</h3>
+<ul>
+<li><p><strong>Transformador lineal</strong>: núcleo de hierro, trabaja
+a <strong>50/60 Hz</strong>, se magnetiza y desmagnetiza cada ciclo
+🔄🧲.</p></li>
+<li><p><strong>Transformador con núcleo de ferrita</strong>: alta
+frecuencia (10.000 – 100.000 Hz), se mantiene magnetizado constantemente
+⚡🧲.</p></li>
+<li><p>El <strong>primario y secundario</strong> se conectan al
+bobinado, con placas en forma de “E” + recta.</p></li>
+<li><p>Línea: lineal = ciclo de la red ⚡; switching = ciclo altísimo
+⏱️.</p></li>
+<li><p><strong>No se puede reemplazar un transformador switching con
+otro que no tenga la misma frecuencia</strong> ❌⚠️.</p></li>
+<li><p>Materiales:</p>
+<ul>
+<li>Lineal → hierro + silicio o cromo 🧲</li>
+<li>Switching → ferrita 🟣</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="rectificación-y-regulación-de-voltaje"><strong>Rectificación y
+regulación de voltaje</strong> 🔧</h3>
+<ul>
+<li>Para rectificar se usa un <strong>puente rectificador de onda
+completa</strong> (4 diodos) 🔲.</li>
+<li>En placas, los diodos no se ven en rombo por espacio; se conectan
+<strong>opuestos en la pista</strong> 🔀.</li>
+<li>Después de rectificar, un capacitor almacena y suaviza la DC
+⚡🟢.</li>
+<li>Para obtener voltajes distintos (12 V → 9 V o 5 V) se usa un
+<strong>regulador de voltaje</strong> 🔧💡.</li>
+<li>Antes de rectificar, siempre definir si es <strong>fuente lineal o
+switching</strong> 📝.</li>
+</ul>
+<hr />
+<h3
+id="proceso-de-generación-de-corriente-en-transformadores"><strong>Proceso
+de generación de corriente en transformadores</strong> ⚡🧲</h3>
+<ul>
+<li>La corriente alterna genera <strong>variación de campo
+magnético</strong> → induce electricidad en el secundario 🔄.</li>
+<li>Si el transformador no pierde magnetización rápido (alta frecuencia)
+→ no funciona como lineal ❌.</li>
+<li>Ejemplo cotidiano: <strong>destornilladores magnetizados</strong>
+muestran cómo se mantiene el campo 🛠️🧲.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama visual paso a paso de la
+rectificación AC → DC</strong> mostrando <strong>diodos, capacitor,
+regulador</strong> y diferencias entre <strong>lineal vs
+switching</strong>, para que quede súper claro.</p>
+<p>¿Querés que haga eso?</p>
+<p>Aquí tienes un <strong>resumen con los puntos más
+importantes</strong> usando emojis y estructura clara:</p>
+<hr />
+<h3 id="tipo-de-corriente-en-tu-circuito"><strong>Tipo de corriente en
+tu circuito</strong> ⚡</h3>
+<ul>
+<li>Entrada: <strong>corriente alterna (AC)</strong> de fase y neutro
+🔄.</li>
+<li>Salida: <strong>corriente continua punzante (DC pulsante)</strong>
+tras rectificación ⚡➡️🟢.</li>
+</ul>
+<hr />
+<h3 id="proceso-de-rectificación-con-diodos"><strong>Proceso de
+rectificación con diodos</strong> ➡️🔧</h3>
+<ul>
+<li><strong>Corriente positiva</strong>: entra por
+<strong>ánodo</strong>, sale por <strong>cátodo</strong> 🔹.</li>
+<li><strong>Corriente negativa</strong>: entra por
+<strong>cátodo</strong>, sale por <strong>ánodo</strong> 🔹.</li>
+<li>Se usa un <strong>puente rectificador de onda completa</strong> para
+obtener DC en ambos ciclos 🔲.</li>
+<li>Existen rectificadores de <strong>medio ciclo</strong> y de
+<strong>onda completa con punto intermedio</strong>.</li>
+</ul>
+<hr />
+<h3 id="medición-de-voltaje"><strong>Medición de voltaje</strong>
+🧰</h3>
+<ul>
+<li>Con <strong>tester</strong>: medir <strong>voltaje de corriente
+continua (DC)</strong> en la escala correcta.</li>
+<li>La DC obtenida es <strong>punzante</strong>, no completamente suave
+sin filtro ⚡.</li>
+</ul>
+<hr />
+<h3 id="protecciones-y-filtros"><strong>Protecciones y filtros</strong>
+🛡️</h3>
+<ul>
+<li>Filtros tipo <strong>uber</strong>: combinan <strong>diodo +
+resistencia + capacitor</strong> para absorber energía residual
+🔄⚡🟢.</li>
+<li>Evitan que subidas de tensión dañen fotocélulas o elementos
+sensibles 💡🔥.</li>
+</ul>
+<hr />
+<h3 id="transformador-reductor"><strong>Transformador reductor</strong>
+🔻</h3>
+<ul>
+<li>Reduce de <strong>220 V AC → 12 V AC</strong> ⚡🔄.</li>
+<li>Siempre trabaja con <strong>corriente alterna</strong> antes de
+rectificación.</li>
+</ul>
+<hr />
+<h3 id="seguridad-eléctrica"><strong>Seguridad eléctrica</strong>
+⚠️</h3>
+<ul>
+<li>Sentir <strong>cosquilleo</strong> = circuito no aislado;
+<strong>aislarse</strong> evita peligro ⚡🖐️.</li>
+<li>CC muy alta → te <strong>quema</strong>; AC → te
+<strong>sacude</strong> por los ciclos 🔥⚡.</li>
+<li>Fuentes <strong>switching</strong> → no hay AC directa, pero generan
+<strong>altísimo voltaje</strong> ⚡💥.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama visual de un puente
+rectificador</strong> mostrando <strong>entrada AC → diodos → salida DC
+punzante → filtro capacitor</strong>, para que quede clarísimo cómo
+fluye la corriente.</p>
+<p>¿Querés que haga ese diagrama?</p>
+<p>Aquí tienes un <strong>resumen con los puntos más
+importantes</strong> usando emojis para que quede claro y resumido:</p>
+<hr />
+<h3 id="flujo-de-corriente-en-fuentes"><strong>Flujo de corriente en
+fuentes</strong> ⚡🔄</h3>
+<ul>
+<li><strong>AC → rectificación → filtrado → DC pura</strong> 💡🟢</li>
+<li><strong>Capacitor</strong>: se coloca en <strong>paralelo</strong>
+para cargar ambas placas (positiva y negativa) 🔋↔︎🔋</li>
+<li><strong>Rizado</strong>: pequeña variación residual en DC; depende
+del capacitor y su cálculo ⚖️</li>
+</ul>
+<hr />
+<h3 id="fuentes-lineales-vs-switching"><strong>Fuentes lineales vs
+switching</strong> 🔧</h3>
+<p><strong>Fuentes lineales:</strong></p>
+<ul>
+<li>Entrada → <strong>transformador</strong> → rectificación → salida DC
+💡</li>
+<li>Primero <strong>bajar el voltaje</strong> con el transformador,
+luego rectificar 🔻➡️🔋</li>
+</ul>
+<p><strong>Fuentes switching (conmutadas):</strong></p>
+<ul>
+<li><p>La AC de 50 Hz <strong>no sirve</strong>; se rectifica
+inmediatamente ⚡❌</p></li>
+<li><p>Puede haber <strong>múltiples salidas</strong>:</p>
+<ul>
+<li>Una para <strong>circuito integrado / chip</strong> 💻</li>
+<li>Otra para <strong>relays</strong> (12, 24 o 30 V según fabricante)
+🔄</li>
+</ul></li>
+</ul>
+<hr />
+<div class="h"><h3 id="relays-y-control"><strong>Relays y control</strong> ⚙️</h3><a aria-hidden="true" href="#relays-y-control">[link]</a></div>
+<ul>
+<li>El <strong>chip dispara el relay</strong> 🧠➡️🔘</li>
+<li>Componentes como <strong>transistores o triac</strong> permiten usar
+<strong>voltajes altos</strong> (30 V) con señales bajas (1 V)
+⚡➡️💥</li>
+</ul>
+<hr />
+<h3 id="transformadores-especiales"><strong>Transformadores
+especiales</strong> 🧲</h3>
+<ul>
+<li>Transformador con <strong>ferrita</strong> =
+<strong>chopper</strong> 🔹</li>
+<li>Tras rectificación → <strong>no hay frecuencia</strong> ⏱️❌</li>
+<li>Los transformadores requieren <strong>frecuencia para
+funcionar</strong> 🌀⚡</li>
+<li>DC (como en pilas) <strong>no tiene frecuencia</strong> 🔋</li>
+</ul>
+<hr />
+<h3 id="resumen-técnico-práctico"><strong>Resumen técnico
+práctico</strong> 📝</h3>
+<ul>
+<li>Fuente lineal: baja el voltaje primero, luego rectifica.</li>
+<li>Fuente switching: rectifica primero y luego ajusta frecuencia y
+voltaje.</li>
+<li>Capacitores y filtros ajustan la <strong>suavidad de la DC</strong>
+y alimentan correctamente chips y relays.</li>
+<li>Para manipular relays y circuitos integrados se usan transistores o
+triac según voltajes requeridos.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama comparativo visual de
+fuente lineal vs fuente switching</strong>, mostrando <strong>AC →
+transformador → rectificación → DC → relays/chip</strong>, para que se
+vea todo el flujo de manera intuitiva.</p>
+<p>¿Querés que haga eso?</p>
+<p>Aquí tienes un <strong>resumen con los puntos más
+importantes</strong> usando emojis y claridad técnica:</p>
+<hr />
+<h3 id="generar-frecuencia-en-corriente-continua-dc"><strong>Generar
+frecuencia en corriente continua (DC)</strong> ⚡🔄</h3>
+<ul>
+<li>Para generar frecuencia en DC, se necesita un <strong>generador de
+pulsos</strong> 🟢⚡.</li>
+<li>Conectar la batería produce un <strong>pulso inicial
+(chispa)</strong> que genera un campo magnético momentáneo 💥🧲.</li>
+<li>Algunos generadores de pulsos alcanzan <strong>10.000 – 12.000
+pulsos por segundo</strong> ⏱️.</li>
+</ul>
+<hr />
+<h3 id="circuitos-integrados-y-pines"><strong>Circuitos integrados y
+pines</strong> 🧠📌</h3>
+<ul>
+<li>Integrados generadores de pulsos usualmente tienen <strong>8
+pines</strong> (se cuentan desde la marca izquierda, siguiendo sentido
+antihorario) 🔢.</li>
+<li>Algunos ICs generan pulsos, otros generan pulsos y
+<strong>controlan</strong> el circuito.</li>
+<li><strong>Alimentación</strong>: típicamente <strong>3–5 V</strong>,
+positivo en un pin y negativo en otro ⚡🟢.</li>
+</ul>
+<hr />
+<h3 id="corriente-y-voltajes-en-bobinado"><strong>Corriente y voltajes
+en bobinado</strong> ⚡🌀</h3>
+<ul>
+<li>La corriente DC irá al <strong>bobinado</strong>; el <strong>voltaje
+pico</strong> de capacitor = <strong>311 V</strong> (equivalente a 220 V
+AC) ⚡📏.</li>
+<li>No se puede aplicar directamente al circuito; se usa un
+<strong>transistor MOSFET</strong> para manejar la oscilación ⚡🔧.</li>
+</ul>
+<hr />
+<h3 id="oscilaciones-y-conmutación"><strong>Oscilaciones y
+conmutación</strong> 🔄</h3>
+<ul>
+<li>El MOSFET hace que la <strong>DC oscile</strong> → simula corriente
+alterna ⚡🔄.</li>
+<li>Con un <strong>núcleo de hierro</strong>, no se puede oscilar; por
+eso se usan <strong>transistores de ferrita</strong> 🟣.</li>
+<li>En circuitos modernos, los MOSFET pueden estar <strong>integrados
+dentro del chip</strong>, cambiando la entrada a una pata específica del
+IC (ej.: pata 6) 🔌.</li>
+<li>Algunos IC ya no usan <strong>8 patas completas</strong>, ahora
+funcionan con 7 🧩.</li>
+</ul>
+<hr />
+<div class="h"><h3 id="concepto-clave"><strong>Concepto clave</strong> 📝</h3><a aria-hidden="true" href="#concepto-clave">[link]</a></div>
+<ul>
+<li>Oscilar/conmutar DC permite que <strong>una corriente continua
+funcione como AC</strong> para alimentar transformadores y circuitos de
+fuentes switching ⚡🟢➡️🌀.</li>
+</ul>
+<hr />
+<p>Si querés, puedo hacer un <strong>diagrama visual de cómo la DC se
+convierte en pulsos con MOSFET y luego alimenta un transformador de
+ferrita</strong>, mostrando <strong>entrada DC → generador de pulsos →
+MOSFET → transformador → IC</strong>. Esto hace que se vea todo el flujo
+de forma clara.</p>
+<p>¿Querés que haga ese diagrama?</p>
 <div id="footer">
 <hr />
 </div>
@@ -38,6 +657,7 @@ class="uri">https://cursoelectricidad.github.io/04clase.md</a></p>
 <p>Esta página HTML fue generada por el <a
 href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
 Generator</a>.</p>
+</div>
 </div>
 </body>
 </html>
