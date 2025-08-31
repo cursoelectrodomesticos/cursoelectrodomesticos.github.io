@@ -1,6 +1,17 @@
 % Clase Nº 8: Lavarropas. Relay. Triac. Presostato. Solenoide. Jaula ardilla. Motores universales. Hay que saber preguntar al cliente. 01:55:00 (no calienta la plancha XD, que pavote quiere probar con ella). Orrin. Entra agua bomba de agua. Cuando se usa RELAY y cuando TRIAC. Mosfet. En el final hay una complicada explicación. TRIAC cumple la misma función que un RELAY.
 % Andrés Imlauer
 % 16 Julio 2024
+
+#### Audio de la clase:
+
+[https://youtu.be/HOFVsSnZ_a4](https://youtu.be/HOFVsSnZ_a4)
+
+[https://voca.ro/1c9hVPuRPWbh](https://voca.ro/1c9hVPuRPWbh)
+
+#### O escuchala en invidious:
+
+[https://redirect.invidious.io/watch?v=HOFVsSnZ_a4](https://redirect.invidious.io/watch?v=HOFVsSnZ_a4)
+
    
 ### 🔹 Motores y electrobombas
 

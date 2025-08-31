@@ -2,9 +2,16 @@
 % Andrés Imlauer
 % 16 Julio 2024
    
-Aquí tienes un resumen con los **puntos más importantes** de tu texto, organizado y destacando lo esencial:
+## Audio de la clase:
 
----
+[https://youtu.be/OSlqnhmQsMQ](https://youtu.be/OSlqnhmQsMQ)
+
+[https://vocaroo.com/1dD9MmKu95UO](https://vocaroo.com/1dD9MmKu95UO)
+
+### O miralo desde una instancia de invidious
+
+[https://redirect.invidious.io/watch?v=OSlqnhmQsMQ](https://redirect.invidious.io/watch?v=OSlqnhmQsMQ)
+
 
 ### **Medición y prueba de fuentes switching**
 

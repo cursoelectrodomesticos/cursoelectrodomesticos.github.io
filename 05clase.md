@@ -2,6 +2,17 @@
 % Andrés Imlauer
 % 16 Julio 2024
    
+#### Audio de la clase
+
+[https://youtu.be/LWxML1Yv3IY](https://youtu.be/LWxML1Yv3IY)
+
+[https://voca.ro/1hQISTl592Dx](https://voca.ro/1hQISTl592Dx)
+
+#### O miralo en invidious (es más ligero y sin publicidad)
+
+[https://redirect.invidious.io/watch?v=LWxML1Yv3IY](https://redirect.invidious.io/watch?v=LWxML1Yv3IY)
+
+
 ### 🧺 Lavarropas
 
 * ⚖️ Auto-balance: por eso **no conviene lavar zapatillas** en la lavadora.

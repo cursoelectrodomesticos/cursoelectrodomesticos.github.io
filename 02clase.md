@@ -2,6 +2,17 @@
 % Andrés Imlauer
 % 16 Julio 2024
    
+## Audio de la clase:
+
+[https://www.youtube.com/watch?v=3nJnAqAZQpY](https://www.youtube.com/watch?v=3nJnAqAZQpY)
+
+[https://vocaroo.com/1jjk6YDCw6js](https://vocaroo.com/1jjk6YDCw6js)
+
+### O miralo desde una instancia de invidious
+
+[https://redirect.invidious.io/watch?v=3nJnAqAZQpY](https://redirect.invidious.io/watch?v=3nJnAqAZQpY)
+
+
 
 Aquí te destaco los puntos más importantes de todo lo que compartiste, en forma clara y resumida:
 

@@ -2,9 +2,12 @@
 % Andrés Imlauer
 % 20 Agosto 2025
 
-Aquí tenés un **resumen con los puntos más importantes** de lo que se explica en el video/texto:
+### Audio de la clase:
+[https://www.youtube.com/watch?v=FEQ6iXWc2FQ&feature=youtu.be](https://www.youtube.com/watch?v=FEQ6iXWc2FQ&feature=youtu.be)
 
----
+[https://vocaroo.com/1eCHVsZwszT6](https://vocaroo.com/1eCHVsZwszT6)
+
+O miralo desde una instancia de invidious https://redirect.invidious.io/watch?v=FEQ6iXWc2FQ
 
 🔌 **Tipos de corriente**
 

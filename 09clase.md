@@ -2,6 +2,30 @@
 % Andrés Imlauer
 % 16 Julio 2024
    
+### Audio de la clase:
+
+[https://youtu.be/xniJUxh04qI](https://youtu.be/xniJUxh04qI)
+
+### O mirala en invidious
+
+[https://redirect.invidious.io/watch?v=xniJUxh04qI](https://redirect.invidious.io/watch?v=xniJUxh04qI)
+
+### Audio en Vocaroo:
+
+[https://voca.ro/14o6t9RexjMx](https://voca.ro/14o6t9RexjMx)
+
+#### Temas tocados en esta clase:
+Tipos de fuentes, transformadores, procesadores, fuente standby en aires acondicionados, placas con más de 1 fuente.
+
+Transformadores función: bajar la tensión.
+
+En el transformador del microondas el bobinado tiene más vueltas en la segunda bobina.
+Todo conductor tiene impedancia.
+
+Cable más largo: mayor impedancia.
+
+
+
 Aquí tienes un resumen de los puntos más importantes de la clase, con emojis incluidos:
 
 * 🔌 **Tipos de fuentes**: Conocer las distintas fuentes de alimentación y sus aplicaciones.

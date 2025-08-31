@@ -1,6 +1,17 @@
 % Clase Nº 6: Relay. Triac: corriente alterna. Mosfet: continua y alterna?. Contactora. Varistor. Termistor. Fuentes. Puente Rectificador. Mosfet. Soldador no funcionó.
 % Andrés Imlauer
 % 16 Julio 2024
+
+#### Audio de la clase
+
+[https://youtu.be/4LCbuu2Wa_4](https://youtu.be/4LCbuu2Wa_4)
+
+[https://voca.ro/1m9YA0YHQNHw](https://voca.ro/1m9YA0YHQNHw)
+
+#### O miralo en una instancia de invidious:
+
+[https://redirect.invidious.io/watch?v=4LCbuu2Wa_4](https://redirect.invidious.io/watch?v=4LCbuu2Wa_4)
+
    
 ### **Problemas comunes en placas electrónicas y fuentes**
 

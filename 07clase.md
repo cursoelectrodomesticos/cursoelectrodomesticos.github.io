@@ -2,6 +2,17 @@
 % Andrés Imlauer
 % 16 Julio 2024
    
+#### Audio de la clase
+
+[https://youtu.be/5RjcuVO6T3I](https://youtu.be/5RjcuVO6T3I)
+
+[https://vocaroo.com/18EtH3Rz0QA3](https://vocaroo.com/18EtH3Rz0QA3)
+
+### O escuchala en invidiuos
+
+[https://redirect.invidious.io/watch?v=5RjcuVO6T3I](https://redirect.invidious.io/watch?v=5RjcuVO6T3I)
+
+
 ### 1. **Funcionamiento de un aire acondicionado y heladeras**
 
 * Los caños de los evaporadores suelen ser de **aluminio**, lo que los hace sensibles a la humedad.
