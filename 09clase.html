@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 9: - Tipos de fuentes. Fuente standBy. Rectificador. Tipos de relay y como medirlos. Regulador de voltaje. Reparación ventilador. Cargador de celular con fuente lineal. Problema: Capacitor TRIAC. Como medir capacitor. Capacitor transforma la corriente de punzante a pura. Estator: parte fija del motor. Rotor: jaula de ardilla el que rota (el que gira). Hasta antes de los diodos es corriente alterna. Como medir relay. Bobinas en paralelo, capacitor para corregir factor de potencia. Ventilador tiene bobina de arranque y de trabajo. Hay que corregir factor de potencia con un capacitor. Split no tiene bobina de arranque, la heladera sí. Calcular impendancia entre cables para calcular arranque, trabajo. Como medir si funciona un ventilador paso por paso en hora 2:40. Hay que ir cambiando las velocidades al medir cables. El fusible del ventilador al parecer estaba bien, pero la bobina estaba cortada, pero no quemada. Como medir bobina</title>
+  <title>Curso Electricidad – Clase Nº 9: Medición de fuentes, relays y bobinados de ventilador</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -14,21 +14,8 @@
 <div class="page">
 <header>
 <div class="title">
-<h1 class="title">Clase Nº 9: - Tipos de fuentes. Fuente standBy.
-Rectificador. Tipos de relay y como medirlos. Regulador de voltaje.
-Reparación ventilador. Cargador de celular con fuente lineal. Problema:
-Capacitor TRIAC. Como medir capacitor. Capacitor transforma la corriente
-de punzante a pura. Estator: parte fija del motor. Rotor: jaula de
-ardilla el que rota (el que gira). Hasta antes de los diodos es
-corriente alterna. Como medir relay. Bobinas en paralelo, capacitor para
-corregir factor de potencia. Ventilador tiene bobina de arranque y de
-trabajo. Hay que corregir factor de potencia con un capacitor. Split no
-tiene bobina de arranque, la heladera sí. Calcular impendancia entre
-cables para calcular arranque, trabajo. Como medir si funciona un
-ventilador paso por paso en hora 2:40. Hay que ir cambiando las
-velocidades al medir cables. El fusible del ventilador al parecer estaba
-bien, pero la bobina estaba cortada, pero no quemada. Como medir
-bobina</h1>
+<h1 class="title">Clase Nº 9: Medición de fuentes, relays y bobinados de
+ventilador</h1>
 </div>
 <p class="author">Andrés Imlauer</p>
 <p class="date">16 Julio 2024</p>
@@ -46,12 +33,7 @@ clase:</a></li>
 <li><a href="#o-mirala-en-invidious" id="toc-o-mirala-en-invidious">O
 mirala en invidious</a></li>
 <li><a href="#audio-en-vocaroo" id="toc-audio-en-vocaroo">Audio en
-Vocaroo:</a>
-<ul>
-<li><a href="#temas-tocados-en-esta-clase"
-id="toc-temas-tocados-en-esta-clase">Temas tocados en esta
-clase:</a></li>
-</ul></li>
+Vocaroo:</a></li>
 <li><a href="#identificación-y-medición"
 id="toc-identificación-y-medición">🔹 Identificación y medición</a></li>
 <li><a href="#corriente-y-fuentes" id="toc-corriente-y-fuentes">🔹
@@ -176,16 +158,13 @@ Procedimiento para localizar fusible o cable suelto</a></li>
 </ul>
 </nav>
 <div class="pagetext">
-<p><a href="./">Volver al índice</a></p>
-<p>Artículo publicado por: Andrés Imlauer</p>
-<p>Artículo publicado el: 16 Julio 2024</p>
-<div class="h"><h3 id="audio-de-la-clase">Audio de la clase:</h3><a aria-hidden="true" href="#audio-de-la-clase">[link]</a></div>
+<h3 id="audio-de-la-clase">Audio de la clase:</h3>
 <p><a
 href="https://youtu.be/xniJUxh04qI">https://youtu.be/xniJUxh04qI</a></p>
-<div class="h"><h3 id="o-mirala-en-invidious">O mirala en invidious</h3><a aria-hidden="true" href="#o-mirala-en-invidious">[link]</a></div>
+<h3 id="o-mirala-en-invidious">O mirala en invidious</h3>
 <p><a
 href="https://redirect.invidious.io/watch?v=xniJUxh04qI">https://redirect.invidious.io/watch?v=xniJUxh04qI</a></p>
-<div class="h"><h3 id="audio-en-vocaroo">Audio en Vocaroo:</h3><a aria-hidden="true" href="#audio-en-vocaroo">[link]</a></div>
+<h3 id="audio-en-vocaroo">Audio en Vocaroo:</h3>
 <p><a
 href="https://voca.ro/14o6t9RexjMx">https://voca.ro/14o6t9RexjMx</a></p>
 <h4 id="temas-tocados-en-esta-clase">Temas tocados en esta clase:</h4>
@@ -221,7 +200,7 @@ afectar el rendimiento del circuito.</li>
 emojis</strong> de los puntos clave de tu transcripción, organizado para
 estudio:</p>
 <hr />
-<div class="h"><h3 id="identificación-y-medición">🔹 Identificación y medición</h3><a aria-hidden="true" href="#identificación-y-medición">[link]</a></div>
+<h3 id="identificación-y-medición">🔹 Identificación y medición</h3>
 <ul>
 <li><p>🔍 <strong>Primario vs secundario de transformador</strong>: El
 <strong>primario tiene menos resistencia</strong>.</p></li>
@@ -241,7 +220,7 @@ superiores.</p></li>
 voltáico.</p></li>
 </ul>
 <hr />
-<div class="h"><h3 id="corriente-y-fuentes">🔹 Corriente y fuentes</h3><a aria-hidden="true" href="#corriente-y-fuentes">[link]</a></div>
+<h3 id="corriente-y-fuentes">🔹 Corriente y fuentes</h3>
 <ul>
 <li>🔄 <strong>Corriente en placas</strong>: alterna y continua.</li>
 <li>🔌 <strong>Fuentes</strong>: lineal, switching/conmutada,
@@ -264,7 +243,7 @@ operación.</li>
 usuario.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="reparación-y-práctica">🔹 Reparación y práctica</h3><a aria-hidden="true" href="#reparación-y-práctica">[link]</a></div>
+<h3 id="reparación-y-práctica">🔹 Reparación y práctica</h3>
 <ul>
 <li><p>🛠️ <strong>Placas electrónicas</strong> → mismos componentes:
 resistencias, capacitores, bobinas, mosfets, triacs, relays.</p></li>
@@ -290,7 +269,7 @@ transformadores.</p>
 organizado y con emojis</strong> de los puntos más importantes de tu
 última transcripción:</p>
 <hr />
-<div class="h"><h3 id="fuente-y-microprocesador">🔹 Fuente y microprocesador</h3><a aria-hidden="true" href="#fuente-y-microprocesador">[link]</a></div>
+<h3 id="fuente-y-microprocesador">🔹 Fuente y microprocesador</h3>
 <ul>
 <li>🟢 <strong>Recepción de la orden</strong>: el microprocesador recibe
 la orden del control porque la <strong>fuente standby</strong> siempre
@@ -301,7 +280,7 @@ microprocesador; forma parte de la fuente principal.</li>
 el funcionamiento es similar.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="tipos-de-fuentes">🔹 Tipos de fuentes</h3><a aria-hidden="true" href="#tipos-de-fuentes">[link]</a></div>
+<h3 id="tipos-de-fuentes">🔹 Tipos de fuentes</h3>
 <ul>
 <li>⚡ <strong>Lineal</strong>: se alimenta de la misma frecuencia que
 la tensión (220 V x 50 Hz).</li>
@@ -312,7 +291,7 @@ tensión.</li>
 de las tres principales.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="transformadores">🔹 Transformadores</h3><a aria-hidden="true" href="#transformadores">[link]</a></div>
+<h3 id="transformadores">🔹 Transformadores</h3>
 <ul>
 <li><p>🔧 Función: <strong>bajar la tensión</strong>.</p></li>
 <li><p>🔁 Estructura: espira primaria → núcleo de hierro → espira
@@ -328,7 +307,7 @@ mayor longitud → mayor caída de tensión.</p></li>
 impedancia</strong>.</p></li>
 </ul>
 <hr />
-<div class="h"><h3 id="capacitores">🔹 Capacitores</h3><a aria-hidden="true" href="#capacitores">[link]</a></div>
+<h3 id="capacitores">🔹 Capacitores</h3>
 <ul>
 <li>🔵 <strong>Polarizado</strong>: para corriente continua (positivo y
 negativo).</li>
@@ -341,7 +320,7 @@ impedancia</strong> al circuito.</li>
 polaridad marcada.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="placas-electrónicas">🔹 Placas electrónicas</h3><a aria-hidden="true" href="#placas-electrónicas">[link]</a></div>
+<h3 id="placas-electrónicas">🔹 Placas electrónicas</h3>
 <ul>
 <li>🔌 Entrada de <strong>220 V</strong> y salida de <strong>12
 V</strong>, dependiendo de la placa.</li>
@@ -363,7 +342,7 @@ transformadores, capacitores y microprocesadores.</p>
 emojis</strong> de los puntos clave sobre fuentes y rectificación de tu
 clase:</p>
 <hr />
-<div class="h"><h3 id="detección-de-falla">🔹 Detección de falla</h3><a aria-hidden="true" href="#detección-de-falla">[link]</a></div>
+<h3 id="detección-de-falla">🔹 Detección de falla</h3>
 <ul>
 <li>⚠️ <strong>No enciende nada</strong> → revisar
 <strong>fuente</strong> o <strong>chicote de power</strong>.</li>
@@ -371,7 +350,7 @@ clase:</p>
 continua de bajo voltaje</strong> (30, 12, 9 V según placa).</li>
 </ul>
 <hr />
-<div class="h"><h3 id="tipos-de-fuentes-1">🔹 Tipos de fuentes</h3><a aria-hidden="true" href="#tipos-de-fuentes-1">[link]</a></div>
+<h3 id="tipos-de-fuentes-1">🔹 Tipos de fuentes</h3>
 <ul>
 <li>🔹 <strong>Lineal</strong>: usa transformador lineal, trabaja a
 <strong>50 Hz</strong>, salida 12 V, fácil reemplazo si amperaje es
@@ -395,7 +374,7 @@ para el chip o relays.</li>
 <strong>impedancia</strong>.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="rectificación">🔹 Rectificación</h3><a aria-hidden="true" href="#rectificación">[link]</a></div>
+<h3 id="rectificación">🔹 Rectificación</h3>
 <ul>
 <li><p>🔄 Rectificador → convierte <strong>corriente alterna
 pulsante</strong> en <strong>corriente continua</strong>.</p></li>
@@ -409,7 +388,7 @@ ubicación física no importa.</li>
 <li><p>⚡ Antes del rectificador → AC, después → CC punzante.</p></li>
 </ul>
 <hr />
-<div class="h"><h3 id="filtrado-con-capacitor">🔹 Filtrado con capacitor</h3><a aria-hidden="true" href="#filtrado-con-capacitor">[link]</a></div>
+<h3 id="filtrado-con-capacitor">🔹 Filtrado con capacitor</h3>
 <ul>
 <li>🔵 Después del rectificador → capacitor <strong>filtra la
 corriente</strong>, pasando de <strong>CC punzante</strong> a <strong>CC
@@ -420,7 +399,7 @@ común.</li>
 no filtra bien; evita conectar polarizado al revés.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="consideraciones-prácticas">🔹 Consideraciones prácticas</h3><a aria-hidden="true" href="#consideraciones-prácticas">[link]</a></div>
+<h3 id="consideraciones-prácticas">🔹 Consideraciones prácticas</h3>
 <ul>
 <li>🧰 <strong>Transformadores lineales</strong>: el amperaje debe ser
 <strong>igual o superior</strong> al requerido por la placa.</li>
@@ -457,7 +436,7 @@ hacía que TRIAC pareciera recibir señal, pero en realidad el capacitor
 era el problema.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="regulación-de-voltaje">🔹 Regulación de voltaje</h3><a aria-hidden="true" href="#regulación-de-voltaje">[link]</a></div>
+<h3 id="regulación-de-voltaje">🔹 Regulación de voltaje</h3>
 <ul>
 <li><p>🔌 Transformador → puede dar <strong>30 V AC</strong>, pero la
 placa necesita <strong>12 V DC</strong>.</p></li>
@@ -513,7 +492,7 @@ puente rectificador</strong> para alimentar reguladores de 9 V, 5 V, 3
 V.</p></li>
 </ul>
 <hr />
-<div class="h"><h3 id="cargador-de-celular-ejemplo">🔹 Cargador de celular ejemplo</h3><a aria-hidden="true" href="#cargador-de-celular-ejemplo">[link]</a></div>
+<h3 id="cargador-de-celular-ejemplo">🔹 Cargador de celular ejemplo</h3>
 <ul>
 <li>🔌 Se puede usar un <strong>transformador lineal</strong> y un cable
 del celular.</li>
@@ -522,7 +501,7 @@ del celular.</li>
 placa.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="corriente-continua-y-tierra">🔹 Corriente continua y tierra</h3><a aria-hidden="true" href="#corriente-continua-y-tierra">[link]</a></div>
+<h3 id="corriente-continua-y-tierra">🔹 Corriente continua y tierra</h3>
 <ul>
 <li>🟡 Corriente continua punzante → <strong>negativo siempre a tierra
 (chasis)</strong>.</li>
@@ -531,7 +510,7 @@ negativo al chasis → punto común de la placa.</li>
 <li>✅ No hay múltiples negativos en un sector.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="relays-y-conexiones">🔹 Relays y conexiones</h3><a aria-hidden="true" href="#relays-y-conexiones">[link]</a></div>
+<h3 id="relays-y-conexiones">🔹 Relays y conexiones</h3>
 <ul>
 <li><p>🔗 Relay de 5 pines:</p>
 <ul>
@@ -546,7 +525,7 @@ alimentar correctamente.</p></li>
 otro según la placa, pero la función siempre es la misma.</p></li>
 </ul>
 <hr />
-<div class="h"><h3 id="conceptos-finales">🔹 Conceptos finales</h3><a aria-hidden="true" href="#conceptos-finales">[link]</a></div>
+<h3 id="conceptos-finales">🔹 Conceptos finales</h3>
 <ul>
 <li>🔋 Campo magnético en relays → movimiento mecánico (énfasis en
 <strong>electromagnetismo aplicado</strong>).</li>
@@ -578,7 +557,7 @@ magnético</strong> que mueve un émbolo.</p></li>
 invierte el estado de los contactos.</p></li>
 </ul>
 <hr />
-<div class="h"><h3 id="tipos-de-relays">🔹 Tipos de relays</h3><a aria-hidden="true" href="#tipos-de-relays">[link]</a></div>
+<h3 id="tipos-de-relays">🔹 Tipos de relays</h3>
 <ul>
 <li>5 pines → bobina + NO + NC.</li>
 <li>4 pines → normalmente cerrado cortado, solo NO.</li>
@@ -587,7 +566,7 @@ invierte el estado de los contactos.</p></li>
 complejas.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="aplicación-práctica">🔹 Aplicación práctica</h3><a aria-hidden="true" href="#aplicación-práctica">[link]</a></div>
+<h3 id="aplicación-práctica">🔹 Aplicación práctica</h3>
 <ul>
 <li><p>🔌 <strong>Electrobomba</strong>:</p>
 <ul>
@@ -600,7 +579,7 @@ complejas.</li>
 símbolos gráficos son solo referenciales.</p></li>
 </ul>
 <hr />
-<div class="h"><h3 id="configuraciones-especiales">🔹 Configuraciones especiales</h3><a aria-hidden="true" href="#configuraciones-especiales">[link]</a></div>
+<h3 id="configuraciones-especiales">🔹 Configuraciones especiales</h3>
 <ul>
 <li>🔄 Combinación de relays → permite cambiar dirección de motor o
 controlar distintos circuitos.</li>
@@ -632,7 +611,7 @@ DC.</li>
 diseño, la función es <strong>conmutar corriente</strong>.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="reguladores-de-voltaje">🔹 Reguladores de voltaje</h3><a aria-hidden="true" href="#reguladores-de-voltaje">[link]</a></div>
+<h3 id="reguladores-de-voltaje">🔹 Reguladores de voltaje</h3>
 <ul>
 <li><p>🔧 Reguladores 78xx → reducen tensión:</p>
 <ul>
@@ -657,7 +636,7 @@ DC).</li>
 independientes (lámparas, alarmas, señales).</li>
 </ul>
 <hr />
-<div class="h"><h3 id="principio-de-motores">🔹 Principio de motores</h3><a aria-hidden="true" href="#principio-de-motores">[link]</a></div>
+<h3 id="principio-de-motores">🔹 Principio de motores</h3>
 <ul>
 <li>🧲 <strong>Campo magnético</strong> generado por bobina → interactúa
 con <strong>núcleo magnetizado (estator)</strong> → mueve rotor.</li>
@@ -693,7 +672,7 @@ que explicaste sobre <strong>tipos de relays, motores y corrección de
 factor de potencia</strong> en puntos claros con ejemplos y emojis para
 que quede fácil de estudiar:</p>
 <hr />
-<div class="h"><h3 id="tipos-de-relays-1">🔹 Tipos de relays</h3><a aria-hidden="true" href="#tipos-de-relays-1">[link]</a></div>
+<h3 id="tipos-de-relays-1">🔹 Tipos de relays</h3>
 <ol type="1">
 <li><p><strong>Amperométricos</strong> ⚡</p>
 <ul>
@@ -714,7 +693,7 @@ amperométricos pero basado en otro principio).</li>
 </ul></li>
 </ol>
 <hr />
-<div class="h"><h3 id="motores-con-bobinas">🔹 Motores con bobinas</h3><a aria-hidden="true" href="#motores-con-bobinas">[link]</a></div>
+<h3 id="motores-con-bobinas">🔹 Motores con bobinas</h3>
 <ul>
 <li><strong>Motor de heladera/freezer:</strong> bobina de arranque +
 bobina de trabajo.</li>
@@ -752,7 +731,7 @@ potencia ⚙️</h3>
 sobrecarga.</p></li>
 </ul>
 <hr />
-<div class="h"><h3 id="medición-y-prueba-de-motor">🔹 Medición y prueba de motor</h3><a aria-hidden="true" href="#medición-y-prueba-de-motor">[link]</a></div>
+<h3 id="medición-y-prueba-de-motor">🔹 Medición y prueba de motor</h3>
 <ul>
 <li>Medir amperaje → con <strong>pinza amperométrica</strong>.</li>
 <li>Probar bobina con <strong>foco en serie</strong>.</li>
@@ -782,7 +761,7 @@ clave para <strong>probar y conectar ventiladores de CA con selector de
 velocidad</strong>. Te hago un resumen organizado y claro con puntos
 clave:</p>
 <hr />
-<div class="h"><h3 id="fase-y-neutro">🔹 Fase y neutro</h3><a aria-hidden="true" href="#fase-y-neutro">[link]</a></div>
+<h3 id="fase-y-neutro">🔹 Fase y neutro</h3>
 <ul>
 <li>Siempre es preferible <strong>cortar la fase</strong>, no el
 neutro.</li>
@@ -816,7 +795,7 @@ pares</strong>.</p></li>
 </ul></li>
 </ol>
 <hr />
-<div class="h"><h3 id="conexión-de-capacitor">🔹 Conexión de capacitor</h3><a aria-hidden="true" href="#conexión-de-capacitor">[link]</a></div>
+<h3 id="conexión-de-capacitor">🔹 Conexión de capacitor</h3>
 <ul>
 <li><p>Los capacitores <strong>para ventiladores de CA no son
 polarizados</strong>.</p></li>
@@ -830,7 +809,7 @@ capacitor</strong></li>
 el factor de potencia</strong>.</p></li>
 </ul>
 <hr />
-<div class="h"><h3 id="fusible-interno">🔹 Fusible interno</h3><a aria-hidden="true" href="#fusible-interno">[link]</a></div>
+<h3 id="fusible-interno">🔹 Fusible interno</h3>
 <ul>
 <li>Protege por <strong>cortocircuito o temperatura</strong>.</li>
 <li>Puede estar dentro del bobinado o en serie con el capacitor.</li>
@@ -838,7 +817,7 @@ el factor de potencia</strong>.</p></li>
 delicados.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="identificación-y-etiquetado">🔹 Identificación y etiquetado</h3><a aria-hidden="true" href="#identificación-y-etiquetado">[link]</a></div>
+<h3 id="identificación-y-etiquetado">🔹 Identificación y etiquetado</h3>
 <ul>
 <li>Usar <strong>cinta de papel o enmascarar</strong> para marcar cada
 cable.</li>
@@ -847,7 +826,7 @@ con B, etc.</li>
 <li>Esto evita confusión al desarmar/rearmar ventiladores.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="velocidades-del-selector">🔹 Velocidades del selector</h3><a aria-hidden="true" href="#velocidades-del-selector">[link]</a></div>
+<h3 id="velocidades-del-selector">🔹 Velocidades del selector</h3>
 <ul>
 <li><p>Selector tipo <strong>impedancia</strong>:</p>
 <ul>
@@ -868,7 +847,7 @@ corresponde a <strong>diagnóstico de un ventilador con bobinas y fusible
 interno</strong>. Te hago un resumen organizado y práctico con los
 puntos clave:</p>
 <hr />
-<div class="h"><h3 id="fusibles-internos">🔹 Fusibles internos</h3><a aria-hidden="true" href="#fusibles-internos">[link]</a></div>
+<h3 id="fusibles-internos">🔹 Fusibles internos</h3>
 <ul>
 <li><strong>Aluminio:</strong> no tocar, irreparable.</li>
 <li><strong>Térmico:</strong> protege por sobretemperatura → ubicado
@@ -901,7 +880,7 @@ funcionando.</li>
 <li>Si no hay corriente: posible fusible abierto o cable cortado.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="detectar-bobina-cortada">🔹 Detectar bobina cortada</h3><a aria-hidden="true" href="#detectar-bobina-cortada">[link]</a></div>
+<h3 id="detectar-bobina-cortada">🔹 Detectar bobina cortada</h3>
 <ul>
 <li>Si el fusible está bien pero hay un <strong>cable suelto dentro del
 bobinado</strong>, la bobina parece cortada.</li>
@@ -926,17 +905,6 @@ fase/neutro</strong> para un ventilador con bobina de arranque y
 trabajo, incluyendo la posición correcta del capacitor. Esto hace mucho
 más fácil seguirlo visualmente.</p>
 <p>¿Querés que haga ese diagrama?</p>
-<div id="footer">
-<hr />
-</div>
-<p>Fichero Markdown para esta página: <a
-href="https://cursoelectricidad.github.io/09clase.md"
-class="uri">https://cursoelectricidad.github.io/09clase.md</a></p>
-<p><a href="/feed.xml">Suscriba al RSS del sitio</a></p>
-<p><a href="/sitemap.html">Mapa del sitio</a></p>
-<p>Esta página HTML fue generada por el <a
-href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
-Generator</a>.</p>
 </div>
 </div>
 </body>

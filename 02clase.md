@@ -1,7 +1,7 @@
-% Clase Nº 2: Ventiladores: líquido para hidráulico. Armado de una serie. Monofásica, Trifásica, Bobinado. Por regla general: no poner en marcha nada. Reparamos: Jarra electrica.
+% Clase Nº 2: Ventiladores, armado de lámpara serie y jarra eléctrica
 % Andrés Imlauer
 % 16 Julio 2024
-   
+
 ## Audio de la clase:
 
 [https://www.youtube.com/watch?v=3nJnAqAZQpY](https://www.youtube.com/watch?v=3nJnAqAZQpY)

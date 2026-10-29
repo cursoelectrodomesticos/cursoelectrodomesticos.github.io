@@ -1,7 +1,7 @@
-% Clase Nº 9: - Tipos de fuentes. Fuente standBy. Rectificador. Tipos de relay y como medirlos. Regulador de voltaje. Reparación ventilador. Cargador de celular con fuente lineal. Problema: Capacitor TRIAC. Como medir capacitor. Capacitor transforma la corriente de punzante a pura. Estator: parte fija del motor. Rotor: jaula de ardilla el que rota (el que gira). Hasta antes de los diodos es corriente alterna. Como medir relay. Bobinas en paralelo, capacitor para corregir factor de potencia. Ventilador tiene bobina de arranque y de trabajo. Hay que corregir factor de potencia con un capacitor. Split no tiene bobina de arranque, la heladera sí. Calcular impendancia entre cables para calcular arranque, trabajo. Como medir si funciona un ventilador paso por paso en hora 2:40. Hay que ir cambiando las velocidades al medir cables. El fusible del ventilador al parecer estaba bien, pero la bobina estaba cortada, pero no quemada. Como medir bobina
+% Clase Nº 9: Medición de fuentes, relays y bobinados de ventilador
 % Andrés Imlauer
 % 16 Julio 2024
-   
+
 ### Audio de la clase:
 
 [https://youtu.be/xniJUxh04qI](https://youtu.be/xniJUxh04qI)
@@ -604,4 +604,3 @@ Perfecto, todo lo que contaste corresponde a **diagnóstico de un ventilador con
 Si querés, puedo hacer un **diagrama paso a paso de cómo medir la continuidad de cada bobina, ubicar el fusible y verificar la fase/neutro** para un ventilador con bobina de arranque y trabajo, incluyendo la posición correcta del capacitor. Esto hace mucho más fácil seguirlo visualmente.
 
 ¿Querés que haga ese diagrama?
-

@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 6: Relay. Triac: corriente alterna. Mosfet: continua y alterna?. Contactora. Varistor. Termistor. Fuentes. Puente Rectificador. Mosfet. Soldador no funcionó.</title>
+  <title>Curso Electricidad – Clase Nº 6: Relays, contactoras, varistores y protectores</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -14,9 +14,8 @@
 <div class="page">
 <header>
 <div class="title">
-<h1 class="title">Clase Nº 6: Relay. Triac: corriente alterna. Mosfet:
-continua y alterna?. Contactora. Varistor. Termistor. Fuentes. Puente
-Rectificador. Mosfet. Soldador no funcionó.</h1>
+<h1 class="title">Clase Nº 6: Relays, contactoras, varistores y
+protectores</h1>
 </div>
 <p class="author">Andrés Imlauer</p>
 <p class="date">16 Julio 2024</p>
@@ -29,11 +28,6 @@ Rectificador. Mosfet. Soldador no funcionó.</h1>
 <nav id="TOC">
 <h1>Navigate this page:</h1>
 <ul>
-<li><a href="#audio-de-la-clase" id="toc-audio-de-la-clase">Audio de la
-clase</a></li>
-<li><a href="#o-miralo-en-una-instancia-de-invidious"
-id="toc-o-miralo-en-una-instancia-de-invidious">O miralo en una
-instancia de invidious:</a></li>
 <li><a href="#problemas-comunes-en-placas-electrónicas-y-fuentes"
 id="toc-problemas-comunes-en-placas-electrónicas-y-fuentes"><strong>Problemas
 comunes en placas electrónicas y fuentes</strong></a></li>
@@ -122,9 +116,6 @@ Notas importantes</strong></a></li>
 </ul>
 </nav>
 <div class="pagetext">
-<p><a href="./">Volver al índice</a></p>
-<p>Artículo publicado por: Andrés Imlauer</p>
-<p>Artículo publicado el: 16 Julio 2024</p>
 <h4 id="audio-de-la-clase">Audio de la clase</h4>
 <p><a
 href="https://youtu.be/4LCbuu2Wa_4">https://youtu.be/4LCbuu2Wa_4</a></p>
@@ -146,7 +137,7 @@ tenerlo en cuenta al medir o dimensionar.</li>
 neutro.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="diagnóstico-inicial"><strong>Diagnóstico inicial</strong></h3><a aria-hidden="true" href="#diagnóstico-inicial">[link]</a></div>
+<h3 id="diagnóstico-inicial"><strong>Diagnóstico inicial</strong></h3>
 <ul>
 <li>Lo primero que hay que medir es <strong>continuidad</strong>.</li>
 <li>Los elementos en <strong>paralelo</strong> (switch, pulsador) no
@@ -186,7 +177,7 @@ mediante:</p>
 </ul></li>
 </ul>
 <hr />
-<div class="h"><h3 id="relés-y-triacs"><strong>Relés y Triacs</strong></h3><a aria-hidden="true" href="#relés-y-triacs">[link]</a></div>
+<h3 id="relés-y-triacs"><strong>Relés y Triacs</strong></h3>
 <ul>
 <li><strong>Relé:</strong> funciona por <strong>magnetismo</strong>,
 activado por bajo voltaje de la placa.</li>
@@ -358,7 +349,7 @@ disponibles.</li>
 </ul></li>
 </ul>
 <hr />
-<div class="h"><h3 id="medición-directa"><strong>3. Medición directa</strong></h3><a aria-hidden="true" href="#medición-directa">[link]</a></div>
+<h3 id="medición-directa"><strong>3. Medición directa</strong></h3>
 <ul>
 <li><p>Si resistencia funciona, se puede <strong>conectar carga en
 directo</strong>, control manual:</p>
@@ -385,7 +376,7 @@ el secundario (salvo humedad, cortocircuito o golpes).</li>
 carga</strong>.</p></li>
 </ul>
 <hr />
-<div class="h"><h3 id="fusibles"><strong>5. Fusibles</strong></h3><a aria-hidden="true" href="#fusibles">[link]</a></div>
+<h3 id="fusibles"><strong>5. Fusibles</strong></h3>
 <ul>
 <li><p>Siempre se colocan siguiendo la <strong>capacidad del
 conductor</strong>, no solo la carga:</p>
@@ -445,7 +436,7 @@ voltajes &gt;90 V.</li>
 <li><p>Otros tipos: <strong>capacitiva, resistiva</strong>.</p></li>
 </ul>
 <hr />
-<div class="h"><h3 id="relés-y-triac"><strong>2. Relés y TRIAC</strong></h3><a aria-hidden="true" href="#relés-y-triac">[link]</a></div>
+<h3 id="relés-y-triac"><strong>2. Relés y TRIAC</strong></h3>
 <ul>
 <li><p><strong>Relay:</strong></p>
 <ul>
@@ -518,7 +509,7 @@ polaridad.</li>
 la rotación del motor.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="relés-y-bobinas"><strong>2. Relés y bobinas</strong></h3><a aria-hidden="true" href="#relés-y-bobinas">[link]</a></div>
+<h3 id="relés-y-bobinas"><strong>2. Relés y bobinas</strong></h3>
 <ul>
 <li><p>La <strong>bobina del relay</strong> contiene un <strong>émbolo
 ferroso</strong> que se magnetiza al recibir corriente.</p></li>
@@ -537,7 +528,7 @@ demasiado lento.</li>
 </ul></li>
 </ul>
 <hr />
-<div class="h"><h3 id="triac"><strong>3. TRIAC</strong></h3><a aria-hidden="true" href="#triac">[link]</a></div>
+<h3 id="triac"><strong>3. TRIAC</strong></h3>
 <ul>
 <li>Semiconductor de <strong>corriente alterna</strong>, usado en lugar
 de relé donde no se requiere fuerza mecánica.</li>
@@ -545,7 +536,7 @@ de relé donde no se requiere fuerza mecánica.</li>
 <strong>relay como protección adicional</strong>.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="contactores"><strong>4. Contactores</strong></h3><a aria-hidden="true" href="#contactores">[link]</a></div>
+<h3 id="contactores"><strong>4. Contactores</strong></h3>
 <ul>
 <li>Similar al relay, pero <strong>para múltiples aperturas y
 cierres</strong>, usado especialmente en <strong>trabajo
@@ -604,7 +595,7 @@ platinos</strong>.</li>
 del resorte</strong> y los platinos se cierran.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="medición-inicial"><strong>2. Medición inicial</strong></h3><a aria-hidden="true" href="#medición-inicial">[link]</a></div>
+<h3 id="medición-inicial"><strong>2. Medición inicial</strong></h3>
 <ul>
 <li>Primero se mide <strong>continuidad</strong> con tester para
 verificar que la bobina no esté abierta o en corto.</li>
@@ -612,7 +603,7 @@ verificar que la bobina no esté abierta o en corto.</li>
 bobina.</li>
 </ul>
 <hr />
-<div class="h"><h3 id="fuente-de-prueba"><strong>3. Fuente de prueba</strong></h3><a aria-hidden="true" href="#fuente-de-prueba">[link]</a></div>
+<h3 id="fuente-de-prueba"><strong>3. Fuente de prueba</strong></h3>
 <ul>
 <li><p>Para probar el relay se puede usar:</p>
 <ul>
@@ -641,7 +632,7 @@ corriente a la salida</strong> cuando el relay está cerrado.</li>
 </ul></li>
 </ol>
 <hr />
-<div class="h"><h3 id="notas-importantes"><strong>5. Notas importantes</strong></h3><a aria-hidden="true" href="#notas-importantes">[link]</a></div>
+<h3 id="notas-importantes"><strong>5. Notas importantes</strong></h3>
 <ul>
 <li>Guardar <strong>cargadores fundidos</strong>: sirven como fuentes de
 bajo consumo para probar relays.</li>
@@ -657,17 +648,6 @@ prueba de un relay de 12 V</strong>, mostrando <strong>transformador →
 puente rectificador → capacitor → bobina del relay → platinos NA/NC →
 carga</strong>, para que quede todo clarísimo para examen.</p>
 <p>¿Querés que haga ese esquema?</p>
-<div id="footer">
-<hr />
-</div>
-<p>Fichero Markdown para esta página: <a
-href="https://cursoelectricidad.github.io/06clase.md"
-class="uri">https://cursoelectricidad.github.io/06clase.md</a></p>
-<p><a href="/feed.xml">Suscriba al RSS del sitio</a></p>
-<p><a href="/sitemap.html">Mapa del sitio</a></p>
-<p>Esta página HTML fue generada por el <a
-href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
-Generator</a>.</p>
 </div>
 </div>
 </body>

@@ -1,4 +1,4 @@
-% Clase Nº 6: Relay. Triac: corriente alterna. Mosfet: continua y alterna?. Contactora. Varistor. Termistor. Fuentes. Puente Rectificador. Mosfet. Soldador no funcionó.
+% Clase Nº 6: Relays, contactoras, varistores y protectores
 % Andrés Imlauer
 % 16 Julio 2024
 
@@ -400,4 +400,3 @@ Aquí tienes un **resumen organizado y paso a paso** de cómo probar un **relay 
 Si querés, puedo hacer un **esquema visual del circuito de prueba de un relay de 12 V**, mostrando **transformador → puente rectificador → capacitor → bobina del relay → platinos NA/NC → carga**, para que quede todo clarísimo para examen.
 
 ¿Querés que haga ese esquema?
-

@@ -1,7 +1,7 @@
-% Clase Nº 7: Diagrama horno eléctrico. Termostato. Selector de velas. Bobinas: arranque y trabajo.
+% Clase Nº 7: Horno eléctrico, selector de velas y termostato
 % Andrés Imlauer
 % 16 Julio 2024
-   
+
 #### Audio de la clase
 
 [https://youtu.be/5RjcuVO6T3I](https://youtu.be/5RjcuVO6T3I)
@@ -246,5 +246,3 @@ Si querés, puedo armar un **resumen definitivo de todo lo que me mandaste hasta
 De manera que quede **una guía práctica completa** lista para estudio o uso en reparaciones.
 
 ¿Querés que haga eso?
-
-

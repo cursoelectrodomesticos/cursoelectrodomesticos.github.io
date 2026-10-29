@@ -1,7 +1,7 @@
-% Clase Nº 1: Potencia. Voltios. Amper. Fuente. Corriente alterna (VAC) vs continua (VDC). Transformador. Amper. Fuera de ciclo. 
+% Clase Nº 1: Introducción a corriente alterna y continua, fuentes y transformadores
 % Andrés Imlauer
 % 16 Julio 2024
-   
+
 Aquí te destaco los **puntos más importantes** de la clase del Profesor Marcelo Barrios, organizados y claros:
 
 ---

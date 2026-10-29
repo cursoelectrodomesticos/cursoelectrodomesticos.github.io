@@ -1,4 +1,4 @@
-% Clase Nº 8: Lavarropas. Relay. Triac. Presostato. Solenoide. Jaula ardilla. Motores universales. Hay que saber preguntar al cliente. 01:55:00 (no calienta la plancha XD, que pavote quiere probar con ella). Orrin. Entra agua bomba de agua. Cuando se usa RELAY y cuando TRIAC. Mosfet. En el final hay una complicada explicación. TRIAC cumple la misma función que un RELAY.
+% Clase Nº 8: Lavarropas, presostato, solenoides y motores universales
 % Andrés Imlauer
 % 16 Julio 2024
 
@@ -692,5 +692,3 @@ Perfecto, vamos a organizar todo lo que estás describiendo para que quede **cla
 Si querés, puedo hacer un **diagrama completo de la placa de lavadora** mostrando: **chip → TRIAC → bomba → electroválvula → blocapuertas**, con las resistencias de disparo, para que visualices **cómo fluye la señal y la potencia**. Esto resume toda la clase de manera gráfica.
 
 ¿Querés que haga ese diagrama?
-
-

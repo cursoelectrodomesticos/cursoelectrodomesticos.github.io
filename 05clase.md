@@ -1,7 +1,7 @@
-% Clase Nº 5: Lavarropas y Termotanque. Triac. Mosfet. Osciladores. Fabricar plástico para nivel el succionador (fallo común).
+% Clase Nº 5: Lavarropas, termotanques, triacs y osciladores
 % Andrés Imlauer
 % 16 Julio 2024
-   
+
 #### Audio de la clase
 
 [https://youtu.be/LWxML1Yv3IY](https://youtu.be/LWxML1Yv3IY)
@@ -508,5 +508,3 @@ Perfecto, Magomed. Vamos a organizar este bloque sobre **termotanques y lavadora
 Si querés, puedo hacer un **diagrama comparativo entre termotanque, semiautomático y trifásico**, mostrando **circuito de corriente, termostato y resistencia**, para que quede todo visual y fácil de recordar. Esto integraría la parte eléctrica con la mecánica y el mantenimiento.
 
 ¿Querés que haga ese diagrama?
-
-

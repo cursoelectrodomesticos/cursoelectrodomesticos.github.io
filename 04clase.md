@@ -1,7 +1,7 @@
-% Clase Nº 4: Capacitores, Transformadores - Fuente lineal, switching o conmutada, y capacitiva. Rectificador onda completa. Núcleo ferrita, núcleo hierro.
+% Clase Nº 4: Fuentes de alimentación, capacitores y rectificadores
 % Andrés Imlauer
 % 16 Julio 2024
-   
+
 ## Audio de la clase:
 
 [https://youtu.be/OSlqnhmQsMQ](https://youtu.be/OSlqnhmQsMQ)
@@ -389,4 +389,3 @@ Aquí tienes un **resumen con los puntos más importantes** usando emojis y clar
 Si querés, puedo hacer un **diagrama visual de cómo la DC se convierte en pulsos con MOSFET y luego alimenta un transformador de ferrita**, mostrando **entrada DC → generador de pulsos → MOSFET → transformador → IC**. Esto hace que se vea todo el flujo de forma clara.
 
 ¿Querés que haga ese diagrama?
-
