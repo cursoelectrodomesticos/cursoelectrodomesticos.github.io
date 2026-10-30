@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 8: Lavarropas, presostato, solenoides y motores universales</title>
+  <title>Curso Reparacion Electrodomesticos – Clase Nº 8: Lavarropas, presostato, solenoides y motores universales</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -25,140 +25,9 @@ motores universales</h1>
 </ul>
 <hr/>
 </header>
-<nav id="TOC">
-<h1>Navigate this page:</h1>
-<ul>
-<li><a href="#motores-y-electrobombas"
-id="toc-motores-y-electrobombas">🔹 Motores y electrobombas</a></li>
-<li><a href="#solenoides-y-relays" id="toc-solenoides-y-relays">🔹
-Solenoides y relays</a></li>
-<li><a href="#presostato-y-electrovalvula"
-id="toc-presostato-y-electrovalvula">🔹 Presostato y
-electrovalvula</a></li>
-<li><a href="#componentes-del-motor" id="toc-componentes-del-motor">🔹
-Componentes del motor</a></li>
-<li><a href="#carbones-y-mantenimiento"
-id="toc-carbones-y-mantenimiento">🔹 Carbones y mantenimiento</a></li>
-<li><a href="#reparaciones-y-herramientas"
-id="toc-reparaciones-y-herramientas">🔹 Reparaciones y
-herramientas</a></li>
-<li><a href="#diagnósticos-finales" id="toc-diagnósticos-finales">🔹
-Diagnósticos finales</a></li>
-<li><a href="#interpretación-y-actitud-ante-la-electricidad"
-id="toc-interpretación-y-actitud-ante-la-electricidad">🔹 Interpretación
-y actitud ante la electricidad</a></li>
-<li><a href="#tipos-de-motores-y-componentes"
-id="toc-tipos-de-motores-y-componentes">🔹 Tipos de motores y
-componentes</a></li>
-<li><a href="#electrónica-de-lavadoras"
-id="toc-electrónica-de-lavadoras">🔹 Electrónica de lavadoras</a></li>
-<li><a href="#secuencia-de-chequeo-del-chip"
-id="toc-secuencia-de-chequeo-del-chip">🔹 Secuencia de chequeo del
-chip</a></li>
-<li><a href="#electricidad-y-conexiones"
-id="toc-electricidad-y-conexiones">🔹 Electricidad y conexiones</a></li>
-<li><a href="#condiciones-del-trabajo-eléctrico"
-id="toc-condiciones-del-trabajo-eléctrico">🔹 Condiciones del trabajo
-eléctrico</a></li>
-<li><a href="#resistencia-vs-impedancia"
-id="toc-resistencia-vs-impedancia">🔹 Resistencia vs Impedancia</a></li>
-<li><a href="#probar-una-electrobomba"
-id="toc-probar-una-electrobomba">🔹 Probar una electrobomba</a></li>
-<li><a href="#corriente-alterna-vs-continua-punzante"
-id="toc-corriente-alterna-vs-continua-punzante">🔹 Corriente alterna vs
-continua punzante</a></li>
-<li><a href="#motocompresor-y-parámetros-eléctricos"
-id="toc-motocompresor-y-parámetros-eléctricos">🔹 Motocompresor y
-parámetros eléctricos</a></li>
-<li><a href="#carga-de-baterías-y-amperaje"
-id="toc-carga-de-baterías-y-amperaje">🔹 Carga de baterías y
-amperaje</a></li>
-<li><a href="#electrobomba-y-lavadora"
-id="toc-electrobomba-y-lavadora">🔹 Electrobomba y lavadora</a></li>
-<li><a href="#conexiones-eléctricas" id="toc-conexiones-eléctricas">🔹
-Conexiones eléctricas</a></li>
-<li><a href="#conceptos-de-voltaje-y-potencia"
-id="toc-conceptos-de-voltaje-y-potencia">🔹 Conceptos de voltaje y
-potencia</a></li>
-<li><a href="#funcionamiento-del-presostato"
-id="toc-funcionamiento-del-presostato">🔹 Funcionamiento del
-presostato</a></li>
-<li><a href="#medición-y-diagnóstico" id="toc-medición-y-diagnóstico">🔹
-Medición y diagnóstico</a></li>
-<li><a href="#señales-digitales-e-inversores"
-id="toc-señales-digitales-e-inversores">🔹 Señales digitales e
-inversores</a></li>
-<li><a href="#conceptos-clave" id="toc-conceptos-clave">🔹 Conceptos
-clave</a></li>
-<li><a href="#flujo-de-señales-entre-chip-y-presostato"
-id="toc-flujo-de-señales-entre-chip-y-presostato">🔹 Flujo de señales
-entre chip y presostato</a></li>
-<li><a href="#qué-ocurre-cuando-hay-fallo"
-id="toc-qué-ocurre-cuando-hay-fallo">🔹 Qué ocurre cuando hay
-fallo</a></li>
-<li><a href="#electrovalvulas" id="toc-electrovalvulas">🔹
-Electrovalvulas</a></li>
-<li><a href="#diagnóstico-práctico" id="toc-diagnóstico-práctico">🔹
-Diagnóstico práctico</a></li>
-<li><a href="#tip-adicional-reparación-de-planchas"
-id="toc-tip-adicional-reparación-de-planchas">🔹 Tip adicional:
-reparación de planchas</a></li>
-<li><a href="#posibles-errores-en-la-carga-de-agua"
-id="toc-posibles-errores-en-la-carga-de-agua">🔹 Posibles errores en la
-carga de agua</a></li>
-<li><a href="#secuencia-de-funcionamiento-normal"
-id="toc-secuencia-de-funcionamiento-normal">🔹 Secuencia de
-funcionamiento normal</a></li>
-<li><a href="#diagnóstico-práctico-1" id="toc-diagnóstico-práctico-1">🔹
-Diagnóstico práctico</a></li>
-<li><a href="#electroválvulas-y-entrada-de-agua"
-id="toc-electroválvulas-y-entrada-de-agua">🔹 Electroválvulas y entrada
-de agua 🚰</a></li>
-<li><a href="#tipos-de-motores-en-lavadoras"
-id="toc-tipos-de-motores-en-lavadoras">🔹 Tipos de motores en
-lavadoras</a></li>
-<li><a href="#componentes-del-motor-universal"
-id="toc-componentes-del-motor-universal">🔹 Componentes del motor
-universal</a></li>
-<li><a href="#diagnóstico-práctico-2" id="toc-diagnóstico-práctico-2">🔹
-Diagnóstico práctico</a></li>
-<li><a href="#notas-adicionales" id="toc-notas-adicionales">🔹 Notas
-adicionales</a></li>
-<li><a href="#prueba-de-motor-universal"
-id="toc-prueba-de-motor-universal">🔹 Prueba de motor universal
-⚡</a></li>
-<li><a href="#proceso-después-del-lavado"
-id="toc-proceso-después-del-lavado">🔹 Proceso después del lavado
-🌀</a></li>
-<li><a href="#consejos-prácticos" id="toc-consejos-prácticos">🔹
-Consejos prácticos 🛠️</a></li>
-<li><a href="#problema-inicial" id="toc-problema-inicial">🔹 Problema
-inicial</a></li>
-<li><a href="#triac-vs-relay" id="toc-triac-vs-relay">🔹 TRIAC vs Relay
-⚡</a></li>
-<li><a href="#funcionamiento-de-un-triac"
-id="toc-funcionamiento-de-un-triac">🔹 Funcionamiento de un
-TRIAC</a></li>
-<li><a href="#medición-de-un-triac" id="toc-medición-de-un-triac">🔹
-Medición de un TRIAC</a></li>
-<li><a href="#control-de-motor-con-triac"
-id="toc-control-de-motor-con-triac">🔹 Control de motor con
-TRIAC</a></li>
-<li><a href="#principio-de-funcionamiento"
-id="toc-principio-de-funcionamiento">🔹 Principio de
-funcionamiento</a></li>
-<li><a href="#triac-y-resistencias" id="toc-triac-y-resistencias">🔹
-TRIAC y resistencias</a></li>
-<li><a href="#control-de-cargas" id="toc-control-de-cargas">🔹 Control
-de cargas</a></li>
-<li><a href="#cómo-probar-triacs-y-funcionamiento"
-id="toc-cómo-probar-triacs-y-funcionamiento">🔹 Cómo probar TRIACs y
-funcionamiento</a></li>
-<li><a href="#conclusión-práctica" id="toc-conclusión-práctica">🔹
-Conclusión práctica</a></li>
-</ul>
-</nav>
-<div class="pagetext">
+<p><a href="./">Volver al índice</a></p>
+<p>Artículo publicado por: Andrés Imlauer</p>
+<p>Artículo publicado el: 16 Julio 2024</p>
 <h4 id="audio-de-la-clase">Audio de la clase:</h4>
 <p><a
 href="https://youtu.be/HOFVsSnZ_a4">https://youtu.be/HOFVsSnZ_a4</a></p>
@@ -167,7 +36,7 @@ href="https://voca.ro/1c9hVPuRPWbh">https://voca.ro/1c9hVPuRPWbh</a></p>
 <h4 id="o-escuchala-en-invidious">O escuchala en invidious:</h4>
 <p><a
 href="https://redirect.invidious.io/watch?v=HOFVsSnZ_a4">https://redirect.invidious.io/watch?v=HOFVsSnZ_a4</a></p>
-<h3 id="motores-y-electrobombas">🔹 Motores y electrobombas</h3>
+<div class="h"><h3 id="motores-y-electrobombas">🔹 Motores y electrobombas</h3><a aria-hidden="true" href="#motores-y-electrobombas">[link]</a></div>
 <ul>
 <li>Todos los motores tienen <strong>bobinado</strong> igual. ⚡</li>
 <li>Para probar una <strong>electrobomba</strong>, se conecta a
@@ -178,7 +47,7 @@ eje está cortado. 🔧</li>
 <strong>continua y alterna</strong>. 🔄</li>
 </ul>
 <hr />
-<h3 id="solenoides-y-relays">🔹 Solenoides y relays</h3>
+<div class="h"><h3 id="solenoides-y-relays">🔹 Solenoides y relays</h3><a aria-hidden="true" href="#solenoides-y-relays">[link]</a></div>
 <ul>
 <li><strong>Solenoide de carga</strong> = <strong>relay</strong>.
 🟢</li>
@@ -189,7 +58,7 @@ veces disparado por <strong>diac</strong> o rectificadores de silicio.
 ⚡</li>
 </ul>
 <hr />
-<h3 id="presostato-y-electrovalvula">🔹 Presostato y electrovalvula</h3>
+<div class="h"><h3 id="presostato-y-electrovalvula">🔹 Presostato y electrovalvula</h3><a aria-hidden="true" href="#presostato-y-electrovalvula">[link]</a></div>
 <ul>
 <li><p><strong>Presostato</strong> = solo un <strong>switch de
 contacto</strong>, no tiene campo magnético. 🛑</p></li>
@@ -204,7 +73,7 @@ de ella. 🔍</p></li>
 <strong>pinza</strong>. 🛠️</p></li>
 </ul>
 <hr />
-<h3 id="componentes-del-motor">🔹 Componentes del motor</h3>
+<div class="h"><h3 id="componentes-del-motor">🔹 Componentes del motor</h3><a aria-hidden="true" href="#componentes-del-motor">[link]</a></div>
 <ul>
 <li><p><strong>Jaula de ardilla</strong>: bobinas en diagonales.
 🏐</p></li>
@@ -219,7 +88,7 @@ magnetiza</strong>. ⚪</p></li>
 </ul></li>
 </ul>
 <hr />
-<h3 id="carbones-y-mantenimiento">🔹 Carbones y mantenimiento</h3>
+<div class="h"><h3 id="carbones-y-mantenimiento">🔹 Carbones y mantenimiento</h3><a aria-hidden="true" href="#carbones-y-mantenimiento">[link]</a></div>
 <ul>
 <li>Si no hay carbón del tamaño exacto, comprar el <strong>más
 grande</strong> y ajustar con lija. 🪵</li>
@@ -229,7 +98,7 @@ y 13,5mm. 📏</li>
 mucho</strong> ⚡🔥</li>
 </ul>
 <hr />
-<h3 id="reparaciones-y-herramientas">🔹 Reparaciones y herramientas</h3>
+<div class="h"><h3 id="reparaciones-y-herramientas">🔹 Reparaciones y herramientas</h3><a aria-hidden="true" href="#reparaciones-y-herramientas">[link]</a></div>
 <ul>
 <li><strong>Plancha</strong>: limpiar platino con <strong>lija</strong>.
 ✨</li>
@@ -239,7 +108,7 @@ pistas delicadas 🔩.</li>
 🧰</li>
 </ul>
 <hr />
-<h3 id="diagnósticos-finales">🔹 Diagnósticos finales</h3>
+<div class="h"><h3 id="diagnósticos-finales">🔹 Diagnósticos finales</h3><a aria-hidden="true" href="#diagnósticos-finales">[link]</a></div>
 <ul>
 <li>Revisar <strong>carbón</strong> y bobina con <strong>tester</strong>
 antes de armar motor. ✅</li>
@@ -284,7 +153,7 @@ magnetiza</strong> ⚪</li>
 ardilla</strong>.</p></li>
 </ul>
 <hr />
-<h3 id="electrónica-de-lavadoras">🔹 Electrónica de lavadoras</h3>
+<div class="h"><h3 id="electrónica-de-lavadoras">🔹 Electrónica de lavadoras</h3><a aria-hidden="true" href="#electrónica-de-lavadoras">[link]</a></div>
 <ul>
 <li><p><strong>Procesador</strong>: recibe órdenes y controla la
 lavadora 🖥️.</p>
@@ -312,7 +181,7 @@ chip</h3>
 garantizar drenaje inicial. 💦</li>
 </ol>
 <hr />
-<h3 id="electricidad-y-conexiones">🔹 Electricidad y conexiones</h3>
+<div class="h"><h3 id="electricidad-y-conexiones">🔹 Electricidad y conexiones</h3><a aria-hidden="true" href="#electricidad-y-conexiones">[link]</a></div>
 <ul>
 <li>Para motores y bobinas: se necesita <strong>fase y neutro</strong>
 correctamente ⚡.</li>
@@ -342,7 +211,7 @@ eléctrico</h3>
 da la <strong>potencia consumida</strong> 🔋.</li>
 </ul>
 <hr />
-<h3 id="resistencia-vs-impedancia">🔹 Resistencia vs Impedancia</h3>
+<div class="h"><h3 id="resistencia-vs-impedancia">🔹 Resistencia vs Impedancia</h3><a aria-hidden="true" href="#resistencia-vs-impedancia">[link]</a></div>
 <ul>
 <li><p><strong>Resistencia (R)</strong> → corriente continua (DC)
 ⚡</p></li>
@@ -358,7 +227,7 @@ da la <strong>potencia consumida</strong> 🔋.</li>
 tensión</strong> ⬇️.</p></li>
 </ul>
 <hr />
-<h3 id="probar-una-electrobomba">🔹 Probar una electrobomba</h3>
+<div class="h"><h3 id="probar-una-electrobomba">🔹 Probar una electrobomba</h3><a aria-hidden="true" href="#probar-una-electrobomba">[link]</a></div>
 <ul>
 <li><p>Conectar a <strong>220V</strong> ⚡💧</p></li>
 <li><p>Para electrobombas de <strong>12V AC</strong>, usar un
@@ -422,7 +291,7 @@ amperaje</h3>
 (V)</strong> con <strong>intensidad (A)</strong> ⚡💡</li>
 </ul>
 <hr />
-<h3 id="electrobomba-y-lavadora">🔹 Electrobomba y lavadora</h3>
+<div class="h"><h3 id="electrobomba-y-lavadora">🔹 Electrobomba y lavadora</h3><a aria-hidden="true" href="#electrobomba-y-lavadora">[link]</a></div>
 <ul>
 <li><p>Electrobomba diseñada para <strong>220 V AC</strong> 💧</p></li>
 <li><p>El <strong>chip</strong> controla:</p>
@@ -441,7 +310,7 @@ antes de activar bomba 💦</p></li>
 </ul></li>
 </ul>
 <hr />
-<h3 id="conexiones-eléctricas">🔹 Conexiones eléctricas</h3>
+<div class="h"><h3 id="conexiones-eléctricas">🔹 Conexiones eléctricas</h3><a aria-hidden="true" href="#conexiones-eléctricas">[link]</a></div>
 <ul>
 <li><p>Electroválvula: <strong>3 cables</strong> → 1 común + 2 colores
 🌈</p></li>
@@ -499,7 +368,7 @@ menos agua</strong> ⚠️</li>
 </ul></li>
 </ul>
 <hr />
-<h3 id="medición-y-diagnóstico">🔹 Medición y diagnóstico</h3>
+<div class="h"><h3 id="medición-y-diagnóstico">🔹 Medición y diagnóstico</h3><a aria-hidden="true" href="#medición-y-diagnóstico">[link]</a></div>
 <ul>
 <li><p><strong>No se puede “medir” el presostato</strong> como tal, solo
 funciona o no funciona. ✅❌</p></li>
@@ -533,7 +402,7 @@ inversores</h3>
 saber si puede cargar agua o no 🖥️</p></li>
 </ul>
 <hr />
-<h3 id="conceptos-clave">🔹 Conceptos clave</h3>
+<div class="h"><h3 id="conceptos-clave">🔹 Conceptos clave</h3><a aria-hidden="true" href="#conceptos-clave">[link]</a></div>
 <ul>
 <li>Nunca cortar la manguera ⚠️</li>
 <li>La presión depende del <strong>largo de la manguera</strong> →
@@ -573,7 +442,7 @@ o <strong>normalmente cerrado (NC)</strong> 🔄</p>
 🔁</p></li>
 </ul>
 <hr />
-<h3 id="qué-ocurre-cuando-hay-fallo">🔹 Qué ocurre cuando hay fallo</h3>
+<div class="h"><h3 id="qué-ocurre-cuando-hay-fallo">🔹 Qué ocurre cuando hay fallo</h3><a aria-hidden="true" href="#qué-ocurre-cuando-hay-fallo">[link]</a></div>
 <ul>
 <li>Si a los <strong>8 minutos</strong> el chip no recibe señal de carga
 completa, <strong>marca error</strong> ⏱️❌</li>
@@ -585,7 +454,7 @@ lava</strong> 🧴</li>
 no responde → sigue llenando → error marcado ❌💧</li>
 </ul>
 <hr />
-<h3 id="electrovalvulas">🔹 Electrovalvulas</h3>
+<div class="h"><h3 id="electrovalvulas">🔹 Electrovalvulas</h3><a aria-hidden="true" href="#electrovalvulas">[link]</a></div>
 <ul>
 <li>Funcionan con <strong>campo magnético (solenoide)</strong> ⚡🧲</li>
 <li>Al quitar electricidad → resorte cierra el paso del agua ⬇️</li>
@@ -593,7 +462,7 @@ no responde → sigue llenando → error marcado ❌💧</li>
 de control eléctrico o mecánico 🔧</li>
 </ul>
 <hr />
-<h3 id="diagnóstico-práctico">🔹 Diagnóstico práctico</h3>
+<div class="h"><h3 id="diagnóstico-práctico">🔹 Diagnóstico práctico</h3><a aria-hidden="true" href="#diagnóstico-práctico">[link]</a></div>
 <ul>
 <li>Revisar si el tacho giró 🏺</li>
 <li>Revisar nivel de agua 💧</li>
@@ -671,7 +540,7 @@ funcionamiento normal</h3>
 ⚠️</p></li>
 </ol>
 <hr />
-<h3 id="diagnóstico-práctico-1">🔹 Diagnóstico práctico</h3>
+<div class="h"><h3 id="diagnóstico-práctico-1">🔹 Diagnóstico práctico</h3><a aria-hidden="true" href="#diagnóstico-práctico-1">[link]</a></div>
 <ul>
 <li><p>Si cliente dice: “Cargó agua pero no lavó”</p>
 <ul>
@@ -749,7 +618,7 @@ recibe corriente → no funciona ⚠️</p>
 nuevo</p></li>
 </ul>
 <hr />
-<h3 id="diagnóstico-práctico-2">🔹 Diagnóstico práctico</h3>
+<div class="h"><h3 id="diagnóstico-práctico-2">🔹 Diagnóstico práctico</h3><a aria-hidden="true" href="#diagnóstico-práctico-2">[link]</a></div>
 <ul>
 <li><p>Sacar <strong>motor y probarlo en la mesa</strong> ⚡</p>
 <ul>
@@ -760,7 +629,7 @@ nuevo</p></li>
 <li><p>Revisar conexiones antes de instalar en la lavadora</p></li>
 </ul>
 <hr />
-<h3 id="notas-adicionales">🔹 Notas adicionales</h3>
+<div class="h"><h3 id="notas-adicionales">🔹 Notas adicionales</h3><a aria-hidden="true" href="#notas-adicionales">[link]</a></div>
 <ul>
 <li>Motor universal no requiere capacitor</li>
 <li>Motor mecánico sí requiere capacitor → mejora arranque y factor de
@@ -779,7 +648,7 @@ cómo se diagnostican</strong>.</p>
 todo lo que acabás de transcribir sobre <strong>pruebas de motor y bomba
 de agua en lavadoras</strong>:</p>
 <hr />
-<h3 id="prueba-de-motor-universal">🔹 Prueba de motor universal ⚡</h3>
+<div class="h"><h3 id="prueba-de-motor-universal">🔹 Prueba de motor universal ⚡</h3><a aria-hidden="true" href="#prueba-de-motor-universal">[link]</a></div>
 <ol type="1">
 <li><p><strong>Precaución al conectar</strong></p>
 <ul>
@@ -837,7 +706,7 @@ bien</li>
 </ul></li>
 </ol>
 <hr />
-<h3 id="consejos-prácticos">🔹 Consejos prácticos 🛠️</h3>
+<div class="h"><h3 id="consejos-prácticos">🔹 Consejos prácticos 🛠️</h3><a aria-hidden="true" href="#consejos-prácticos">[link]</a></div>
 <ul>
 <li>Tener <strong>bomba de repuesto</strong> en el taller</li>
 <li>Revisar <strong>carbones y bobinado</strong> antes de asumir falla
@@ -856,7 +725,7 @@ entender.</p>
 <strong>TRIACs, relays y control de carga de motores en lavadoras y
 equipos electrónicos</strong>:</p>
 <hr />
-<h3 id="problema-inicial">🔹 Problema inicial</h3>
+<div class="h"><h3 id="problema-inicial">🔹 Problema inicial</h3><a aria-hidden="true" href="#problema-inicial">[link]</a></div>
 <ul>
 <li>Si al sacudir la lavadora empieza a caer agua → <strong>bomba
 dañada</strong> → cambiar bomba.</li>
@@ -864,7 +733,7 @@ dañada</strong> → cambiar bomba.</li>
 elementos más afectados: <strong>TRIACs</strong>.</li>
 </ul>
 <hr />
-<h3 id="triac-vs-relay">🔹 TRIAC vs Relay ⚡</h3>
+<div class="h"><h3 id="triac-vs-relay">🔹 TRIAC vs Relay ⚡</h3><a aria-hidden="true" href="#triac-vs-relay">[link]</a></div>
 <table>
 <colgroup>
 <col style="width: 14%" />
@@ -913,7 +782,7 @@ compresores, resistencias de alta potencia.</li>
 pueden reemplazar relays en muchos casos.</li>
 </ul>
 <hr />
-<h3 id="funcionamiento-de-un-triac">🔹 Funcionamiento de un TRIAC</h3>
+<div class="h"><h3 id="funcionamiento-de-un-triac">🔹 Funcionamiento de un TRIAC</h3><a aria-hidden="true" href="#funcionamiento-de-un-triac">[link]</a></div>
 <ul>
 <li>Tiene <strong>3 pines</strong>: MT1, MT2 y Gate (compuerta).</li>
 <li>La corriente alterna <strong>pasa entre MT1 y MT2</strong> si se
@@ -929,7 +798,7 @@ maneje directamente.</li>
 AC llegue a la carga (motor/bomba).</li>
 </ul>
 <hr />
-<h3 id="medición-de-un-triac">🔹 Medición de un TRIAC</h3>
+<div class="h"><h3 id="medición-de-un-triac">🔹 Medición de un TRIAC</h3><a aria-hidden="true" href="#medición-de-un-triac">[link]</a></div>
 <ol type="1">
 <li><p>Poner tester en <strong>continuidad</strong>:</p>
 <ul>
@@ -941,7 +810,7 @@ AC llegue a la carga (motor/bomba).</li>
 <li><p>MT2 siempre aislado, si da continuidad → TRIAC dañado.</p></li>
 </ol>
 <hr />
-<h3 id="control-de-motor-con-triac">🔹 Control de motor con TRIAC</h3>
+<div class="h"><h3 id="control-de-motor-con-triac">🔹 Control de motor con TRIAC</h3><a aria-hidden="true" href="#control-de-motor-con-triac">[link]</a></div>
 <ol type="1">
 <li>Motor de 220V AC → 2 cables: fase y neutro.</li>
 <li>Placa electrónica <strong>no maneja directamente 220V</strong>, solo
@@ -962,7 +831,7 @@ quede <strong>claro el rol de los TRIACs y resistencias en la placa de
 una lavadora</strong> y cómo se hace funcionar la bomba, electroválvula
 y blocapuertas:</p>
 <hr />
-<h3 id="principio-de-funcionamiento">🔹 Principio de funcionamiento</h3>
+<div class="h"><h3 id="principio-de-funcionamiento">🔹 Principio de funcionamiento</h3><a aria-hidden="true" href="#principio-de-funcionamiento">[link]</a></div>
 <ol type="1">
 <li><p><strong>Placa electrónica (chip)</strong> → solo maneja
 <strong>señales de bajo voltaje</strong>.</p></li>
@@ -977,7 +846,7 @@ placa.</li>
 </ul></li>
 </ol>
 <hr />
-<h3 id="triac-y-resistencias">🔹 TRIAC y resistencias</h3>
+<div class="h"><h3 id="triac-y-resistencias">🔹 TRIAC y resistencias</h3><a aria-hidden="true" href="#triac-y-resistencias">[link]</a></div>
 <ul>
 <li><p>Cada TRIAC suele estar <strong>acompañado de 2 resistencias muy
 cercanas</strong>.</p></li>
@@ -992,7 +861,7 @@ incorrectas.</li>
 cambiar las dos resistencias asociadas</strong>.</p></li>
 </ul>
 <hr />
-<h3 id="control-de-cargas">🔹 Control de cargas</h3>
+<div class="h"><h3 id="control-de-cargas">🔹 Control de cargas</h3><a aria-hidden="true" href="#control-de-cargas">[link]</a></div>
 <table>
 <colgroup>
 <col style="width: 14%" />
@@ -1058,7 +927,7 @@ cercanas.</li>
 de juntura, MOSFET o regulador según datasheet.</li>
 </ul>
 <hr />
-<h3 id="conclusión-práctica">🔹 Conclusión práctica</h3>
+<div class="h"><h3 id="conclusión-práctica">🔹 Conclusión práctica</h3><a aria-hidden="true" href="#conclusión-práctica">[link]</a></div>
 <ul>
 <li>Cada carga a 220V necesita <strong>su TRIAC o relay
 dedicado</strong>.</li>
@@ -1075,7 +944,17 @@ electroválvula → blocapuertas</strong>, con las resistencias de disparo,
 para que visualices <strong>cómo fluye la señal y la potencia</strong>.
 Esto resume toda la clase de manera gráfica.</p>
 <p>¿Querés que haga ese diagrama?</p>
+<div id="footer">
+<hr />
 </div>
+<p>Fichero Markdown para esta página: <a
+href="https://cursoelectrodomesticos.github.io/08clase.md"
+class="uri">https://cursoelectrodomesticos.github.io/08clase.md</a></p>
+<p><a href="/feed.xml">Suscriba al RSS del sitio</a></p>
+<p><a href="/sitemap.html">Mapa del sitio</a></p>
+<p>Esta página HTML fue generada por el <a
+href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
+Generator</a>.</p>
 </div>
 </body>
 </html>

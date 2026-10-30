@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 12: Microondas: fuentes conmutadas switching y componentes</title>
+  <title>Curso Reparacion Electrodomesticos – Clase Nº 12: Microondas: fuentes conmutadas switching y componentes</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -25,190 +25,9 @@ y componentes</h1>
 </ul>
 <hr/>
 </header>
-<nav id="TOC">
-<h1>Navigate this page:</h1>
-<ul>
-<li><a href="#medir-relay" id="toc-medir-relay">Medir relay</a></li>
-<li><a href="#problemas-microondas"
-id="toc-problemas-microondas">Problemas microondas</a></li>
-<li><a
-href="#imágenes-httpsimlauer.blogspot.com202411audioapunte-taller-reparacion-de_36.html"
-id="toc-imágenes-httpsimlauer.blogspot.com202411audioapunte-taller-reparacion-de_36.html">Imágenes:
-https://imlauer.blogspot.com/2024/11/audioapunte-taller-reparacion-de_36.html</a>
-<ul>
-<li><a href="#transcripción"
-id="toc-transcripción">Transcripción</a></li>
-<li><a href="#microondas" id="toc-microondas">Microondas</a></li>
-<li><a href="#qué-tenemos-que-hacer-si-no-nos-da-ninguna-información"
-id="toc-qué-tenemos-que-hacer-si-no-nos-da-ninguna-información">Qué
-tenemos que hacer si no nos da ninguna información?</a></li>
-<li><a
-href="#cuando-hablamos-de-la-fuente-lineal-significa-que-trabaja-con-la-frecuencia-de-la-línea."
-id="toc-cuando-hablamos-de-la-fuente-lineal-significa-que-trabaja-con-la-frecuencia-de-la-línea.">Cuando
-hablamos de la fuente lineal significa que trabaja con la frecuencia de
-la línea.</a></li>
-<li><a href="#qué-pasa" id="toc-qué-pasa">Qué pasa?</a></li>
-<li><a href="#que-yo-tengo-acá" id="toc-que-yo-tengo-acá">Que yo tengo
-acá?</a></li>
-<li><a
-href="#cuantos-diodos-hay-en-un-puente-rectificador-de-onda-completa-4"
-id="toc-cuantos-diodos-hay-en-un-puente-rectificador-de-onda-completa-4">Cuantos
-diodos hay en un puente rectificador de onda completa? 4</a></li>
-<li><a
-href="#controlador-oscilador-tomará-los-311-voltios-positivo-con-puesta-a-tierra-y-mandará-pulsos-para-que-de-esa-forma-pueda-trabajar-el-transformador-en-la-corriente-continua."
-id="toc-controlador-oscilador-tomará-los-311-voltios-positivo-con-puesta-a-tierra-y-mandará-pulsos-para-que-de-esa-forma-pueda-trabajar-el-transformador-en-la-corriente-continua.">Controlador
-oscilador tomará los 311 voltios positivo con puesta a tierra y mandará
-pulsos para que de esa forma pueda trabajar el transformador en la
-corriente continua.</a></li>
-<li><a
-href="#si-coloco-la-otra-punta-del-tester-acá-y-la-otra-acá-no-me-va-a-dar-nada-porque-son-polos-distintos-no-hay-continuidad"
-id="toc-si-coloco-la-otra-punta-del-tester-acá-y-la-otra-acá-no-me-va-a-dar-nada-porque-son-polos-distintos-no-hay-continuidad">Si
-coloco la otra punta del tester acá y la otra acá no me va a dar nada
-porque son polos distintos (no hay continuidad)</a></li>
-</ul></li>
-<li><a href="#medición-del-relay" id="toc-medición-del-relay">Medición
-del relay</a>
-<ul>
-<li><a
-href="#herramientas-para-el-taller-juego-de-llaves-que-otra-cosa-herramienta"
-id="toc-herramientas-para-el-taller-juego-de-llaves-que-otra-cosa-herramienta">Herramientas
-para el taller: juego de llaves, que otra cosa herramienta?</a></li>
-<li><a
-href="#estamos-en-el-microondas-o-sea-que-tenemos-una-etapa-inicial-en-donde-enchufamos-y-tenemos-una-etapa-final-que-es-la-etapa-de-control-que-hace-trabajar-a-la-etapa-de-potencia."
-id="toc-estamos-en-el-microondas-o-sea-que-tenemos-una-etapa-inicial-en-donde-enchufamos-y-tenemos-una-etapa-final-que-es-la-etapa-de-control-que-hace-trabajar-a-la-etapa-de-potencia.">Estamos
-en el microondas o sea que tenemos una etapa inicial en donde enchufamos
-y tenemos una etapa final que es la etapa de control que hace trabajar a
-la etapa de potencia.</a></li>
-<li><a
-href="#vamos-a-tener-una-etapa-inicial-de-la-etapa-de-poder-que-será-el-transformador"
-id="toc-vamos-a-tener-una-etapa-inicial-de-la-etapa-de-poder-que-será-el-transformador">Vamos
-a tener una etapa inicial de la etapa de poder que será el
-transformador</a></li>
-<li><a href="#lo-primero-que-hacemos-es-desconectar-el-transformador"
-id="toc-lo-primero-que-hacemos-es-desconectar-el-transformador">Lo
-primero que hacemos es desconectar el transformador</a></li>
-<li><a href="#si-todo-funciona-bien-mi-lámpara-enciende."
-id="toc-si-todo-funciona-bien-mi-lámpara-enciende.">Si todo funciona
-bien mi lámpara enciende.</a></li>
-<li><a
-href="#yo-les-puedo-hablar-de-un-presostato-termostato-un-relay-nada-que-ver-una-cosa-con-la-otra."
-id="toc-yo-les-puedo-hablar-de-un-presostato-termostato-un-relay-nada-que-ver-una-cosa-con-la-otra.">Yo
-les puedo hablar de un presostato, termostato, un relay nada que ver una
-cosa con la otra.</a></li>
-<li><a href="#que-voy-a-hacer-con-mi-chicote-de-prueba"
-id="toc-que-voy-a-hacer-con-mi-chicote-de-prueba">Que voy a hacer con mi
-chicote de prueba?</a></li>
-<li><a href="#cuando-yo-saco-miro-fría-el-agua-que-está-pasando"
-id="toc-cuando-yo-saco-miro-fría-el-agua-que-está-pasando">Cuando yo
-saco miro fría el agua, que está pasando?</a></li>
-</ul></li>
-<li><a href="#medir-magnetrón" id="toc-medir-magnetrón">Medir
-magnetrón</a>
-<ul>
-<li><a href="#filamento-con-cuántos-voltios-trabaja-3000-voltios."
-id="toc-filamento-con-cuántos-voltios-trabaja-3000-voltios.">Filamento
-con cuántos voltios trabaja? 3000 voltios.</a></li>
-</ul></li>
-<li><a href="#probar-magnetrón" id="toc-probar-magnetrón">Probar
-magnetrón</a>
-<ul>
-<li><a href="#para-qué-necesito-encender-el-filamento"
-id="toc-para-qué-necesito-encender-el-filamento">Para qué necesito
-encender el filamento?</a></li>
-<li><a
-href="#entonces-esto-para-que-sirve-estos-fasto-machos-para-darle-energía-al-filamento-para-que-porque-de-ahí-aparecerán-los-electrones.-y-ahí-quedarán-locos-los-electrones."
-id="toc-entonces-esto-para-que-sirve-estos-fasto-machos-para-darle-energía-al-filamento-para-que-porque-de-ahí-aparecerán-los-electrones.-y-ahí-quedarán-locos-los-electrones.">Entonces
-esto para que sirve? Estos fasto machos? Para darle energía al filamento
-para que? Porque de ahí aparecerán los electrones. Y ahí quedarán locos
-los electrones.</a></li>
-<li><a
-href="#una-de-las-pruebas-es-medir-la-continuidad-de-estos-terminales-a-ver-si-tiene-impedancia"
-id="toc-una-de-las-pruebas-es-medir-la-continuidad-de-estos-terminales-a-ver-si-tiene-impedancia">Una
-de las pruebas es medir la continuidad de estos terminales a ver si
-tiene impedancia</a></li>
-</ul></li>
-<li><a
-href="#o-sea-que-el-filamento-me-marcó-que-estaba-bien-pero-cuando-yo-voy-a-revisar-resulta-que-cuando-yo-toco-una-de-las-puntas-que-va-para-el-filamento-y-toco-cualquier-parte-de-la-chapa-del-magnetrón-me-da-continuidad-quiere-decir-que-está-malo-porque-tiene-que-estar-aislado."
-id="toc-o-sea-que-el-filamento-me-marcó-que-estaba-bien-pero-cuando-yo-voy-a-revisar-resulta-que-cuando-yo-toco-una-de-las-puntas-que-va-para-el-filamento-y-toco-cualquier-parte-de-la-chapa-del-magnetrón-me-da-continuidad-quiere-decir-que-está-malo-porque-tiene-que-estar-aislado.">o
-sea que el filamento me marcó que estaba bien, pero cuando yo voy a
-revisar resulta que cuando yo toco una de las puntas que va para el
-filamento y toco cualquier parte de la chapa del magnetrón me da
-continuidad quiere decir que está malo porque tiene que estar
-aislado.</a></li>
-<li><a href="#está-en-corto" id="toc-está-en-corto">Está en
-corto</a></li>
-<li><a
-href="#quiere-decir-que-el-filamento-me-marcó-que-estaba-bien-pero-cuando-voy-a-revisar-resulta-que-cuando-yo-toco-una-de-las-puntas-que-va-al-filamento-y-toco-cualquier-parte-de-la-chapa-del-magnetrón-está-malo-porque-tiene-que-estar-aislado-no-debe-haber-sonido."
-id="toc-quiere-decir-que-el-filamento-me-marcó-que-estaba-bien-pero-cuando-voy-a-revisar-resulta-que-cuando-yo-toco-una-de-las-puntas-que-va-al-filamento-y-toco-cualquier-parte-de-la-chapa-del-magnetrón-está-malo-porque-tiene-que-estar-aislado-no-debe-haber-sonido.">Quiere
-decir que el filamento me marcó que estaba bien pero cuando voy a
-revisar resulta que cuando yo toco una de las puntas que va al filamento
-y toco cualquier parte de la CHAPA del magnetrón está malo porque tiene
-que estar aislado, no debe haber sonido.</a>
-<ul>
-<li><a href="#esta-parte-no-entendí-bien-hora-020910"
-id="toc-esta-parte-no-entendí-bien-hora-020910">Esta parte no entendí
-bien, hora 02:09:10</a></li>
-<li><a href="#que-tengo-que-hacer" id="toc-que-tengo-que-hacer">Que
-tengo que hacer?</a></li>
-<li><a href="#si-se-rompió-el-filamento-que-repuesto-nos-queda"
-id="toc-si-se-rompió-el-filamento-que-repuesto-nos-queda">Si se rompió
-el filamento que repuesto nos queda</a></li>
-<li><a href="#que-otras-cosas-le-puede-pasar-a-un-magnetrón"
-id="toc-que-otras-cosas-le-puede-pasar-a-un-magnetrón">Que otras cosas
-le puede pasar a un magnetrón?</a></li>
-<li><a href="#lo-mejor-que-hay-es-traer-otro-magnetrón-y-ponerle"
-id="toc-lo-mejor-que-hay-es-traer-otro-magnetrón-y-ponerle"><strong>Lo
-mejor que hay es traer otro magnetrón y ponerle</strong></a>
-<ul>
-<li><a
-href="#cuando-sacás-un-magnetrón-si-o-si-tenemos-que-volver-a-poner-en-el-lugar."
-id="toc-cuando-sacás-un-magnetrón-si-o-si-tenemos-que-volver-a-poner-en-el-lugar.">Cuando
-sacás un magnetrón si o si tenemos que volver a poner en el
-lugar.</a></li>
-<li><a
-href="#el-magnetrón-tiene-que-ir-en-el-mismo-lugar-porque-sino-es-peligroso-y-la-puerta-tiene-que-estar-cerrada."
-id="toc-el-magnetrón-tiene-que-ir-en-el-mismo-lugar-porque-sino-es-peligroso-y-la-puerta-tiene-que-estar-cerrada.">El
-magnetrón tiene que ir en el mismo lugar, porque sino es peligroso, y la
-puerta tiene que estar cerrada.</a></li>
-</ul></li>
-</ul></li>
-<li><a
-href="#todas-estas-pruebas-estando-acá-arriba-cuando-se-va-a-enchufar-tiene-que-estar-todo-en-su-lugar"
-id="toc-todas-estas-pruebas-estando-acá-arriba-cuando-se-va-a-enchufar-tiene-que-estar-todo-en-su-lugar">Todas
-estas pruebas estando acá arriba cuando se va a enchufar tiene que estar
-todo en su lugar</a>
-<ul>
-<li><a
-href="#como-servía-el-transformador-se-mide-la-continuidad-de-las-bobinas"
-id="toc-como-servía-el-transformador-se-mide-la-continuidad-de-las-bobinas">Como
-servía el transformador? Se mide la continuidad de las bobinas</a></li>
-</ul></li>
-<li><a
-href="#entonces-no-es-muy-aconsejable-hacer-ese-experimiento-xdd-hora-022710"
-id="toc-entonces-no-es-muy-aconsejable-hacer-ese-experimiento-xdd-hora-022710">Entonces
-no es muy aconsejable hacer ese experimiento XDD (HORA 02:27:10)</a>
-<ul>
-<li><a
-href="#cuantos-tipos-de-enrollamiento-de-alambre-tiene-este-transformador-3."
-id="toc-cuantos-tipos-de-enrollamiento-de-alambre-tiene-este-transformador-3.">Cuantos
-tipos de enrollamiento de alambre tiene este transformador? 3.</a></li>
-<li><a href="#lo-que-se-bobinaba-mucho"
-id="toc-lo-que-se-bobinaba-mucho">Lo que se bobinaba mucho:</a></li>
-<li><a
-href="#si-yo-hiciera-sólo-moto-y-dentro-de-la-moto-hago-salera-listo."
-id="toc-si-yo-hiciera-sólo-moto-y-dentro-de-la-moto-hago-salera-listo.">Si
-yo hiciera sólo moto y dentro de la moto hago salera, listo.</a></li>
-<li><a
-href="#hay-una-parte-bastante-complicada-a-mi-siempre-me-costó-entender-claramente-porque-tiene-sus-problemas."
-id="toc-hay-una-parte-bastante-complicada-a-mi-siempre-me-costó-entender-claramente-porque-tiene-sus-problemas.">Hay
-una parte bastante complicada a mi siempre me costó entender claramente
-porque tiene sus problemas.</a></li>
-<li><a href="#dibujando-hora-3" id="toc-dibujando-hora-3">Dibujando…
-(Hora 3)</a></li>
-</ul></li>
-</ul>
-</nav>
-<div class="pagetext">
+<p><a href="./">Volver al índice</a></p>
+<p>Artículo publicado por: Andrés Imlauer</p>
+<p>Artículo publicado el: 16 Julio 2024</p>
 <h4 id="audio-de-la-clase-en-youtube">Audio de la clase en YouTube</h4>
 <p>https://youtu.be/kCyNtZ1t94s</p>
 <h4 id="audio-de-la-clase-en-invidious">Audio de la clase en
@@ -216,7 +35,7 @@ Invidious</h4>
 <p>https://redirect.invidious.io/watch?v=kCyNtZ1t94s</p>
 <h4 id="audio-de-la-clase-en-vocaroo">Audio de la clase en Vocaroo</h4>
 <p>https://vocaroo.com/19Vtiubsk6Mq</p>
-<h3 id="medir-relay">Medir relay</h3>
+<div class="h"><h3 id="medir-relay">Medir relay</h3><a aria-hidden="true" href="#medir-relay">[link]</a></div>
 <p>1-4 (Normalmente cerrado) debe dar corto<br />
 1-5 (Normalmente abierto)<br />
 2-3 debe marcar impedancia</p>
@@ -253,7 +72,7 @@ deberían dar continuidad.</p>
 <p>Los pines 1 y 4 son normalmente cerrados tiene que pitar. El pitido
 indica que está en corto</p>
 <p>Solución rápida: enchufar transformador directo.</p>
-<h2 id="problemas-microondas">Problemas microondas</h2>
+<div class="h"><h2 id="problemas-microondas">Problemas microondas</h2><a aria-hidden="true" href="#problemas-microondas">[link]</a></div>
 <p>Imanes: si se rompen hay que cambiar.</p>
 <p>Deterioro antena.</p>
 <p><strong>Nunca probar magnetrón arriba de la mesa, probarlo en el
@@ -271,14 +90,14 @@ id="imágenes-httpsimlauer.blogspot.com202411audioapunte-taller-reparacion-de_36
 <a
 href="https://imlauer.blogspot.com/2024/11/audioapunte-taller-reparacion-de_36.html">https://imlauer.blogspot.com/2024/11/audioapunte-taller-reparacion-de_36.html</a></h2>
 <hr />
-<h3 id="transcripción">Transcripción</h3>
+<div class="h"><h3 id="transcripción">Transcripción</h3><a aria-hidden="true" href="#transcripción">[link]</a></div>
 <p>Las últimas veces que le robaron parece como si le hubieran entrado
 con un camión, le robaron todo. Minuto 6 describe todas las herramientas
 que le robaron.</p>
 <p>Profesor robaron herramientas. Compañero arregló parlante con
 soldadura fácil.</p>
 <p>El ácido de la batería de la moto hace mierda todo</p>
-<h3 id="microondas">Microondas</h3>
+<div class="h"><h3 id="microondas">Microondas</h3><a aria-hidden="true" href="#microondas">[link]</a></div>
 <p>Tienen 2 etapas: etapa de control y de potencia.</p>
 <h4
 id="qué-hay-que-hacer-para-revisar-el-funcionamiento-de-un-microondas">Qué
@@ -378,11 +197,11 @@ voltios, colocando un regulador de 12 a 3. Y si
 <strong>recalienta</strong> demasiado el regulador de voltaje, hay que
 poner uno de 12 a 9 y otro al lado de 9 a 3.</p>
 <p>Tiene 3 patitas el regulador de voltaje (78xx)</p>
-<h3 id="qué-pasa">Qué pasa?</h3>
+<div class="h"><h3 id="qué-pasa">Qué pasa?</h3><a aria-hidden="true" href="#qué-pasa">[link]</a></div>
 <p>Tengo que buscar un 7803, 7805, 7809, 7812, 7832 (hay muchísmos),
 tenemos que buscar el que es para 3 voltios.</p>
 <p>Los últimos 2 números te dicen el voltaje.</p>
-<h3 id="que-yo-tengo-acá">Que yo tengo acá?</h3>
+<div class="h"><h3 id="que-yo-tengo-acá">Que yo tengo acá?</h3><a aria-hidden="true" href="#que-yo-tengo-acá">[link]</a></div>
 <p>Corriente alterna, vamos a suponer que tengo 15 voltios, sigo
 teniendo corriente alterna, ahora tengo que poner un puente rectificador
 de onda completa también hay rectificador de media onda.</p>
@@ -477,7 +296,7 @@ parte negativa tienen resistencia.</p>
 id="si-coloco-la-otra-punta-del-tester-acá-y-la-otra-acá-no-me-va-a-dar-nada-porque-son-polos-distintos-no-hay-continuidad">Si
 coloco la otra punta del tester acá y la otra acá no me va a dar nada
 porque son polos distintos (no hay continuidad)</h3>
-<h2 id="medición-del-relay">Medición del relay</h2>
+<div class="h"><h2 id="medición-del-relay">Medición del relay</h2><a aria-hidden="true" href="#medición-del-relay">[link]</a></div>
 <p>1 al 4 corto<br />
 1 al 5 abierto<br />
 2 al 3 resistencia</p>
@@ -607,7 +426,7 @@ tiene diodo.</p>
 <p>No hay forma de probar el magnetrón.</p>
 <p>Hay varios modelos del magnetrón, hay que sacarle y ponerle otro que
 mejor se adapte, si calienta adentro entonces el magnetrón está mal.</p>
-<h2 id="medir-magnetrón">Medir magnetrón</h2>
+<div class="h"><h2 id="medir-magnetrón">Medir magnetrón</h2><a aria-hidden="true" href="#medir-magnetrón">[link]</a></div>
 <p>Es difícil el control exacto del magnetrón existen formas de como
 controlar, el magnetrón esta parte es todo metálico, salvo una parte de
 porcelana.</p>
@@ -618,7 +437,7 @@ lo otro es para crear la potencia el disparo de los electrones</p>
 <p>Entonces este conector que está acá es una cosa más o menos de
 plástico <strong>(cual será el conector)</strong>, antes era de muy
 buena calidad. Dentro de este hay una bobina de cada lado.</p>
-<h2 id="probar-magnetrón">Probar magnetrón</h2>
+<div class="h"><h2 id="probar-magnetrón">Probar magnetrón</h2><a aria-hidden="true" href="#probar-magnetrón">[link]</a></div>
 <p>Una de las formas de probar es poner el tester en continuidad y medir
 la continuidad del filamento.</p>
 <h3 id="para-qué-necesito-encender-el-filamento">Para qué necesito
@@ -657,7 +476,7 @@ revisar resulta que cuando yo toco una de las puntas que va para el
 filamento y toco cualquier parte de la chapa del magnetrón me da
 continuidad quiere decir que está malo porque tiene que estar
 aislado.</h2>
-<h1 id="está-en-corto">Está en corto</h1>
+<div class="h"><h1 id="está-en-corto">Está en corto</h1><a aria-hidden="true" href="#está-en-corto">[link]</a></div>
 <h1
 id="quiere-decir-que-el-filamento-me-marcó-que-estaba-bien-pero-cuando-voy-a-revisar-resulta-que-cuando-yo-toco-una-de-las-puntas-que-va-al-filamento-y-toco-cualquier-parte-de-la-chapa-del-magnetrón-está-malo-porque-tiene-que-estar-aislado-no-debe-haber-sonido.">Quiere
 decir que el filamento me marcó que estaba bien pero cuando voy a
@@ -689,7 +508,7 @@ bien, hora 02:09:10</h3>
 ESTÁ BUENO, entonces que tengo que hacer? Colocar una buena luz y entrar
 a mirar el magnetrón, voy a ver si el compañero trae para la próxima
 clase. (NO LO TRAJO)</p>
-<h3 id="que-tengo-que-hacer">Que tengo que hacer?</h3>
+<div class="h"><h3 id="que-tengo-que-hacer">Que tengo que hacer?</h3><a aria-hidden="true" href="#que-tengo-que-hacer">[link]</a></div>
 <p>Traer la luz al magnetrón y mirar el estado de los imanes.</p>
 <p>Porque es muy común que esos imanes se partan. El imán no sirve
 roto.</p>
@@ -792,7 +611,7 @@ baja)</p>
 <p>El fusible de alta, el único de alta es el rojo.</p>
 <p>La bomba de agua era lo que más se arreglaba.<br />
 La bomba de agua es la bobina la más para hacer.</p>
-<h3 id="lo-que-se-bobinaba-mucho">Lo que se bobinaba mucho:</h3>
+<div class="h"><h3 id="lo-que-se-bobinaba-mucho">Lo que se bobinaba mucho:</h3><a aria-hidden="true" href="#lo-que-se-bobinaba-mucho">[link]</a></div>
 <ol type="1">
 <li>Bomba de agua</li>
 <li>Cortadoras de pasto</li>
@@ -882,7 +701,7 @@ porque tiene sus problemas.</h3>
 <p>Primario del transformador. Esto es tierra de corriente alterna? Y
 hay otro símbolo para corriente continua.</p>
 <p>Se va un alumno (Hora 3) XD</p>
-<h3 id="dibujando-hora-3">Dibujando… (Hora 3)</h3>
+<div class="h"><h3 id="dibujando-hora-3">Dibujando… (Hora 3)</h3><a aria-hidden="true" href="#dibujando-hora-3">[link]</a></div>
 <p>Ver fotos</p>
 <p>Este HV (high voltage), el diodo y el capacitor es para alto
 voltaje,</p>
@@ -919,7 +738,17 @@ acá.</p>
 <p>En un microondas el diodo puede aparecer en cualquier lado pero
 siempre tiene que estar este circuito un extremo de bajo voltaje con la
 salida del capacitor con uno de estos.</p>
+<div id="footer">
+<hr />
 </div>
+<p>Fichero Markdown para esta página: <a
+href="https://cursoelectrodomesticos.github.io/12clase.md"
+class="uri">https://cursoelectrodomesticos.github.io/12clase.md</a></p>
+<p><a href="/feed.xml">Suscriba al RSS del sitio</a></p>
+<p><a href="/sitemap.html">Mapa del sitio</a></p>
+<p>Esta página HTML fue generada por el <a
+href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
+Generator</a>.</p>
 </div>
 </body>
 </html>

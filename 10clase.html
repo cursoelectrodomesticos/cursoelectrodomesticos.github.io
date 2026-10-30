@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 10: Motores universales, jaula de ardilla y capacitores de arranque</title>
+  <title>Curso Reparacion Electrodomesticos – Clase Nº 10: Motores universales, jaula de ardilla y capacitores de arranque</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -25,107 +25,9 @@ capacitores de arranque</h1>
 </ul>
 <hr/>
 </header>
-<nav id="TOC">
-<h1>Navigate this page:</h1>
-<ul>
-<li><a href="#motores" id="toc-motores">⚡ Motores</a></li>
-<li><a href="#bobinas-y-capacitores" id="toc-bobinas-y-capacitores">🌀
-Bobinas y capacitores</a></li>
-<li><a href="#otros-puntos-prácticos" id="toc-otros-puntos-prácticos">🔧
-Otros puntos prácticos</a></li>
-<li><a href="#separador-de-partículas-trampa-de-aceite"
-id="toc-separador-de-partículas-trampa-de-aceite">🧊 Separador de
-partículas / “trampa de aceite”</a></li>
-<li><a href="#ciclo-de-refrigeración-en-heladeras"
-id="toc-ciclo-de-refrigeración-en-heladeras">❄️ Ciclo de refrigeración
-en heladeras</a></li>
-<li><a href="#comportamiento-del-aceite"
-id="toc-comportamiento-del-aceite">⚠️ Comportamiento del aceite</a></li>
-<li><a href="#observaciones-del-profesor"
-id="toc-observaciones-del-profesor">🔧 Observaciones del
-profesor</a></li>
-<li><a href="#motores-de-lavarropas-y-ventiladores"
-id="toc-motores-de-lavarropas-y-ventiladores">⚡ Motores de lavarropas y
-ventiladores</a></li>
-<li><a href="#soldadura-y-desoldado" id="toc-soldadura-y-desoldado">🔧
-Soldadura y desoldado</a></li>
-<li><a href="#detalles-mecánicos-y-de-montaje"
-id="toc-detalles-mecánicos-y-de-montaje">🧮 Detalles mecánicos y de
-montaje</a></li>
-<li><a href="#cómo-funciona-un-motor" id="toc-cómo-funciona-un-motor">🌀
-Cómo funciona un motor</a></li>
-<li><a href="#giro-en-ambos-sentidos" id="toc-giro-en-ambos-sentidos">🔄
-Giro en ambos sentidos</a></li>
-<li><a href="#conceptos-de-campo-magnético"
-id="toc-conceptos-de-campo-magnético">🧲 Conceptos de campo
-magnético</a></li>
-<li><a href="#bobinado-y-principiofinal"
-id="toc-bobinado-y-principiofinal">🧵 Bobinado y
-principio/final</a></li>
-<li><a href="#conceptos-clave-resumidos"
-id="toc-conceptos-clave-resumidos">🔑 Conceptos clave resumidos</a></li>
-<li><a href="#conceptos-generales" id="toc-conceptos-generales">🌀
-Conceptos generales</a></li>
-<li><a href="#rotor-bujes-y-rulemanes"
-id="toc-rotor-bujes-y-rulemanes">⚙️ Rotor, bujes y rulemanes</a></li>
-<li><a href="#capacitor-y-bobinas" id="toc-capacitor-y-bobinas">💡
-Capacitor y bobinas</a></li>
-<li><a href="#tipos-de-motores-en-lavarropas"
-id="toc-tipos-de-motores-en-lavarropas">🔌 Tipos de motores en
-lavarropas</a></li>
-<li><a href="#campo-magnético-y-rotación"
-id="toc-campo-magnético-y-rotación">🧲 Campo magnético y
-rotación</a></li>
-<li><a href="#resumen-comparativo-de-motores"
-id="toc-resumen-comparativo-de-motores">🔑 Resumen comparativo de
-motores</a></li>
-<li><a href="#motor-universal-vs-motor-de-timer-mecánico"
-id="toc-motor-universal-vs-motor-de-timer-mecánico">⚡ Motor universal
-vs motor de timer mecánico</a></li>
-<li><a href="#control-por-pulsos-pwm" id="toc-control-por-pulsos-pwm">🌀
-Control por pulsos (PWM)</a></li>
-<li><a href="#función-del-bobinado-y-delgas"
-id="toc-función-del-bobinado-y-delgas">🧲 Función del bobinado y
-delgas</a></li>
-<li><a href="#impedancia-y-prueba-de-motores"
-id="toc-impedancia-y-prueba-de-motores">🔧 Impedancia y prueba de
-motores</a></li>
-<li><a href="#beneficios-del-motor-universal-con-placa"
-id="toc-beneficios-del-motor-universal-con-placa">✅ Beneficios del
-motor universal con placa</a></li>
-<li><a href="#problema-principal" id="toc-problema-principal">🔹
-Problema principal</a></li>
-<li><a href="#impedancia" id="toc-impedancia">🔹 Impedancia</a></li>
-<li><a href="#conexiones-necesarias-para-probar-motor"
-id="toc-conexiones-necesarias-para-probar-motor">🔹 Conexiones
-necesarias para probar motor</a></li>
-<li><a href="#cómo-hacer-puente-para-probar"
-id="toc-cómo-hacer-puente-para-probar">🔹 Cómo hacer puente para
-probar</a></li>
-<li><a href="#inversión-de-giro" id="toc-inversión-de-giro">🔹 Inversión
-de giro</a></li>
-<li><a href="#motor-universal-vs-motor-timer-mecánico"
-id="toc-motor-universal-vs-motor-timer-mecánico">🔹 Motor universal vs
-motor timer mecánico</a></li>
-<li><a href="#motor-universal-vs-motor-con-bobinas-de-trabajo-dobles"
-id="toc-motor-universal-vs-motor-con-bobinas-de-trabajo-dobles">🔹 Motor
-universal vs motor con bobinas de trabajo dobles</a></li>
-<li><a href="#para-qué-sirve-el-capacitor"
-id="toc-para-qué-sirve-el-capacitor">🔹 Para qué sirve el
-capacitor</a></li>
-<li><a href="#cómo-están-conectadas-las-bobinas"
-id="toc-cómo-están-conectadas-las-bobinas">🔹 Cómo están conectadas las
-bobinas</a></li>
-<li><a href="#conexiones-prácticas" id="toc-conexiones-prácticas">🔹
-Conexiones prácticas</a></li>
-<li><a href="#conceptos-clave" id="toc-conceptos-clave">🔹 Conceptos
-clave</a></li>
-<li><a href="#resumen-de-flujo-de-corriente"
-id="toc-resumen-de-flujo-de-corriente">🔹 Resumen de flujo de
-corriente</a></li>
-</ul>
-</nav>
-<div class="pagetext">
+<p><a href="./">Volver al índice</a></p>
+<p>Artículo publicado por: Andrés Imlauer</p>
+<p>Artículo publicado el: 16 Julio 2024</p>
 <h4 id="audio-de-la-clase-en-youtube">Audio de la clase en YouTube</h4>
 <p><a
 href="https://youtu.be/jzlRd4U2xI4">https://youtu.be/jzlRd4U2xI4</a></p>
@@ -135,7 +37,7 @@ href="https://redirect.invidious.io/watch?v=jzlRd4U2xI4">https://redirect.invidi
 <h4 id="o-en-vocaroo">O en vocaroo</h4>
 <p><a
 href="https://vocaroo.com/1fHCcV3fQwNZ">https://vocaroo.com/1fHCcV3fQwNZ</a></p>
-<h3 id="motores">⚡ Motores</h3>
+<div class="h"><h3 id="motores">⚡ Motores</h3><a aria-hidden="true" href="#motores">[link]</a></div>
 <ul>
 <li><p><strong>Motor Universal</strong></p>
 <ul>
@@ -175,7 +77,7 @@ correcto.</li>
 </ul></li>
 </ul>
 <hr />
-<h3 id="bobinas-y-capacitores">🌀 Bobinas y capacitores</h3>
+<div class="h"><h3 id="bobinas-y-capacitores">🌀 Bobinas y capacitores</h3><a aria-hidden="true" href="#bobinas-y-capacitores">[link]</a></div>
 <ul>
 <li><p><strong>Motores con dos bobinas en paralelo</strong> llevan
 <strong>capacitor</strong> para:</p>
@@ -204,7 +106,7 @@ bobina de arranque.</li>
 </ul></li>
 </ul>
 <hr />
-<h3 id="otros-puntos-prácticos">🔧 Otros puntos prácticos</h3>
+<div class="h"><h3 id="otros-puntos-prácticos">🔧 Otros puntos prácticos</h3><a aria-hidden="true" href="#otros-puntos-prácticos">[link]</a></div>
 <ul>
 <li><p><strong>Trampa de aceite</strong>:</p>
 <ul>
@@ -265,7 +167,7 @@ enfriarse y mejorar la transición de líquido a gas.</li>
 solo reciba gas</strong>.</li>
 </ul>
 <hr />
-<h3 id="comportamiento-del-aceite">⚠️ Comportamiento del aceite</h3>
+<div class="h"><h3 id="comportamiento-del-aceite">⚠️ Comportamiento del aceite</h3><a aria-hidden="true" href="#comportamiento-del-aceite">[link]</a></div>
 <ul>
 <li>El aceite <strong>no cambia de estado</strong>: ni se vuelve gas ni
 se congela a temperaturas normales del ciclo.</li>
@@ -275,7 +177,7 @@ de temperatura.</li>
 gas</strong> en el ciclo.</li>
 </ul>
 <hr />
-<h3 id="observaciones-del-profesor">🔧 Observaciones del profesor</h3>
+<div class="h"><h3 id="observaciones-del-profesor">🔧 Observaciones del profesor</h3><a aria-hidden="true" href="#observaciones-del-profesor">[link]</a></div>
 <ul>
 <li><p>Trampas de aceite y separadores son <strong>ingeniería
 calculada</strong>, pero:</p>
@@ -331,7 +233,7 @@ placa.</li>
 </ul></li>
 </ul>
 <hr />
-<h3 id="soldadura-y-desoldado">🔧 Soldadura y desoldado</h3>
+<div class="h"><h3 id="soldadura-y-desoldado">🔧 Soldadura y desoldado</h3><a aria-hidden="true" href="#soldadura-y-desoldado">[link]</a></div>
 <ul>
 <li><p>Para <strong>desoldar placas o componentes</strong>:</p>
 <ul>
@@ -375,7 +277,7 @@ colores y etiquetas, para memorizarlo mucho más rápido.</p>
 claro</strong> de la clase sobre <strong>motores, campos magnéticos y
 bobinados</strong>:</p>
 <hr />
-<h3 id="cómo-funciona-un-motor">🌀 Cómo funciona un motor</h3>
+<div class="h"><h3 id="cómo-funciona-un-motor">🌀 Cómo funciona un motor</h3><a aria-hidden="true" href="#cómo-funciona-un-motor">[link]</a></div>
 <ul>
 <li>El motor <strong>convierte energía eléctrica en trabajo
 mecánico</strong> mediante un <strong>campo magnético</strong>.</li>
@@ -389,7 +291,7 @@ aluminio intercaladas con hierro al silicio, que se magnetizan.</li>
 distintos se atraen</strong>.</li>
 </ul>
 <hr />
-<h3 id="giro-en-ambos-sentidos">🔄 Giro en ambos sentidos</h3>
+<div class="h"><h3 id="giro-en-ambos-sentidos">🔄 Giro en ambos sentidos</h3><a aria-hidden="true" href="#giro-en-ambos-sentidos">[link]</a></div>
 <ul>
 <li><p>Los motores de lavarropas pueden girar hacia ambos
 lados.</p></li>
@@ -418,7 +320,7 @@ aplica sobre la jaula de ardilla y genera movimiento.</li>
 el rotor aprovecha este ciclo para girar.</li>
 </ul>
 <hr />
-<h3 id="bobinado-y-principiofinal">🧵 Bobinado y principio/final</h3>
+<div class="h"><h3 id="bobinado-y-principiofinal">🧵 Bobinado y principio/final</h3><a aria-hidden="true" href="#bobinado-y-principiofinal">[link]</a></div>
 <ul>
 <li>Cada bobina tiene un <strong>principio y un final</strong>.</li>
 <li>La <strong>bobina primaria</strong> queda abajo; la bobina final se
@@ -431,7 +333,7 @@ cierta “dirección” del movimiento de electrones.</li>
 incluyendo motores <strong>inverter</strong>.</li>
 </ul>
 <hr />
-<h3 id="conceptos-clave-resumidos">🔑 Conceptos clave resumidos</h3>
+<div class="h"><h3 id="conceptos-clave-resumidos">🔑 Conceptos clave resumidos</h3><a aria-hidden="true" href="#conceptos-clave-resumidos">[link]</a></div>
 <ol type="1">
 <li>Rotor + estator → campo magnético → trabajo mecánico.</li>
 <li>Jaula de ardilla: aluminio + hierro al silicio, magnetización
@@ -453,7 +355,7 @@ simplificado</strong> de la clase sobre <strong>motores de ventiladores
 y lavarropas</strong>, centrado en bujes, rotor, bobinas y tipos de
 motores:</p>
 <hr />
-<h3 id="conceptos-generales">🌀 Conceptos generales</h3>
+<div class="h"><h3 id="conceptos-generales">🌀 Conceptos generales</h3><a aria-hidden="true" href="#conceptos-generales">[link]</a></div>
 <ul>
 <li>Los motores <strong>transforman energía eléctrica en trabajo
 mecánico</strong> mediante campos magnéticos.</li>
@@ -463,7 +365,7 @@ cortacésped</strong>.</li>
 eso el peso viene del <strong>transformador</strong>.</li>
 </ul>
 <hr />
-<h3 id="rotor-bujes-y-rulemanes">⚙️ Rotor, bujes y rulemanes</h3>
+<div class="h"><h3 id="rotor-bujes-y-rulemanes">⚙️ Rotor, bujes y rulemanes</h3><a aria-hidden="true" href="#rotor-bujes-y-rulemanes">[link]</a></div>
 <ul>
 <li><p>El <strong>rotor debe estar perfectamente centrado</strong> para
 que el campo magnético genere rotación.</p></li>
@@ -483,7 +385,7 @@ verificar eje.</p></li>
 sirve llevar solo uno.</p></li>
 </ul>
 <hr />
-<h3 id="capacitor-y-bobinas">💡 Capacitor y bobinas</h3>
+<div class="h"><h3 id="capacitor-y-bobinas">💡 Capacitor y bobinas</h3><a aria-hidden="true" href="#capacitor-y-bobinas">[link]</a></div>
 <ul>
 <li>Problemas de arranque o baja fuerza → revisar
 <strong>capacitor</strong> y continuidad del bobinado.</li>
@@ -523,7 +425,7 @@ cortocircuito.</li>
 </ul></li>
 </ol>
 <hr />
-<h3 id="campo-magnético-y-rotación">🧲 Campo magnético y rotación</h3>
+<div class="h"><h3 id="campo-magnético-y-rotación">🧲 Campo magnético y rotación</h3><a aria-hidden="true" href="#campo-magnético-y-rotación">[link]</a></div>
 <ul>
 <li><p>La rotación ocurre por <strong>atracción y repulsión de
 polos</strong>:</p>
@@ -619,7 +521,7 @@ para test).</li>
 </ul></li>
 </ul>
 <hr />
-<h3 id="control-por-pulsos-pwm">🌀 Control por pulsos (PWM)</h3>
+<div class="h"><h3 id="control-por-pulsos-pwm">🌀 Control por pulsos (PWM)</h3><a aria-hidden="true" href="#control-por-pulsos-pwm">[link]</a></div>
 <ul>
 <li><p>La <strong>placa electrónica</strong> genera pulsos eléctricos
 para controlar:</p>
@@ -694,7 +596,7 @@ visual y fácil de memorizar.</p>
 así que voy a resumir <strong>cómo hacer funcionar un motor universal de
 lavarropas correctamente</strong> y los puntos clave de precaución:</p>
 <hr />
-<h3 id="problema-principal">🔹 Problema principal</h3>
+<div class="h"><h3 id="problema-principal">🔹 Problema principal</h3><a aria-hidden="true" href="#problema-principal">[link]</a></div>
 <ul>
 <li>Conectar <strong>fase y neutro directamente</strong> al motor
 universal <strong>provoca que explote</strong>, porque las bobinas
@@ -705,7 +607,7 @@ normalmente usando <strong>bobinas en serie</strong> o conductores
 largos que aumenten la resistencia.</li>
 </ul>
 <hr />
-<h3 id="impedancia">🔹 Impedancia</h3>
+<div class="h"><h3 id="impedancia">🔹 Impedancia</h3><a aria-hidden="true" href="#impedancia">[link]</a></div>
 <ul>
 <li><p>Ejemplo:</p>
 <ul>
@@ -754,7 +656,7 @@ a <strong>velocidad máxima</strong>.</li>
 tacómetro en prueba manual; la placa lo haría automáticamente.</p>
 </blockquote>
 <hr />
-<h3 id="inversión-de-giro">🔹 Inversión de giro</h3>
+<div class="h"><h3 id="inversión-de-giro">🔹 Inversión de giro</h3><a aria-hidden="true" href="#inversión-de-giro">[link]</a></div>
 <ul>
 <li>Para invertir el sentido del motor, <strong>modificas solo un
 puente</strong> (bobina → carbón) de un lado.</li>
@@ -847,7 +749,7 @@ universal vs motor con bobinas de trabajo dobles</h3>
 </tbody>
 </table>
 <hr />
-<h3 id="para-qué-sirve-el-capacitor">🔹 Para qué sirve el capacitor</h3>
+<div class="h"><h3 id="para-qué-sirve-el-capacitor">🔹 Para qué sirve el capacitor</h3><a aria-hidden="true" href="#para-qué-sirve-el-capacitor">[link]</a></div>
 <ol type="1">
 <li><p><strong>Corrige el factor de potencia</strong>:</p>
 <ul>
@@ -886,7 +788,7 @@ relay. ⚠️ Si no se corrige el factor de potencia, el motor
 <strong>calienta y consume más</strong>.</p>
 </blockquote>
 <hr />
-<h3 id="conexiones-prácticas">🔹 Conexiones prácticas</h3>
+<div class="h"><h3 id="conexiones-prácticas">🔹 Conexiones prácticas</h3><a aria-hidden="true" href="#conexiones-prácticas">[link]</a></div>
 <ul>
 <li>Muchas veces todas las bobinas tienen un <strong>punto en
 común</strong>: se llama <strong>común</strong> en la bornera.</li>
@@ -907,7 +809,7 @@ explicación para que quede clara cómo funciona la <strong>conexión de
 bobinas y capacitor en un motor de lavarropas con timer
 mecánico</strong>:</p>
 <hr />
-<h2 id="conceptos-clave">🔹 Conceptos clave</h2>
+<div class="h"><h2 id="conceptos-clave">🔹 Conceptos clave</h2><a aria-hidden="true" href="#conceptos-clave">[link]</a></div>
 <ol type="1">
 <li><p><strong>Bornera / borners</strong>:</p>
 <ul>
@@ -981,7 +883,17 @@ paso</strong> mostrando:</p>
 <p>Así verás exactamente cómo fluye la corriente y cómo funciona el
 motor en lavado y centrifugado.</p>
 <p>¿Querés que haga ese diagrama?</p>
+<div id="footer">
+<hr />
 </div>
+<p>Fichero Markdown para esta página: <a
+href="https://cursoelectrodomesticos.github.io/10clase.md"
+class="uri">https://cursoelectrodomesticos.github.io/10clase.md</a></p>
+<p><a href="/feed.xml">Suscriba al RSS del sitio</a></p>
+<p><a href="/sitemap.html">Mapa del sitio</a></p>
+<p>Esta página HTML fue generada por el <a
+href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
+Generator</a>.</p>
 </div>
 </body>
 </html>

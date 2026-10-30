@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Andrés Imlauer">
-  <title>Curso Electricidad – Clase Nº 4: Fuentes de alimentación, capacitores y rectificadores</title>
+  <title>Curso Reparacion Electrodomesticos – Clase Nº 4: Fuentes de alimentación, capacitores y rectificadores</title>
   <link rel="stylesheet" href="/global.css">
   <link rel="stylesheet" href="">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml"/>
@@ -25,119 +25,10 @@ rectificadores</h1>
 </ul>
 <hr/>
 </header>
-<nav id="TOC">
-<h1>Navigate this page:</h1>
-<ul>
-<li><a href="#audio-de-la-clase" id="toc-audio-de-la-clase">Audio de la
-clase:</a>
-<ul>
-<li><a href="#o-miralo-desde-una-instancia-de-invidious"
-id="toc-o-miralo-desde-una-instancia-de-invidious">O miralo desde una
-instancia de invidious</a></li>
-<li><a href="#medición-y-prueba-de-fuentes-switching"
-id="toc-medición-y-prueba-de-fuentes-switching"><strong>Medición y
-prueba de fuentes switching</strong></a></li>
-<li><a href="#capacitores"
-id="toc-capacitores"><strong>Capacitores</strong></a></li>
-<li><a href="#electricidad-y-transformadores"
-id="toc-electricidad-y-transformadores"><strong>Electricidad y
-transformadores</strong></a></li>
-<li><a href="#otros-consejos-y-buenas-prácticas"
-id="toc-otros-consejos-y-buenas-prácticas"><strong>Otros consejos y
-buenas prácticas</strong></a></li>
-<li><a href="#magnetismo-y-transformadores"
-id="toc-magnetismo-y-transformadores"><strong>Magnetismo y
-transformadores</strong> 🧲⚡</a></li>
-<li><a href="#uso-seguro-de-tierra"
-id="toc-uso-seguro-de-tierra"><strong>Uso seguro de tierra</strong>
-🌍⚠️</a></li>
-<li><a href="#potencia-y-capacitores"
-id="toc-potencia-y-capacitores"><strong>Potencia y capacitores</strong>
-⚡🔋</a></li>
-<li><a href="#baterías-y-carga"
-id="toc-baterías-y-carga"><strong>Baterías y carga</strong>
-🔋💡</a></li>
-<li><a href="#electrónica-y-chips"
-id="toc-electrónica-y-chips"><strong>Electrónica y chips</strong>
-💻🔋</a></li>
-<li><a href="#por-qué-el-chip-necesita-3-v"
-id="toc-por-qué-el-chip-necesita-3-v"><strong>Por qué el chip necesita 3
-V</strong> 💻⚡</a></li>
-<li><a href="#lavadoras-y-selectores"
-id="toc-lavadoras-y-selectores"><strong>Lavadoras y selectores</strong>
-🧺⚙️</a></li>
-<li><a href="#corriente-para-chips"
-id="toc-corriente-para-chips"><strong>Corriente para chips</strong>
-⚡💻</a></li>
-<li><a href="#conversión-de-corriente"
-id="toc-conversión-de-corriente"><strong>Conversión de
-corriente</strong> 🔄⚡</a></li>
-<li><a href="#componentes-electrónicos-básicos"
-id="toc-componentes-electrónicos-básicos"><strong>Componentes
-electrónicos básicos</strong> 🛠️</a></li>
-<li><a href="#diodos-y-rectificación"
-id="toc-diodos-y-rectificación"><strong>Diodos y rectificación</strong>
-➡️🔋</a></li>
-<li><a href="#transformadores-lineales-vs-switching"
-id="toc-transformadores-lineales-vs-switching"><strong>Transformadores
-lineales vs switching</strong> 🌀⚡</a></li>
-<li><a href="#rectificación-y-regulación-de-voltaje"
-id="toc-rectificación-y-regulación-de-voltaje"><strong>Rectificación y
-regulación de voltaje</strong> 🔧</a></li>
-<li><a href="#proceso-de-generación-de-corriente-en-transformadores"
-id="toc-proceso-de-generación-de-corriente-en-transformadores"><strong>Proceso
-de generación de corriente en transformadores</strong> ⚡🧲</a></li>
-<li><a href="#tipo-de-corriente-en-tu-circuito"
-id="toc-tipo-de-corriente-en-tu-circuito"><strong>Tipo de corriente en
-tu circuito</strong> ⚡</a></li>
-<li><a href="#proceso-de-rectificación-con-diodos"
-id="toc-proceso-de-rectificación-con-diodos"><strong>Proceso de
-rectificación con diodos</strong> ➡️🔧</a></li>
-<li><a href="#medición-de-voltaje"
-id="toc-medición-de-voltaje"><strong>Medición de voltaje</strong>
-🧰</a></li>
-<li><a href="#protecciones-y-filtros"
-id="toc-protecciones-y-filtros"><strong>Protecciones y filtros</strong>
-🛡️</a></li>
-<li><a href="#transformador-reductor"
-id="toc-transformador-reductor"><strong>Transformador reductor</strong>
-🔻</a></li>
-<li><a href="#seguridad-eléctrica"
-id="toc-seguridad-eléctrica"><strong>Seguridad eléctrica</strong>
-⚠️</a></li>
-<li><a href="#flujo-de-corriente-en-fuentes"
-id="toc-flujo-de-corriente-en-fuentes"><strong>Flujo de corriente en
-fuentes</strong> ⚡🔄</a></li>
-<li><a href="#fuentes-lineales-vs-switching"
-id="toc-fuentes-lineales-vs-switching"><strong>Fuentes lineales vs
-switching</strong> 🔧</a></li>
-<li><a href="#relays-y-control" id="toc-relays-y-control"><strong>Relays
-y control</strong> ⚙️</a></li>
-<li><a href="#transformadores-especiales"
-id="toc-transformadores-especiales"><strong>Transformadores
-especiales</strong> 🧲</a></li>
-<li><a href="#resumen-técnico-práctico"
-id="toc-resumen-técnico-práctico"><strong>Resumen técnico
-práctico</strong> 📝</a></li>
-<li><a href="#generar-frecuencia-en-corriente-continua-dc"
-id="toc-generar-frecuencia-en-corriente-continua-dc"><strong>Generar
-frecuencia en corriente continua (DC)</strong> ⚡🔄</a></li>
-<li><a href="#circuitos-integrados-y-pines"
-id="toc-circuitos-integrados-y-pines"><strong>Circuitos integrados y
-pines</strong> 🧠📌</a></li>
-<li><a href="#corriente-y-voltajes-en-bobinado"
-id="toc-corriente-y-voltajes-en-bobinado"><strong>Corriente y voltajes
-en bobinado</strong> ⚡🌀</a></li>
-<li><a href="#oscilaciones-y-conmutación"
-id="toc-oscilaciones-y-conmutación"><strong>Oscilaciones y
-conmutación</strong> 🔄</a></li>
-<li><a href="#concepto-clave" id="toc-concepto-clave"><strong>Concepto
-clave</strong> 📝</a></li>
-</ul></li>
-</ul>
-</nav>
-<div class="pagetext">
-<h2 id="audio-de-la-clase">Audio de la clase:</h2>
+<p><a href="./">Volver al índice</a></p>
+<p>Artículo publicado por: Andrés Imlauer</p>
+<p>Artículo publicado el: 16 Julio 2024</p>
+<div class="h"><h2 id="audio-de-la-clase">Audio de la clase:</h2><a aria-hidden="true" href="#audio-de-la-clase">[link]</a></div>
 <p><a
 href="https://youtu.be/OSlqnhmQsMQ">https://youtu.be/OSlqnhmQsMQ</a></p>
 <p><a
@@ -164,7 +55,7 @@ inducción</strong>.</li>
 intensa.</li>
 </ul>
 <hr />
-<h3 id="capacitores"><strong>Capacitores</strong></h3>
+<div class="h"><h3 id="capacitores"><strong>Capacitores</strong></h3><a aria-hidden="true" href="#capacitores">[link]</a></div>
 <ul>
 <li><p>Existen <strong>capacitores simples y dobles</strong>; todos son
 genéricos salvo uno distinto.</p></li>
@@ -269,7 +160,7 @@ secundaria de un transformador están aisladas 🔌🛡️.</li>
 real</strong> en capacitor es 320 V 🔺⚡.</li>
 </ul>
 <hr />
-<h3 id="baterías-y-carga"><strong>Baterías y carga</strong> 🔋💡</h3>
+<div class="h"><h3 id="baterías-y-carga"><strong>Baterías y carga</strong> 🔋💡</h3><a aria-hidden="true" href="#baterías-y-carga">[link]</a></div>
 <ul>
 <li>Incorrecto decir “cargar la batería”; se <strong>equilibran
 potenciales</strong> ⚖️.</li>
@@ -555,7 +446,7 @@ inmediatamente ⚡❌</p></li>
 </ul></li>
 </ul>
 <hr />
-<h3 id="relays-y-control"><strong>Relays y control</strong> ⚙️</h3>
+<div class="h"><h3 id="relays-y-control"><strong>Relays y control</strong> ⚙️</h3><a aria-hidden="true" href="#relays-y-control">[link]</a></div>
 <ul>
 <li>El <strong>chip dispara el relay</strong> 🧠➡️🔘</li>
 <li>Componentes como <strong>transistores o triac</strong> permiten usar
@@ -641,7 +532,7 @@ IC (ej.: pata 6) 🔌.</li>
 funcionan con 7 🧩.</li>
 </ul>
 <hr />
-<h3 id="concepto-clave"><strong>Concepto clave</strong> 📝</h3>
+<div class="h"><h3 id="concepto-clave"><strong>Concepto clave</strong> 📝</h3><a aria-hidden="true" href="#concepto-clave">[link]</a></div>
 <ul>
 <li>Oscilar/conmutar DC permite que <strong>una corriente continua
 funcione como AC</strong> para alimentar transformadores y circuitos de
@@ -654,7 +545,17 @@ ferrita</strong>, mostrando <strong>entrada DC → generador de pulsos →
 MOSFET → transformador → IC</strong>. Esto hace que se vea todo el flujo
 de forma clara.</p>
 <p>¿Querés que haga ese diagrama?</p>
+<div id="footer">
+<hr />
 </div>
+<p>Fichero Markdown para esta página: <a
+href="https://cursoelectrodomesticos.github.io/04clase.md"
+class="uri">https://cursoelectrodomesticos.github.io/04clase.md</a></p>
+<p><a href="/feed.xml">Suscriba al RSS del sitio</a></p>
+<p><a href="/sitemap.html">Mapa del sitio</a></p>
+<p>Esta página HTML fue generada por el <a
+href="https://libreboot.org/docs/sitegen/">Libreboot Static Site
+Generator</a>.</p>
 </div>
 </body>
 </html>
