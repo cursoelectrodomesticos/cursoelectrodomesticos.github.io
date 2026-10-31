@@ -3,21 +3,27 @@
 % 16 Julio 2024
 
 #### Audio de clase en YouTube
-https://youtu.be/hsa5Wu-K8hA
+
+[https://youtu.be/hsa5Wu-K8hA](https://youtu.be/hsa5Wu-K8hA)
+
 #### Audio de clase en Invidious
-https://redirect.invidious.io/hsa5Wu-K8hA
+
+[https://redirect.invidious.io/hsa5Wu-K8hA](https://redirect.invidious.io/hsa5Wu-K8hA)
+
 #### Audio de clase en Vocaroo
-https://vocaroo.com/1GnSwLXpWjdc
+
+[https://vocaroo.com/1GnSwLXpWjdc](https://vocaroo.com/1GnSwLXpWjdc)
 
 
 ##### Conexión de microondas
+
 Conectamos el ventilador(que en realidad era un lámpara), el transformador(que en realidad era una lámpara), la luz y lo hicimos funcionar.
 
-Hicimos una demostración práctica de conectar el transformador, el ventilador, la luz a la etapa de control del microondas y los switch de la puerta: 
+Hicimos una demostración práctica de conectar el transformador, el ventilador, la luz a la etapa de control del microondas y los switch de la puerta:
 
-Lámpara negra: ventilador  
-Lámpara blanca: transformador  
-Lámparita chica: luz    
+Lámpara negra: ventilador
+Lámpara blanca: transformador
+Lámparita chica: luz
 
 Y el motorcito era el motor del plato
 
@@ -38,8 +44,6 @@ En el diagrama de la clase anterior no estaba conectada la luz.
 
 Acá hizo un puente y simuló un switch de puerta cerrado, por eso funcionaba el transformador.
 
-### Imágenes: [https://imlauer.blogspot.com/2024/11/audioapunte-taller-reparacion-de.html](https://imlauer.blogspot.com/2024/11/audioapunte-taller-reparacion-de.html)
-
 ---
 
 ### Transcripción
@@ -50,12 +54,13 @@ La primer clase hablamos de la etapa de control y de la etapa de potencia
 La clase anterior habíamos visto diagramas de conexión de los 3 switch de las putas.
 
 ### Por lo general lo microondas suelen traer 3 switch 
+
 Hay 2 que son normalmente abierto y 1 normalmente cerrado.
 Cuando hablamos de switch y de relay siempre se habla de NA, NC.
 
 Porque un switch común serían estas llaves que abrimos y cerramos con nuestras manos, ese es un switch común. Después existe un switch magnético que ese es el relay.
 
-Por lo general por esta pata casi siempre es por donde entra la energía. Yo acá tengo un switch. 
+Por lo general por esta pata casi siempre es por donde entra la energía. Yo acá tengo un switch.
 
 La carga es el lugar en donde ser trabaja la electricidad, en la carga siempre va a haber impedancia ya sea resistiva, capacitiva o inductiva.
 
@@ -79,6 +84,7 @@ Acá pasa lo mismo, puedo ponerme de este lado como puedo ponerme del otro.
 ### de qué manera va a trabajar la bobina? Por magnetismo, todas las bobinas crean campo magnético.
 
 ## El transformador es una bobina? Sí son 3 bobinas.
+
 ### El motor es una bobina o no? Sí es bobina.
 
 Los choques que vienen en las placas uno ve las bobinitas que están afuera, tmb son bobinas, y todas ellas están para generar campo magnético.
@@ -113,6 +119,7 @@ Ahora yo abro el contacto pierdo el campo magnético y esta barrita se va a pega
 ### No todos los relay son así, hay relay que son únicamente NA  o NC depende del trabajo. Vamos a ver placas y vamos a ver que hay un relay que no anda y si sacás cuando vas al negocio le van a dar con 5 patitas y el que sacaste tiene 4, porque desde fábrica corta la otra patita. NO está soldada o hay veces que está soldada en un anillo que no tiene ningún tipo de conexión está solo para sujetar.
 
 ### Switch
+
 Hay switch que son NA y NC, y hay otros que son o NA o NC.
 
 ### Con los switch que son por pulsos metálicos que pueden ser este y que también lo es en el microondas porque en el microondas no hay un micro-relay que haga trabajar esos switch esos switch trabajan cuando se cierra la puerta.
@@ -163,16 +170,18 @@ Nosotros vamos a tener que tener una placa electrónica, toda esta información 
 
 ## Entonces nosotros vamos a tener acá arriba una plaquetita de filtro y fusible.
 
-Nosotros acá vemos que va a entrar el cable power 
+Nosotros acá vemos que va a entrar el cable power
 
 El profesor se refiere a "chicote" como power.
 
 Acá está el fusible si yo doy vuelta veo que acá tengo para la fase y para el neutro.
+
 #### Hay uno de ellos que tiene que pasar por el fusible, ¿cuál de los dos pasará por el fusible? Siempre la fase porque si pasa el neutro, el neutro encuentra el fusible voy a tener muchísima inducción por todos lados. **Voy a agarrar la fase y la colocaré a donde va el fusible, y el neutro en el otro. Entonces pasa por el fusible pasa por una resistencia por unos capcitores por un filtro de alta frecuencia y sigue, si alguna cosa de acá se me rompe, se puede obviar por completo.**
 
 ## Muchas veces siempre tiene que ir la fase del lado 
 
 ###### cuando es de 10 o 20 amper el toma corriente.
+
 ## Este toma corrientes es de 20 o es de 10 amper? (Dibujo) Cuando a mi me trae la opción de que yo pueda colocar la espira redonda es de 10 amper, ahora cuando es únicamente plano es para 20 amper. El de 10 amper yo puedo colocar acá porque me calza.
 
 ## El enchufe de 20 amper no entra acá ni con martillo, las patas son más grandes esta espiga es más grande.
@@ -198,6 +207,7 @@ Cuando yo enchufo acá voy a tener 220.
 Acá va a haber un fusible.
 
 ## De ahí nos vamos a encontrar un protector térmico. Este protector térmico tiene que ser NC, funciona como el termostato de la plancha, cuando llega a 360 grados se abre.
+
 Y esto por lo general va montado arriba del magnetrón, ahí va agarrado.
 
 ## Cuando el magnetrón empieza a calentar porque el forzador no está enfriando, a 160 grados se abre y no deja pasar la electricidad, cuando se enfría se vuelve a cerrar.
@@ -230,16 +240,21 @@ Yo no enchufo nada porque vamos a suponer que los televisores de antes eran una 
 ## Entonces donde no había un problema cree un problema, entonces yo tengo por costumbre traer sacar la tapa y miro todo por dentro como está si no hay cable comido, si no hay humedad, miro todo primero, una vez que me asesoré de todo ahí recién enchufo con serie, la serie más baja de todas.
 
 ### Qué sigue ya saqué la tapa ya hice la inspección visual que sigue?
+
 ### Yo traje el microondas puse sobre mi mesa de trabajo saqué el chapón hice la investigación visual, qué sigue? 
+
 ### Desconectar el circuito de potencia
 
 ### Tenemos que separar la etapa de potencia de la etapa de control, 
+
 ### vamos a tener 2 cables que van a venir de la placa o del relay, vamos a encontrar un super transformador que está separado en una parte primaria y secundaria , la parte secundaria de alta tiene un paquete y acá tengo los 2 fastos yo saco y separo o sea que ya aislé la etapa de control de la etapa de potencia.
 
 Como voy a hacer voy a agarrar una lampartia de las que nosotros seguimos probando que tiene el compañero y voy a colocar estos dos fastos ahí.
 
 ### Enchufo y enciendo la lamparita enciende no voy a mirar ni el switch ni relay, nada voy a mirar ni el termostato, NO VOY A MIRAR NADA PORQUE LA LAMPARITA ME PRENDIÓ EL PROBLEMA ESTÁ EN LA ETAPA DE POTENCIA.
+
 ### Etapa de potencias componentes: transformador, fusible de alta, capacitor, diodo y de ahí van 3 cables al magnetrón.
+
 ## No todos los microondas traen fusible de alta, al igual que las planchas no todas las planchas traen un fusible térmico, no todos los bobinados traen un fusible térmico.
 
 Nosotors medimos y sabemos que llegamos al switch nosotros acá vamos a tener que va a hacer para iluminar adentro al microondas, de acá va a salir un cable para la lamparita en forma directa la fase va a venir al switch y en forma directa, va a ir directamente a la lamparita.
@@ -274,7 +289,7 @@ Todos los relays magnético necesita una polaridad un cirto voltaje para que se 
 
 ### Quiere decir que en la placa tenemos 2 relays: uno es más chico que el otro, acá tenemos una ficha con 3 pines, 2 relays y ahora vamos a tener una fichita con 2 pines le estoy mostrando a ustedes como vamos a hacer las conexiones de esto para que trabaje con la placa para que la placa trabaje con esto.
 
-Esto adonde va a terminar todo esto? Al transformador. 
+Esto adonde va a terminar todo esto? Al transformador.
 
 Todo esto es la parte de control, porque ya nos dimos cuenta que la etapa de potencia estaba bien.
 
@@ -282,7 +297,7 @@ Todo esto es la parte de control, porque ya nos dimos cuenta que la etapa de pot
 
 ## Entonces nosotros vinimos por la fase pasamos por el fusible vinimos al tiristor(termostato) ese corta ese no, ese corta por exceso de consumo muy largo y muy alto o por un cortocircuito. 
 
-Esto es una luz, entonces nosotros veníamos con la fase pasamos el fusible el termostato y nos apoyabamos en una de las patitas del switch de ahí tomabamos uno de esos a la lámpara y de ahí en directo venimos a la placa. Una vez que yo enchufo voy a tener corriente directa una de las patitas del switch, de la lámpara y de la placa solo hay fusible nada más. 
+Esto es una luz, entonces nosotros veníamos con la fase pasamos el fusible el termostato y nos apoyabamos en una de las patitas del switch de ahí tomabamos uno de esos a la lámpara y de ahí en directo venimos a la placa. Una vez que yo enchufo voy a tener corriente directa una de las patitas del switch, de la lámpara y de la placa solo hay fusible nada más.
 
 ### Todavía ahí no funciona porque falta el neutro. Tenemos que mandarlo directamente a la placa. Entonces primero me voy a apoyar en el relay grande, voy a venir con el neutro y voy a llegar directamente al relay grande significa que el relay ya tiene energía como para disparar porque **el relay es un switch más, por qué cierra o abre el relay? Por campo magnético o sea que acá hay una bobina que tenemos que disparar con 5 12 9 16 voltios, el relay siempre dirá en que voltaje directo se tiene que disparar y eso es la bobina porque tiene que trabajar con 220 de ambos lados, pero la bobina necesita 6, 12, 9, 16, 30, hay algunos casos que el relé se puede disparar con 220.**
 
@@ -291,6 +306,7 @@ Hay algunos casos que el relé se puede disparar con 220.
 ## Este relé que está acá ya tiene 220, que no tiene nada que ver con las patitas internas que tiene en la placa que tiene que ser de 12 voltios.
 
 ### O sea que llegué a la parte del relay grande, desde ahí lo voy a llevar al neutro.
+
 ### ¿O sea que si yo enchufo que pasa? Pasa va hasta el standby, si ustedes se fijan la fase viene y viene y viene, y viene directo a la placa no hay llave no hay nada.
 
 ### Solamente el fusible, pero el fusible deja conducir, si vengo desde el neutro el neutro viene y se apoya en un PIN, y de ahí viene directamente acá y podía haber mandado directamente acá la fase y el neutro.
@@ -311,13 +327,13 @@ O sea que la placa quedó operativa no funciona porque no tengo hecha la conexi�
 
 ## Ese es de 8 watts, nosotros necesitamos que sea foco incandecente es de 100 watts.
 
-Vamos a suponer que tengo una plancha va a prender esa y no va a calentar la plancha, va a estar al límite, 
+Vamos a suponer que tengo una plancha va a prender esa y no va a calentar la plancha, va a estar al límite,
 
 ### si yo produjo un corto entonces se ilumina no vuela todo, por eso conviene poner, vamos a suponer que acá conviene poner una lamparita de 40 y voy a probar solo la placa.
 
 Cuando nosotros enchufamos el microonda lo que estamos haciendo es mandarle en forma directa a la placa, o sea que ella queda operativa, vengo ordeno y ya anda.
 
-Así nosotros alimentamos la placa pero desde este lado. 
+Así nosotros alimentamos la placa pero desde este lado.
 
 Yo hasta ahí ya tengo ahora si nosotros analizamos la puerta de este microondas está abierta o está cerrada? Esto está conectado en reposo, no está operativo cuando cierro la puerta está en estado operativo.
 
@@ -328,29 +344,37 @@ Quiere decir que yo sé donde está la fase y donde está el neutro y hay que te
 El transformador necesita energía y no puede trabajar le vamos a mandar la energía que necesita, le vamos a mandar de acá al fasto. Está recibiendo energía del transformador está enchufado, que energía debería recibir el transformador ahí? El neutro.
 
 ### Adónde va el neutro?
+
 La fase llega al PIN del switch, o sea que si yo cierro el switch que va a salir? Neutro o fase? Fase. Porque el switch es un puente para habilitarlo o no, si entra neutro sale neutro si entra fase sale fase.
 
 Acá tengo la fase abajo del switch. Acá tengo la fase o sea que si yo llego a cerrar con el negro va a venir al transformador, si yo llego a cerrar este ahí va a llegar hasta acá la fase.
 
-Ahora yo tengo que hacerle llegar el neutro, el neutro de él donde está. 
+Ahora yo tengo que hacerle llegar el neutro, el neutro de él donde está.
+
 ### Está acá, o sea que este relay que abre es para el neutro del transformador, voy a poner un título: relé trafo.
 
 ### Ya sabemos que ese relé es par el trafo.
+
 Quiere decir que yo estoy esperando que este relay cierre.
 
 ### En qué estado está el relay? NA. O sea que si yo saco de acá el neutro y lo llevo al transformador, el transformador NO funcionará porque tengo abierto la fase. Y tengo abierto el neutro. Para que llegue al transformador tienen que darse 2 condiciones: 1 cerrar la puerta (ahí recién le llega la fase al transformador).
 
 ### Por eso cuando abrimos la puerta se apaga, se apaga porque se abre el switch por más que el relay le mande el neutro y esté funcionando porque se disparó la placa, pero se me abrió el relay de la fase entonces no puede trabajar sin fase.
+
 ## Entienden por qué se para el microondas cuando abrimos la puerta, este circuito que es NA si yo abro la puerta estoy poniendo en estado de reposo, pero cuando yo cierro pasa al estado cerrado NO NC. Pero cuando yo abro pasa al estado NA. Es un relay NA. Si yo cierro la puerta pasa a un estado cerrado, si abro la puerta pasa al estado NORMALMENTE ABIERTO.
+
 Abro la puerta y el neutro me queda hasta acá no llega al transformador por más que la placa le esté dando a la órden al neutro que funcione no funcionará.
 
 ## Qué otro resguardo más tiene la placa con el microondas?
+
 Que este circuito es un NA también, y ese es otro método de seguridad que tendrá ese.
 
 ## Este que está acá lo suelen llamar switch de puertas, porque los 3 switchs son de puertas.
+
 ## Este es switch de placa porque yo voy a tomar de acá y va a venir ahí vieron que les mostré dos pines acá y este otro de acá abajo va a venir ahí. 
 
 ## O sea que estos dos pines que están acá ... No tiene fase y neutro.
+
 La placa es la que le da el órden.
 Voy a dibujar un chip pero es solo para representativo.
 
@@ -361,14 +385,17 @@ Qué está diciendo la placa ahí? No tengo pulsos, yo te mando pulsos pero no m
 Yo te llamo por teléfono pero vos no me contestás, ya no es más una energía eléctrica es una órden de la placa "contame que está pasando ahí dentro", si el pulso que la placa manda él no te está contestando entonces la placa le dirá tu puerta está abierta, porque la puerta ya está abierta porque el es NA. ???? (Hora 01:41)
 
 ### La placa no le manda la órden al relay, si le está mandando la órden a este relay al relay de la luz, no le manda la órden porque este relay le está diciendo la puerta está abierta no te puedo contar que está pasando viene la señal pero no pasa.
+
 Cuando la puerta se cierra entonces eso se cierra, y la señal vuelve a la placa sale de un PIN y va al otro PIN.
 
 ### O sea que tiene 2 modos de seguridad: por este lado cuando se abra la puerta se abre el relay. Cuando la puerta se cierra le manda la fase al transformador, cuando la puerta se cierra este informa que la puerta está cerrada entonces ordena al relay que dispare.
 
 ¿Por qué puede pasar eso?
+
 ### Que pasa cuando la mayoría de los relays quedan pegado? Abrís la puerta y no se apaga.
 
 ### Tiene que existir 2 casualidades para que cuando vos abras la puerta el microondas funcione: se cierre ese y que se cierre el otro, que los dos queden soldados (dos relays). Aquel puede ser que quede cerrado porque trabaja con mucho consumo, pero ese no. 
+
 ## Es más fácil que este quede siempre NA que quede NC cuando vos cierres hay veces que vos podés cerrar este por una cucharachita podrían haber hecho al reves le podría haber puesto acá NC, pero es más peligroso
 
 
@@ -381,6 +408,7 @@ Fijense ahora ustedes entonces este que está acá deja pasar la corriente que n
 Me está faltando algo (Hora 01:49)
 
 ### Acá hay algo interesante, está faltando acá yo tengo que tener por un lado el motor del plato, por otro lado tengo que tener un soplador (ventilador), entonces internamente por acá se alimentará el relay y acá saldrá y le alimentará a los dos con neutro,
+
 ### el relay grande le da al relay chico el neutro y de ahí sale para el plato y para el transformador, 
 
 ## cuando yo cierro la puerta comienza a funcionar el transformador magnetrón todo, tiene que empezar a girar el plato, a la vez tiene que entrar a funcionar el ventilador para que ande el magnetrón.
@@ -396,7 +424,7 @@ Profesor: "fijate una cosa, hay fase acá? No. Hay neutro acá? Sí o sea que te
 
 Nunca están en contacto fase y neutro.
 
-Hay una conexión que no debería haber, porque vamos a suponer que yo hago esta conexión de acá tengo que hacerle en azul hasta acá, entonces yo abro la puerta el cierra acá y ¿¿¿que pasará con la luz??? 
+Hay una conexión que no debería haber, porque vamos a suponer que yo hago esta conexión de acá tengo que hacerle en azul hasta acá, entonces yo abro la puerta el cierra acá y ¿¿¿que pasará con la luz???
 
 Algo está faltando...
 
@@ -425,13 +453,13 @@ El amarillo va al motor del plato, ahora tengo que el marrón tmb va al motor de
 
 Para probar vamos a usar como motor del plato esto: esta conexión que está acá tendría que ir al motor del plato está conectado. Ahora nosotros vamos a tener que conectar esto que era esto los pines de placa. Será fácil de encontrar porque le tenemos acá, como tiene que ser ese relay NA o NC ? NA.
 
-Voy a hacer un análisis desde acá voy a empezar acá, vamos a ver hasta donde llego, vamos a poner neutro fase acá donde está el fusible y ponemos el neutro donde no hay nada, sale el negro del fusible. 
+Voy a hacer un análisis desde acá voy a empezar acá, vamos a ver hasta donde llego, vamos a poner neutro fase acá donde está el fusible y ponemos el neutro donde no hay nada, sale el negro del fusible.
 
 El negro del termostato me llega este switch, vamos a probar si estamos en lo correcto acá.
 
 ### Ahí volvió por eso no es un fusible como protector térmico, es más bien un termostato porque llega a los 160 grados.
 
-Yo les había dicho a usts que hay un cable que viene directo al switch de puerta, de ahí sale un marrón y de ahí va a la luz, ¿adónde está la luz? 
+Yo les había dicho a usts que hay un cable que viene directo al switch de puerta, de ahí sale un marrón y de ahí va a la luz, ¿adónde está la luz?
 
 Este fasto es chico porque es de heladera. Llegamos hacia la luz, ahora vamos a ver de donde estaba la otra luz, si nosotros nos fijamos acá tenemos 2 cables de luz.
 
@@ -450,6 +478,7 @@ De la luz de allá arriba viene al ventilador, y ahí está el cierre.
 El de los minutos explicaron como estaba conectado el microondas, no voy a escribir todo eso.
 
 ### Sigue explicando en el minuto 02:40
+
 La lámpara se enciende sola porque le falta el neutro.
 
 La conexión de la lámpara tiene 2 neutros.
@@ -481,24 +510,283 @@ Que anda ahora? Ventilador y luz. No anda el transformador, porque yo toqué ese
 Acá funcionará la luz, y el ventilador.
 
 ### Tienen que venir siempre a este switch y como pueden saber si está en el switch o no?
+
 Lo que nosotros tenemos que hacer es cerrar acá ese.
 
 Alumno: La placa es la que no le hace cerrar el circuito?
 Marcelo: Claro! La placa no habilita el relay para el trafo, queda habilitado los otros servicios pero este no.
-Alumno: Entonces lo que estamos constatando que el último switch no funciona. 
+Alumno: Entonces lo que estamos constatando que el último switch no funciona.
 Marcelo: Claro! Este switch está abierto cuando se cierra no puede leer la placa.. A pesar de que la puerta está cerrada **como el se cortó en algún lado** entonces la placa cree que la puerta está abierta pero está cerrada. Habilita todo, habilita el relay pero no habilita este... El switch cierra, pero este acá no habilita, porque la placa no ve ... El único que informa que la puerta está cerrada es este.
 
-Alumno: Yo tengo el circuito serie, estoy revisando la placa yo tengo una caída ya cuando tenemos la lámpara o sea de 110 watts me cae la mitad, no me hace nada.... Vió que es 220 y me baja un poco la tensión si yo le pongo el borner..  
+Alumno: Yo tengo el circuito serie, estoy revisando la placa yo tengo una caída ya cuando tenemos la lámpara o sea de 110 watts me cae la mitad, no me hace nada.... Vió que es 220 y me baja un poco la tensión si yo le pongo el borner..
 Profesor: Si ella consume sí.
 Alumno: Acá por ejemplo yo sé que es poquito para mantenerse constamente tampoco...
 Profesor: Sí mientras la resistencia del foco trabaje como si fuera un corto sí.
 Alumno: A lo que yo voy es que yo entro a la placa con menos tensión que en los borners de la placa.
-Profesor: No no no, porque el filamento soporta la carga, es como si tuvieras un puente acá. 
+Profesor: No no no, porque el filamento soporta la carga, es como si tuvieras un puente acá.
 Alumno: A claro cuando está a tope
 Profesor: Vamos a suponer que acá tenemos 100 watts y acá tenemos un consumo de 10 15 watts es como que haya un corto. Porque es tan fuerte la resistencia que soporta...
-Ahora si acá está 100 y acá está 100 ya no soporta por eso apenas prende. 
+Ahora si acá está 100 y acá está 100 ya no soporta por eso apenas prende.
 Alumno: O sea la caída acá será mínima, porque este consume menos.
 Profesor: Claro si acá es 100 y acá da 100 o si acá es 200, este va a encender y este va a encender, pero si acá tengo 10 watts no le hace nada al filamento. Con 10 watts acá no hay suficiente para que encienda.
 Alumno: Ahí entendí, va a variar pero muy poquito.
 
 Fin.
+
+![IMG_20241003_171223780.jpg](/images/IMG_20241003_171223780.jpg)
+
+![IMG_20241003_171218654.jpg](/images/IMG_20241003_171218654.jpg)
+
+![IMG_20241003_171217775.jpg](/images/IMG_20241003_171217775.jpg)
+
+![IMG_20241003_171214219.jpg](/images/IMG_20241003_171214219.jpg)
+
+![IMG_20241003_171104156.jpg](/images/IMG_20241003_171104156.jpg)
+
+![IMG_20241003_171056224.jpg](/images/IMG_20241003_171056224.jpg)
+
+![IMG_20241003_171045269.jpg](/images/IMG_20241003_171045269.jpg)
+
+![IMG_20241003_171019647.jpg](/images/IMG_20241003_171019647.jpg)
+
+![IMG_20241003_170841037.jpg](/images/IMG_20241003_170841037.jpg)
+
+![IMG_20241003_170839277.jpg](/images/IMG_20241003_170839277.jpg)
+
+![IMG_20241003_170838457.jpg](/images/IMG_20241003_170838457.jpg)
+
+![IMG_20241003_170648639.jpg](/images/IMG_20241003_170648639.jpg)
+
+![IMG_20241003_170645780.jpg](/images/IMG_20241003_170645780.jpg)
+
+![IMG_20241003_170621272.jpg](/images/IMG_20241003_170621272.jpg)
+
+![IMG_20241003_170604692.jpg](/images/IMG_20241003_170604692.jpg)
+
+![IMG_20241003_170603769.jpg](/images/IMG_20241003_170603769.jpg)
+
+![IMG_20241003_165615390.jpg](/images/IMG_20241003_165615390.jpg)
+
+![IMG_20241003_165611570.jpg](/images/IMG_20241003_165611570.jpg)
+
+![IMG_20241003_165606280.jpg](/images/IMG_20241003_165606280.jpg)
+
+![IMG_20241003_165602538.jpg](/images/IMG_20241003_165602538.jpg)
+
+![IMG_20241003_165455442.jpg](/images/IMG_20241003_165455442.jpg)
+
+![IMG_20241003_165446391.jpg](/images/IMG_20241003_165446391.jpg)
+
+![IMG_20241003_165337920.jpg](/images/IMG_20241003_165337920.jpg)
+
+![IMG_20241003_165335667.jpg](/images/IMG_20241003_165335667.jpg)
+
+![IMG_20241003_165330949.jpg](/images/IMG_20241003_165330949.jpg)
+
+![IMG_20241003_165259194.jpg](/images/IMG_20241003_165259194.jpg)
+
+![IMG_20241003_165249374.jpg](/images/IMG_20241003_165249374.jpg)
+
+![IMG_20241003_165230855.jpg](/images/IMG_20241003_165230855.jpg)
+
+![IMG_20241003_165229262.jpg](/images/IMG_20241003_165229262.jpg)
+
+![IMG_20241003_165227709.jpg](/images/IMG_20241003_165227709.jpg)
+
+![IMG_20241003_165226108.jpg](/images/IMG_20241003_165226108.jpg)
+
+![IMG_20241003_165225149.jpg](/images/IMG_20241003_165225149.jpg)
+
+![IMG_20241003_165224516.jpg](/images/IMG_20241003_165224516.jpg)
+
+![IMG_20241003_165126345.jpg](/images/IMG_20241003_165126345.jpg)
+
+![IMG_20241003_165116390.jpg](/images/IMG_20241003_165116390.jpg)
+
+![IMG_20241003_165113646.jpg](/images/IMG_20241003_165113646.jpg)
+
+![IMG_20241003_165110699.jpg](/images/IMG_20241003_165110699.jpg)
+
+![IMG_20241003_164405405.jpg](/images/IMG_20241003_164405405.jpg)
+
+![IMG_20241003_164401520.jpg](/images/IMG_20241003_164401520.jpg)
+
+![IMG_20241003_164356570.jpg](/images/IMG_20241003_164356570.jpg)
+
+![IMG_20241003_164133020.jpg](/images/IMG_20241003_164133020.jpg)
+
+![IMG_20241003_164131144.jpg](/images/IMG_20241003_164131144.jpg)
+
+![IMG_20241003_164016052.jpg](/images/IMG_20241003_164016052.jpg)
+
+![IMG_20241003_164007774.jpg](/images/IMG_20241003_164007774.jpg)
+
+![IMG_20241003_163959415.jpg](/images/IMG_20241003_163959415.jpg)
+
+![IMG_20241003_163957685.jpg](/images/IMG_20241003_163957685.jpg)
+
+![IMG_20241003_163642644.jpg](/images/IMG_20241003_163642644.jpg)
+
+![IMG_20241003_163637602.jpg](/images/IMG_20241003_163637602.jpg)
+
+![IMG_20241003_163605164.jpg](/images/IMG_20241003_163605164.jpg)
+
+![IMG_20241003_163536478.jpg](/images/IMG_20241003_163536478.jpg)
+
+![IMG_20241003_163519173.jpg](/images/IMG_20241003_163519173.jpg)
+
+![IMG_20241003_163415927.jpg](/images/IMG_20241003_163415927.jpg)
+
+![IMG_20241003_163411995.jpg](/images/IMG_20241003_163411995.jpg)
+
+![IMG_20241003_163407831.jpg](/images/IMG_20241003_163407831.jpg)
+
+![IMG_20241003_163359695.jpg](/images/IMG_20241003_163359695.jpg)
+
+![IMG_20241003_163207653.jpg](/images/IMG_20241003_163207653.jpg)
+
+![IMG_20241003_163203566.jpg](/images/IMG_20241003_163203566.jpg)
+
+![IMG_20241003_162617527.jpg](/images/IMG_20241003_162617527.jpg)
+
+![IMG_20241003_162614361.jpg](/images/IMG_20241003_162614361.jpg)
+
+![IMG_20241003_162545526.jpg](/images/IMG_20241003_162545526.jpg)
+
+![IMG_20241003_162542790.jpg](/images/IMG_20241003_162542790.jpg)
+
+![IMG_20241003_162534076_BURST001.jpg](/images/IMG_20241003_162534076_BURST001.jpg)
+
+![IMG_20241003_162534076_BURST000_COVER_TOP.jpg](/images/IMG_20241003_162534076_BURST000_COVER_TOP.jpg)
+
+![IMG_20241003_162440604.jpg](/images/IMG_20241003_162440604.jpg)
+
+![IMG_20241003_162439198.jpg](/images/IMG_20241003_162439198.jpg)
+
+![IMG_20241003_162438665.jpg](/images/IMG_20241003_162438665.jpg)
+
+![IMG_20241003_162335410.jpg](/images/IMG_20241003_162335410.jpg)
+
+![IMG_20241003_162333782.jpg](/images/IMG_20241003_162333782.jpg)
+
+![IMG_20241003_162323363.jpg](/images/IMG_20241003_162323363.jpg)
+
+![IMG_20241003_162321635.jpg](/images/IMG_20241003_162321635.jpg)
+
+![IMG_20241003_162317602.jpg](/images/IMG_20241003_162317602.jpg)
+
+![IMG_20241003_162145466.jpg](/images/IMG_20241003_162145466.jpg)
+
+![IMG_20241003_162132757.jpg](/images/IMG_20241003_162132757.jpg)
+
+![IMG_20241003_162123609.jpg](/images/IMG_20241003_162123609.jpg)
+
+![IMG_20241003_162121817.jpg](/images/IMG_20241003_162121817.jpg)
+
+![IMG_20241003_162118790.jpg](/images/IMG_20241003_162118790.jpg)
+
+![IMG_20241003_162114832.jpg](/images/IMG_20241003_162114832.jpg)
+
+![IMG_20241003_162033847.jpg](/images/IMG_20241003_162033847.jpg)
+
+![IMG_20241003_162003673.jpg](/images/IMG_20241003_162003673.jpg)
+
+![IMG_20241003_162000013.jpg](/images/IMG_20241003_162000013.jpg)
+
+![IMG_20241003_161830360.jpg](/images/IMG_20241003_161830360.jpg)
+
+![IMG_20241003_161815972.jpg](/images/IMG_20241003_161815972.jpg)
+
+![IMG_20241003_161813297.jpg](/images/IMG_20241003_161813297.jpg)
+
+![IMG_20241003_161807504.jpg](/images/IMG_20241003_161807504.jpg)
+
+![IMG_20241003_161759356.jpg](/images/IMG_20241003_161759356.jpg)
+
+![IMG_20241003_161754513.jpg](/images/IMG_20241003_161754513.jpg)
+
+![IMG_20241003_161734746.jpg](/images/IMG_20241003_161734746.jpg)
+
+![IMG_20241003_161652350.jpg](/images/IMG_20241003_161652350.jpg)
+
+![IMG_20241003_160755865.jpg](/images/IMG_20241003_160755865.jpg)
+
+![IMG_20241003_160749226.jpg](/images/IMG_20241003_160749226.jpg)
+
+![IMG_20241003_155020575.jpg](/images/IMG_20241003_155020575.jpg)
+
+![IMG_20241003_154125753.jpg](/images/IMG_20241003_154125753.jpg)
+
+![IMG_20241003_154120263.jpg](/images/IMG_20241003_154120263.jpg)
+
+![IMG_20241003_154023263.jpg](/images/IMG_20241003_154023263.jpg)
+
+![IMG_20241003_154022556.jpg](/images/IMG_20241003_154022556.jpg)
+
+![IMG_20241003_153901216.jpg](/images/IMG_20241003_153901216.jpg)
+
+![IMG_20241003_153859963.jpg](/images/IMG_20241003_153859963.jpg)
+
+![IMG_20241003_153731463.jpg](/images/IMG_20241003_153731463.jpg)
+
+![IMG_20241003_153729000_BURST001.jpg](/images/IMG_20241003_153729000_BURST001.jpg)
+
+![IMG_20241003_153729000_BURST000_COVER_TOP.jpg](/images/IMG_20241003_153729000_BURST000_COVER_TOP.jpg)
+
+![IMG_20241003_153725740.jpg](/images/IMG_20241003_153725740.jpg)
+
+![IMG_20241003_153121188.jpg](/images/IMG_20241003_153121188.jpg)
+
+![IMG_20241003_153116956.jpg](/images/IMG_20241003_153116956.jpg)
+
+![IMG_20241003_152657984.jpg](/images/IMG_20241003_152657984.jpg)
+
+![IMG_20241003_152656118.jpg](/images/IMG_20241003_152656118.jpg)
+
+![IMG_20241003_152534532.jpg](/images/IMG_20241003_152534532.jpg)
+
+![IMG_20241003_152206719.jpg](/images/IMG_20241003_152206719.jpg)
+
+![IMG_20241003_151926569.jpg](/images/IMG_20241003_151926569.jpg)
+
+![IMG_20241003_151548906.jpg](/images/IMG_20241003_151548906.jpg)
+
+![IMG_20241003_151547175.jpg](/images/IMG_20241003_151547175.jpg)
+
+![IMG_20241003_150450119.jpg](/images/IMG_20241003_150450119.jpg)
+
+![IMG_20241003_150000595.jpg](/images/IMG_20241003_150000595.jpg)
+
+![IMG_20241003_145959742.jpg](/images/IMG_20241003_145959742.jpg)
+
+![IMG_20241003_145958998.jpg](/images/IMG_20241003_145958998.jpg)
+
+![IMG_20241003_145849021.jpg](/images/IMG_20241003_145849021.jpg)
+
+![IMG_20241003_145345136_BURST001.jpg](/images/IMG_20241003_145345136_BURST001.jpg)
+
+![IMG_20241003_145345136_BURST000_COVER_TOP.jpg](/images/IMG_20241003_145345136_BURST000_COVER_TOP.jpg)
+
+![IMG_20241003_145341472.jpg](/images/IMG_20241003_145341472.jpg)
+
+![IMG_20241003_145340283.jpg](/images/IMG_20241003_145340283.jpg)
+
+![IMG_20241003_145339414.jpg](/images/IMG_20241003_145339414.jpg)
+
+![IMG_20241003_145336184.jpg](/images/IMG_20241003_145336184.jpg)
+
+![IMG_20241003_145159398.jpg](/images/IMG_20241003_145159398.jpg)
+
+![IMG_20241003_145049031.jpg](/images/IMG_20241003_145049031.jpg)
+
+![IMG_20241003_145047318.jpg](/images/IMG_20241003_145047318.jpg)
+
+![IMG_20241003_145046075.jpg](/images/IMG_20241003_145046075.jpg)
+
+![IMG_20241003_145045258.jpg](/images/IMG_20241003_145045258.jpg)
+
+![IMG_20241003_143519064.jpg](/images/IMG_20241003_143519064.jpg)
+
+![IMG_20241003_143515510.jpg](/images/IMG_20241003_143515510.jpg)
+
+![IMG_20241003_141951228.jpg](/images/IMG_20241003_141951228.jpg)

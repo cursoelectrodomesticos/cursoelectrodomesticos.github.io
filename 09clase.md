@@ -15,6 +15,7 @@
 [https://voca.ro/14o6t9RexjMx](https://voca.ro/14o6t9RexjMx)
 
 #### Temas tocados en esta clase:
+
 Tipos de fuentes, transformadores, procesadores, fuente standby en aires acondicionados, placas con más de 1 fuente.
 
 Transformadores función: bajar la tensión.

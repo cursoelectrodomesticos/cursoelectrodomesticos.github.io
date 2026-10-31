@@ -3,43 +3,50 @@
 % 16 Julio 2024
 
 #### Audio de la clase en YouTube
-https://youtu.be/mZJgglyIWWs
+
+[https://youtu.be/mZJgglyIWWs](https://youtu.be/mZJgglyIWWs)
+
 #### Audio de la clase en Invidious
-https://redirect.invidious.io/watch?v=mZJgglyIWWs
+
+[https://redirect.invidious.io/watch?v=mZJgglyIWWs](https://redirect.invidious.io/watch?v=mZJgglyIWWs)
 
 #### Audio de la clase en Vocaroo
-https://vocaroo.com/1nv0RsRUlv12
+
+[https://vocaroo.com/1nv0RsRUlv12](https://vocaroo.com/1nv0RsRUlv12)
 
 Diagnóstico microondas. Etapa potencia comienza a partir del transformador. Bobina alta tensión. Formas de descargar capacitor. Fijarse si no se soltó arriba microondas tornillo a tierra.
 
-**La resistencia del capacitor está hecha para descargar el capacitor, pero si se cagó no se descarga por eso es recomendable descargarlo usando dos destornilladores cruzados.** El filamento nunca toca los 3000 voltios. Formas de conectar transformador capacitor diodo y magnetrón. El microondas tiene 3 bobinas: primaria y 2 secundarias. El presostato hace que un electrodoméstico sea "automático". 
+**La resistencia del capacitor está hecha para descargar el capacitor, pero si se cagó no se descarga por eso es recomendable descargarlo usando dos destornilladores cruzados.** El filamento nunca toca los 3000 voltios. Formas de conectar transformador capacitor diodo y magnetrón. El microondas tiene 3 bobinas: primaria y 2 secundarias. El presostato hace que un electrodoméstico sea "automático".
 
-La fuente switch a diferencia de la lineal, primero rectifica, oscila y luego lo manda al transformador. 
+La fuente switch a diferencia de la lineal, primero rectifica, oscila y luego lo manda al transformador.
 
 ##### Tipos de fusible
+
 El fusible trabaja con amperage.
 
 * Por temperatura
 * Por amperage
 
 ##### Llave Termomagnética.
-Salta por exceso de consumo y cortocircuito.  
+
+Salta por exceso de consumo y cortocircuito.
 La térmica salta por temperatura y shock.
 
 El tester debe estar en serie para medir capacitores es mejor usar pinza amperométrica.
 
 ##### Sopló la térmica
+
 Significa que tiene un mal funcionamiento debido a que se puso muy sensible y salta con muy poco consumo.
 
 ##### Switch de puerta
+
 Normalmente cerrado, normalmente abierto.
 Prender luz cuando cerras indica que funciona mal el switch pero el ventilador seguirá funcionando.
 
 **Consejo**: desconectar el switch de puerta del otro lado.
 
-### Imágenes: [https://imlauer.blogspot.com/2024/11/audioapunte-taller-reparacion-de_14.html](https://imlauer.blogspot.com/2024/11/audioapunte-taller-reparacion-de_14.html)
-
 ### Transcripción
+
 Minuto 13: Hay que sacar la máxima cantidad de datos.
 
 Hay que sacar la máxima cantidad de datos posible.
@@ -53,7 +60,8 @@ Una vez que tenemos el diagnóstico es mucho más fácil.
 Lo más difícil es dar el diagnóstico.
 
 #### En el microonda existe una etapa de control y una etapa de potencia.
-Lo primero que encontramos en el etapa de potencia es el transformador.   
+
+Lo primero que encontramos en el etapa de potencia es el transformador.
 
 El transformador del microonda tiene 2 fasto, vamos a suponer que nosotros ponemos acá el microonda este es el frente en donde colocamos los alimentos, inmediatamente del lado derecho comienza la etapa de control de potencia, si venimos de este lado no hay nada, está al final o del comienzo del gabinete.
 
@@ -61,9 +69,10 @@ Cuando nosotros estamos en la mitad del lugar está el transformador que es gran
 
 Lo primero que vamos a ver serán 2 fastos, donde van a ver dos cables, voy a poner así para diferenciar el neutro de la fase porque esto trabaja con CA de 220 voltios en el primario.
 
-Vamos a encontrar enrollamiento de alambre que corresponderá a la bobina del primario porque el transformador es así. Esto es el bobinado primario y esto el secundario. 
+Vamos a encontrar enrollamiento de alambre que corresponderá a la bobina del primario porque el transformador es así. Esto es el bobinado primario y esto el secundario.
 
 #### En el bobinado primario tenemos únicamente para 220 voltios, si no llega acá 1 cable más es porque yo puedo usar tmb en 110 voltios (en otros países)
+
 ### En el secundario tenemos 2 bobinas cada una individual, o sea que ambas tienen un principio y un final.
 
 En el primario tenemos 1 sóla bobina, él creará el campo magnético para que estas bobinas den electricidad, este es el primario del transformador.
@@ -89,9 +98,11 @@ Acá van a ver una bobina muy gruesa, más gruesa que todas. Este si voy a sacar
 Acá voy a tener los 2000 voltios y de la gruesa voy a tener 3 voltios.
 
 #### Toda esta es la parte de potencia en cualquier otro componente electrodoméstico, sería la parte de potencia
+
 Acá no sólo que es de potencia, sino que es la parte de muy alta tensión, la parte más peligrosa del microonda.
 
 ## Como primer componente de la parte de alta teníamos el?
+
 El transformador, es donde empieza la etapa de potencia.
 
 Sino cuando agarren un microonda a través del teléfono y vamos a hacer juntos, yo les iré diciendo que tiene que ir haciendo.
@@ -99,6 +110,7 @@ Sino cuando agarren un microonda a través del teléfono y vamos a hacer juntos,
 #### Acá tendríamos una divisoria de la parte de potencia y la parte de control.
 
 ## Por qué necesitamos tan elevada tensión?
+
 Si nosotros acá tenemos 220 voltios, cuántas veces más agregué el primario? 10 veces.
 
 Quiere decir que la diferencia que yo tengo desde mi primario a mi secundario es de 10 veces.
@@ -111,15 +123,16 @@ Yo acá no voy a medir 2000 voltios voy a medir 170 voltios que hace entre que e
 
 Eso es lo que nadie enseña eso, escala alta de tester: 500 voltios, 750 voltios, y otros hasta 1000 voltios.
 
-Hasta con el más inferior tester puedo medir mi salida, pero lo que pasa es que en la entrada voy a trabajar con un transformador de estos, este es para 12 voltios, esta es la parte primaria la más gorda, la más delgada es la parte secundaria. 
+Hasta con el más inferior tester puedo medir mi salida, pero lo que pasa es que en la entrada voy a trabajar con un transformador de estos, este es para 12 voltios, esta es la parte primaria la más gorda, la más delgada es la parte secundaria.
 
 Yo tengo que los dos resorte son el mismo calibre, como sé cuál es la primaria y cuál la secundaria porque yo voy a medir en escala de ohmios el secundario me tiene que dar mucho más alto que el primario por la cantidad de vueltas que tiene el secundario puedo elevar la tensión porque tengo más lazos de fuerza magnética que voy a transferir la electricidad.
 
 Mido cuanto tengo acá y cuanto acá.
 
-De esa manera yo puedo probar si el transformador está bueno o no. 
+De esa manera yo puedo probar si el transformador está bueno o no.
 
 #### La forma "correcta" de medir el transistor
+
 Medir con el tester el primario el secundario, si hay impedancia es porque el transformador está bueno, pero no hay una norma de cuantos ohmios tienen que medir la bobina primaria y la secundaria todo depende de la cantidad de vueltas que tenga y del calibre del alambre, entonces ahí sí habrá una impedancia una caída de voltaje para que el transformador no vuele, si queda en corto vuela.
 
 Yo coloco mido la salida si me da, vamos a suponer que coloco un transformador de 10 voltios me tiene que dar 100 voltios. Si tengo un transformador de 5 me tiene que dar 50 voltios.
@@ -128,7 +141,7 @@ Yo coloco mido la salida si me da, vamos a suponer que coloco un transformador d
 
 Si tengo uno de 30, me tiene que dar 300 voltios que puedo medir pero con más cuidado.
 
-Es la forma más segura para saber si el transformador está bueno o no, porque 
+Es la forma más segura para saber si el transformador está bueno o no, porque
 
 La finalidad es que el magnetrón que es el componente final del microonda que es donde tira el chorro de electrones para que el alimento caliente necesita 4000 voltios.
 
@@ -138,20 +151,21 @@ Y acá tenemos 2000 necesitamos elevarlo, así que necesitamos poner un capacito
 En todos los diodos el ánodo está a tierra, pero en el diodo del microondas está yendo el cátodo a tierra.
 
 ### Entonces nosotros aparte del transformador que más tenemos en la parte de potencia?
+
 * Capacitor o condensador de 0,87 hasta 1,10 microfaradios, el capacitor se carga hasta 2000 voltios.
 Un capacitor de estos no se podía usar acá porque es hasta 4000 voltios más o menos, y acá se carga a 2000 voltios o sea que los 2000 voltios que carga más la onda que está rectificando el diodo que es 2000 voltios, 2000+2000 hacen los 4000 que necesita el magnetrón.
 
-Vamos a suponer que este es un capacitor de 0,90 microfaradios dirá que es de 2000 voltios y traerá y en paralelo a este capacitor traerá una resistencia que será de 10 megohm. O sea si vamos a la unidad sería 100.000000 de ohms. Para medir esto deberíamos llevar el tester a una escala muy alta. 
+Vamos a suponer que este es un capacitor de 0,90 microfaradios dirá que es de 2000 voltios y traerá y en paralelo a este capacitor traerá una resistencia que será de 10 megohm. O sea si vamos a la unidad sería 100.000000 de ohms. Para medir esto deberíamos llevar el tester a una escala muy alta.
 
 Son todas láminas de papel pero en paralelo con esas dos puntas yo tengo una resistencia de 10 megohms. O sea que tengo 10 millones de ohmios
 
 Pusieron esta resistencia como medida de seguridad porque se deja de usar el microondas que esta resistencia ponga en corto los dos polos y consuma toda la energía, adónde manda esa energía que consume? En las puntas habrá 2000 voltios, sin embargo cuando yo vengo a medir ya no hay nada.
 
-Porque la resistencia tiene un valor muy alto y fue absorbiendo esa acumulación de energía y la transformó en calor, por más que sea mínima. Toda la energía que se consume que desaparece es porque se transformó en energía calórica. 
+Porque la resistencia tiene un valor muy alto y fue absorbiendo esa acumulación de energía y la transformó en calor, por más que sea mínima. Toda la energía que se consume que desaparece es porque se transformó en energía calórica.
 
-De todas formas no nos podemos confiar en esto. 
+De todas formas no nos podemos confiar en esto.
 
-Dijo la señora que el martes a la noche se descompuso el microondas así que más o menos en 5 minutos ya tuvo que haber descargado todo, no te podés confiar en eso porque posiblemente se rompió la resistencia, si esto pasa entonces el capacitor quedará cargado, tenemos que golpear y habrá un arco voltaico. 
+Dijo la señora que el martes a la noche se descompuso el microondas así que más o menos en 5 minutos ya tuvo que haber descargado todo, no te podés confiar en eso porque posiblemente se rompió la resistencia, si esto pasa entonces el capacitor quedará cargado, tenemos que golpear y habrá un arco voltaico.
 
 Los capacitores que están en la fuente yo los puedo descargar con una lamparita de 40 watts, 25 watts 100 watts lo que sea, si bien ese capacitor está cargado a 311 310 voltios puedo descargar porque las lamparitas trabajan a la corriente pico de la corriente alterna pero acá no puedo porque tengo 2000 voltios no va a aguantar la lamparita.
 
@@ -168,7 +182,8 @@ Muchas veces cuando el transformador no funcione, tenemos que ver si por la hume
 Entonces pelamos eso soldar otro cable, y colocar cualquier otro tornillo, se soluciona mandándolo al chasis o a cualquier lado no hay problema.
 
 #### Cuál otro componente hay en la parte de alta
-Tenemos el transformador, el capacitor, diodo, fusible, magnetrón. 
+
+Tenemos el transformador, el capacitor, diodo, fusible, magnetrón.
 
 No siempre el problema es el magnetrón.
 
@@ -202,7 +217,7 @@ Si el capacitor está bien me tiene que medir 311 voltios.
 O sea que el tester a mi me dijo que yo tengo 3 voltios pero el tester me mide el valor eficaz la valor media cuadrática yo quiero saber el valor pico acá, no se me cargó los 3 voltios de la raíz media cuadrática, es 3 por la raíz de 2: 4,24 voltios es el valor pico.
 
 Me tiene que marcar pero antes de medir tengo que saber la escala para poder medir de corriente continua.
-Acá hay una trampa porque 425 es el valor pico de esta corriente alterna que me está dando 3 voltios pero cuando yo terminé de cargar y voy a medir acá me va a dar voltaje de corriente directa, porque yo tengo 2000 acá yo tengo cargada sin oscilar, de alterna paso a continua. Es una pila, sólo que el capacitor dura un tiempo corto, solo que el tiempo que dura en cargar dura en descargarse. El capacitor llegamos a 4000 voltios porque este diodos está rectificando la media onda. Entonces esa media onda suma por eso llega a 4000 voltios. 
+Acá hay una trampa porque 425 es el valor pico de esta corriente alterna que me está dando 3 voltios pero cuando yo terminé de cargar y voy a medir acá me va a dar voltaje de corriente directa, porque yo tengo 2000 acá yo tengo cargada sin oscilar, de alterna paso a continua. Es una pila, sólo que el capacitor dura un tiempo corto, solo que el tiempo que dura en cargar dura en descargarse. El capacitor llegamos a 4000 voltios porque este diodos está rectificando la media onda. Entonces esa media onda suma por eso llega a 4000 voltios.
 
 
 Cuando yo mido el capacitor solo me va a dar 2000 voltios. Agarran un cable de 2000 voltios le colocan el capacitor viejo sacan y vienen con el tester a medir, les va a dar 2000 en continua.
@@ -220,21 +235,22 @@ Alumno: "El fusible no iría antes del magnetrón?"
 Profesor: "Lo que pasa es un fusible de alta tensión que estoy cubriendo el cable de la alta tensión ahí."
 (Hora 01:03)
 
-Este que ustedes ven el grosor de ahí ese es el de ??¿?¿?.. (Hora 1:05:11) 
+Este que ustedes ven el grosor de ahí ese es el de ??¿?¿?.. (Hora 1:05:11)
 
 Ver foto
 
 El compañero lo que hizo fue encender el filamento, es como que yo prendiera la luz.
 
 #### Qué pasa con el magnetrón? 
-El filamento va dentro de un tubo al vacío porque acá fuera no dura nada. 
+
+El filamento va dentro de un tubo al vacío porque acá fuera no dura nada.
 Los 3 voltios sirven para que se encienda el filamento y para que querés tener en eso en un lugaren donde no querés iluminar como un foquito de 100 watts porque la finalidad es generar electrones, cuando esto está incandencente esto empieza a salir una nube de electrones pero está quieto no sirve para nada, por más que yo en el otro lado yo tengo una antena o sea que por acá tiene que salir el chorro porque vamos a suponer que acá está el filamento acá se llenó de nube de electrones, pero ahí va a quedar a dormir.
 
 Ahí el compañero puso en marcha el filamento para hacer una nube de electrones ahora hay que enchufar esos electrones a la antena. Como se hace eso?
 
 (Hora 1:08)
 
-Los ingenieros tomaron en esta patitas los 3 voltios para que funcione el filamento, acá dentro hay unas bobinas no importa no vamos a hablar de eso. 
+Los ingenieros tomaron en esta patitas los 3 voltios para que funcione el filamento, acá dentro hay unas bobinas no importa no vamos a hablar de eso.
 
 Ya encendió el filamento. Esto está todo dentro de un recipiente totalmente al vacío, o sea que esto está en rojo está recibiendo electrones y acá estaría la antena.
 
@@ -251,7 +267,7 @@ El magnetrón estará puesto a tierra, ahí cierra el circuito de esta bobina.
 
 El magnetrón desde la otra patita ahí cierra el circuito
 
-El magnetrón desde la otra patita ahí cierra el circuito, no cierra el circuito en el filamento, sólo el circuito de 3 cierra en el filamento. En el fogonero del magnetrón figura el ingreso de los 4000 voltios con la puesta a tierra ahí cierra el circuito. O sea que los 4000 voltios nunca pasan por el filamento en los circuitos de la electrónica se trabaja así se usa un mismo conductor pero se cierra para el otro lado. 
+El magnetrón desde la otra patita ahí cierra el circuito, no cierra el circuito en el filamento, sólo el circuito de 3 cierra en el filamento. En el fogonero del magnetrón figura el ingreso de los 4000 voltios con la puesta a tierra ahí cierra el circuito. O sea que los 4000 voltios nunca pasan por el filamento en los circuitos de la electrónica se trabaja así se usa un mismo conductor pero se cierra para el otro lado.
 El filamento nunca toca los 4000 voltios, no tiene cierre de circuito.
 Hacia un mismo punto hay 2 circuitos en paralelo.
 El cable que viene del transformador de la alta el no se junta con la alta. (Hora 1:16)
@@ -270,19 +286,24 @@ La etapa de potencia empieza en el transformador y termina en el magnetrón.
 Si yo agarro 220 y enchufo todo esto me anda.
 
 #### En el microondas del compañero encontramos que estaba cortado el fusible y el capacitor.
+
 Para saber como andaba la parte primaria agarré una lámpara y conecté acá cuando puse a andar esto encendió bien, quiere decir que la parte de control estaba bien.
 
 ## Parte de control
+
 Que cantidad de bobinas hay en un transformador de microondas? 3 bobinas.
 
 ### Etapas del transformador: primaria y secundaria.
+
 En las etapa primaria tenemos una de las bobinas porque no tenemos para 110 y en la parte secundaria sí tenemos 2 porque tenemos un voltaje muy alto y bajo. Son bobinas con principio y final cada una.
 
 ### Etapa de control
+
 Hay 2 tipos de microondas que por su forma de control: 1 es de timer mecánico, tenemos que elegir que tiempo de trabajo.
-Luego tenemos otro por placa electrónica. 
+Luego tenemos otro por placa electrónica.
 
 #### Qué lo hace automático
+
 La plancha automática lo único que hay de automático es el termostato.
 La heladera automática es automática porque corta por termostato.
 Lavarropas automático porque antes el llenado de agua las otras lavarropas no hacían, la única parte automática es el presostato y las funciones gracias al chip al microprocesador que ya tiene grabado una función de trabajo en dónde hay parámetros donde elegimos que funciones queremos que haga.
@@ -312,9 +333,10 @@ En este momento vamos a tratar de ver el más complicado que es con placa electr
 La cocina a gas no se enchufa, a no ser que tenga encendido eléctrico.
 
 ### Que componentes podemos cambiar en la placa?
-Toda placa electrónica tiene fuente, porque no hay chip que pueda trabajar en corriente alterna si o si tiene que estar en corriente continua: necesita 3 voltios, pero hay otros componentes que necesitan 12, 30 voltios para poder disparar relay necesitamos esos voltajes. 
 
-Qué parte del relay necesita 12 voltios? Las bobinas. Qué tengo que generar en el relay para que funcione? Un campo magnético para que ese campo magnético atraiga un émbolo ferroso o una lámina ferrosa porque puede tener el émbolo fijo entonces esa bobina imanta ese émbolo fijo la chapita cerca le trae, cuando el chip le corta la alimentación al relay despeja deja de funcionar. 
+Toda placa electrónica tiene fuente, porque no hay chip que pueda trabajar en corriente alterna si o si tiene que estar en corriente continua: necesita 3 voltios, pero hay otros componentes que necesitan 12, 30 voltios para poder disparar relay necesitamos esos voltajes.
+
+Qué parte del relay necesita 12 voltios? Las bobinas. Qué tengo que generar en el relay para que funcione? Un campo magnético para que ese campo magnético atraiga un émbolo ferroso o una lámina ferrosa porque puede tener el émbolo fijo entonces esa bobina imanta ese émbolo fijo la chapita cerca le trae, cuando el chip le corta la alimentación al relay despeja deja de funcionar.
 Cuando quiere que arranque de nuevo el chip le manda voltaje al relay y vuelve a funcionar.
 
 La primer etapa es la fuente porque el microprocesador tiene que despertar con energía entonces la mayoría de todos estos circuitos tienen una etapa que se llama standby, constantemente alimenta el chip.
@@ -322,11 +344,13 @@ La primer etapa es la fuente porque el microprocesador tiene que despertar con e
 Algunos cortan todo.
 
 #### Vos de forma manual cerrás el interruptor para que no vaya el standby, por que no dejan de joder y no lo hacen como lo otro? 
+
 Los lavarropas queman mucha placa solo por la parte del circuito de standby, cuando no uses tu lavadora desenchufa porque hay una parte que anda permanentemente.
 
 Siempre es recomendable todo lo que tiene standby.
 
 ### 3 tipos de fuentes
+
 * Lineal
 * Capacitiva resistiva
 * Conmutada o switching
@@ -361,6 +385,7 @@ Este chicote va puesto allá, una vez que enchufo esto allá tengo que medir del
 Tacómetro. Tengo que medir por la baja adonde está la soldadura si tengo 220, y si tengo los 220 algo más rápido para ir es al capacitor, tengo que cambiar mi rango del tester a más de 311, a 500 volt, a 750 voltios de CA. Si no me da los 311 quiere decir que el problema está en los diodos.
 
 #### Como se mide un diodo con un tester?
+
 Tenés que poner el tester en el símbolo del diodo.
 
 Hay tester que miden por separado la continuidad y por otro lado el diodo, la mayoría de los tester en ese mismo rango mide todo. Tanto para la continuidad como para los diodos se necesita una alimentación en voltaje.
@@ -379,6 +404,7 @@ Si en alguno de estos no mide quiere decir que alguno de estos diodos está mal,
 El que está roto el que está abierto en corto, se compra uno de estos y se lo cambia, hay técnicos que cambian los 4.
 
 # Intento arreglo Televisor
+
 Le cambiamos el transistor del switching y el integrado(oscilador) pero igual no arrancó, no prende standby.
 Después pensamos que había que cambiar junto el integrado(oscilador) y el transistor, porque cuando yo puse el transistor, ya se cagó otra vez el integrado(oscilador).
 
@@ -406,6 +432,7 @@ No oscila el transistor cambiamos, medí una tensión del integrado(oscilador) y
 Podes medir con un osciloscopio si oscila el transistor, pero no hicimos eso medimos si el integrado(oscilador) le daba la tensino al microprocesador.
 
 ## Sigue clase
+
 Acá estará la fuente de alterna va directamente al puente rectificador, acá está el puente rectificador acá recién está el transformador, entonces cuando llega acá está llegando una corriente positiva al transformador, esto que está acá es el oscilador que está controlado por este empieza a oscilar su aterrizaje a tierra porque la parte está directa la parte de corriente continua positiva, le está haciendo aterrizar a la parte negativa.
 
 Esto que está acá snuber.
@@ -427,9 +454,11 @@ Más o menos sencilla para que puedas interpretar una parte de control que usted
 La parte electrónica no se puede, porque hay que estudiar primero electrónica.
 
 #### Vamos a dar los switchs que se activa cuando abrimos o cerramos la puerta del microondas.
+
 Es una forma de seguridad porque el microondas es peligroso.
 
 ## Parte de los switch de los microondas
+
 Si abrís la puerta del microondas de un lado por el gabinete van a llegar 3 laminitas el blocapuertas van a venir esos 3 tornillos para abajo o para arriba.
 
 Esos van a 3 switchs. Cada uno de ellos cumplirán 1 función y como todo switch tiene platino que son los que cierran los contactos.
@@ -444,7 +473,7 @@ Todo lo que yo acá tengo la carga y yo acá ya le tenía puesto el neutro. Ento
 
 O sea que los platinos entran y salen del mismo polo. Hay conexiones en donde está puesto el neutro y hay conexiones en donde está puesta la fase.
 
-Estos switchs que están acá son switch con platinos. 
+Estos switchs que están acá son switch con platinos.
 
 O sea que igual que en el caso del termostato que también es un platino solo que en lugar de cerrar por una fuerza magnética como cierran los relays, este cierra por la temperatura.
 
@@ -466,6 +495,7 @@ Vamos a colocar los 3 switch.
 En algún lado de estos switch existirá un monociclo que hará que cuando entre los pitilos de la puerta cierre o abra, depende si es abierto va a cerrar, si es normalmente cerrado cuando entra el pitilo va a abrir.
 
 ### Switches
+
 * El primer switch que está acá, será normalmente abierto.
 * El segundo switch será normalmente cerrado.
 * El tercer switch será normalmente abierto.
@@ -487,7 +517,7 @@ Este fusible puede ser de vidrio como puede ser de porcelana.
 
 El fusible tiene valor en amperes, hay que medir y colocarlo de acuerdo al amperage con el que va a trabajar, generalmente es de 8 amper. Hay fusibles que no está dado el amper sino que está dado por temperatura.
 
-Hay dos formas de que un fusible se deteriore y hay un instrumento de seguridad que se llama llave termomagnética. Es termomagnética porque corta por magnetismo y temperatura. Cuando corta por térmico? Cuando el exceso de consumo es prolongado. Vamos a suponer que yo tengo un controlador térmico para 5 amper. 
+Hay dos formas de que un fusible se deteriore y hay un instrumento de seguridad que se llama llave termomagnética. Es termomagnética porque corta por magnetismo y temperatura. Cuando corta por térmico? Cuando el exceso de consumo es prolongado. Vamos a suponer que yo tengo un controlador térmico para 5 amper.
 
 Pero resulta que por tema de falla, él está consumiendo 6 5 8, pero tiene que estar hasta 5. Entonces no hay ningún corto ni nada por el estilo ahí, pero apenas llega 6 y 8 no va a cortar, va a cortar cuando se pasa el consumo.
 
@@ -509,7 +539,7 @@ Entonces yo antes de decir si esa llave térmica está fallado, voy a medir con 
 
 En 12, 13 amper no me va a cortar, a lo mejor a la hora me corta.
 
-Las veces que yo vengo y levanto la protección, va a arrancar de nuevo, ahora si se produjo un corto si va a cortar al toque. 
+Las veces que yo vengo y levanto la protección, va a arrancar de nuevo, ahora si se produjo un corto si va a cortar al toque.
 
 Estamos hablando de exceso de consumo por tiempo prolongado esa es la parte térmica.
 
@@ -520,17 +550,18 @@ Si me está consumiendo 13 y vengo y cambio la térmica para que no salte más m
 Si yo vengo y mido vamos a suponer que esto es una térmica de 10 amper y yo vengo y mido estoy en 6 7 qué paso? Ahí **la térmica está soplada**.
 
 ### En ese caso hay que cambiar la protección
+
 En el microondas no tengo ese tipo de protección tengo sólo el fusible directamente, estamos hablando de fusible térmico  no del osciloscopio.
 
 El split también tiene el térmico. Ahora nosotros resolvimos la parte térmica, ahora tenemos que resolver la parte magnética.
 
 Va calentando porque las resistencias transfieren una energía eléctrica a una energía térmica.
 
-O sea esa caída de voltaje se va en la temperatura. 
+O sea esa caída de voltaje se va en la temperatura.
 
 Cuando corta por la parte magnética? Porque hay un shook, porque hay un campo magnético fuerte.
 
-A cuantos amper llegó cuando hizo un corto circuito? 300, 1000?, creo un campo magnético tan fuerte 
+A cuantos amper llegó cuando hizo un corto circuito? 300, 1000?, creo un campo magnético tan fuerte
 
 Creó un campo magnético tan fuerte que me prendió la llave, son las dos razones por las que una llave térmica puede proteger:
 1. Temperatura cuando el consumo no es tan elevado es una térmica de 10 amper y llegó a los 13 amper más o menos, a lo largo de 1 hora, esa chapita recalienta hasta que baja.
@@ -546,13 +577,15 @@ Acá tenemos un fusible que es de corte.
 
 ### Entonces esta fase que tengo acá pasará por 1 fusible y es probable que arriba del magnetrón haya un protector térmico porque si el magnetrón calienta demasiado y el soplador se descompuso voy a fundir el magnetrón.
 
-El soplador del ventilador si está lento está sucio no funcione entonces 
+El soplador del ventilador si está lento está sucio no funcione entonces
 
 ### Está arriba del magnetrón para que corte cuando calienta demasiado el magnetrón, corta a los 160 grados
+
 ### Yo puedo obviar este componente puteandolo, pero corro el riesgo que se me queme el magnetrón.
 
 ### Que pasa si yo a esta conexión que está acá la encuentro en otro lado de otro técnico, qué pasa? (VER FOTOS): Nada no pasa nada. Porque es un simple switch que entre por acá o por acá da lo mismo.
-No tiene nada que ver por donde entró la conexión. 
+
+No tiene nada que ver por donde entró la conexión.
 
 ### Puede estar en un lugar como puede estar ahí, entonces la corriente que viene desde el enchufe que pasa por el termostato llega al primer switch que es normalmente abierto vamos a encontrar una lamparita: está del lado de afuera pero alumbra hacia dentro.
 
@@ -584,13 +617,14 @@ Y acá? Va a tener energía cuando la puerta está abierta.
 
 Cuando la puerta está cerrada se abre.
 
-De este lado vamos a suponer que va a estar la placa electrónica. Ustedes vieron las conexiones todavía no pasaron por la placa. 
+De este lado vamos a suponer que va a estar la placa electrónica. Ustedes vieron las conexiones todavía no pasaron por la placa.
 
 La placa electrónica va a tener un pin otro pin y otro pin.
 
 Si viene la placa va a venir sin cables por eso les estoy enseñando esto.
 
 ## Depende de lo que tenga el microondas para trabajar va a tener el nro. de relay.
+
 ## El que él trajo tenía resistencia entonces el que el trajo tendrá 1 relé más para poder disparar la resistencia.
 
 ## Por lo que veo este microonda no tiene la resistencia que suelen traer.
@@ -609,9 +643,11 @@ Acá va a pasar lo mismo, va a estar la bobinita y del lado de abajo estará la 
 ## Esta fase entró acá cuando cierra la puerta le manda la corriente al del medio pero también le va a mandar la corriente al transformador. 
 
 # Cuando vos cerrás la puerta le va la fase al transformador
+
 Estos son los cables que nosotros sacamos cuando yo quiero medir por separada la parte primaria y la secundaria.
 
 ### Acá aparecerán 2 componentes más, ¿qué pueden ser?
+
 * Motor del plato
 * Ventilador que sopla al magnetrón.
 
@@ -620,6 +656,7 @@ Estos van a tener sus conexiones. Que en este caso cuando anda 1 tienen que anda
 Tienen que funcionar al mismo tiempo que cuando anda el transformador.
 
 # Cuando anda el transformador comienza a funcionar el magnetrón adentro. 
+
 # Cuando nosotros ponemos a funcionar el transformador, el magnetrón comienza a disparar la corriente necesitamos enfriar el magnetrón. Cuando funciona el magnetrón también tiene que funcionar el ventilador, y si yo tengo alimento adentro también tiene que funcionar el plato que gira, entonces tengo que hacer una conexión en **paralelo** para que todo funcione a la vez.
 
 Voy a conectar en paralelo.
@@ -629,6 +666,7 @@ A conectarle en cualquier lado va a andar.
 # Yo le dí corriente al switch del medio que es Normalmente Cerrado y ese voy a mandar la corriente al relay. Y de este mismo punto saldrá al otro extremo del transformador.
 
 ### Explicación gráfica rara (02:52)
+
 El primer PIN de arriba va a recibir del pin de la lámpara vino la fase por acá pasó por el fusible pasó por el térmico ingresó acá en este fasto, de ahí mismo sin ninguna llave pasó para este lado la lamparita ahí mismo pegó la conexión y trajo hasta la línea que está acá (VER FOTOS).
 
 # Cuando yo enchufo la fase viene a la plaqueta, pasa por el fusible, de ahí va al termostato, si se rompe el fusible no anda nada. Si el termostato salta por temperatura tampoco anda nada, estos dos componentes de protección están en serie.
@@ -637,19 +675,24 @@ Entra por este lado del switch, no hay ningún control acá. Acá lo mismo no ha
 No hay control está todo en forma directa.
 
 Porque no está afectado en cierre la apertura del relay, como si le afecta a este transformador, si este no se modifica acá no hay modificación?? (Hora 02:54)
+
 ## Fin explicación rara. (Hora 02:55)
+
 ### Dibujando.
+
 Acá en esta soldadura tengo el neutro, salió por el neutro y fue al relé
+
 ### Por qué no explota? (ver fotos) Acá tengo la fase y acá tengo el neutro pero uno está abierto y el otro cerrado.
 
 ### (Hora 02:56)
+
 ### (Hora 02:58)
 
 O sea que esto es un relé y esto también es un relé.
 
 O sea que ahora yo le dí entrada al relé de abajo, con el neutro no.
 
-Ahora este neutro me va a salir de acá y le va a dar corriente al PIN de la luz. Y el PIN de la luz 
+Ahora este neutro me va a salir de acá y le va a dar corriente al PIN de la luz. Y el PIN de la luz
 
 Qué lindo que está jijiji...
 
@@ -666,6 +709,7 @@ Es un sistema de seguridad que tiene la placa voy a dibujar directamente los dos
 Por qué los switch cuantos switchs haay si son cerrados abiertos, para entrar en clima
 
 ### Este switch de puerta este es una información que le da a la memoria(procesador) en qué estado está la puerta. 
+
 Así como está que me está diciendo a la placa? NADA.
 
 ## Por qué lava? Porque es posible que la placa esté mandando una información y esa información vuelve entonces quiere decir que la placa se entera que la puerta está abierta.
@@ -677,7 +721,9 @@ Así como está que me está diciendo a la placa? NADA.
 Y este último trabaja de esa manera entonces cuando yo cierro la puerta cierro el circuito y lo que llegó hasta acá pasa y le llega esa información que mandó la puerta le llega a la placa entonces la placa se entera que el circuito está cerrado.
 
 ### A veces quedan pegado por falla del sistema
+
 ### Qué pasa si esto queda soldado y yo abro la puerta?? 
+
 Si yo puse 80 minutos, a los 20 minutos no apago todo apreto el boton para abrir la puerta y se apaga.
 
 Queda en standby y yo abro la puerta, le doy vuelta pongo la fuente cierro la puerta y arranca. O sea faltan 60 minutos a los 20 minutos hago lo mismo.
@@ -694,6 +740,7 @@ Cuando yo abro la luz estará prendida cuando yo cierro la luz está prendida, c
 Pero como acá hubo un error no manda información pero este sí funciona.
 
 ### Cuando vos abrís la puerta la luz sigue prendida pero anda el ventilador, como si paró el transformador. Son las dos cosas que a nosotros nos van a advertir que el problema está en switch de puertas.
+
 Cerramos la puerta y que pasa?
 
 * Enciende la luz.
@@ -701,3 +748,199 @@ Cerramos la puerta y que pasa?
 ### En estado normal cuando yo cierro la puerta la luz se apaga y cuando yo abro la puerta se enciende la luz en estado normal cuando yo cierro la puerta para que funcione el transformador anda el ventilador, pero cuando yo abro y para el transformador funciona el ....
 
 Como se puede comprobar eso? Desconectando acá.
+
+![IMG_20240926_170932899.jpg](/images/IMG_20240926_170932899.jpg)
+
+![IMG_20240926_165912584.jpg](/images/IMG_20240926_165912584.jpg)
+
+![IMG_20240926_165910923.jpg](/images/IMG_20240926_165910923.jpg)
+
+![IMG_20240926_165910113.jpg](/images/IMG_20240926_165910113.jpg)
+
+![IMG_20240926_165520630.jpg](/images/IMG_20240926_165520630.jpg)
+
+![IMG_20240926_165518019.jpg](/images/IMG_20240926_165518019.jpg)
+
+![IMG_20240926_165317099.jpg](/images/IMG_20240926_165317099.jpg)
+
+![IMG_20240926_165314705.jpg](/images/IMG_20240926_165314705.jpg)
+
+![IMG_20240926_165302956.jpg](/images/IMG_20240926_165302956.jpg)
+
+![IMG_20240926_164940128.jpg](/images/IMG_20240926_164940128.jpg)
+
+![IMG_20240926_164934670.jpg](/images/IMG_20240926_164934670.jpg)
+
+![IMG_20240926_164451636.jpg](/images/IMG_20240926_164451636.jpg)
+
+![IMG_20240926_164450049.jpg](/images/IMG_20240926_164450049.jpg)
+
+![IMG_20240926_164446999.jpg](/images/IMG_20240926_164446999.jpg)
+
+![IMG_20240926_164216321.jpg](/images/IMG_20240926_164216321.jpg)
+
+![IMG_20240926_163456002.jpg](/images/IMG_20240926_163456002.jpg)
+
+![IMG_20240926_163455097.jpg](/images/IMG_20240926_163455097.jpg)
+
+![IMG_20240926_162253807.jpg](/images/IMG_20240926_162253807.jpg)
+
+![IMG_20240926_161646888.jpg](/images/IMG_20240926_161646888.jpg)
+
+![IMG_20240926_161646128.jpg](/images/IMG_20240926_161646128.jpg)
+
+![IMG_20240926_161645365.jpg](/images/IMG_20240926_161645365.jpg)
+
+![IMG_20240926_160417167.jpg](/images/IMG_20240926_160417167.jpg)
+
+![IMG_20240926_160416272.jpg](/images/IMG_20240926_160416272.jpg)
+
+![IMG_20240926_155751814.jpg](/images/IMG_20240926_155751814.jpg)
+
+![IMG_20240926_155654092.jpg](/images/IMG_20240926_155654092.jpg)
+
+![IMG_20240926_155652872.jpg](/images/IMG_20240926_155652872.jpg)
+
+![IMG_20240926_155443473.jpg](/images/IMG_20240926_155443473.jpg)
+
+![IMG_20240926_155441516.jpg](/images/IMG_20240926_155441516.jpg)
+
+![IMG_20240926_155437613.jpg](/images/IMG_20240926_155437613.jpg)
+
+![IMG_20240926_155014520.jpg](/images/IMG_20240926_155014520.jpg)
+
+![IMG_20240926_155012312.jpg](/images/IMG_20240926_155012312.jpg)
+
+![IMG_20240926_154829260.jpg](/images/IMG_20240926_154829260.jpg)
+
+![IMG_20240926_154815704.jpg](/images/IMG_20240926_154815704.jpg)
+
+![IMG_20240926_154813644.jpg](/images/IMG_20240926_154813644.jpg)
+
+![IMG_20240926_154812323.jpg](/images/IMG_20240926_154812323.jpg)
+
+![IMG_20240926_154809575.jpg](/images/IMG_20240926_154809575.jpg)
+
+![IMG_20240926_154803517_HDR.jpg](/images/IMG_20240926_154803517_HDR.jpg)
+
+![IMG_20240926_154318536.jpg](/images/IMG_20240926_154318536.jpg)
+
+![IMG_20240926_154311726.jpg](/images/IMG_20240926_154311726.jpg)
+
+![IMG_20240926_154042351.jpg](/images/IMG_20240926_154042351.jpg)
+
+![IMG_20240926_154034918_BURST000_COVER_TOP.jpg](/images/IMG_20240926_154034918_BURST000_COVER_TOP.jpg)
+
+![IMG_20240926_153927607.jpg](/images/IMG_20240926_153927607.jpg)
+
+![IMG_20240926_153926896_BURST000_COVER_TOP.jpg](/images/IMG_20240926_153926896_BURST000_COVER_TOP.jpg)
+
+![IMG_20240926_153818475.jpg](/images/IMG_20240926_153818475.jpg)
+
+![IMG_20240926_153816839.jpg](/images/IMG_20240926_153816839.jpg)
+
+![IMG_20240926_153815367_HDR.jpg](/images/IMG_20240926_153815367_HDR.jpg)
+
+![IMG_20240926_153653116_HDR.jpg](/images/IMG_20240926_153653116_HDR.jpg)
+
+![IMG_20240926_151929559.jpg](/images/IMG_20240926_151929559.jpg)
+
+![IMG_20240926_151914633.jpg](/images/IMG_20240926_151914633.jpg)
+
+![IMG_20240926_151908806.jpg](/images/IMG_20240926_151908806.jpg)
+
+![IMG_20240926_151712652_HDR.jpg](/images/IMG_20240926_151712652_HDR.jpg)
+
+![IMG_20240926_151705879_HDR.jpg](/images/IMG_20240926_151705879_HDR.jpg)
+
+![IMG_20240926_151702095_HDR.jpg](/images/IMG_20240926_151702095_HDR.jpg)
+
+![IMG_20240926_151700828_HDR.jpg](/images/IMG_20240926_151700828_HDR.jpg)
+
+![IMG_20240926_151653143_HDR.jpg](/images/IMG_20240926_151653143_HDR.jpg)
+
+![IMG_20240926_151534025.jpg](/images/IMG_20240926_151534025.jpg)
+
+![IMG_20240926_151456042.jpg](/images/IMG_20240926_151456042.jpg)
+
+![IMG_20240926_151455068_BURST000_COVER_TOP.jpg](/images/IMG_20240926_151455068_BURST000_COVER_TOP.jpg)
+
+![IMG_20240926_151454010.jpg](/images/IMG_20240926_151454010.jpg)
+
+![IMG_20240926_151352907.jpg](/images/IMG_20240926_151352907.jpg)
+
+![IMG_20240926_151351931.jpg](/images/IMG_20240926_151351931.jpg)
+
+![IMG_20240926_150841052.jpg](/images/IMG_20240926_150841052.jpg)
+
+![IMG_20240926_150839895_HDR.jpg](/images/IMG_20240926_150839895_HDR.jpg)
+
+![IMG_20240926_150812317.jpg](/images/IMG_20240926_150812317.jpg)
+
+![IMG_20240926_150804587.jpg](/images/IMG_20240926_150804587.jpg)
+
+![IMG_20240926_150653646.jpg](/images/IMG_20240926_150653646.jpg)
+
+![IMG_20240926_150652607_BURST000_COVER_TOP.jpg](/images/IMG_20240926_150652607_BURST000_COVER_TOP.jpg)
+
+![IMG_20240926_150651883.jpg](/images/IMG_20240926_150651883.jpg)
+
+![IMG_20240926_150513306.jpg](/images/IMG_20240926_150513306.jpg)
+
+![IMG_20240926_150512246_BURST000_COVER_TOP.jpg](/images/IMG_20240926_150512246_BURST000_COVER_TOP.jpg)
+
+![IMG_20240926_150511027.jpg](/images/IMG_20240926_150511027.jpg)
+
+![IMG_20240926_150507682.jpg](/images/IMG_20240926_150507682.jpg)
+
+![IMG_20240926_150138565_HDR.jpg](/images/IMG_20240926_150138565_HDR.jpg)
+
+![IMG_20240926_150129038.jpg](/images/IMG_20240926_150129038.jpg)
+
+![IMG_20240926_150122919_HDR.jpg](/images/IMG_20240926_150122919_HDR.jpg)
+
+![IMG_20240926_145515144.jpg](/images/IMG_20240926_145515144.jpg)
+
+![IMG_20240926_145512456.jpg](/images/IMG_20240926_145512456.jpg)
+
+![IMG_20240926_144745821.jpg](/images/IMG_20240926_144745821.jpg)
+
+![IMG_20240926_144640882.jpg](/images/IMG_20240926_144640882.jpg)
+
+![IMG_20240926_144631516.jpg](/images/IMG_20240926_144631516.jpg)
+
+![IMG_20240926_144630204_HDR.jpg](/images/IMG_20240926_144630204_HDR.jpg)
+
+![IMG_20240926_144533957_HDR.jpg](/images/IMG_20240926_144533957_HDR.jpg)
+
+![IMG_20240926_144532204_HDR.jpg](/images/IMG_20240926_144532204_HDR.jpg)
+
+![IMG_20240926_144127326.jpg](/images/IMG_20240926_144127326.jpg)
+
+![IMG_20240926_144124042_HDR.jpg](/images/IMG_20240926_144124042_HDR.jpg)
+
+![IMG_20240926_144121010.jpg](/images/IMG_20240926_144121010.jpg)
+
+![IMG_20240926_143451867.jpg](/images/IMG_20240926_143451867.jpg)
+
+![IMG_20240926_143450703_HDR.jpg](/images/IMG_20240926_143450703_HDR.jpg)
+
+![IMG_20240926_143236062.jpg](/images/IMG_20240926_143236062.jpg)
+
+![IMG_20240926_143233116.jpg](/images/IMG_20240926_143233116.jpg)
+
+![IMG_20240926_142742094.jpg](/images/IMG_20240926_142742094.jpg)
+
+![IMG_20240926_142740393_BURST000_COVER_TOP.jpg](/images/IMG_20240926_142740393_BURST000_COVER_TOP.jpg)
+
+![IMG_20240926_142738288.jpg](/images/IMG_20240926_142738288.jpg)
+
+![IMG_20240926_141906214.jpg](/images/IMG_20240926_141906214.jpg)
+
+![IMG_20240926_141904224_HDR.jpg](/images/IMG_20240926_141904224_HDR.jpg)
+
+![IMG_20240926_141900722_HDR.jpg](/images/IMG_20240926_141900722_HDR.jpg)
+
+![IMG-20240926-WA0003.jpg](/images/IMG-20240926-WA0003.jpg)
+
+![IMG-20240926-WA0002.jpg](/images/IMG-20240926-WA0002.jpg)

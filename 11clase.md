@@ -14,7 +14,7 @@
 
 [https://vocaroo.com/187G3giPOmoV](https://vocaroo.com/187G3giPOmoV)
 
-   
+
 ⚡ **Funcionamiento del microondas**
 
 * Cocina gracias a ondas que excitan moléculas de agua.

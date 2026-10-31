@@ -12,7 +12,7 @@
 
 [https://redirect.invidious.io/watch?v=4LCbuu2Wa_4](https://redirect.invidious.io/watch?v=4LCbuu2Wa_4)
 
-   
+
 ### **Problemas comunes en placas electrónicas y fuentes**
 
 * En televisores, ciertos **circuitos integrados fallan por temperatura**, generando problemas recurrentes.

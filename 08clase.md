@@ -12,7 +12,7 @@
 
 [https://redirect.invidious.io/watch?v=HOFVsSnZ_a4](https://redirect.invidious.io/watch?v=HOFVsSnZ_a4)
 
-   
+
 ### 🔹 Motores y electrobombas
 
 * Todos los motores tienen **bobinado** igual. ⚡

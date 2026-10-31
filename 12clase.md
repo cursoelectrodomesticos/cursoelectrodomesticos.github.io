@@ -3,19 +3,22 @@
 % 16 Julio 2024
 
 #### Audio de la clase en YouTube
-https://youtu.be/kCyNtZ1t94s
+
+[https://youtu.be/kCyNtZ1t94s](https://youtu.be/kCyNtZ1t94s)
 
 #### Audio de la clase en Invidious
-https://redirect.invidious.io/watch?v=kCyNtZ1t94s
+
+[https://redirect.invidious.io/watch?v=kCyNtZ1t94s](https://redirect.invidious.io/watch?v=kCyNtZ1t94s)
 
 #### Audio de la clase en Vocaroo
-https://vocaroo.com/19Vtiubsk6Mq
+
+[https://vocaroo.com/19Vtiubsk6Mq](https://vocaroo.com/19Vtiubsk6Mq)
 
 ### Medir relay
 
-1-4 (Normalmente cerrado) debe dar corto  
-1-5 (Normalmente abierto)  
-2-3 debe marcar impedancia    
+1-4 (Normalmente cerrado) debe dar corto
+1-5 (Normalmente abierto)
+2-3 debe marcar impedancia
 
 **El 99% de los técnicos sacan el chip, miden la fuente le da 311 voltios en el capacitor en el filtro, sacan el oscilador.** Si no le anduvo ahí recién mirará el octoacoplador, el regulador el controlador.
 
@@ -31,7 +34,7 @@ La parte de potencia se inicia en el transformador y termina en el magnetrón. T
 El magnetrón agarra todos los electrones que está creando en un tubo de vacío y los pone en fila a todos.
 
 Oscilador no se banca 220 voltios, sólo 3,5 voltios. Se usa el MOSFET para eso.
-Si no anda la parte secundaria medí el MOSFET.   
+Si no anda la parte secundaria medí el MOSFET.
 Las primeras fuentes switching tenían el MOSFET afuera, ahora vienen adentro.
 
 La gente dice equivocadamente capacitor de arranque, bobina de arranque.
@@ -41,6 +44,7 @@ El flujo de la corriente: es la tensión no es la corriente.
 Calculadora no tiene fuente, tiene batería.
 
 #### ¿ Para que sirven las fuentes ?
+
 Bajar la tensión y rectificar.
 
 El relay tiene 5 pines.
@@ -52,6 +56,7 @@ El pitido indica que está en corto
 Solución rápida: enchufar transformador directo.
 
 ## Problemas microondas
+
 Imanes: si se rompen hay que cambiar.
 
 Deterioro antena.
@@ -61,12 +66,11 @@ Deterioro antena.
 Profesor: "Con el televisor recibí patadas de todo tipo con el microondas nada."
 
 #### ¿Como se mide un transformador?
+
 Se mide continuidad bobina.
 
 Tiene 3 enrollamientos: 1 es el primario de alta (completar) (2:29:00)
 
-
-## Imágenes: [https://imlauer.blogspot.com/2024/11/audioapunte-taller-reparacion-de_36.html](https://imlauer.blogspot.com/2024/11/audioapunte-taller-reparacion-de_36.html)
 
 
 ---
@@ -82,9 +86,11 @@ Profesor robaron herramientas. Compañero arregló parlante con soldadura fácil
 El ácido de la batería de la moto hace mierda todo
 
 ### Microondas
+
 Tienen 2 etapas: etapa de control y de potencia.
 
 #### Qué hay que hacer para revisar el funcionamiento de un microondas?
+
 Tenemos 2 etapas en el microondas, tenemos que saber donde empieza una y donde termina la otra.
 **Tenemos que dividir ambas etapas.**
 
@@ -96,6 +102,7 @@ Quiere decir que esto acá puede tener muchísimas etapas hasta llegar a su fina
 Tuvimos la mala suerte de que cuando fuimos a buscar el microondas nos atendió la empleada y no nos dijo cual era el problema que tenía. Siempre hay que juntar la máxima cantidad de información posible.
 
 ### Qué tenemos que hacer si no nos da ninguna información?
+
 Desarmamos: puede traer 6 tornillos, 5, algunos suelen traer 2 abajo, hay otros que suelen traer de 1 lado, de costado abajo, no hay ninguna norma: lo que sí todos tienen un sistema de chapita que va enganchado en la parte del frente del gabinete, sacamos los tornillos que están atrás levantamos un poquito y tiramos hacia atrás.
 
 Una vez que sacamos la carcasa nos quedamos con toda la parte del funcionamiento del microonda.
@@ -130,7 +137,7 @@ El cable lin ??? si no fue bien montado el fasto, puede tener falla  (Minuto 21)
 
 Vamos a suponer que no prende el foquito, pero resulta que sí hay corriente, entonces el problema que no le llega corriente.
 
-Si se cortó el cable del enchufe ya no anda todo, si se cortó el fusible en la parte de baja tampoco no anda todo. Si uno de los switch ya juntó basura tampoco anda todo. Switch sistema de seguridad para que no funcione cuando se corte la puerta. 
+Si se cortó el cable del enchufe ya no anda todo, si se cortó el fusible en la parte de baja tampoco no anda todo. Si uno de los switch ya juntó basura tampoco anda todo. Switch sistema de seguridad para que no funcione cuando se corte la puerta.
 
 
 Lo más común que se cambia en un microondas: magnetrón, fusible de baja o de alta, capacitor y el diodo.
@@ -145,10 +152,11 @@ Tipos de fuentes:
 La función de la fuente bajar la tensión y rectificar.
 
 ### Cuando hablamos de la fuente lineal significa que trabaja con la frecuencia de la línea.
+
 El chip necesita corriente continua pura, no podés poner corriente alterna.
 
 
-Es un voltaje de corriente alterna y el chip no tolera ninguna fluctuación de corriente. 
+Es un voltaje de corriente alterna y el chip no tolera ninguna fluctuación de corriente.
 
 Dónde está la fuente en esta placa electrónica? Si pongo 220 conecta no porque yo acá tengo un chip que es como si fuera un procesador, tenemos un relay, un selector de funciones esto es una heladera.
 
@@ -167,21 +175,25 @@ Para que sea una fuente switching que tiene que tener?
 La primer fuente descartamos porque este transformador ya no está.
 
 #### La 2da fuente dice fuente switching para que sea switching que debo tener yo como dato?
-Tiene que haber otro transformador más chico de ferrita, que para poder llegar a que esa fuente funcione, cuando yo trabajo con una fuente lineal, tendré acá la entrada de 220 inmediatamente tendré el transformador porque tengo que modificar la tensión porque no puedo mandar 220 al chip, tengo que bajar a 12, 9. 
+
+Tiene que haber otro transformador más chico de ferrita, que para poder llegar a que esa fuente funcione, cuando yo trabajo con una fuente lineal, tendré acá la entrada de 220 inmediatamente tendré el transformador porque tengo que modificar la tensión porque no puedo mandar 220 al chip, tengo que bajar a 12, 9.
 
 O sea para una fuente de 3 voltios puedo poner un transformador de 12 voltios, colocando un regulador de 12 a 3. Y si **recalienta** demasiado el regulador de voltaje, hay que poner uno de 12 a 9 y otro al lado de 9 a 3.
 
 Tiene 3 patitas el regulador de voltaje (78xx)
 
 ### Qué pasa?
+
 Tengo que buscar un 7803, 7805, 7809, 7812, 7832 (hay muchísmos), tenemos que buscar el que es para 3 voltios.
 
 Los últimos 2 números te dicen el voltaje.
 
 ### Que yo tengo acá?
+
 Corriente alterna, vamos a suponer que tengo 15 voltios, sigo teniendo corriente alterna, ahora tengo que poner un puente rectificador de onda completa también hay rectificador de media onda.
 
 ### Cuantos diodos hay en un puente rectificador de onda completa? 4
+
 Minuto 40
 
 Acá tengo 15 voltios
@@ -202,7 +214,7 @@ Pero ahora tiene que ser corriente completamente pura.
 
 #### A partir del minuto 48 empecé a resumir tanto palabrerio.
 
-Rectificar = baja voltaje. 
+Rectificar = baja voltaje.
 
 Con capacitor vuelve a 15 voltios.
 
@@ -263,6 +275,7 @@ Esto que está acá es sólo para que funcione esto y esto, se me quemó la fuen
 Cuántos pin tiene un relay? 5 pines.
 
 #### Relay
+
 En momento de reposo si coloco el tester en el pin 1.
 
 Si existe campo magnético entre ellos y acá yo tengo electricidad gracias al primario sí es un trasnformador, sino son bobinas.
@@ -274,11 +287,13 @@ Si pongo el tester acá me marcará algún valor en ohmios.
 ### Si coloco la otra punta del tester acá y la otra acá no me va a dar nada porque son polos distintos (no hay continuidad)
 
 ## Medición del relay
-1 al 4 corto   
-1 al 5 abierto  
-2 al 3 resistencia  
+
+1 al 4 corto
+1 al 5 abierto
+2 al 3 resistencia
 
 ### Herramientas para el taller: juego de llaves, que otra cosa herramienta?
+
 - Juego de la llave alen (traten de buscar el que tiene el agujerito en el medio)
 A veces trae un pernito en el medio y no se puede romper con nada.
 
@@ -298,15 +313,18 @@ La carga: transformador, magnetrón, lo que hace uso de la corriente.
 
 
 ### Vamos a tener una etapa inicial de la etapa de poder que será el transformador
+
 Y termina en el magnetrón, porque el magnetrón tiene una saliente tiene un dedal con un agujerito en el medio porque el magnetrón es el encargado de acumular electrones de ponerlos juntos y disparalos como si fuera un laser.
 
 El campo magnético del imán hace que los electrones queden en fila.
 
 Si una señora te dice que el microonda no calienta.
+
 ## Separar
+
 Inmediatamente separo la etapa de control sacar los fasto porque ahí está la bobina primaria.
 
-Esto que está acá es un paquete, es una bobina empaquetada en un papel especial que se usa como aislante, y acá abajo tengo todo el bobinado del primario. 
+Esto que está acá es un paquete, es una bobina empaquetada en un papel especial que se usa como aislante, y acá abajo tengo todo el bobinado del primario.
 
 O sea que esto que está acá también lo tengo acá.
 
@@ -328,13 +346,14 @@ En otro transformador tengo 2000 voltios.
 
 Cuando colocamos el microondas desconecto el transformador, me quedará un final y un principio.
 
-Hora 01:45 
+Hora 01:45
 
 Todos los transformadores que vimos hasta ahora son transformadores reductores de voltaje porque yo le daba 220 en el primario y en el secundario tenía 15/17 voltios.
 
 Acá tengo un transformador reductor y otro elevador de voltaje, en el reductor tengo sólo 3,7 voltios y en el otro tengo 2000 voltios.
 
 ### Lo primero que hacemos es desconectar el transformador
+
 Me quedará 1 final y 1 principio.
 
 En el final en donde tengo los dos fasto.
@@ -342,6 +361,7 @@ En el final en donde tengo los dos fasto.
 Agarraré una serie, y la colocaré acá dentro y voy a enchufar esto a mi fuente de corriente alterna.
 
 ### Si todo funciona bien mi lámpara enciende.
+
 Yo saqué del transformador enchufé cerré la puerta, coloqué el programa y prende la lámpara, esto quiere decir que mi etapa de control está buena.
 
 Si yo vuelvo a enchufar esto acá tiene que andar de maravilla.
@@ -358,7 +378,7 @@ Un relay cuesta entender porque nos cuesta entender la electricidad y el magneti
 
 El presostato si trabaja como switching cerrará el switching cuando haya presión.
 
-El relay trabaja con campo magnético, 
+El relay trabaja con campo magnético,
 
 Nada que ver con un termostato que se modificará de acuerdo con la temperatura.
 
@@ -367,6 +387,7 @@ No hay que medir todo, hay que saber separar.
 Acá me dió que está bien porque la lámpara se encendió quiere decir que desde el transformador para acá tengo que controlar.
 
 ### Que voy a hacer con mi chicote de prueba?
+
 Para que lo saqué para trabajar? Voy a probar la parte secundaria, como yo saqué esto lo voy a enchufar ahí enchufo en la fuente y todo debería funcionar.
 
 
@@ -382,41 +403,47 @@ Para cortar el termostato tiene una termocupla y tiene que estar en posición y 
 
 La termocupla del calefón es un sí no. El termostato de la cocina eléctrica es lineal.
 
-Vos creés que el que fabricó eso no le pudo haber colocado un mejor termostato de más temperatura pero le dura 2 horas, ni eso 
+Vos creés que el que fabricó eso no le pudo haber colocado un mejor termostato de más temperatura pero le dura 2 horas, ni eso
 
 
 Entonces con un chicote de estos yo coloco acá y pruebo, y se escucha que anda.
 
 ### Cuando yo saco miro fría el agua, que está pasando?
+
 Descartamos el transformador.
 
-Cuando nosotros escuchamos que anda el que vibra es el transformador. Acá también hay una especie de fasto. 
+Cuando nosotros escuchamos que anda el que vibra es el transformador. Acá también hay una especie de fasto.
 
 Yo podría agarrar este probador mandarlo al magnetrón para ver si es el magnetrón. NO no es cierto??? Por qué? Porque el voltaje es muy bajo 220 aparte el magnetrón necesita trabajar casi a medio ciclo por eso tiene diodo.
 
-No hay forma de probar el magnetrón. 
+No hay forma de probar el magnetrón.
 
 Hay varios modelos del magnetrón, hay que sacarle y ponerle otro que mejor se adapte, si calienta adentro entonces el magnetrón está mal.
 
 ## Medir magnetrón
+
 Es difícil el control exacto del magnetrón existen formas de como controlar, el magnetrón esta parte es todo metálico, salvo una parte de porcelana.
 
 ### Filamento con cuántos voltios trabaja? 3000 voltios.
-Acá dentro del filamento, el filamento trabajan con 3000 voltios. Y lo otro es para crear la potencia el disparo de los electrones 
+
+Acá dentro del filamento, el filamento trabajan con 3000 voltios. Y lo otro es para crear la potencia el disparo de los electrones
 
 
-Entonces este conector que está acá es una cosa más o menos de plástico **(cual será el conector)**, antes era de muy buena calidad. Dentro de este hay una bobina de cada lado. 
+Entonces este conector que está acá es una cosa más o menos de plástico **(cual será el conector)**, antes era de muy buena calidad. Dentro de este hay una bobina de cada lado.
 
 ## Probar magnetrón
+
 Una de las formas de probar es poner el tester en continuidad y medir la continuidad del filamento.
- 
+
 ### Para qué necesito encender el filamento?
+
 Una vez el profesor cambiando imanes perdió el filamento.
 
-Alumno: "Se compran esos imanes?"   
+Alumno: "Se compran esos imanes?"
 Profesor: No
 
 ### Entonces esto para que sirve? Estos fasto machos? Para darle energía al filamento para que? Porque de ahí aparecerán los electrones. Y ahí quedarán locos los electrones.
+
 Si yo toco acá que tiene que pasar?
 
 Pongo en continuidad mi tester que haber una impedancia, sino quiere decir que se rompió el filamento. Si todo lo otro está bien ya no sirve, si todo lo otro está mal ya no sirve.
@@ -435,7 +462,9 @@ Ahora yo coloco acá y coloco en la chapa significa que está en corto.
 #### Si pongo el tester en las dos patitas y toco el chassis y queda mudo quiere decir que está bueno, si suena quiere decir que está en corto.
 
 ## o sea que el filamento me marcó que estaba bien, pero cuando yo voy a revisar resulta que cuando yo toco una de las puntas que va para el filamento y toco cualquier parte de la chapa del magnetrón me da continuidad quiere decir que está malo porque tiene que estar aislado. 
+
 # Está en corto
+
 # Quiere decir que el filamento me marcó que estaba bien pero cuando voy a revisar resulta que cuando yo toco una de las puntas que va al filamento y toco cualquier parte de la CHAPA del magnetrón está malo porque tiene que estar aislado, no debe haber sonido.
 
 Estos si venden hay que cambiar este y hay que cortar. Acá está soldado como si estuviera derretido como una soldadura de puntos así está soldado porque ambos son un alambre grueso de cobre, está soldado por fundición, tenemos que agarrar un alicate y tenemos que cortar acá.
@@ -455,12 +484,14 @@ Si tenemos un remacho remacho, no puede ser un remache a golpe tiene que ser con
 Ahí medimos de nuevo NO da continuidad es probable que ya funcione. **(DONDE ESTÁ ESE REMACHE???)**
 
 ### Esta parte no entendí bien, hora 02:09:10
+
 O sea que el remache hace que no esté bien aislado el microondas.
 
 
 Supongamos que no pasó que yo toqué acá y no da nada, DA ABIERTO. ESTÁ BUENO, entonces que tengo que hacer? Colocar una buena luz y entrar a mirar el magnetrón, voy a ver si el compañero trae para la próxima clase. (NO LO TRAJO)
 
 ### Que tengo que hacer?
+
 Traer la luz al magnetrón y mirar el estado de los imanes.
 
 Porque es muy común que esos imanes se partan.
@@ -475,6 +506,7 @@ Cambiá los imanes de los magnetrones viejos que fuiste guardando.
 
 
 ### Si se rompió el filamento que repuesto nos queda
+
 Los dos imanes y la ficha.
 
 Si ustedes quieren desarmar y guardar en una cajita pero corren el riesgo de que va a pasar de una cajita a la otra.
@@ -486,6 +518,7 @@ No lleva capacitor en el magnetrón.
 ---
 
 ### Que otras cosas le puede pasar a un magnetrón?
+
 Se suele deteriorar la antena, se suele quemar se agranda el agujero puede ser que no haya un laser, cuesta calentar, cambiamos esa antena, en algunos magnetrones son diferentes pero no hay problema.
 
 Ya probamos el transformador? No. Tiene 1 bobina primaria y 2 secundarias.
@@ -509,7 +542,9 @@ Todo lo que estoy enseñando acá es acá arriba desenchufado.
 ### El magnetrón tiene que ir en el mismo lugar, porque sino es peligroso, y la puerta tiene que estar cerrada.
 
 # Todas estas pruebas estando acá arriba cuando se va a enchufar tiene que estar todo en su lugar
+
 Es el electrodoméstico más peligroso de todos.
+
 ### Que todos las pruebas que sea lo más cortito posible
 
 Con los televisores recibí MILES de patadas de todos los voltajes, pero con el microondas nunca.
@@ -528,16 +563,18 @@ Acá voy a tener un secundario con un fusible, y el otro va a estar acá, o sea 
 
 Acá está el principio y acá esta el final y acá está el principio, **ASÍ TRABAJA EL TRANSFORMADOR**.
 
-Alumno: "El fusible de baja tensión capaz que si ponés un fusible y no es de alta tensión capaz que no va a cortar, porque ... El fusible común en alta tensión no corta nunca porque como es alta tensión.. "  
-Profesor: "O sea el de baja tensión no va a cortar nunca el de alta?"  
+Alumno: "El fusible de baja tensión capaz que si ponés un fusible y no es de alta tensión capaz que no va a cortar, porque ... El fusible común en alta tensión no corta nunca porque como es alta tensión.. "
+Profesor: "O sea el de baja tensión no va a cortar nunca el de alta?"
 Profesor: "No no, vos fijate que con 2000 voltios el mínimo amperage que hay es alta la potencia"
 Alumno: "Como un rayo se arma mucha diferencia de potencial por más que no haya por más que no haya ... Pasa igual la tensión se arma un arco eléctrico"
 Profesor: "Ah ahora entiendo, hasta ahí venimos ... XD, **no le contestó?**"
 
 ### Como servía el transformador? Se mide la continuidad de las bobinas
+
 No puedo enchufar acá los 220 voltios y medir los 3 voltios y medir los 2000 voltios acá porque no hay **herramientas para eso** aparte es muy alto el riesgo.
 
 # Entonces no es muy aconsejable hacer ese experimiento XDD (HORA 02:27:10)
+
 Profesor:Yo sí experimento y enchufo XDD
 
 Ninguno tiene que tener continuidad con el chasis excepto el de alta.
@@ -545,16 +582,18 @@ Ninguno tiene que tener continuidad con el chasis excepto el de alta.
 El de alta sí está puesto al chasis.
 
 ### Cuantos tipos de enrollamiento de alambre tiene este transformador? 3.
+
 Tiene 3, cuáles son?
 1. 1 primario (de alta).
 2. 2 secundario (2 de baja)
 
 El fusible de alta, el único de alta es el rojo.
 
-La bomba de agua era lo que más se arreglaba.  
+La bomba de agua era lo que más se arreglaba.
 La bomba de agua es la bobina la más para hacer.
 
 ### Lo que se bobinaba mucho:
+
 1. Bomba de agua
 2. Cortadoras de pasto
 3. Motor lavarropas cuando no existía el automatico se mandaba a bobinar.
@@ -564,6 +603,7 @@ Los ventiladores no se hacen porque es muy chico el alambre, bobinar no es nada,
 Cuando agarraba los primeros lavarropas de este tipo hay veces que sólo te traen la placa de un EX?? (Hora 02:41) tiene componentes con funcionamiento electrónico que otros lavarropas no tienen, tienen mecánico.
 
 ### Si yo hiciera sólo moto y dentro de la moto hago salera, listo.
+
 Siri me retaba mucho. El profesor después de 20 años decidió volver al taller y empezó a estudiar electrónica. Siri le decía que deje que no iba a entender, hace poco le dijo que en su reencarnación estudiará electrónica, como él se quedó atrás con la informática.
 La calentura de la pollera te hace mierda, te hace perder oportunidades.
 
@@ -588,7 +628,9 @@ Si yo tengo el magnetrón voy a dibujar sólo la parte de acá atrás.
 
 Acá tenemos el magnetrón, de esta tapita entra un pin y otro pin, en esos pin va puesto una bobina y va soldado a los pines que van adentro de una porcelana de vacío que va dentro del magnetrón y ahí termina en el filamento, esto viene acá acá parece un PIN desde acá viene soldado como fundido un alambre de cobre más grueso que este donde debe tener unas 9 texturas más o menos.
 Y de ahí va soldado con el otro pin que va hacia dentro, lo que nosotros ponemos acá va para allá dentro.
+
 ### Desarmar
+
 Ahí se ve una forma de transformador.
 Acá está el paquetito que les decía y acá abajo está el bobinado del primario.
 
@@ -620,7 +662,7 @@ Son capacitores de bajo valor:
 
 ### Hay una parte bastante complicada a mi siempre me costó entender claramente porque tiene sus problemas.
 
-Les dibujaré un diagrama 
+Les dibujaré un diagrama
 
 Entonces será:  (ver fotos)
 
@@ -629,6 +671,7 @@ Primario del transformador. Esto es tierra de corriente alterna? Y hay otro sím
 Se va un alumno (Hora 3) XD
 
 ### Dibujando... (Hora 3)
+
 Ver fotos
 
 Este HV (high voltage), el diodo y el capacitor es para alto voltaje,
@@ -636,6 +679,7 @@ Este HV (high voltage), el diodo y el capacitor es para alto voltaje,
 El transformador ya tengo dibujado y el magnetrón también.
 
 #### Que componentes me está faltando ahí ?
+
 Capacitor y diodos.
 
 Algunos capacitores traen acá marcado una resistencia, este es el dibujo del capacitor.
@@ -651,6 +695,7 @@ Manejar un capacitor de un microondas que está apagado o que está acá y se de
 Dice que carga hasta 2000.
 
 #### Qué falta dibujar ahora?
+
 El diodo, este diodo trabaja en forma inversa, porque va el cátodo a tierra.
 
 No podés saber si es el principio o el final porque es corriente alterna, una de las puntas cualquiera va ahí.
@@ -658,3 +703,9 @@ No podés saber si es el principio o el final porque es corriente alterna, una d
 Acá está una punta del capacitor entonces una punta de este capacitor va al diodo lo que sí hicimos es una punta del de bajo voltaje y una punta al magnetrón, tengo salida de alto voltaje uno con el diodo y uno con el de 3 voltios y va junto al magnetrón, entonces uno este con este. Qué tengo que hacer yo? Unir el de alto voltaje adonde? Y qué me queda ahora? El de bajo voltaje, y eso va al magnetrón. Y ahora el diodo va acá.
 
 En un microondas el diodo puede aparecer en cualquier lado pero siempre tiene que estar este circuito un extremo de bajo voltaje con la salida del capacitor con uno de estos.
+
+![IMG_20241010_171435162.jpg](/images/IMG_20241010_171435162.jpg)
+
+![gentoo.png](/images/gentoo.png)
+
+![IMG_20240919_142630575.jpg](/images/IMG_20240919_142630575.jpg)

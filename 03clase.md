@@ -3,9 +3,10 @@
 % 16 Julio 2024
 
 ### Audio de la clase:
+
 [https://www.youtube.com/watch?v=FEQ6iXWc2FQ&feature=youtu.be](https://www.youtube.com/watch?v=FEQ6iXWc2FQ&feature=youtu.be)
 
-https://vocaroo.com/1eCHVsZwszT6
+[https://vocaroo.com/1eCHVsZwszT6](https://vocaroo.com/1eCHVsZwszT6)
 
 O miralo desde una instancia de invidious https://redirect.invidious.io/watch?v=FEQ6iXWc2FQ
 
@@ -32,7 +33,7 @@ El primer timer mecánico que nosotros vimos fue en los lavarropas que se los ll
 Lo único que tiene de automático es el temporizador. Donde nosotros elegimos que tiempo de lavado queremos que haga después el enjuagado tenemos que tener un secarropa al lado o a mano.
 
 El microondas tiene un sistema de control distinto al de lavarropas pero cuando nosotros miramos la placa es lo mismo.
-Por ejemplo todas las placas tienen: resistencia (componente pasivo), 
+Por ejemplo todas las placas tienen: resistencia (componente pasivo),
 
 ¿Por qué la resistencia es una resistencia a la tensión?
 La resistencia y el voltaje son inversamente proporcionales.
@@ -46,7 +47,7 @@ Nosotros reclamamos una medida de tensión.
 
 No se dice que voltaje es, se dice que tensión.
 
-La unidad de medida está en kilos. 
+La unidad de medida está en kilos.
 
 Componentes eléctricos: tensión e intensidad.
 Como unidad de medida a la tensión medimos el voltaje y a la intensidad la medimos en amperaje.
@@ -59,9 +60,9 @@ El voltaje es constante.
 
 Una vez que nosotros estamos en un circuito eléctrico nosotros en cualquier momento podemos medir la tensión.
 
-Necesitamos dos hilos conductores para cerrar el circuito y ahí no hace un cortocircuito sino que hace un trabajo eléctrico sea un secarropas, una lámpara, estamos haciendo un trabajo eléctrico, cuando este trabajo eléctrico. 
+Necesitamos dos hilos conductores para cerrar el circuito y ahí no hace un cortocircuito sino que hace un trabajo eléctrico sea un secarropas, una lámpara, estamos haciendo un trabajo eléctrico, cuando este trabajo eléctrico.
 
-Que se caga de un motor? La bobina. 
+Que se caga de un motor? La bobina.
 Qué parte de la bobina? El aislante. Porque ya no está más separado sino que está en masa. En lugar de tener cierta cantidad de resistencia para que se trabaje, SI medimos ya no vamos a tener esa unidad en Ohm, va a ser mucho más inferior. Eso explota porque NO CAE la tensión.
 
 220 voltios es la parte eficaz de una corriente senoidal.
@@ -74,7 +75,7 @@ Componentes de la corriente alterna: tensión, intensión.
 Hay intensidad cuando hay trabajo eléctrico.
 
 ¿Cuál es el lugar más extremo en donde puedo medir una tensión (220 voltios)?
-![/img/medir_tension_extremo.jpg](/img/medir_tension_extremo.jpg)
+![/img/medir_tension_extremo.jpg](/images/medir_tension_extremo.jpg)
 
 La corriente eléctrica no termina a la entrada de la carga, la carga también es un conductor.
 Supongamos que estamos instalando una ducha.
@@ -99,13 +100,13 @@ La transpiración es peligrosa porque tiene sal y la sal lo hace más conductora
 
 51 minutos: como se cual es la fase y el neutro?
 
-La corriente alterna es una energía electromagnética, al rededor del conductor se forman campos magnéticos, esos campos magnéticos si yo no tengo neutro se me va a inducir. 
+La corriente alterna es una energía electromagnética, al rededor del conductor se forman campos magnéticos, esos campos magnéticos si yo no tengo neutro se me va a inducir.
 Cuando? Cuando yo puse el switch en no sé donde.
 
 Vamos a suponer que yo tengo un sistema de relay y no pasó la corriente, pero esta corriente de fase indujo la corriente en el neutro y eso es una corriente por inducción.
 Y es lo mismo que pasó en la lavadora, que yo le dije que el buscapolo prende pero a mi no me descarga porque es una corriente parásita de muy poco voltaje.
 Y eso pasa cuando la llave corta el neutro.
-Todos los conductores pueden llevar corriente a uno de los lugares en donde vos creés que tocaste y pasa cuando la llave corta el neutro. 
+Todos los conductores pueden llevar corriente a uno de los lugares en donde vos creés que tocaste y pasa cuando la llave corta el neutro.
 
 Si vos cortaste invertida, cortaste neutro pero todo queda por inducción
 
@@ -115,15 +116,15 @@ La intensidad vamos a poder medir cuando el circuito se cierre, ahí recién vam
 Teorías
 1. Las partículas de electrones se transfieren a través del conductor.
 2. Los electrones no atraviesan sino que se mueven.
-3. Los electrones pasan de positivo a negativo y de adelante hacia atrás y también se trasladan. 
+3. Los electrones pasan de positivo a negativo y de adelante hacia atrás y también se trasladan.
 
 
 La vieja teoría dice que la corriente pasa del positivo al negativo.
 
-Después de varios experimentos llegaron a la conclusión de que: 
-En un osciloscopio puedo ver si la onda es cuadrada, triangulo, senoidal 
+Después de varios experimentos llegaron a la conclusión de que:
+En un osciloscopio puedo ver si la onda es cuadrada, triangulo, senoidal
 
-Los ingenieros nos daran el diagrama de que la corriente va desde el positivo al negativo, cuando es al revés. Porque donde yo tengo los electrones de ahí se mueven, se mueven hacia el positivo. 
+Los ingenieros nos daran el diagrama de que la corriente va desde el positivo al negativo, cuando es al revés. Porque donde yo tengo los electrones de ahí se mueven, se mueven hacia el positivo.
 
 
 La nueva teoría dice que la fuerza voltaica si va desde el positivo al negativo, pero las partículas de electrones se mueven desde el positivo hacia el negativo.
@@ -153,6 +154,7 @@ Resistencia en serie = multiplico el ????
 (01:08:46)
 
 #### Como funciona la ducha?
+
 Nunca ustedes pusieron una térmica en la ducha?
 
 Esta llave tiene el switch, yo ahora encendí ¿trabaja la ducha? No, porque si anduviera fundiríamos la ducha porque no tiene agua.
@@ -173,8 +175,8 @@ Cuando yo hago ohm con la termomagnetica siento que calienta la ducha y apago de
 
 No es aconsejable cambiar la temperatura de la ducha cuando el agua está saliendo. Hay que cerrar el grifo. Cuando la cuchilla ya está cerrada, porque en el momento que yo corto con un material aislante que pasa por el medio.
 
-![/img/ducha_electrica.jpg](/img/ducha_electrica.jpg)
-![/img/ducha_electrica2.jpg](/img/ducha_electrica2.jpg)
+![/img/ducha_electrica.jpg](/images/ducha_electrica.jpg)
+![/img/ducha_electrica2.jpg](/images/ducha_electrica2.jpg)
 
 Un hombre muere mientras se bañaba con ducha eléctrica: https://m.youtube.com/watch?v=lp4l9TaKoHk
 O miralo en una instancia de invidious: https://redirect.invidious.io/watch?v=lp4l9TaKoHk
@@ -183,7 +185,7 @@ O miralo en una instancia de invidious: https://redirect.invidious.io/watch?v=lp
 No es bueno doblar
 Por qué hay que cargarle agua arriba de la ducha?
 Porque hay veces que cuando cerrás la ducha sigue andando es como que agarró aire.
-Cuando cambiamos la resistencia que viene en un tratemos de sacar la parte más sana, porque hay una de las resistencias que es un cachito más grande y a simple vista no te das cuenta 
+Cuando cambiamos la resistencia que viene en un tratemos de sacar la parte más sana, porque hay una de las resistencias que es un cachito más grande y a simple vista no te das cuenta
 
 Inaudible (01:26:10)
 Cada vuelta es como una resistencia está toda en 0.
@@ -192,12 +194,13 @@ Si yo uno va a tener menos caída y va a tener más resistencia.
 Cuando elijo el agua caliente se mueve el plástico(aislante) y une los contactos de la resistencia.
 
 ### Por qué la llave se llama termomagnética?
-Porque tiene 2 defensa, esto sería un fusible que interrumpe pero yo puedo volver encender.  
+
+Porque tiene 2 defensa, esto sería un fusible que interrumpe pero yo puedo volver encender.
 
 Hay fusibles que se funden y tenés que reemplazar por otro porque ya se cortó.
 
 Hay fusibles bimetálicos una vez que corre peligro la instalación el se abre porque calentó por el exceso de corriente.
-![/ducha.png](/ducha.png)
+![/ducha.png](/images/ducha.png)
 
 El termomagnetico trabaja por temperatura y por campo magnético.
 
@@ -208,28 +211,32 @@ Si yo tengo un consumo estoy generando cruce de electrones, ese cruce de electro
 Pasó a 20 amper a 35 de la nada.
 No por temperatura sino por campo magnético (se mide en amper).
 
-Cuando nosotros colocamos algún tipo de defensa algún tipo de fusible que puede ser el fusible fijo, el bimetálico o el termomagnético, lo que tenemos que cuidar son los conductores.  
-No quiero decir cables porque son conductores.  
+Cuando nosotros colocamos algún tipo de defensa algún tipo de fusible que puede ser el fusible fijo, el bimetálico o el termomagnético, lo que tenemos que cuidar son los conductores.
+No quiero decir cables porque son conductores.
 
 Tenemos que proteger los conductores, no la ducha, no la heladera, no el split. Hay que colocar una protección de acuerdo a la capacidad de los conductores. Nunca de acuerdo al consumo del artefacto.
 
 #### Error:
-Nosotros siempre nos fijamos: 
-- Che de cuanto amper es esto 
+
+Nosotros siempre nos fijamos:
+- Che de cuanto amper es esto
 - De 25 amper.
-- Bueno dame una llave de 30 amper 
+- Bueno dame una llave de 30 amper
 
 Y ponemos cables para 10 amper.
+
 #### Que pasará?
+
 Calienta los conductores y se derrite y prende fuego.
 
 
 Yo me tengo que fijar en la potencia del consumo, o me tengo que fijar en el amper del consumo.
 Entonces que tengo que hacer, no hay cable para tantos WATTS. Tengo que ir a pedir por amperaje.
+
 #### Que tengo que hacer para saber de cuanto amperaje?
 
 Tengo que hacer el triangulito.
-![/ohm.jpg](/ohm.jpg)
+![/ohm.jpg](/images/ohm.jpg)
 
 Alguna noción de en que amper tiene que andar tenemos o si estás con el tester hay que ir del más alto al más bajo (amper).
 
@@ -237,24 +244,29 @@ Alguna noción de en que amper tiene que andar tenemos o si estás con el tester
 La pinza amperométrica no puedo usar con los dos cables, porque se cancelan.
 
 ### ¿En una plaqueta como medís el amperaje?
+
 Para medir amper siempre se debe hacer en serie.
 
 ##### Si yo coloco el amperímetro en paralelo, el amper nunca va a querer entrar por el amperimetro y va a seguir de largo.
+
 ##### En cambio el voltaje siempre se mide en paralelo
+
 ### Por qué siempre se mide en paralelo el voltaje?
+
 Porque tengo que medir la diferencia de potencial.
 Una de las teorías del amper es que es igual en todo el circuito una vez que el circuito esté trabajando.
 Vamos a suponer que yo coloco el amperímetro y no en la placa es porque por donde va ese circuito en la placa siempre va a tener 3 amper.
 
 El amperaje es solo lo que la carga hace trabajar.
 
-Para medir, agarro la placa voy a cualquier parte de la pista corto la pista con una aguja 
+Para medir, agarro la placa voy a cualquier parte de la pista corto la pista con una aguja
 Interrumpo en donde queda más cómodo.
 Corto y miro cuando hay continuidad.
 Se tiene una navajita a mano se limpia todo el cobre traigo el caotrín le caliento y le pongo un puntito.
 
 ### El amperaje es en serie y el voltaje en paralelo
-Hablando de la resistencia, en la ducha.  
+
+Hablando de la resistencia, en la ducha.
 Acá dentro hay un diafragma de goma.
 
 Es parecido al diafragma del regulador de la cocina a gas, o sea que sufre un desplazamiento de acuerdo a la presión que tengamos.
@@ -263,7 +275,7 @@ Los presostatos de la lavadora también funcionan así. Toman como beneficio una
 Cuando se llena de agua levanta las cuchillas dentro de la ducha.
 
 El error más grande es agrandar el agujero de la ducha, porque habrán 2 problemas.
-1. Si fui generoso con el agujero no voy a tener la presión necesaria para acumular presión para que levante la goma, porque esta presión está dada por el caudal de agua que ingresa al recipiente de agua por la cantidad de agua que sale. El agua que entra tiene que ser mayor para mayor presión.  
+1. Si fui generoso con el agujero no voy a tener la presión necesaria para acumular presión para que levante la goma, porque esta presión está dada por el caudal de agua que ingresa al recipiente de agua por la cantidad de agua que sale. El agua que entra tiene que ser mayor para mayor presión.
 La presión del agua tiene que vencer la fuerza de la cuchilla.
 
 En la ducha no hay polaridad.
@@ -283,9 +295,10 @@ Cable para una ducha 2 y medio.
 Todos los conductores tienen resistencia.
 
 Bipolar es porque corta el vivo y el neutro.
-![/img/intensidad_potencia.jpg](/img/intensidad_potencia.jpg)
+![/img/intensidad_potencia.jpg](/images/intensidad_potencia.jpg)
 
 ### La ducha consume amper, si yo digo consume menos amper y consume menos potencia estoy diciendo lo mismo o no?
+
 Sí. Si consume más amper consume más potencia.
 
 Cuanto más suba la intensidad voy a tener más potencia. No puedo bajar la potencia para que baje la intensidad, la tensión me controla la intensidad y la intensidad me controla a la potencia.
@@ -293,9 +306,9 @@ Cuanto más suba la intensidad voy a tener más potencia. No puedo bajar la pote
 Si yo pongo una termomagnética muy grande no va a cortar. Cuando yo pongo un conductor siempre voy a colocar de acuerdo a la **POTENCIA**
 
 Para un cable de 4 milítros podés poner 40 amper.
-![/img/amper.webp](/img/amper.webp)
+![/img/amper.webp](/images/amper.webp)
 
-2 y medio cable = 20 amper = 4400 vatios. 
+2 y medio cable = 20 amper = 4400 vatios.
 Las duchas son de 2000.
 
 
@@ -320,9 +333,10 @@ Muchos técnicos te quieren correr porque dicen que ese no es un filtro.
 A la salida del puente retificador.
 
 #### Importante
+
 Para que sea continua a la salida de ese puente retificador de onda completa debe llevar un capacitor polarizado.
 Muchos técnicos dicen "filtro" al capacitor polarizado, y muchos no.
-Los que dicen que es un filtro sostienen que a la salida del puente retificador yo voy a tener la corriente positiva,  y voy a tener la corriente negativa. Ya no tengo más fase y neutro tengo positivo y negativo. 
+Los que dicen que es un filtro sostienen que a la salida del puente retificador yo voy a tener la corriente positiva,  y voy a tener la corriente negativa. Ya no tengo más fase y neutro tengo positivo y negativo.
 Para poder filtrar esto, cuando acá sale la corriente va a salir así: va a tener pequeños saltos porque es punzante, a medida que los diodos fueron retificando fueron apareciendo el lado positivo y el negativo.
 
 Cuando nosotros queremos retificar esa corriente colocamos un **CAPACITOR POLARIZADO**
@@ -332,10 +346,13 @@ Para tener continua siempre hay que hacer un circuito mucho más complejo.
 02:39:40 hablamos de la jara del termostato
 
 
-![/img/boton_temperatura.jpg](/img/boton_temperatura.jpg)
+![/img/boton_temperatura.jpg](/images/boton_temperatura.jpg)
 
 
 ### Diagrama plancha
-![Plancha](/img/plancha.jpeg)
+
+![Plancha](/images/plancha.jpeg)
+
 ### Diagrama ventilador
-![Ventilador](/img/diagrama_ventilador.jpeg)
+
+![Ventilador](/images/diagrama_ventilador.jpeg)

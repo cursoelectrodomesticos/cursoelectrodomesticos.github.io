@@ -6,6 +6,28 @@ x-toc-enable: true
 Dictado en el año 2024.
 Profesor: Marcelo Barrios.
 
+Este curso brinda una introducción práctica a la reparación de electrodomésticos. A lo largo de 17 clases se estudian conceptos de electricidad y electrónica aplicados al diagnóstico de fallas, el uso seguro del multímetro y otros instrumentos, y el funcionamiento de componentes como motores, bobinas, relés, triacs, capacitores, fuentes y termostatos. También se abordan procedimientos de revisión y reparación de lavarropas, hornos eléctricos, ventiladores y microondas, con ejemplos y demostraciones de taller. El material reúne apuntes y audios de las clases para acompañar el estudio y el repaso.
+
+### Resumen de las clases
+
+1. **Electricidad básica:** corriente alterna y continua, fuentes, transformadores y mediciones iniciales.
+2. **Motores y ventiladores:** bobinas, conductores, conexiones monofásicas y trifásicas, y medición de consumo.
+3. **Ducha eléctrica e instalaciones:** tensión, corriente, potencia, protecciones eléctricas y diagnóstico de fallas.
+4. **Fuentes y componentes:** capacitores, rectificadores, diodos, transformadores y fuentes switching.
+5. **Lavarropas y termotanques:** componentes, electroválvulas, blocapuertas, termostatos y procedimientos de revisión.
+6. **Relés y protecciones:** relés, contactoras, triacs, varistores, termistores y fuentes.
+7. **Hornos eléctricos:** diagrama, selector de resistencias, termostatos y bobinas de motores.
+8. **Lavarropas y motores:** presostato, solenoides, relés, triacs y motores universales.
+9. **Mediciones y diagnóstico:** fuentes, capacitores, relés, transformadores y bobinados de ventiladores.
+10. **Motores y capacitores:** motores universales, motores de jaula de ardilla y capacitores de arranque.
+11. **Microondas — alta tensión:** transformador, diodo, capacitor, magnetrón y precauciones de seguridad.
+12. **Microondas — fuentes y componentes:** relés, transformadores, fuentes conmutadas y medición de componentes.
+13. **Microondas — diagnóstico:** etapas de control y potencia, fuentes, relés y componentes de protección.
+14. **Microondas — conexiones y seguridad:** circuitos de puerta, relés, fusibles, termostatos y separación de etapas.
+15. **Lavarropas — diagnóstico:** revisión de presostato, bombas, termostatos y componentes de control.
+16. **Motores y examen:** funcionamiento y medición de motores, bobinados y repaso de conceptos del curso.
+17. **Repaso final y ventiladores:** preguntas de examen, diagnóstico y reparación práctica de ventiladores.
+
 ## (**NUEVO**) Audio con IA leyendo el resumen hecho por IA. Hace click en los numeros de abajo para escuchar el resumen de cada clase:
 [01](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_01.wav), [02](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_02.wav), [03](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_03.wav), [04](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_04.wav), [05](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_05.wav), [06](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_06.wav), [07](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_07.wav), [08](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_08.wav), [09](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_09.wav), [10](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_10.wav), [11](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_11.wav), [12](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_12.wav), [13](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_13.wav), [14](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_14.wav), [15](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_15.wav), [16](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_16.wav), [17](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_17.wav)
 
