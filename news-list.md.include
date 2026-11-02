@@ -28,11 +28,22 @@ Este curso brinda una introducción práctica a la reparación de electrodomést
 16. **Motores y examen:** funcionamiento y medición de motores, bobinados y repaso de conceptos del curso.
 17. **Repaso final y ventiladores:** preguntas de examen, diagnóstico y reparación práctica de ventiladores.
 
-## (**NUEVO**) Audio con IA leyendo el resumen hecho por IA. Hace click en los numeros de abajo para escuchar el resumen de cada clase:
-[01](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_01.wav), [02](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_02.wav), [03](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_03.wav), [04](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_04.wav), [05](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_05.wav), [06](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_06.wav), [07](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_07.wav), [08](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_08.wav), [09](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_09.wav), [10](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_10.wav), [11](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_11.wav), [12](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_12.wav), [13](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_13.wav), [14](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_14.wav), [15](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_15.wav), [16](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_16.wav), [17](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_17.wav)
+### Publicaciones relacionadas
 
-*Versión liviana (formato MP3):*
+* [Examen final del taller](examen_electro.html)
+* [Examen de electrodomésticos](examen_electrodomesticos.html)
+* [Prueba de electrodomésticos](test_electrodomesticos.html)
+* [Resumen de todas las clases](todas_clases_electro.html)
+* [Todas las clases de reparación de electrodomésticos](todas_clases_electrodomesticos.html)
+
+## Audios de texto a voz por clase
+
+Escuchá cada clase completa (MP3):
 [01](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_01.mp3), [02](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_02.mp3), [03](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_03.mp3), [04](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_04.mp3), [05](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_05.mp3), [06](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_06.mp3), [07](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_07.mp3), [08](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_08.mp3), [09](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_09.mp3), [10](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_10.mp3), [11](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_11.mp3), [12](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_12.mp3), [13](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_13.mp3), [14](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_14.mp3), [15](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_15.mp3), [16](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_16.mp3), [17](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/clase_17.mp3)
+
+### Videos de texto a voz en YouTube (no listados)
+
+[01](https://www.youtube.com/watch?v=6-ZVc_nWzT4), [02](https://www.youtube.com/watch?v=xu6zUTlVnbI), [03](https://www.youtube.com/watch?v=xgX1Xx_nJoc), [04](https://www.youtube.com/watch?v=_MWKBOID5eA), [05](https://www.youtube.com/watch?v=7DrF_i3OFxo), [06](https://www.youtube.com/watch?v=l0q2UmdZBFA), [07](https://www.youtube.com/watch?v=_fiTEIgDcJU), [08](https://www.youtube.com/watch?v=278bT9ngy9U), [09](https://www.youtube.com/watch?v=KoLksY07hH0), [10](https://www.youtube.com/watch?v=Iwz4sUCogMA), [11](https://www.youtube.com/watch?v=fGjokyF0FJI), [12](https://www.youtube.com/watch?v=eJE_SVLvA7g), [13](https://www.youtube.com/watch?v=gzIbgB5RWHs), [14](https://www.youtube.com/watch?v=FhFyvJ23p2Q), [15](https://www.youtube.com/watch?v=vbG02zJXcHw), [16](https://www.youtube.com/watch?v=g6kjbTeioPc), [17](https://www.youtube.com/watch?v=GpbXa9vfaO0)
 
 ### 🎧 Audios Completos del Curso (Todas las clases unificadas)
 * **Audio Real Completo (Grabación presencial de clases):** [Descargar / Escuchar en Internet Archive](https://archive.org/details/cursoelectrodomesticos2024_fundacionalfa)

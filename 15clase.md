@@ -96,3 +96,29 @@ Solenoide trabajo 2:13:00
 ![IMG_20241010_141747014.jpg](/images/IMG_20241010_141747014.jpg)
 
 ![IMG_20241010_141738608.jpg](/images/IMG_20241010_141738608.jpg)
+
+***
+
+## Publicación original de Andrés Imlauer
+
+**Título original:** [AUDIO][APUNTE] Taller reparacion de electrodometicos (Clase 15) - Lavarropas. Presostato. La plancha tiene termostato. Ahora vienen con bobina de aluminio. Magnetismo es bobina. Pulmón. Mangera comida por ratas.
+
+**Publicado:** 12 de octubre de 2024
+
+<!-- Publicación original importada desde el tag electrodomesticos -->
+
+### Audio de la clase en YouTube
+https://youtu.be/Jmxrk9565i8
+### Audio de la clase en Invidious
+https://redirect.invidious.io/watch?v=Jmxrk9565i8
+### Audio de la clase en Vocaroo
+https://vocaroo.com/1dYIYJc0r9CS
+
+Solenoide trabajo 2:13:00
+
+
+## Imágenes locales
+
+### Imágenes de la publicación original
+
+![IMG_20241010_171435162.jpg](/images/IMG_20241010_171435162.jpg)

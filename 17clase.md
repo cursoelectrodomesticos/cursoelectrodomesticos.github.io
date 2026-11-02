@@ -56,34 +56,55 @@ Las imágenes están al revés la última es la primera.
 ![](/images/IMG_20241024_151719217.jpg)
 ![](/images/IMG_20241024_151715561.jpg)
 ![](/images/IMG_20241024_151626177.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEvveYtIfPcB8rs5cUiK-VDLyqzHpZ20SqOx1wAMBioAxklAo46pDu13-bR-fF7A_2OUllYUtwtfPcdqBjF6wz4Hz1hi46HW1tN95SeW41Jjk_rR_Pr6zm9wZ1lnu35BKFC3r2svaHGFN3HWEkceLNsLIR32JsrOCQHOquUFCY4qq0tbbRFfi12CTs9QY/s4160/IMG_20241024_151550198.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAgeMEo44d6VznQNhkp2XiG2nVmL41Jt1cp_BrGcDXPx8-580p-YOXqF-_HQQSXhp-_MauxgeGWwIwT66BCWReQI7-ezWXGAbRulpT8TFDkASakXvhdUiT_TZkMDNzoMMBlXfB_R9JJtl3ZCTUSFoTlWS9gsB-9rMZUYVZ4umSA-FiG74lapjPdl3j4mk/s4160/IMG_20241024_150118746.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKXKxIXfU91iUpqlKFnKLHJMRsfDzOuSifbEBVYmus8Lp4O7Ef5HFOy4G4nMwZABqmgaA1Z-jTk_ZWgBFbnLcUIpkQo_GdpoySCeBxu5dC1iVf20yfuUQCVN3Wt613J10uaktEi_5h2qair8kRs9i3HumJRUGOI4bwTRaWqEwelPzY744zIVj2O1nwHaQ/s4160/IMG_20241024_150024552.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0gDGXknH5vGvZ5ZP7pMtO7G2kzafES3pNLPYJ-U-pmDF2NA1myrQ-pJmu6_F6RbLDdw35-lYBEp2O0WU6bQotA5fh7_fC4MidaQAVfM76fto20pNPbFv5er1tmnzI7KnUzhx5zsCPKtLDedRjDPjhwSmFymKqVKHAeVymr9dN941026nmh1GrKUsN2U4/s4160/IMG_20241024_145934687_BURST000_COVER_TOP.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKnzmXLmN5zEcP0ZYOun1Wp5s0IHZMlNmQ8UhDF2Z1gDtv7VZFEUO0RLlhounkDZOvtHv6FKJJ4QlAofpenXVDUTjfTf1mrYBFIbKchARWKHUS8sCirZunuVtqVx_PM3yLfm8I7QkJILJpVoLWnAnbWXPC_VFF3O_gKigcJkXOQkZz7eDH9D3AEF8TBWU/s4160/IMG_20241024_145934687_BURST001.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhNIt-B0q2XbVwjMKReVUTFhqAkT5PuJ7amcdUqDLy0MlueJ0FJ_0LN1fpJdbMdnJsNpxMtTHWJtGoIFUSXq-Asx3BG1AhfWkkydxlEhnhlUGfL8AkTLqHVRm6fu_cjYp5nOkRTMeuULAUJR86fRCeWTwrmjhuH_ARgB7n-YH4rn2SLngR9zgyRvKZSeo/s4160/IMG_20241024_145932614.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7Un8ZqywmU7b-oQJxFsOAMs9DjlnPcMzyOxbjHdLz-KrsvxYgTMuVleGKROM-J8u5dCq-g60WMbj0NU6omxuHTGZttXo6xOApe2M5zzvNLwMggFaraLww6F-9agb94cyok4AngdQDvKHKNIJvBB_0H3MJhTcSg0TnsaVDBFYhyK-Pm5zmEAzCvv0pOpI/s4160/IMG_20241024_145931596.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOvE5m5N0RXs84q3puBLTOFN3xNrQnxU6opze5v-7l_p8rMtvAbkeIw9AlZKOmpbZ51abWrwqKO9XNoE6AljLxAFXbLSk0psZkp_nCmM2NXEqhk5ULIKL7e3n5CburqZ35lIuZt4chsgacx4oCvs5x5dPyvQI11dkHwihHi9IrbcbvSum3vDh17Sg3yBs/s4160/IMG_20241024_145837845.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4zk1XKxmXVZvAjEgDdLOz1Bho-jbvJh7R-dh_mC8Oj6fRzvGbSgciyfTu2P_0zEmqa0-7HzuDxWda8kZLCIFuMTB71O0C_SOTuYAzw1GLdNiVBlBC6onfl_gnhrORsAWcEUen1qni2ZnwOmQ-8lcr_4spoo-zUJqaPzSZMMX4gg4xU78gsWzcckk43k/s4160/IMG_20241024_145836525.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEiKhx7nZHQYWXo9EvFzEB69Jg_TIlh0VYD0OiuZUO5fdLYabEkhyphenhyphenidyNNPSfB66NsGYzmE00BfibU15HsMW7D7kF1qRao-M5Zpbg2bL58EjwiJ3isJ-h_6uWM_HxKYgojfNcWMTkaUkGaxwXhjVrLtnPvpm-IsrhvdrlDzAFJm6m7T2uUwLTdTbOHc6k/s4160/IMG_20241024_145815372.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh140EjKd5KJcxN3IbG6TBMJ2dA9KO2P6htDJ99pCzmz3CP1e2Q0CfBd1skiZa75_KLTV4Al-Pxa7x41f68Y67S0beOU6rlRy4Z_Jn6R5h6C1z5KuI7VjlyYZ7BIBlOHqcZ3OT7hhvKQXKGOtA9Cj4e0uvgPQJujH6pxp3_MFJ0_AzzH3q6vOLYkG5w8xo/s4160/IMG_20241024_145449345.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiusfy5o0RyftWaMMkTA7gnIOkDzDdu9AodkMhLyEjP7LaSU7kIW4V6fuczmv1t1qu0WNwvZY7yu2S8EUwsYklRzyCP0_oBlphQpAm8MFK49wh6piBWNBqVC5AgVHlrqIAl6pAUBV7f2nmJ9bcU1V8HBt6Q1J6_g4YVXo8rzw_weycoqB45LLCKiEHl5fk/s4160/IMG_20241024_144352368.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwwvdXi95iZ9HGgeZ_3nSLGnP5g05sQIPL3HVa_Ig19E9fzHdjC56rvLhDPDw3EIFyslHS2x3O0Vz5K1tpOYHutdvCEcKiHhoLdlLm5aOFTDzMwK0A-NYOwSxpdPTdH5iHiViUCVsdSrVX5INH7-UReZA-P6yI7wHezTP5qVP-MJ0yzPK_2MU0S8sj8Hw/s4160/IMG_20241024_144101546.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTGwy0yQ4EDqfAl_pcpsWoGssb2__JXhNzCBZnOTsktjFppWz0RPFYVmy1Jcdy2fEBiz6p6iK05i1AcTcjo2qDisaBAbeBpor2a4lJldKcnmE_iLHsZwjRaHHakEUSCqzWykMiD5rkkfHSNx5803dAKCK_boWuutLlHqJUPX8oXCLB3SVrCco6BkzYH0M/s4160/IMG_20241024_143648195.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji6Sp_RrIQVl5lQ8y5vzLgrr8l4-zNes-w8wOrhsxfGysQoCF7_Yn2EUbHAsz0L_Fw6hGvRfoAqg_tMwg0mf8Vdca_LPPi5fJROOFV5C8CxELI0ABsg7jyWyhKBZbcBrUq9NAI5MeyT66T5aRnwBWFr-dlbFWQKEcYtIKyQAvbmczp48vDn5A0QBzBYSM/s4160/IMG_20241024_143258462.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXh3v3WYFdZ5p-Ne-SsNAHcb4LcrdQVxumnLWqlzYDS_JwxVPNR5PM0MDjZs08IDbJeRx47_T1EBhFjr4D8swjYPMUI5E2J-jsVpQi7KSTtJbZiGTip94Ji9ETSA4d-NKU-Lam1MIFQGQcIVMkW-dRC0Ll4Cj6rdU_n4SiWHShkqfo__9IbopgNiuhXmQ/s4160/IMG_20241024_143129731_BURST000_COVER_TOP.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoRJWaGuuAnjde6V_t9wEqZmS_Avk8h9CrMHbVR5MhbDF2JzeEwhUsaLyX41GA5oDXn2rkVb-LZcb9FRESa68XqCtAK-K2_nyIxg3LuhjMgPvcw5HnCTY6ehZ3zXI9M8LjyeL8iemf5ebefveEruqA4hS41rZfeWIKSPA2ZSv2HZlhyphenhyphennOkYNFadwcs-XA/s4160/IMG_20241024_143129731_BURST001.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2dmNozg78mtZMneTz_4yngMz8hhJqKcVEB3zLZuRrxPKxbTj4XnUVdNU3YF0tY9QKOvvBDpSLIg0kdFNOJNTyBhfMPKpKbc7a7I3SK7MzREvDCCTn0-9B-MVVSEeAcnx9puuBU8weOecbfSrPZJrE6zIs1F8PzlcvEd7BKe6Cep_ACsjB-r-K5p6IE0w/s4160/IMG_20241024_143000474_BURST000_COVER_TOP.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj36V_Anl4CTYa33dMfT27zz1ab45wLwU7VN7LpQlWPfWDOchn2GsW0C33CZh5-mM75Ejsshi3WyC3Vvoz5ZjCATsvoJHeYCXY7PLd1pfSLOV3je0K5RHj2G-4fM6alxAbBJcV1wUtfMpbL-BNJgfupjvP1oIdM9MNDZRJjPR0pRDXXpXgwDs_AsthCO4k/s4160/IMG_20241024_143000474_BURST001.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFiWZYrkAM59DOtVWRSnqo4MP6B_FDmr5fg-FfdFSj1ovBTs-9EEUkRfc5yPO0Dt3fuXoP6SWTaQFb0H9YodeNL2muu6qRfBQAq5Pr4Vd_rVYPC5RAEO9xXg7278L91eoQCWwrRnqdwgEhQ2jT9gV-kgMGqqCTpAzMCr7BDgzS-KeFHZLUGkmP_f_kTz0/s4160/IMG_20241024_142959558.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5i5iP0k9OqHQs5dMoOvtu9mJqwu90QLRlo2eA_qcBJnfFpezSxNwKQCN53mpreKYIbp-bYA51Kt8T2RqR8uC13A5I_fjwUAUgeMhW1cF-w8mMeVRQlBu3_1fkr2m22yPeLvdSXiaFCG7BP1r2cVPn_0AHNXyRu1Nvts7Y7cdyNBPEymrYrl7LM0SCuHQ/s4160/IMG_20241024_142949493.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzzqT9usJJnrUlwWf_N1QKxNzHq64YY4_rFGdx4RzXUudYVqHNr6gRIHl4CF9px-s7L4bPB4QkQTcr1N5c0ZIVZ_5pwZ-G22C948aQyP5Tk0ZqMy7aM1WY8IvAzFJaiNLFZMcBhaCSNbNlodh3RFsd5YeOcM6KRQIi3OfphtuHDU6W0joSNumD3dvjW5w/s4160/IMG_20241024_142226415.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiffxyQddVjEaP3tXD967LxqiyqIekINio8HvtCeNPTIGzjatzyQzy7AgsAGsxCLHqx3e1VU3j2jD3Y1qaRNFdFgtUmykChg7xOJ2bthSzm8Z8Sf44xbBm1sOU7IFZL7jfcbo9Bz8ZKMuvjMTNLtEPICvE-8JO76KnltrERFECYnEMbz5puUBI4kccu00k/s4160/IMG_20241024_142219809.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjun05zEjwJ8Y0MbbF0dng0cJMXR2i5fgJFMFf-Nfs7QP_rmkhs03ruPWz-epZQj-Jt2R0lwBPYAA2QBP6BKpdg2szUTXn85fIyTyEkxS3z6ZWH5hxdnR0PRB9yweMcMgewqq7cG8_3N0jIwNzZ3cQtfeSLsbp93E5T_kepsPMg2GMmzofhfM_0ZjKsKVo/s4160/IMG_20241024_142216018.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUv5jdztN31nOwE1X-o2TO2HZjhpsLhkNfMaouQfxnSV7EckRBOlddtnvj2yB9F8K7dxCrbyx97ZmnJ2yHr3lylVen36zfp9XanGv36fZxArD8vASPeMbGScGmnlFjCcvKDe3KZCXhmEdzAtweL93UWaESf1EFHfD0GnPgqfM1AlZ_5Eh9Wfe0N6fgayc/s4160/IMG_20241024_142203085.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQartPZgfL3wWchrp2BjaXyTYdHue6TsZc70cEOqAYGuAhsTe615LDc06_YWq22GECsnSXA9bQ4BcPmMj7JuEkP8yAXTt5SYgX2QBsXp0bSAfER9unvv5Vl5-afm3_FYuh-B0_tjlEeOBm1Zfjx40dwoTsvAl0KfSr8ASk_sUotlQY-mHpzcjua_u1SJ0/s4160/IMG_20241024_141908459.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1cOFEvZmermjh4x4lgHylxwkAvFvjTDUeCkYIf9vr0MnGCGdqy_GLFni5cidRvje-NjJCGm1wI2UyzOEFdGpa1IesiqvU9hpOmSFb8U1z9O6SzJGzUFTSveNpLmk09kNPPebMeh0xAM1oCrL0oyedxFlN6Rjh0dCa2jWUwpx7ySt0O5vutYbjP8QndOE/s4160/IMG_20241024_141713383.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZO8aN_lJQuXecY_sGNx8LH4etjXlcQJpeVZSVeiMGgpqhpjWUvfByaiS_Qi2nnixEIWZCPkSXlPc8wuYPgT8xYZwSoIg_y1m7geiZQ2Tf7FQNCkP99huppTNlTrwd0LLvuOB0tniVfPzaE-DKJqQcIURxFm8DlP6QaXdLUWwk_f0ip76osApfUTu4ynI/s4160/IMG_20241024_141705201.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEptNC0Emiu1Vn0aDvWJri9DCRJ0zFMz_TlJr8cKk6b04NkaU-RNraoXz_fp_sOVPJecOP332SQXpqZDdmbiHxT7FwxIz3ekVpyeF93j3KbQryrrMeGBJzp0PgwY3J7nLZj2ioLsLUMToZZuoz-h5JmFUb9BxLdITh6kQdNnGmJidfxOPLz6s_aZBTIcI/s4160/IMG_20241024_141126060.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl7PGRlomeaRiM8aoWr6bKkRsq_42qQjqfI_3u_XlpOJlF8MHQS6hX6FzRoECgSU2_nDYPtdv_kqBe_GBQCkhMQiLJjcLvFp_0gRto7aCuPI90g4Mv8gvL9eB60GSkvkcV1xVKcTqclG7h_ZKcuuprVvq9usKcsvbpj0GY49NURPD803jtcG8P4s7icSU/s4160/IMG_20241024_140053519.jpg)
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioQEgdIOhhcrqR2o3I8Jr-jtnDr2K67JcKR0GGZV0vbBorVAjkR7bQY5P9WJ40_1TKdLg15dLdbrAkG9F1PykvwfTz42Vagt9YfUVuc6D7KDPfvRhFjLe3gSrgCdfGoxlXJa1Z823NvGLlthIiuHEuP5xxcNFFV_MLhh_SBzrE8FWAX15hMJ8SbFokp-A/s4160/IMG_20241024_140049601.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_151550198.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_150118746.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_150024552.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_145934687_BURST000_COVER_TOP.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_145934687_BURST001.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_145932614.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_145931596.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_145837845.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_145836525.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_145815372.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_145449345.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_144352368.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_144101546.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_143648195.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_143258462.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_143129731_BURST000_COVER_TOP.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_143129731_BURST001.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_143000474_BURST000_COVER_TOP.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_143000474_BURST001.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_142959558.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_142949493.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_142226415.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_142219809.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_142216018.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_142203085.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_141908459.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_141713383.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_141705201.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_141126060.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_140053519.jpg)
+![](/images/tagged_electrodomesticos/IMG_20241024_140049601.jpg)
+
+***
+
+## Publicación original de Andrés Imlauer
+
+**Título original:** [AUDIO][APUNTE] Taller reparacion de electrodometicos (Clase 17) (Última clase) - Repaso para el exámen. Arreglamos un ventilador. Problema: capacitor, acumulación de polvo y falta lucricante.
+
+**Publicado:** 1 de noviembre de 2024
+
+<!-- Publicación original importada desde el tag electrodomesticos -->
+
+### Imágenes locales
+
+#### Audio de la clase en Vocaroo
+https://vocaroo.com/1goHw8JUamsc   
+#### Audio en Mediafire
+https://www.mediafire.com/file/4297x76ctj2hnfz/ultimaelectro.m4a/file   
+#### Audio en YouTube
+https://youtu.be/YJT0kJo6iHA   
+
+Las imágenes están al revés la última es la primera.

@@ -21,6 +21,11 @@ List of pages:
 * /15clase.md: [Clase Nº 15: Lavarropas: presostato, bombas y termostatos](/15clase.md)
 * /16clase.md: [Clase Nº 16: Lavarropas, motores y preguntas de examen](/16clase.md)
 * /17clase.md: [Clase Nº 17: Repaso para examen final y reparación de ventilador](/17clase.md)
+* /examen_electro.md: [[AUDIO] Exámen final taller electrodomésticos](/examen_electro.md)
+* /examen_electrodomesticos.md: [Exámen final - Taller de reparación de electrodomesticos](/examen_electrodomesticos.md)
 * /: [Curso Reparación Electrodomésticos - Fundación Alfa.](/)
+* /test_electrodomesticos.md: [Test exámen final de electrodomesticos](/test_electrodomesticos.md)
+* /todas_clases_electro.md: [Subtitulo de todas clases de reparación de electrodomésticos](/todas_clases_electro.md)
+* /todas_clases_electrodomesticos.md: [Todas clases electrodomesticos](/todas_clases_electrodomesticos.md)
 </div>
 
