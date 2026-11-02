@@ -2,18 +2,18 @@
 % Andrés Imlauer
 % 16 Julio 2024
 
-### Todas las imágenes fueron subidas este blog
+### Imágenes locales
 #### Audio de la clase en Vocaroo
 
-[https://vocaroo.com/1goHw8JUamsc](https://vocaroo.com/1goHw8JUamsc)
+[Escuchar en Vocaroo](https://vocaroo.com/1goHw8JUamsc)
 
 #### Audio en Mediafire
 
-[https://www.mediafire.com/file/4297x76ctj2hnfz/ultimaelectro.m4a/file](https://www.mediafire.com/file/4297x76ctj2hnfz/ultimaelectro.m4a/file)
+[Descargar en MediaFire](https://www.mediafire.com/file/4297x76ctj2hnfz/ultimaelectro.m4a/file)
 
 #### Audio en YouTube
 
-[https://youtu.be/YJT0kJo6iHA](https://youtu.be/YJT0kJo6iHA)
+[Escuchar en YouTube](https://youtu.be/YJT0kJo6iHA)
 
 Las imágenes están al revés la última es la primera.
 
@@ -101,10 +101,15 @@ Las imágenes están al revés la última es la primera.
 ### Imágenes locales
 
 #### Audio de la clase en Vocaroo
-https://vocaroo.com/1goHw8JUamsc   
+
+[Escuchar en Vocaroo](https://vocaroo.com/1goHw8JUamsc)
+
 #### Audio en Mediafire
-https://www.mediafire.com/file/4297x76ctj2hnfz/ultimaelectro.m4a/file   
+
+[Descargar en MediaFire](https://www.mediafire.com/file/4297x76ctj2hnfz/ultimaelectro.m4a/file)
+
 #### Audio en YouTube
-https://youtu.be/YJT0kJo6iHA   
+
+[Escuchar en YouTube](https://youtu.be/YJT0kJo6iHA)
 
 Las imágenes están al revés la última es la primera.
