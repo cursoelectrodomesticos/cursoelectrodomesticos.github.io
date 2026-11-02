@@ -45,9 +45,15 @@ Escuchá cada clase completa (MP3):
 
 [01](https://www.youtube.com/watch?v=6-ZVc_nWzT4), [02](https://www.youtube.com/watch?v=xu6zUTlVnbI), [03](https://www.youtube.com/watch?v=xgX1Xx_nJoc), [04](https://www.youtube.com/watch?v=_MWKBOID5eA), [05](https://www.youtube.com/watch?v=7DrF_i3OFxo), [06](https://www.youtube.com/watch?v=l0q2UmdZBFA), [07](https://www.youtube.com/watch?v=_fiTEIgDcJU), [08](https://www.youtube.com/watch?v=278bT9ngy9U), [09](https://www.youtube.com/watch?v=KoLksY07hH0), [10](https://www.youtube.com/watch?v=Iwz4sUCogMA), [11](https://www.youtube.com/watch?v=fGjokyF0FJI), [12](https://www.youtube.com/watch?v=eJE_SVLvA7g), [13](https://www.youtube.com/watch?v=gzIbgB5RWHs), [14](https://www.youtube.com/watch?v=FhFyvJ23p2Q), [15](https://www.youtube.com/watch?v=vbG02zJXcHw), [16](https://www.youtube.com/watch?v=g6kjbTeioPc), [17](https://www.youtube.com/watch?v=GpbXa9vfaO0)
 
-### 🎧 Audios Completos del Curso (Todas las clases unificadas)
-* **Audio Real Completo (Grabación presencial de clases):** [Descargar / Escuchar en Internet Archive](https://archive.org/details/cursoelectrodomesticos2024_fundacionalfa)
-* **Audio Texto a Voz Completo (Voz Daniela - Todas las clases):** [Descargar / Escuchar en Internet Archive](https://archive.org/details/cursoelectrodomesticos2024_fundacionalfa)
+### Grabaciones reales en YouTube (no listadas)
+
+Clases 02–17, en orden y divididas en cinco partes:
+[Parte 1](https://www.youtube.com/watch?v=4Q3FrfTmMIE), [Parte 2](https://www.youtube.com/watch?v=pU0_Td1cbQY), [Parte 3](https://www.youtube.com/watch?v=p3yHepQazlU), [Parte 4](https://www.youtube.com/watch?v=b3rOYFixa-0), [Parte 5](https://www.youtube.com/watch?v=xdSMyNB4I6M)
+
+### 🎧 Audios completos del curso
+
+* **Grabaciones reales ordenadas (clases 02–17):** [Descargar / escuchar el MP3 completo en Internet Archive](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/curso_reparacion_electrodomesticos_audios_reales_clases_02-17.mp3)
+* **Audio de texto a voz (clases 01–17):** [Descargar / escuchar el MP3 completo en Internet Archive](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/curso_reparacion_electrodomesticos_todas_las_clases_tts.mp3)
 
 -------------------------------------------------------------------------------
 
