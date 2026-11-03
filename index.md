@@ -61,7 +61,7 @@ Clases 02–17, en orden y divididas en cinco partes:
 ### 🎧 Audios completos del curso
 
 * **Grabaciones reales ordenadas (clases 02–17):** [Descargar / escuchar el MP3 completo en Internet Archive](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/curso_reparacion_electrodomesticos_audios_reales_clases_02-17.mp3)
-* **Audio de texto a voz (clases 01–17):** [Descargar / escuchar el MP3 completo en Internet Archive](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/curso_reparacion_electrodomesticos_todas_las_clases_tts.mp3)
+* **Audio de texto a voz (clases 01–17):** [Descargar / escuchar el MP3 completo en Internet Archive](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/curso_reparacion_electrodomesticos_todas_las_clases_tts.mp3?v=e7686ede452c3096f20285a9f328185b)
 
 ### Grabaciones reales en Vocaroo (clases 02–17)
 
