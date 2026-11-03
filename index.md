@@ -55,6 +55,16 @@ Clases 02–17, en orden y divididas en cinco partes:
 * **Grabaciones reales ordenadas (clases 02–17):** [Descargar / escuchar el MP3 completo en Internet Archive](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/curso_reparacion_electrodomesticos_audios_reales_clases_02-17.mp3)
 * **Audio de texto a voz (clases 01–17):** [Descargar / escuchar el MP3 completo en Internet Archive](https://archive.org/download/cursoelectrodomesticos2024_fundacionalfa/curso_reparacion_electrodomesticos_todas_las_clases_tts.mp3)
 
+### Grabaciones reales en Vocaroo (clases 02–17)
+
+Las grabaciones están ordenadas en 18 partes consecutivas. Vocaroo publica un aviso sobre el vencimiento de los audios; para conservar una copia completa, usá el enlace de Internet Archive de arriba.
+
+[Parte 1](https://vocaroo.com/1bpekMe5qqCT), [Parte 2](https://vocaroo.com/1fo8Flx1fnco), [Parte 3](https://vocaroo.com/1eEclbTG4hwc), [Parte 4](https://vocaroo.com/1hEe17sIHbR1), [Parte 5](https://vocaroo.com/1aqzDQXUX6eU), [Parte 6](https://vocaroo.com/1kraY0jG5Z1Y)
+
+[Parte 7](https://vocaroo.com/1kc9vonr3aGQ), [Parte 8](https://vocaroo.com/1iCnKTERkUM6), [Parte 9](https://vocaroo.com/1cq4GMdqQzjn), [Parte 10](https://vocaroo.com/19AWrYARaBoM), [Parte 11](https://vocaroo.com/19zRT0xcMTvw), [Parte 12](https://vocaroo.com/11H4KzTM7bQw)
+
+[Parte 13](https://vocaroo.com/184o1ZVVyWiC), [Parte 14](https://vocaroo.com/16zQ08ZSQbkl), [Parte 15](https://vocaroo.com/13RqI0qEjEVg), [Parte 16](https://vocaroo.com/1oTIn4hWtirS), [Parte 17](https://vocaroo.com/19nh3mYY8E3F), [Parte 18](https://vocaroo.com/1jQWR7eEsH9j)
+
 -------------------------------------------------------------------------------
 
 Subscribe to RSS: [/feed.xml](/feed.xml)
